@@ -24,10 +24,14 @@ A clip goes out on YouTube, TikTok and Instagram at the SAME time (no staggering
 Never publish "now" without the owner naming the time. Space DIFFERENT clips at least ~1.5 h apart
 (owner was upset when Papaplatte went out 4 min after MontanaBlack, 2026-11-18).
 
-## X = TEXT ONLY (owner, 2026-11-18)
-Language follows the creator: German streamer -> tweet (and all captions) in German; English streamer -> English.
-Never post clips/videos on X. X gets normal tweets only (news, takes, questions, polls).
-Creator clips go to YouTube Shorts, TikTok (reminder) and Instagram Reels.
+## X STYLE (owner, 2026-11-18, replaces "text only")
+Language follows the creator: German streamer -> German; English streamer -> English.
+X does NOT repeat the clips we post on YT/TikTok/IG. X gets its own content, like the owner's refs:
+- short punchy one-liners + an image/gif: thirst/vibe ("next-level graphics... hard to ignore 😮‍💨"),
+  emotional community ("WE MADE IT 😭🌴"), jokes ("Don't cheat on Lucia in GTA 6 💀😭"), + #GTA6 (#GTAVI).
+- viral streamer moments as raw X video clips (e.g. Kai Cenat reactions), credit 🎥 @creator.
+- images: official trailer stills in media/edits/stills/ (credit not needed in tweet; never AI 'gameplay').
+Different tweets ~1.5 h apart minimum.
 
 ## Posts per day (chosen for the algorithms — revisit weekly from scoreboard)
 Reasoning: X rewards frequent, fast, text-first posting; TikTok rewards consistent volume of short
