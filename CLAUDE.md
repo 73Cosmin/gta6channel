@@ -10,7 +10,7 @@ relax them. Read `playbook.md` before doing anything; it holds the mix, slots an
   account time zone **Europe/Vienna**. Always use the exact channel IDs in `playbook.md`.
 - **OpusClip** connector — turns long videos (YouTube/Twitch URLs) into vertical clips with captions.
   Trial plan with limited minutes: check `opusclip_get_usage` before submitting; never buy or upgrade.
-- **ElevenLabs** connector — AI voiceover (voice **Roman Voss**, `TFmrsRqiMPIeENU66yUi`, model
+- **ElevenLabs** connector (Pro plan) — AI voiceover on every video (voice **Roman Voss**, `TFmrsRqiMPIeENU66yUi`, model
   `eleven_v4`, generations_count 1 on scheduled runs) and images.
 - **ffmpeg** — local edits: 9:16 crop, trims, burned-in captions, mixing voiceover.
 - Media for Buffer must be a public permanent HTTPS URL. Put finished files in `media/edits/`,
