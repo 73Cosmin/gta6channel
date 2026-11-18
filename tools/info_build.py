@@ -20,6 +20,7 @@ config.json:
   "steps": [["1. PRELOAD NOW","PS5 or Xbox",4.16], ...],   # optional
   "end_text": ["FOLLOW FOR MORE GTA 6 TIPS", 16.28],         # optional
   "music": "media/music/synthwave_trap_01.mp3",              # optional
+  "caption_y": 1380,                # caption centre; default BELOW the band (owner: never over the face)
   "credit": "Footage: Rockstar Games (Trailer 2)",
   "out": "media/edits/x.mp4"
 }
@@ -68,7 +69,7 @@ for i, (w, st, en) in enumerate(W):
     c = w.strip(".,!?").upper()
     col = RED if c in red else YEL
     dr.append(f"drawtext=fontfile={F}:text='{esc(c)}':fontsize=100:fontcolor={col}:borderw=9:bordercolor=black:"
-              f"x=(w-tw)/2:y=960-th/2:enable='gte(t,{st})*lt(t,{end:.3f})'")
+              f"x=(w-tw)/2:y={C.get('caption_y',1380)}-th/2:enable='gte(t,{st})*lt(t,{end:.3f})'")
 steps = C.get("steps", [])
 for k, (a, b, t0) in enumerate(steps):
     y = 1310 + k * 150
@@ -83,7 +84,7 @@ for txt, t0, *rest in C.get("pop_texts", []):   # [text, start, end, y]
 if C.get("end_text"):
     txt, t0 = C["end_text"]
     dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize=58:fontcolor=white:borderw=6:bordercolor={PINK}:"
-              f"x=(w-tw)/2:y=1180:enable='gte(t,{t0})'")
+              f"x=(w-tw)/2:y={C.get('end_text_y',1520)}:enable='gte(t,{t0})'")
 for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
     if line:
         dr.append(f"drawtext=fontfile={F}:text='{esc(line)}':fontsize=28:fontcolor=white:borderw=3:bordercolor=black:"

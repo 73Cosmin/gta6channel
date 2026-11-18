@@ -22,7 +22,7 @@ relax them. Read `playbook.md` before doing anything; it holds the mix, slots an
 Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the config in the repo).
 1. **Full 9:16 fill**: zoomed + blurred colourful copy of the footage behind a sharp 16:9 band.
    Never black bars, never solid colour bands, never a static image background.
-2. **One-word captions** (bold yellow, key words red, centre of the band) whenever the AI voice OR a
+2. **One-word captions** (bold yellow, key words red, BELOW the 16:9 band — never over the streamer's face, owner 2026-11-18) whenever the AI voice OR a
    streamer/creator is talking. Word timings from ElevenLabs Scribe (`eleven_scribe_v1`).
 3. **Voice**: Nicholas – YouTuber `AHc7z8dzjrGlVbbQ8enm`, model `eleven_v4`, hyped/enthusiastic
    delivery (use tags like [excited]). Memes/vibe edits may skip voice.
@@ -44,7 +44,8 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    reposts. Transform clips (hook, captions, voiceover/tip) — never plain re-uploads.
 8. Takedown request → remove the same day, log it in `takedowns.md`, don't use that creator again.
 9. Never pay, upgrade a plan, or add a card. Never share passwords/keys in files or chat.
-10. Spoilers: no story spoilers in hooks/thumbnails during launch weeks; label "SPOILER" in caption.
+10. Spoilers/story cutscenes ARE allowed (owner, 2026-11-18): post them, put "SPOILER" at the start of the caption.
+11. Controversial creators and edgy/black humor are allowed (owner, 2026-11-18), e.g. MontanaBlack.
 
 ## Every run
 1. `git pull`. Read `playbook.md`, `learning.md` (Current Rules), recent `log.md`.
