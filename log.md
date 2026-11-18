@@ -41,3 +41,5 @@
 | 2026-11-19 03:30 | X | Hot take | Skipping PC at launch is fine, change my mind | still t2_48 | 6afd43218ffbb8256dc2b136 |
 - WATCH: MontanaBlack TikTok 6afd3f7c… still "sending" 16 min after shareNow (07:02). Check next run; if error, re-post.
 - 07:21: owner posted MontanaBlack TikTok manually. Buffer copy 6afd3f7c… stuck 'sending' (cannot cancel). DO NOT re-post it; if it lands, owner deletes the newer duplicate.
+- 10:15 run: scored MontanaBlack TikTok (376 views / 14 likes / 1 share / 0 comments, avg watch 9.6 s of 30 s). YT/IG metrics not refreshed by Buffer yet (left blank). No new official news in last 6h. Video caps for today met and NZ unlocks 12:00 (no gameplay yet) -> no new clip this run.
+| 2026-11-19 01:45 | X | This-or-that | You only get to play as ONE of them. Jason or Lucia? | still t2_30 | 6afd6cc46aa4338a57dcb030 |

@@ -72,6 +72,10 @@
 - Trailer 2 file ends (~2:40) on the OLD date card "MAY 26, 2026". Never use frames/clips from ~2:35 on.
 
 ## Wins
+- 2026-11-18 MontanaBlack TikTok (30 s, German, edgy line): 376 views/14 likes/1 share in ~40 min, 3.99% eng. but
+  0 comments and avg watch 9.6 s = viewers leave at ~1/3. LESSON: cut creator clips to 10-15 s with the punchline
+  inside the first 3 s, and end the caption with a question that forces a pick (A or B?) instead of an open
+  'what do you do first?' -> applied to tonight's 'Jason or Lucia?' X post.
 
 ## Losses
 
