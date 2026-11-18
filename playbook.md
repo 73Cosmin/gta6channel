@@ -19,6 +19,10 @@
 | TikTok | `6afcf409ece6dfde5f0240d5` |
 | Instagram (Business) | `6afcf28bece6dfde5f0234a2` |
 
+## X = TEXT ONLY (owner, 2026-11-18)
+Never post clips/videos on X. X gets normal tweets only (news, takes, questions, polls).
+Creator clips go to YouTube Shorts, TikTok (reminder) and Instagram Reels.
+
 ## Posts per day (chosen for the algorithms — revisit weekly from scoreboard)
 Reasoning: X rewards frequent, fast, text-first posting; TikTok rewards consistent volume of short
 clips (each one is its own lottery ticket for the For You page); Instagram penalises spammy volume and

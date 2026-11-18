@@ -22,3 +22,7 @@
 | 2026-11-18 07:45 | YouTube | Creator clip | Papaplatte wartet bis 0 Uhr | 🎥 @papaplatte | 6afd3b9df38e9cc54867f960 |
 | 2026-11-18 08:00 | TikTok (reminder) | Creator clip | Papaplatte wartet bis 0 Uhr | 🎥 @papaplatte | 6afd3ba0f38e9cc54867fa81 |
 | 2026-11-18 08:30 | Instagram | Creator clip | Papaplatte wartet bis 0 Uhr | 🎥 @papaplatte | 6afd3ba393fa11d37d0d2ca2 |
+| 2026-11-18 06:58 | YouTube | Creator clip | MontanaBlacks erster Plan in GTA 6 | 🎥 @montanablack88 | 6afd3e6efc933ac285c9ef9c |
+| 2026-11-18 06:58 | Instagram | Creator clip | MontanaBlacks erster Plan in GTA 6 | 🎥 @montanablack88 | 6afd3e73aa3b065dd977cba6 |
+| 2026-11-18 06:58 | TikTok (reminder) | Creator clip | MontanaBlacks erster Plan in GTA 6 | 🎥 @montanablack88 | 6afd3e80aa3b065dd977ce65 |
+- 06:58: owner rule: X text only. Papaplatte X post (6afd3b9a…) changed to a plain tweet, video removed.
