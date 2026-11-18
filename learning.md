@@ -89,9 +89,19 @@
   APPLIED: (1) fail/punchline inside the first 2 s (xQc thrown out of the car at 1.5 s), 15 s total;
   (2) first ENGLISH creator clip (all earlier clips were German) to test reach with the US/EU-English audience;
   (3) A/B question in caption + end card ("Harder than GTA 5?"). Compare vs Monte 12 s DE clip next runs.
+- 2026-11-18 21:45 EVENING REVIEW: 29 posts sent Nov 18, 0 errors. Buffer metrics are FROZEN at send time for every
+  post (metricsUpdatedAt = send minute; IG returns no metrics at all); aggregate endpoint also only knows the Monte
+  TikTok. Best = MontanaBlack TikTok 30 s (376 views, 14 likes, 1 share, 0 comments, 3.99% eng.). Worst = not
+  measurable (no other post has a real read; do NOT count stale 0s as losses).
+  RULE: never change format/slot because of Buffer 0s. A post only counts as a win/loss once its metricsUpdatedAt is
+  >=3 h after sentAt; otherwise leave scoreboard blank and ask owner for native-app numbers (TikTok/YT Studio/IG).
+  TOMORROW'S TEST (one variable = LANGUAGE): EN vs DE creator clips at the same length (12-15 s, punchline <=3 s,
+  A/B caption). Compare xQc/ohnePixel (EN, Nov 19 00:30/02:00) vs Monte 12 s (DE, Nov 18 15:15) on TikTok views
+  + avg watch % once real reads exist. Name: lang_en_vs_de.
 - Build note: title1 at size 96 overflows 1080 px past ~16 characters -> use 84 for 17+ chars; end_text max ~22 chars.
 
 ## Losses
+- 2026-11-18: none measurable (Buffer metrics frozen at send for all posts except Monte TikTok).
 
 ## Weekly reviews
 

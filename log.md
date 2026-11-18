@@ -62,3 +62,4 @@
 | 2026-11-19 02:00 | TikTok | Creator clip | ohnePixel vs 4 stars in GTA 6 | 🎥 @ohnepixel | 6afded2b68a6d3c65a2ac6aa |
 | 2026-11-19 02:00 | Instagram | Creator clip | ohnePixel vs 4 stars in GTA 6 | 🎥 @ohnepixel | 6afded2c16b41ab07a6f2950 |
 | 2026-11-19 06:30 | X | Hot take | US in Leonida: first hour zero missions, agree? | text | 6afded3761b84cffd0657b08 |
+- 21:45 evening review: 29 posts sent Nov 18 (13 X, 6 YT, 5 TikTok incl. 1 old reminder, 5 IG), 0 errors, none stuck in 'sending'. Buffer metrics frozen at send time for all posts except Monte TikTok (376 views); IG returns no metrics. Added 6 missing scoreboard rows (launch v4 + how-to v5). OpusClip: 70 min credit left (API cap 880/900). Tomorrow's test: lang_en_vs_de.
