@@ -57,3 +57,8 @@
 | 2026-11-19 00:30 | TikTok | Creator clip | xQc's first car theft in GTA 6 | 🎥 @xqc | 6afdc2440a57e5a15718030f |
 | 2026-11-19 00:30 | Instagram | Creator clip | xQc tries to steal his first car in GTA 6 | 🎥 @xqc | 6afdc245b3f8322ac746a918 |
 | 2026-11-19 05:00 | X | This-or-that | 1 hour until US unlock: story or chaos? A/B | still t2_148 | 6afdc24e6a70d040daffec6d |
+- 19:15 run: no new official GTA 6 news in last 6h. Metrics: Buffer still shows only send-time reads (all 0) for every post since the Monte TikTok -> nothing new to fill. ElevenLabs connector failed to connect (400) -> word timings from local faster-whisper (small) instead of Scribe; no VO needed (creator clip). Skipped Lacy/Quin69 clips (sexual story cutscenes / story dialogue). Clip: ohnePixel jet vs 4 stars -> crash -> WASTED, "Yo, don't clip that" (13.6 s, cut before the black fade).
+| 2026-11-19 02:00 | YouTube | Creator clip | ohnePixel vs 4 stars in GTA 6 | 🎥 @ohnepixel | 6afded2afde1b041e1a31379 |
+| 2026-11-19 02:00 | TikTok | Creator clip | ohnePixel vs 4 stars in GTA 6 | 🎥 @ohnepixel | 6afded2b68a6d3c65a2ac6aa |
+| 2026-11-19 02:00 | Instagram | Creator clip | ohnePixel vs 4 stars in GTA 6 | 🎥 @ohnepixel | 6afded2c16b41ab07a6f2950 |
+| 2026-11-19 06:30 | X | Hot take | US in Leonida: first hour zero missions, agree? | text | 6afded3761b84cffd0657b08 |

@@ -115,3 +115,5 @@
 - 2026-11-18 07:18 run: still no GTA 6 post old enough to score (first sends 06:58-07:02). Old Fortnite TikToks
   show the pattern to copy: posts with a question/claim caption ("Do you also think I am the best console
   player?", 8.6k views) out-reach plain emoji captions ~8x; avg watch 7-20 s -> keep clips <=20 s.
+
+- 2026-11-18 19:15 run: still no fresh numbers (Buffer metrics frozen at send time for YT/IG/X and recent TikToks), so no new winner/loser yet. Applied existing lesson: clip cut to 13.6 s, fail lands at ~9 s, A/B question in caption. NEW craft rule: Twitch clips often fade to BLACK after a WASTED screen -> always end the cut on the WASTED card (check the last 3 s for black before publishing). Fallback when ElevenLabs is down: `python3 -m pip install faster-whisper` + model 'small' with word_timestamps (wrap the loop in try/except, it can crash on the final segment).
