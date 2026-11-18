@@ -25,6 +25,7 @@ Never publish "now" without the owner naming the time. Space DIFFERENT clips at 
 (owner was upset when Papaplatte went out 4 min after MontanaBlack, 2026-11-18).
 
 ## X = TEXT ONLY (owner, 2026-11-18)
+Language follows the creator: German streamer -> tweet (and all captions) in German; English streamer -> English.
 Never post clips/videos on X. X gets normal tweets only (news, takes, questions, polls).
 Creator clips go to YouTube Shorts, TikTok (reminder) and Instagram Reels.
 

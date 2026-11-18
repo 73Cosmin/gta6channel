@@ -28,3 +28,4 @@
 - 06:58: owner rule: X text only. Papaplatte X post (6afd3b9a…) changed to a plain tweet, video removed.
 - 07:02: owner: TikTok automatic (no reminders), all platforms same time. Papaplatte X/YT/TikTok/IG published now (6afd3b9a…, 6afd3b9d…, 6afd3ba0…, 6afd3ba3…). MontanaBlack TikTok re-posted automatically (6afd3f7cf38e9cc548693406); the earlier reminder 6afd3e80… was never published by owner. Launch + how-to TikToks switched to automatic.
 - 07:05: POST IN ERROR: Papaplatte went live 07:02 on X/YT/TikTok/IG, 4 min after MontanaBlack. Owner must delete in apps (Buffer cannot unpublish): X 6afd3b9a…, YT 6afd3b9d…, TikTok 6afd3ba0…, IG 6afd3ba3…. Re-scheduled for 08:30 Vienna: X 6afd400993fa11d37d0e9de1, YT 6afd3ffc9f3765f6ab369984, TikTok 6afd3fffaa3b065dd9789ddd, IG 6afd4003f38e9cc548696500.
+- 07:08: owner deleted the early Papaplatte posts on all platforms. 08:30 X tweet switched to German (language follows the creator).
