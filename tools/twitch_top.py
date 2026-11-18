@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """Top GTA 6 Twitch clips + live streams via the official Twitch API (Helix).
-Token is injected by the environment proxy for api.twitch.tv (never stored here).
+Token: env var TWITCH_TOKEN (cloud environment settings) or proxy injection. Never stored in the repo.
 Client ID below is public. Token from implicit sign-in lasts ~60 days; on 401 -> ACTION NEEDED: owner redoes sign-in.
 Usage: python3 tools/twitch_top.py [hours=6] [n=20] [lang=en,de,...]
 """
-import json, sys, urllib.request, datetime
+import json, os, sys, urllib.request, datetime
 CID = "sxu1ftvu7tqrhvjx9dlfmhd4ga6xs1"; GID = "1867279146"  # Grand Theft Auto VI
 def get(path):
-    r = urllib.request.Request("https://api.twitch.tv/helix/" + path, headers={"Client-Id": CID})
+    h = {"Client-Id": CID}
+    tok = os.environ.get("TWITCH_TOKEN", "").strip()  # set in the cloud environment settings, never in files
+    if tok:
+        h["Authorization"] = "Bearer " + tok
+    r = urllib.request.Request("https://api.twitch.tv/helix/" + path, headers=h)
     return json.load(urllib.request.urlopen(r, timeout=20))
 hours = float(sys.argv[1]) if len(sys.argv) > 1 else 6
 n = int(sys.argv[2]) if len(sys.argv) > 2 else 20
