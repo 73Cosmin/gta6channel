@@ -49,13 +49,15 @@ for i, (wtxt, st, en) in enumerate(words):
     draw.append(f"drawtext=fontfile={F}:text='{esc(clean)}':fontsize=96:fontcolor={col}:borderw=8:bordercolor=black:"
                 f"x=(w-tw)/2:y=960-th/2:enable='gte(t,{st})*lt(t,{end:.3f})'")
 # checklist building under the band
-steps = [("1. PRELOAD NOW", "PS5 or Xbox", 3.66), ("2. REST MODE ON", "so the download finishes", 7.54),
-         ("3. MIDNIGHT LOCAL", "in YOUR time zone", 11.34)]
+T = [float(x) for x in os.environ.get("STEP_TIMES", "3.66,7.54,11.34,14.86").split(",")]
+steps = [("1. PRELOAD NOW", "PS5 or Xbox", T[0]), ("2. REST MODE ON", "so the download finishes", T[1]),
+         ("3. MIDNIGHT LOCAL", "in YOUR time zone", T[2])]
+FOLLOW_T = T[3]
 for k, (a, b, t0) in enumerate(steps):
     y = 1310 + k * 150
     draw.append(f"drawtext=fontfile={F}:text='{esc(a)}':fontsize=60:fontcolor=white:x=90:y={y}:box=1:boxcolor=0x0A0014@0.85:boxborderw=14:enable='gte(t,{t0})'")
     draw.append(f"drawtext=fontfile={F}:text='{esc(b)}':fontsize=40:fontcolor={CYAN}:x=104:y={y+82}:enable='gte(t,{t0})'")
-draw.append(f"drawtext=fontfile={F}:text='FOLLOW FOR MORE GTA 6 TIPS':fontsize=56:fontcolor=white:borderw=6:bordercolor={PINK}:x=(w-tw)/2:y=1180:enable='gte(t,14.86)'")
+draw.append(f"drawtext=fontfile={F}:text='FOLLOW FOR MORE GTA 6 TIPS':fontsize=56:fontcolor=white:borderw=6:bordercolor={PINK}:x=(w-tw)/2:y=1180:enable='gte(t,{FOLLOW_T})'")
 draw.append(f"drawtext=fontfile={F}:text='Footage\\: Rockstar Games (Trailer 2)':fontsize=26:fontcolor=white@0.85:x=(w-tw)/2:y=h-120")
 draw.append(f"drawtext=fontfile={F}:text='Fan page. Not affiliated with Rockstar Games.':fontsize=26:fontcolor=white@0.85:x=(w-tw)/2:y=h-80")
 f.append("[v0]" + ",".join(draw) + "[v1]")
@@ -69,9 +71,20 @@ for k, (_, _, t0) in enumerate(steps):
     f.append(f"[{cur}][ar{k}]overlay=x='if(lt(t,{t0}+0.25),1080-(1080-860)*(t-{t0})/0.25,860)':y={y}:"
              f"enable='between(t,{t0},{t0}+2.8)'[{nxt}]")
     cur = nxt
+music = os.environ.get("MUSIC")
+inputs = ["-i", src, "-loop", "1", "-i", arrow, "-i", vo]
+amap = "2:a"
+if music:
+    inputs += ["-stream_loop", "-1", "-i", music]
+    # voice up front; music ducks under the voice (sidechain), then fades out at the end
+    f.append("[2:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=1.0,asplit[vo1][vo2]")
+    f.append(f"[3:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.09,afade=t=out:st={dur-0.8:.2f}:d=0.8[mu]")
+    f.append("[mu][vo1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[duck]")
+    f.append("[vo2][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7[aout]")
+    amap = "[aout]"
 fc = ";".join(f)
-cmd = ["ffmpeg", "-v", "error", "-y", "-i", src, "-loop", "1", "-i", arrow, "-i", vo,
-       "-filter_complex", fc, "-map", f"[{cur}]", "-map", "2:a", "-t", f"{dur:.2f}",
+cmd = ["ffmpeg", "-v", "error", "-y", *inputs,
+       "-filter_complex", fc, "-map", f"[{cur}]", "-map", amap, "-t", f"{dur:.2f}",
        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30",
        "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out]
 subprocess.run(cmd, check=True)
