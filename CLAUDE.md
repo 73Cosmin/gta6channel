@@ -54,4 +54,6 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    won/lost in `learning.md` and make the next videos more like the winners (hook, format, length, time).
 4. Log every published post in `log.md` and add a row to `scoreboard.csv`.
 5. Commit and push to `main` with a short message.
-6. End with a 3–5 line summary (what posted, top post, one lesson, next test).
+6. End with a 3–5 line summary (what posted, top post, one lesson, next test). If the owner must do
+   something (blocker, missing access/tool, out of credit, takedown, post in error, host to allow), START
+   the final message with "⚠️ ACTION NEEDED:" and say exactly what to do — it goes to their phone.
