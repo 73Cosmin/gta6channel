@@ -26,3 +26,4 @@
 | 2026-11-18 06:58 | Instagram | Creator clip | MontanaBlacks erster Plan in GTA 6 | 🎥 @montanablack88 | 6afd3e73aa3b065dd977cba6 |
 | 2026-11-18 06:58 | TikTok (reminder) | Creator clip | MontanaBlacks erster Plan in GTA 6 | 🎥 @montanablack88 | 6afd3e80aa3b065dd977ce65 |
 - 06:58: owner rule: X text only. Papaplatte X post (6afd3b9a…) changed to a plain tweet, video removed.
+- 07:02: owner: TikTok automatic (no reminders), all platforms same time. Papaplatte X/YT/TikTok/IG published now (6afd3b9a…, 6afd3b9d…, 6afd3ba0…, 6afd3ba3…). MontanaBlack TikTok re-posted automatically (6afd3f7cf38e9cc548693406); the earlier reminder 6afd3e80… was never published by owner. Launch + how-to TikToks switched to automatic.
