@@ -34,3 +34,4 @@
 | 2026-11-18 13:30 | X | Community | NZ already in Leonida, rest at midnight | still t2_7 | 6afd41866032c1a98f1950a5 |
 | 2026-11-18 17:00 | X | Joke | Driving home knowing GTA 6 drops tonight | still t2_36 | 6afd4189bfbba0a97181efb2 |
 | 2026-11-18 21:00 | X | Question | First thing in Leonida? Wrong answers only | still t2_140 | 6afd418c80faf674a1c53863 |
+- 07:16: replaced 6 old X tweets with owner-style tweets (same post IDs): 08:00 Florida man (t2_20) 6afcf865…, 10:45 Don't cheat on Lucia (t2_80) 6afcf86a…, 12:02 IT'S HERE NZ (t2_148) 6afcf870…, 15:15 group chat 23:59 (t2_125) 6afcf874…, 19:15 13 years of Los Santos (text) 6afcf876…, 22:45 1 hour left in Europe (text) 6afd18ca…. Kept: Nov 19 06:02 US live tweet.
