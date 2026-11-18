@@ -1,0 +1,6 @@
+{"clips": [{"src": "media/raw/ai/pc_4am_grin.mp4", "start": 0, "dur": 5},
+           {"src": "media/raw/ai/pc_4am_grin.mp4", "start": 2, "dur": 3, "speed": 0.7, "zoom": 1.15}],
+ "caption": "Me after telling my boss I have a\n\"family emergency\" on November 19th 🤫",
+ "caption_y": 0.16, "caption_size": 50,
+ "music": "media/music/synthwave_trap_01.mp3", "music_start": 20,
+ "out": "media/edits/2026-11-18_meme_family_emergency.mp4"}

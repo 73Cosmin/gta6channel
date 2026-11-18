@@ -34,6 +34,28 @@
 - OpusClip trial exports carry an "OpusClip" watermark top-left (~x120-480, y250-335 on 1080x1920):
   always cover it (solid header band) or crop it out. Download host signed-ext.cdn.opus.pro is allowed.
 
+- OWNER HUMOR BRIEF (2026-11-18, 6 more refs in media/references/: export_*.mov, v1*/v2*.mp4; 2 German).
+  Owner verdict on our first memes (meme_nz_wait): "very bad". Why: it was an INFOGRAPHIC with a joke title
+  (timetable, yellow word captions, trailer footage, no person, nothing funny happening). Real memes are:
+  * ONE short relatable line in a WHITE TikTok pill (black bold text, rounded white box per line), top third,
+    1 emoji max. Formats that work: "Me trying to sleep on November 18th 😭", "POV: the first day of GTA 6
+    release", "POV: you're booting up GTA 6 on Nov 19", "Everyone on Nov 19 at 00:01 🤣", "Me and the boys".
+    NO yellow one-word captions, NO voiceover, NO lists, NO numbers, NO explaining the joke.
+  * A HUMAN REACTING is the joke (the face sells it): guy giggling/kicking in bed, screaming streamer with a
+    crown over GTA key art, soldiers cheering "me and the boys", guy boots GTA 6 and instantly gets "WASTED"
+    and faceplants, a whole apartment building where every window is a guy on a couch with a controller.
+  * Exaggeration + shared moment (sleepless night, release midnight, calling in sick, girlfriend/mom/boss,
+    GTA 5 Online grinders, the wait). Self-own > dunking on people.
+  * Short: 7-23 s, one beat (or setup -> punchline at ~60%). Music/trending sound only.
+  * Visual: full-screen 9:16 scene. Allowed: AI-generated PEOPLE and ROOMS (clearly a skit, labelled
+    "AI-generated scene"), official Rockstar key art/trailer as backdrop (credited). NEVER AI fake gameplay,
+    never AI images of GTA 6 screens shown as real, never AI versions of Jason/Lucia passed off as official.
+  * Build: `tools/meme_build.py media/configs/<name>.json` (white pill caption, pops for punchline, footer
+    with AI label + fan-page line, music loudnorm -14). AI clips: ElevenLabs kling-2.5-turbo, 9:16, 5 s,
+    ~2.1k credits each (Seedance 2.5 = 14k, too pricey). Keep raw AI clips in media/raw/ai/ for reuse.
+  * Write 5 captions per idea, pick the one a 19-year-old would send to the group chat. If you have to
+    explain it, kill it.
+
 ## Wins
 
 ## Losses
