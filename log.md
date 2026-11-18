@@ -13,3 +13,7 @@
 | 2026-11-18 15:00 | YouTube | HOW TO | How to play the second it unlocks (Short) | howto_play_at_unlock_v5.mp4 | 6afcfca19f3765f6ab20fc93 |
 | 2026-11-18 17:30 | Instagram | HOW TO | How to play the second it unlocks (Reel) | howto_play_at_unlock_v5.mp4 | 6afcfca493fa11d37df8f1cc |
 | 2026-11-18 19:15 | TikTok | HOW TO | How to play the second it unlocks | howto_play_at_unlock_v5.mp4 | 6afcfca7bb12698d158a222f |
+| 2026-11-18 13:15 | X | Meme | POV: NZ is already playing (12h/18h wait) | meme_nz_wait.mp4 | 6afd18c8fc933ac285be979b |
+| 2026-11-18 13:15 | TikTok (reminder) | Meme | POV: NZ is already playing | meme_nz_wait.mp4 | 6afd18c99f3765f6ab2a7758 |
+| 2026-11-18 21:00 | YouTube | Meme | POV: NZ Is Already Playing GTA 6 (Short) | meme_nz_wait.mp4 | 6afd18cabb12698d1593c917 |
+| 2026-11-18 22:45 | X | Hot take | First hour = just drive around Leonida | — | 6afd18cafc933ac285be980b |

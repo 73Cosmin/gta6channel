@@ -41,6 +41,12 @@
 ## Weekly reviews
 
 ## Notes
+- 2026-11-18 04:15 run: no GTA 6 posts sent yet (first goes out 08:15), so nothing to score. Test set up for
+  this run: a no-VO text-over-clip MEME (meme_nz_wait, 11 s) vs the VO info videos (launch v4, how-to v5),
+  same platforms, same day. Compare shares+comments per view at the next run.
+- Build env: system Pillow is broken in fresh containers; run info_build.py with a venv python
+  (`python3 -m venv /tmp/venv && /tmp/venv/bin/pip install pillow`). Memes without voice: pass a silent
+  mp3 (media/raw/silence_10s.mp3) as `vo` and `words: []`; keep title2 at size <=46 for long lines.
 - 2026-11-18: The TikTok account still shows older Fortnite posts (Sep–Nov 2026) from a previous niche.
   Expect early GTA 6 reach to come from non-followers; judge posts on reach, not follower count.
 
