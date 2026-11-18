@@ -29,3 +29,8 @@
 - 07:02: owner: TikTok automatic (no reminders), all platforms same time. Papaplatte X/YT/TikTok/IG published now (6afd3b9a…, 6afd3b9d…, 6afd3ba0…, 6afd3ba3…). MontanaBlack TikTok re-posted automatically (6afd3f7cf38e9cc548693406); the earlier reminder 6afd3e80… was never published by owner. Launch + how-to TikToks switched to automatic.
 - 07:05: POST IN ERROR: Papaplatte went live 07:02 on X/YT/TikTok/IG, 4 min after MontanaBlack. Owner must delete in apps (Buffer cannot unpublish): X 6afd3b9a…, YT 6afd3b9d…, TikTok 6afd3ba0…, IG 6afd3ba3…. Re-scheduled for 08:30 Vienna: X 6afd400993fa11d37d0e9de1, YT 6afd3ffc9f3765f6ab369984, TikTok 6afd3fffaa3b065dd9789ddd, IG 6afd4003f38e9cc548696500.
 - 07:08: owner deleted the early Papaplatte posts on all platforms. 08:30 X tweet switched to German (language follows the creator).
+- 07:11: owner: X gets its own content (no repeats of our clips). Deleted 08:30 Papaplatte tweet (6afd4009…). New X image tweets (trailer stills):
+| 2026-11-18 09:30 | X | Vibe | 13 years of waiting... make it worth it 😮‍💨 | still t2_95 | 6afd4183bfbba0a97181ee17 |
+| 2026-11-18 13:30 | X | Community | NZ already in Leonida, rest at midnight | still t2_7 | 6afd41866032c1a98f1950a5 |
+| 2026-11-18 17:00 | X | Joke | Driving home knowing GTA 6 drops tonight | still t2_36 | 6afd4189bfbba0a97181efb2 |
+| 2026-11-18 21:00 | X | Question | First thing in Leonida? Wrong answers only | still t2_140 | 6afd418c80faf674a1c53863 |
