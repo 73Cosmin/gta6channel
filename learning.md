@@ -117,3 +117,8 @@
   player?", 8.6k views) out-reach plain emoji captions ~8x; avg watch 7-20 s -> keep clips <=20 s.
 
 - 2026-11-18 19:15 run: still no fresh numbers (Buffer metrics frozen at send time for YT/IG/X and recent TikToks), so no new winner/loser yet. Applied existing lesson: clip cut to 13.6 s, fail lands at ~9 s, A/B question in caption. NEW craft rule: Twitch clips often fade to BLACK after a WASTED screen -> always end the cut on the WASTED card (check the last 3 s for black before publishing). Fallback when ElevenLabs is down: `python3 -m pip install faster-whisper` + model 'small' with word_timestamps (wrap the loop in try/except, it can crash on the final segment).
+
+- ELEVENLABS VIA ENV (owner, 2026-11-18): the MCP connector failed (400), so the owner added the API key as an env
+  var in the cloud gta6 environment (same as TWITCH_TOKEN). Use `tools/eleven.py` (check/tts/scribe/music). It only
+  reaches sessions started after the variable was added. Run `python3 tools/eleven.py check` at the start of a run;
+  on 'No ElevenLabs key' or HTTP 401 -> tell owner (ACTION NEEDED) the variable is missing/expired.

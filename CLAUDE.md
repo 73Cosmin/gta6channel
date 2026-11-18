@@ -12,6 +12,11 @@ relax them. Read `playbook.md` before doing anything; it holds the mix, slots an
   Trial plan with limited minutes: check `opusclip_get_usage` before submitting; never buy or upgrade.
 - **ElevenLabs** connector (Pro plan) — AI voiceover (voice **Nicholas – YouTuber**, `AHc7z8dzjrGlVbbQ8enm`, model
   `eleven_v4`, generations_count 1 on scheduled runs), word timings (Scribe), background music, images.
+- **ElevenLabs fallback (no connector needed)** — if the ElevenLabs connector fails to connect, use
+  `python3 tools/eleven.py` (REST API). Key = env var `ELEVENLABS_API_KEY` in the cloud **gta6**
+  environment (like `TWITCH_TOKEN`; never put it in files/chat). `check` | `tts "<text>" out.mp3` |
+  `scribe in.mp3 words.json` (word timings for info_build.py) | `music "<prompt>" out.mp3 30`.
+  Last resort if both fail: local faster-whisper for timings (see learning.md).
 - **ffmpeg** — local edits: 9:16 crop, trims, burned-in captions, mixing voiceover.
 - Media for Buffer must be a public permanent HTTPS URL. Put finished files in `media/edits/`,
   commit + push to `main`, and use
