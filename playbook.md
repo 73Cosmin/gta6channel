@@ -21,6 +21,8 @@
 
 ## SAME-TIME POSTING (owner, 2026-11-18)
 A clip goes out on YouTube, TikTok and Instagram at the SAME time (no staggering between platforms).
+Never publish "now" without the owner naming the time. Space DIFFERENT clips at least ~1.5 h apart
+(owner was upset when Papaplatte went out 4 min after MontanaBlack, 2026-11-18).
 
 ## X = TEXT ONLY (owner, 2026-11-18)
 Never post clips/videos on X. X gets normal tweets only (news, takes, questions, polls).
