@@ -15,9 +15,22 @@
   5. MEMES are top priority: relatable, shareable GTA 6 memes (format jokes, reactions, "me when...").
      Aim for many. Rules still apply: no fake news/quotes, no leaks, no AI art passed off as gameplay,
      no story spoilers, nothing that implies we are Rockstar.
-  - Reference links (TikTok, not reachable from the cloud sandbox): ZGdXbjc3H slideshow+info,
-    ZGdXbFF7x vibe, ZGdXqW4P6 animations+bg video, ZGdXb6u7v meme, ZGdXbJ4Vj BEST info example
-    (arrows, catchy topic, bg video), ZGdXbMa2b meme. All under https://vm.tiktok.com/<id>/
+  - Reference files are in media/references/ (studied 2026-11-18). Concrete recipe:
+    * INFO (info_word_captions_arrows.mp4, owner's favourite): 9:16 frame = blurred zoomed copy of the
+      footage as full background + sharp 16:9 footage band in the middle; GTA VI logo at top; ONE word
+      at a time captions, bold yellow, centre of band, a key word in red; red arrow pointing at the
+      subject; a new shot every 2-3s; ~25s. Hook topic is a relatable "did you know" angle.
+    * MEME (meme_lucia_apologize.mp4, meme_wake_up_bro.png): one relatable line in white TikTok-style
+      text with emoji over a short scene, 10-35s, no voiceover, trending sound. "Wake up bro..." style
+      text-over-clip memes.
+    * VIBE (vibe_trailer_montage.mp4): 25s fast montage of the best trailer shots (aerial city, airboat,
+      boat, parachute, chase), music only, no text.
+    * SLIDES (img_*): bold infographic carousels: big headline, GTA VI logo, labels/icons, comparisons
+      (GTA V vs GTA VI). Post as image carousel / photo-mode TikTok.
+  - CAUTION about the references: copy the STYLE, not the content. Several are AI-made images/clips
+    with unverified claims ("170+ animals", "50+ brands confirmed", travel times, scenes not in any
+    trailer) and one implies relationship mechanics. Our versions use only official footage and only
+    facts in facts.md; anything AI-made is branding/meme art, never shown as real gameplay.
 - OpusClip trial exports carry an "OpusClip" watermark top-left (~x120-480, y250-335 on 1080x1920):
   always cover it (solid header band) or crop it out. Download host signed-ext.cdn.opus.pro is allowed.
 
