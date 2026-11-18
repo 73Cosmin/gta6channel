@@ -51,3 +51,4 @@
 - X slots 13:30-03:30 already full at ~1.5-2 h spacing -> no extra X post this run.
 - 13:25: owner confirmed live: TikTok = automatic (rule added to CLAUDE.md). 15:15 Monte TikTok 6afd9880… switched from reminder to automatic.
 - Twitch correction: the Helix call fails because NO Twitch token reaches this container (no env var, no proxy header), not necessarily an expired token.
+- 13:45: owner added TWITCH_TOKEN to cloud gta6 env; test in a fresh session OK (top clips + live streams returned). twitch_top.py utcnow deprecation fixed.

@@ -16,7 +16,7 @@ def get(path):
 hours = float(sys.argv[1]) if len(sys.argv) > 1 else 6
 n = int(sys.argv[2]) if len(sys.argv) > 2 else 20
 langs = sys.argv[3].split(",") if len(sys.argv) > 3 else None
-since = (datetime.datetime.utcnow() - datetime.timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+since = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
 clips = get(f"clips?game_id={GID}&started_at={since}&first=100")["data"]
 clips = [c for c in clips if not langs or c["language"] in langs]
 print(f"TOP CLIPS (last {hours:g}h)")

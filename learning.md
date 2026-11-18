@@ -62,7 +62,7 @@
   download 1080p mp4). `tools/twitch_clips.sh` loops over Twitch creators in watchlist.md. NOT working:
   whole GTA 6 category listing (yt-dlp unsupported; unofficial Twitch API rejected). Full-category
   discovery: `python3 tools/twitch_top.py <hours> <n> <langs>` (official API, WORKS since 2026-11-18;
-  token via proxy, expires ~60 days -> on 401 tell owner to redo the Twitch sign-in link). Download a clip with
+  token = env var TWITCH_TOKEN in the CLOUD gta6 environment, verified working 2026-11-18; expires ~60 days (~mid-Jan 2027) -> on 401 tell owner to redo the authorize link with redirect_uri https://github.com/73Cosmin/gta6channel and update the variable). Download a clip with
   yt-dlp <clip url>. Skip anything claiming to play early / before release (hard rule 4).
 
 - OWNER (2026-11-18): don't filter clips for crude/dark/edgy humor; owner likes black humor (e.g. MontanaBlack).
