@@ -132,3 +132,9 @@
   in the cloud gta6 environment (same as TWITCH_TOKEN). Use `tools/eleven.py` (check/tts/scribe/music). It only
   reaches sessions started after the variable was added. Run `python3 tools/eleven.py check` at the start of a run;
   on 'No ElevenLabs key' or HTTP 401 -> tell owner (ACTION NEEDED) the variable is missing/expired.
+
+- 2026-11-18 22:15 run: still no real reads (Buffer frozen at send for all but Monte TikTok) -> no new winner/loser; rule stands.
+  NEW craft lesson: many top Twitch "GTA 6" clips are (a) muted/silent re-uploads or (b) the game's own story dialogue, not
+  the streamer talking (Speed robbery: lines are Lucia's, in-game subs visible). Check volumedetect (> -60 dB) and the in-game
+  subtitle line before picking; prefer clips where the STREAMER reacts. Applied: rejected silent Kai clip; Speed clip labelled SPOILER.
+  Twitch clip "uploader" in yt-dlp is the clipper, not the streamer -> name files by the clip URL, credit the channel.

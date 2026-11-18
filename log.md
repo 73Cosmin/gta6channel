@@ -63,3 +63,8 @@
 | 2026-11-19 02:00 | Instagram | Creator clip | ohnePixel vs 4 stars in GTA 6 | 🎥 @ohnepixel | 6afded2c16b41ab07a6f2950 |
 | 2026-11-19 06:30 | X | Hot take | US in Leonida: first hour zero missions, agree? | text | 6afded3761b84cffd0657b08 |
 - 21:45 evening review: 29 posts sent Nov 18 (13 X, 6 YT, 5 TikTok incl. 1 old reminder, 5 IG), 0 errors, none stuck in 'sending'. Buffer metrics frozen at send time for all posts except Monte TikTok (376 views); IG returns no metrics. Added 6 missing scoreboard rows (launch v4 + how-to v5). OpusClip: 70 min credit left (API cap 880/900). Tomorrow's test: lang_en_vs_de.
+- 22:15 run: no new official GTA 6 news in last 6h (coverage only repeats the Nov 19 launch). Metrics: Buffer still frozen at send time for every post except Monte TikTok -> nothing to fill. TWITCH_TOKEN NOT present in this session (Helix 401) -> used yt-dlp fallback (tools/twitch_clips.sh). Rejected: Kai Cenat "wtf is gta bro" (silent audio + story cutscene montage), Speed "EARLY ACCESS" clip (play-early framing). Clip: iShowSpeed first robbery (first mission, 12.7 s, jump cut over dead air, profanity starred in captions, SPOILER label in captions).
+| 2026-11-19 03:30 | YouTube | Creator clip | SPOILER: iShowSpeed's first robbery in GTA 6 | 🎥 @ishowspeed | 6afe16356fadb4be711882f4 |
+| 2026-11-19 03:30 | TikTok | Creator clip | SPOILER: iShowSpeed's first robbery in GTA 6 | 🎥 @ishowspeed | 6afe16366fadb4be71188324 |
+| 2026-11-19 03:30 | Instagram | Creator clip | SPOILER: iShowSpeed's first robbery in GTA 6 | 🎥 @ishowspeed | 6afe1637570d3cc01e6aeb07 |
+| 2026-11-19 08:15 | X | Ranking | Ranking the main GTA protagonists (Tommy at 5 on purpose) | text | 6afe163d6fadb4be711885b9 |
