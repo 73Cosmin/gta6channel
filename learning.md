@@ -94,3 +94,6 @@
 - `tools/info_build.py`: builds the owner's favourite info style (blurred bg + sharp band, one-word
   captions from ElevenLabs Scribe word timings, red arrow pop-ins, checklist). Pass PRECROP=null for the
   clean trailer file. Edit the `steps` list per video.
+- 2026-11-18 07:18 run: still no GTA 6 post old enough to score (first sends 06:58-07:02). Old Fortnite TikToks
+  show the pattern to copy: posts with a question/claim caption ("Do you also think I am the best console
+  player?", 8.6k views) out-reach plain emoji captions ~8x; avg watch 7-20 s -> keep clips <=20 s.

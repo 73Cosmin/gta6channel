@@ -9,4 +9,6 @@
 | No PC version at launch; no PC date announced | https://www.gamewatcher.com/gta-6-release-times-and-editions | 2026-11-18 |
 | No early access announced | same as above | 2026-11-18 |
 
+| Rockstar itself confirmed the Nov 19, 2026 release date | https://x.com/RockstarGames/status/1986540361011880167 | 2026-11-18 |
+
 TODO: confirm each line directly on rockstargames.com once network access allows it.
