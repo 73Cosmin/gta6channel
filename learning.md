@@ -43,3 +43,11 @@
 ## Notes
 - 2026-11-18: The TikTok account still shows older Fortnite posts (Sep–Nov 2026) from a previous niche.
   Expect early GTA 6 reach to come from non-followers; judge posts on reach, not follower count.
+
+## Tools (2026-11-18)
+- `media/official/trailer2_landscape_clean.mp4`: official GTA 6 Trailer 2, 1920x772, watermark + black bars
+  cropped, no audio. Use as background footage (credit "Footage: Rockstar Games (Trailer 2)").
+  Avoid ~0-6 s (rating card/fade), ~10 s and ~155 s (OpusClip emoji stickers), ~70-74 s ("Rockstar presents").
+- `tools/info_build.py`: builds the owner's favourite info style (blurred bg + sharp band, one-word
+  captions from ElevenLabs Scribe word timings, red arrow pop-ins, checklist). Pass PRECROP=null for the
+  clean trailer file. Edit the `steps` list per video.
