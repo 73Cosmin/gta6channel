@@ -31,6 +31,10 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 5. Credit line + "Fan page. Not affiliated with Rockstar Games." on screen. Creator clips: `🎥 @creator`.
 6. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
 
+## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
+TikTok posts use schedulingType **automatic**, like X/IG/YouTube. This overrides any scheduled prompt
+that says "notification"/reminder. Our own music stays baked in.
+
 ## Hard rules (never break)
 1. Every fact needs an official source (Rockstar, Take-Two, PlayStation, Xbox) logged in `facts.md`.
    If you cannot verify it, do not post it.
