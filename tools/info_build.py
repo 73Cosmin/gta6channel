@@ -57,7 +57,7 @@ f.append("[bg][fg]overlay=0:656[v0]")
 dr = []
 t1, t2 = (C.get("title") or [None, None]) + [None] * (2 - len(C.get("title") or []))
 if t1:
-    dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize=120:fontcolor=white:borderw=8:bordercolor={PINK}:"
+    dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize={C.get('title1_size',120)}:fontcolor=white:borderw=8:bordercolor={PINK}:"
               f"shadowcolor=black@0.6:shadowx=4:shadowy=4:x=(w-tw)/2:y=170")
 if t2:
     dr.append(f"drawtext=fontfile={F}:text='{esc(t2)}':fontsize={C.get('title2_size',58)}:fontcolor={CYAN}:borderw=6:bordercolor=black:"
