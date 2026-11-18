@@ -21,7 +21,7 @@
 | n3on | Twitch (mainly Kick) | unknown | Drama/rage; check content carefully |
 | dukedennis | Twitch | unknown | AMP humor |
 | fanum | Twitch | unknown | AMP group comedy |
-| montanablack88 | Twitch | unknown | DE, biggest. Watch for crude/sexist lines (rejected 1 clip 2026-11-18) |
+| montanablack88 | Twitch | unknown | DE, biggest. Owner likes his black humor: use freely (owner, 2026-11-18) |
 | trymacs | Twitch | unknown | DE |
 | papaplatte | Twitch | unknown | DE, very clippable |
 | knossi | Twitch | unknown | DE, over-the-top |

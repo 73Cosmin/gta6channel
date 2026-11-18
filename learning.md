@@ -65,6 +65,10 @@
   token via proxy, expires ~60 days -> on 401 tell owner to redo the Twitch sign-in link). Download a clip with
   yt-dlp <clip url>. Skip anything claiming to play early / before release (hard rule 4).
 
+- OWNER (2026-11-18): don't filter clips for crude/dark/edgy humor; owner likes black humor (e.g. MontanaBlack).
+  Only reject for the hard rules (leaks/play-early, spoilers, unverified facts, takedown list) or content
+  that would get the post removed by the platform (slurs, nudity, real threats).
+
 ## Wins
 
 ## Losses
