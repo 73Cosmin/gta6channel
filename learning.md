@@ -69,6 +69,8 @@
   Only reject for the hard rules (leaks/play-early, spoilers, unverified facts, takedown list) or content
   that would get the post removed by the platform (slurs, nudity, real threats).
 
+- Trailer 2 file ends (~2:40) on the OLD date card "MAY 26, 2026". Never use frames/clips from ~2:35 on.
+
 ## Wins
 
 ## Losses
