@@ -10,3 +10,7 @@
 ## Losses
 
 ## Weekly reviews
+
+## Notes
+- 2026-11-18: The TikTok account still shows older Fortnite posts (Sep–Nov 2026) from a previous niche.
+  Expect early GTA 6 reach to come from non-followers; judge posts on reach, not follower count.
