@@ -1,0 +1,10 @@
+{"footage": "media/official/trailer2_landscape_clean.mp4", "precrop": "null",
+ "shots": [30, 40, 52, 88, 105],
+ "vo": "media/raw/silence_10s.mp3", "words": [], "red_words": [],
+ "title": ["POV:", "NEW ZEALAND IS ALREADY PLAYING"], "title2_size": 46,
+ "pop_texts": [["CENTRAL EUROPE:", 1.5, 11, 1270], ["12 MORE HOURS", 1.5, 11, 1345],
+               ["US EAST COAST:", 4.5, 11, 1450], ["18 MORE HOURS", 4.5, 11, 1525],
+               ["ME: REFRESHING", 7.5, 11, 1630]],
+ "music": "media/music/synthwave_trap_02.mp3",
+ "credit": "Footage: Rockstar Games (Trailer 2)",
+ "out": "media/edits/2026-11-18_meme_nz_wait.mp4"}
