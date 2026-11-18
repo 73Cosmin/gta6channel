@@ -46,9 +46,23 @@ rather than post something weak or unverified.
 | 01:15 | | clip | | |
 | 01:45 | Countdown / day recap | | | Reel |
 
-## Content pillars
-Official news · HOW TO tips · credited gameplay clips · GTA 5 nostalgia · spotlights ·
-countdown / daily recap ("Day X in Leonida") · questions.
+## Goal (owner, 2026-11-18)
+**Interactions are the #1 metric**: comments, shares, saves, likes. Being a bit controversial is wanted.
+Get it through opinions, debates and memes, never through invented facts (hard rules 1-2 still apply).
+
+## Content pillars (priority order after launch)
+1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,
+   jaw-drop "interesting" moments. Cut 7-30 s, hook text, captions, `🎥 @creator` credit. Biggest pillar.
+2. **Memes**: relatable one-liner over a clip ("GTA 6 really makes you..."), roast GTA 5 Online players,
+   "preorder vs waited", delay jokes. No voiceover needed; shareable.
+3. **Hot takes / debate bait** (clearly opinions): "Lucia > every GTA 5 protagonist", "worth $70, fight me",
+   "Vice City > Los Santos". End with "Change my mind 👇" or a question.
+4. **Rankings built to start arguments**: rank protagonists, cities, cars; put a fan favourite low on purpose.
+5. **Theories**: always labelled "THEORY" in text + caption ("What if...? 👀"). Never framed as fact/leak.
+6. **Polls / this-or-that**: "Jason or Lucia?", "Car or boat?" (X polls, IG/TikTok text posts).
+7. **Info videos** (owner's favourite format, recipe in learning.md) for HOW TO tips and confirmed news.
+8. Vibe edits, slideshows, nostalgia, daily recap ("Day X in Leonida").
+Every caption ends with an engagement prompt (question, "tag a friend who...", "wrong answers only").
 
 ## Specs
 MP4, H.264, AAC, 1080×1920 (9:16) for TikTok/Reels/Shorts; X accepts 16:9 or 9:16, up to 140 s.
@@ -63,5 +77,8 @@ Clips 7–30 s. Hook text in the first second, big centred burned-in captions, c
 - Unlock: midnight local time Nov 19 → New Zealand first = **Nov 18, 12:00 Vienna**; US (ET) =
   **Nov 19, 06:00 Vienna**.
 - At NZ unlock: post "GTA 6 is out now" on X immediately; Reels/TikTok/Shorts version with voiceover.
-- Then clip the first strong early-time-zone moments (driving, map, graphics, NPCs, funny) — no story
-  spoilers. Post within 15–30 min. Turn repeated comment questions into HOW TO posts.
+- Then clip streamers/YouTubers playing in early time zones (NZ/AUS/Asia first, then EU, then US):
+  funny, sad/emotional, or interesting moments (driving, map, graphics, NPCs, fails, reactions). Use
+  OpusClip on their public VOD/stream URL with a customPrompt ("funniest / most emotional / most
+  impressive moments"), pick the best, add hook + credit. Track creators in watchlist.md. No story
+  spoilers in hooks/thumbnails. Post within 15–30 min. Turn repeated comment questions into HOW TO posts.
