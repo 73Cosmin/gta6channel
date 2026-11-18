@@ -10,6 +10,6 @@
 | 2026-11-18 15:15 | X | Question | Where are you going first? | — | 6afcf874ab47737bddb8f02e |
 | 2026-11-18 19:15 | X | Nostalgia | 13 years of Los Santos | — | 6afcf876f0c5ce9361b08f94 |
 | 2026-11-19 06:02 | X | News | Live in the US (midnight ET) | — | 6afcf87cf0c5ce9361b09073 |
-| 2026-11-18 15:00 | YouTube | HOW TO | How to play the second it unlocks (Short) | howto_play_at_unlock_v2.mp4 | 6afcfca19f3765f6ab20fc93 |
-| 2026-11-18 17:30 | Instagram | HOW TO | How to play the second it unlocks (Reel) | howto_play_at_unlock_v2.mp4 | 6afcfca493fa11d37df8f1cc |
-| 2026-11-18 19:15 | TikTok | HOW TO | How to play the second it unlocks | howto_play_at_unlock_v2.mp4 | 6afcfca7bb12698d158a222f |
+| 2026-11-18 15:00 | YouTube | HOW TO | How to play the second it unlocks (Short) | howto_play_at_unlock_v3.mp4 | 6afcfca19f3765f6ab20fc93 |
+| 2026-11-18 17:30 | Instagram | HOW TO | How to play the second it unlocks (Reel) | howto_play_at_unlock_v3.mp4 | 6afcfca493fa11d37df8f1cc |
+| 2026-11-18 19:15 | TikTok | HOW TO | How to play the second it unlocks | howto_play_at_unlock_v3.mp4 | 6afcfca7bb12698d158a222f |
