@@ -77,6 +77,13 @@
   inside the first 3 s, and end the caption with a question that forces a pick (A or B?) instead of an open
   'what do you do first?' -> applied to tonight's 'Jason or Lucia?' X post.
 
+- 2026-11-18 13:16 run: Buffer only refreshes TikTok metrics reliably; YT/IG/X still show the read taken
+  minutes after sending (all 0) -> do not score those as losses, re-read next run. Only data point stays
+  Monte TikTok (376 views, avg watch 9.6 s of 30 s). APPLIED: next creator clip cut to 12 s starting 0.4 s before
+  the reaction line, title states the moment ("sieht GTA 6 zum ersten Mal"), end text + caption force an A/B pick
+  ("Besser als GTA 5: ja oder nein?"). Test: does 12 s lift avg watch % and comments vs the 30 s cut?
+- Build note: DejaVu font cannot draw emoji in burned-in text (renders boxes) -> no emoji in config text fields.
+
 ## Losses
 
 ## Weekly reviews

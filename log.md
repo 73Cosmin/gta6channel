@@ -43,3 +43,9 @@
 - 07:21: owner posted MontanaBlack TikTok manually. Buffer copy 6afd3f7c… stuck 'sending' (cannot cancel). DO NOT re-post it; if it lands, owner deletes the newer duplicate.
 - 10:15 run: scored MontanaBlack TikTok (376 views / 14 likes / 1 share / 0 comments, avg watch 9.6 s of 30 s). YT/IG metrics not refreshed by Buffer yet (left blank). No new official news in last 6h. Video caps for today met and NZ unlocks 12:00 (no gameplay yet) -> no new clip this run.
 | 2026-11-19 01:45 | X | This-or-that | You only get to play as ONE of them. Jason or Lucia? | still t2_30 | 6afd6cc46aa4338a57dcb030 |
+- 13:16 run: Twitch Helix API -> 401 (token expired/missing; owner must redo the Twitch sign-in). Fallback tools/twitch_clips.sh (yt-dlp per channel) works. No new official news in last 6h. Metrics: YT/IG/X not refreshed by Buffer since send (left blank); Papaplatte TikTok shows 0 with a stale read. Scheduled first real-gameplay clip (Monte graphics reaction, 12 s, cut to punchline per lesson):
+| 2026-11-18 15:15 | YouTube | Creator clip | MontanaBlack sieht GTA 6 zum ersten Mal | 🎥 @montanablack88 | 6afd987967b44b742a544366 |
+| 2026-11-18 15:15 | TikTok (reminder) | Creator clip | MontanaBlack sieht GTA 6 zum ersten Mal | 🎥 @montanablack88 | 6afd9880c9f673f3ba80cabc |
+| 2026-11-18 15:15 | Instagram | Creator clip | MontanaBlack sieht GTA 6 zum ersten Mal | 🎥 @montanablack88 | 6afd9879f712d4c5a23ec163 |
+- NOTE: TikTok automatic publish was blocked by the run's permission guard; the scheduled task prompt says TikTok = reminder (notification). Playbook says automatic. Owner: pick one and update the scheduled prompt or playbook.
+- X slots 13:30-03:30 already full at ~1.5-2 h spacing -> no extra X post this run.
