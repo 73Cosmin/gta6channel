@@ -58,6 +58,11 @@
   * Write 5 captions per idea, pick the one a 19-year-old would send to the group chat. If you have to
     explain it, kill it.
 
+- TWITCH CLIP PULL (tested 2026-11-18): yt-dlp works per channel (list top clips by views, range 24hr/7d,
+  download 1080p mp4). `tools/twitch_clips.sh` loops over Twitch creators in watchlist.md. NOT working:
+  whole GTA 6 category listing (yt-dlp unsupported; unofficial Twitch API rejected). Full-category
+  discovery needs the official Twitch API (owner registers a free app at dev.twitch.tv).
+
 ## Wins
 
 ## Losses
