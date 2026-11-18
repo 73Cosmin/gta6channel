@@ -49,6 +49,9 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 ## Every run
 1. `git pull`. Read `playbook.md`, `learning.md` (Current Rules), recent `log.md`.
 2. Do the task the scheduled prompt names (news check, clip run, metrics, report).
-3. Log every published post in `log.md` and add a row to `scoreboard.csv`.
-4. Commit and push to `main` with a short message.
-5. End with a 3–5 line summary (what posted, top post, one lesson, next test).
+3. **Analyze before creating**: pull Buffer metrics (`list_posts` includeMetrics) for everything posted
+   3+ hours ago; fill `scoreboard.csv` (views, likes, comments, shares, saves; never guess); note what
+   won/lost in `learning.md` and make the next videos more like the winners (hook, format, length, time).
+4. Log every published post in `log.md` and add a row to `scoreboard.csv`.
+5. Commit and push to `main` with a short message.
+6. End with a 3–5 line summary (what posted, top post, one lesson, next test).
