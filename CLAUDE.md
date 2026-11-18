@@ -10,7 +10,7 @@ relax them. Read `playbook.md` before doing anything; it holds the mix, slots an
   account time zone **Europe/Vienna**. Always use the exact channel IDs in `playbook.md`.
 - **OpusClip** connector — turns long videos (YouTube/Twitch URLs) into vertical clips with captions.
   Trial plan with limited minutes: check `opusclip_get_usage` before submitting; never buy or upgrade.
-- **ElevenLabs** connector (Pro plan) — AI voiceover (voice **Nicholas – YouTuber**, `AHc7z8dzjrGlVbbQ8enm`, model
+- **ElevenLabs** connector (Creator plan, ~130k chars/month) — AI voiceover (voice **Nicholas – YouTuber**, `AHc7z8dzjrGlVbbQ8enm`, model
   `eleven_v4`, generations_count 1 on scheduled runs), word timings (Scribe), background music, images.
 - **ElevenLabs fallback (no connector needed)** — if the ElevenLabs connector fails to connect, use
   `python3 tools/eleven.py` (REST API). Key = env var `ELEVENLABS_TOKEN` in the cloud **gta6**
