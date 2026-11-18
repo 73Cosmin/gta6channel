@@ -52,3 +52,8 @@
 - 13:25: owner confirmed live: TikTok = automatic (rule added to CLAUDE.md). 15:15 Monte TikTok 6afd9880… switched from reminder to automatic.
 - Twitch correction: the Helix call fails because NO Twitch token reaches this container (no env var, no proxy header), not necessarily an expired token.
 - 13:45: owner added TWITCH_TOKEN to cloud gta6 env; test in a fresh session OK (top clips + live streams returned). twitch_top.py utcnow deprecation fixed.
+- 16:15 run: no new official GTA 6 news in last 6h. Metrics: Buffer still shows only send-time reads for all posts except the Monte TikTok (already scored) -> nothing new to fill. Launch-day video caps (TT/YT/IG) already exceeded for Nov 18, so the new clip goes into the first Nov 19 slot. Twitch Helix API works (TWITCH_TOKEN OK). Clip: xQc top GTA 6 clip (6.3k views), cut to 15 s at the fail moment (pulled out of car at ~1.5 s), Scribe captions, synthwave_trap_02.
+| 2026-11-19 00:30 | YouTube | Creator clip | xQc's first car theft in GTA 6 goes wrong | 🎥 @xqc | 6afdc2446a70d040daffe703 |
+| 2026-11-19 00:30 | TikTok | Creator clip | xQc's first car theft in GTA 6 | 🎥 @xqc | 6afdc2440a57e5a15718030f |
+| 2026-11-19 00:30 | Instagram | Creator clip | xQc tries to steal his first car in GTA 6 | 🎥 @xqc | 6afdc245b3f8322ac746a918 |
+| 2026-11-19 05:00 | X | This-or-that | 1 hour until US unlock: story or chaos? A/B | still t2_148 | 6afdc24e6a70d040daffec6d |

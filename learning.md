@@ -84,6 +84,13 @@
   ("Besser als GTA 5: ja oder nein?"). Test: does 12 s lift avg watch % and comments vs the 30 s cut?
 - Build note: DejaVu font cannot draw emoji in burned-in text (renders boxes) -> no emoji in config text fields.
 
+- 2026-11-18 16:15 run: still only ONE scored post (Monte TikTok 30 s: 376 views, avg watch 9.6 s, 0 comments).
+  Buffer has not refreshed any YT/IG/X metric since send, and newer TikToks show stale 0s -> no new winners/losers yet.
+  APPLIED: (1) fail/punchline inside the first 2 s (xQc thrown out of the car at 1.5 s), 15 s total;
+  (2) first ENGLISH creator clip (all earlier clips were German) to test reach with the US/EU-English audience;
+  (3) A/B question in caption + end card ("Harder than GTA 5?"). Compare vs Monte 12 s DE clip next runs.
+- Build note: title1 at size 96 overflows 1080 px past ~16 characters -> use 84 for 17+ chars; end_text max ~22 chars.
+
 ## Losses
 
 ## Weekly reviews
