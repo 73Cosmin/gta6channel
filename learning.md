@@ -61,7 +61,9 @@
 - TWITCH CLIP PULL (tested 2026-11-18): yt-dlp works per channel (list top clips by views, range 24hr/7d,
   download 1080p mp4). `tools/twitch_clips.sh` loops over Twitch creators in watchlist.md. NOT working:
   whole GTA 6 category listing (yt-dlp unsupported; unofficial Twitch API rejected). Full-category
-  discovery needs the official Twitch API (owner registers a free app at dev.twitch.tv).
+  discovery: `python3 tools/twitch_top.py <hours> <n> <langs>` (official API, WORKS since 2026-11-18;
+  token via proxy, expires ~60 days -> on 401 tell owner to redo the Twitch sign-in link). Download a clip with
+  yt-dlp <clip url>. Skip anything claiming to play early / before release (hard rule 4).
 
 ## Wins
 
