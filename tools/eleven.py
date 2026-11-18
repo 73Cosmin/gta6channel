@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """ElevenLabs via the REST API — use when the ElevenLabs MCP connector does not connect.
 
-Key: env var ELEVENLABS_API_KEY, set in the CLOUD "gta6" environment settings (same way as
-TWITCH_TOKEN). Never write the key into a file, log or chat. Also accepted: XI_API_KEY, ELEVEN_API_KEY.
+Key: env var ELEVENLABS_TOKEN, set in the CLOUD "gta6" environment settings (same way as
+TWITCH_TOKEN). Never write the key into a file, log or chat. Also accepted: ELEVENLABS_API_KEY, XI_API_KEY.
 
   python3 tools/eleven.py check                                  # is the key there + valid?
   python3 tools/eleven.py tts   "<text with [excited] tags>" out.mp3 [voice_id] [model_id]
@@ -20,11 +20,11 @@ MODEL = "eleven_v4"
 
 
 def key():
-    for n in ("ELEVENLABS_API_KEY", "XI_API_KEY", "ELEVEN_API_KEY"):
+    for n in ("ELEVENLABS_TOKEN", "ELEVENLABS_API_KEY", "XI_API_KEY"):
         v = os.environ.get(n, "").strip()
         if v:
             return v
-    sys.exit("No ElevenLabs key: set ELEVENLABS_API_KEY in the cloud gta6 environment "
+    sys.exit("No ElevenLabs key: set ELEVENLABS_TOKEN in the cloud gta6 environment "
              "(it only reaches sessions started AFTER it was added).")
 
 
