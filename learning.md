@@ -34,7 +34,9 @@
 - OpusClip trial exports carry an "OpusClip" watermark top-left (~x120-480, y250-335 on 1080x1920):
   always cover it (solid header band) or crop it out. Download host signed-ext.cdn.opus.pro is allowed.
 
-- OWNER HUMOR BRIEF (2026-11-18, 6 more refs in media/references/: export_*.mov, v1*/v2*.mp4; 2 German).
+- ⛔ MEMES DROPPED (owner, 2026-11-18, after seeing 3 AI-skit memes): never make memes again. Only
+  streamer/creator clips, news, HOW TO/info videos. The brief below is kept for reference only.
+- (archived) OWNER HUMOR BRIEF (2026-11-18, 6 more refs in media/references/: export_*.mov, v1*/v2*.mp4; 2 German).
   Owner verdict on our first memes (meme_nz_wait): "very bad". Why: it was an INFOGRAPHIC with a joke title
   (timetable, yellow word captions, trailer footage, no person, nothing funny happening). Real memes are:
   * ONE short relatable line in a WHITE TikTok pill (black bold text, rounded white box per line), top third,

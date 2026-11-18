@@ -48,13 +48,12 @@ rather than post something weak or unverified.
 
 ## Goal (owner, 2026-11-18)
 **Interactions are the #1 metric**: comments, shares, saves, likes. Being a bit controversial is wanted.
-Get it through opinions, debates and memes, never through invented facts (hard rules 1-2 still apply).
+Get it through streamer clips, opinions and debates (NO memes), never through invented facts (hard rules 1-2 still apply).
 
 ## Content pillars (priority order after launch)
 1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,
    jaw-drop "interesting" moments. Cut 7-30 s, hook text, captions, `🎥 @creator` credit. Biggest pillar.
-2. **Memes**: relatable one-liner over a clip ("GTA 6 really makes you..."), roast GTA 5 Online players,
-   "preorder vs waited", delay jokes. No voiceover needed; shareable.
+2. ~~Memes~~ **DROPPED (owner, 2026-11-18): make NO memes, no AI skits. Focus = streamer clips + news.**
 3. **Hot takes / debate bait** (clearly opinions): "Lucia > every GTA 5 protagonist", "worth $70, fight me",
    "Vice City > Los Santos". End with "Change my mind 👇" or a question.
 4. **Rankings built to start arguments**: rank protagonists, cities, cars; put a fan favourite low on purpose.
