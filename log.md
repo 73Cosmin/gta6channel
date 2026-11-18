@@ -18,3 +18,7 @@
 | 2026-11-18 21:00 | YouTube | Meme | POV: NZ Is Already Playing GTA 6 (Short) | meme_nz_wait.mp4 | 6afd18cabb12698d1593c917 |
 | 2026-11-18 22:45 | X | Hot take | First hour = just drive around Leonida | — | 6afd18cafc933ac285be980b |
 - 2026-11-18 ~06:30 Vienna: owner dropped memes. Deleted scheduled NZ-meme posts (X, TikTok, YouTube) from Buffer. Not posted: 3 AI-skit memes (kept in media/edits, unused).
+| 2026-11-18 07:30 | X | Creator clip | Papaplatte wartet bis 0 Uhr | 🎥 @papaplatte | 6afd3b9a9f3765f6ab352580 |
+| 2026-11-18 07:45 | YouTube | Creator clip | Papaplatte wartet bis 0 Uhr | 🎥 @papaplatte | 6afd3b9df38e9cc54867f960 |
+| 2026-11-18 08:00 | TikTok (reminder) | Creator clip | Papaplatte wartet bis 0 Uhr | 🎥 @papaplatte | 6afd3ba0f38e9cc54867fa81 |
+| 2026-11-18 08:30 | Instagram | Creator clip | Papaplatte wartet bis 0 Uhr | 🎥 @papaplatte | 6afd3ba393fa11d37d0d2ca2 |
