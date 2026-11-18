@@ -40,3 +40,4 @@
 | 2026-11-19 00:01 | X | Community | Midnight in Central Europe, unlocking now | still t2_132 | 6afd4321bfbba0a971828c41 |
 | 2026-11-19 03:30 | X | Hot take | Skipping PC at launch is fine, change my mind | still t2_48 | 6afd43218ffbb8256dc2b136 |
 - WATCH: MontanaBlack TikTok 6afd3f7c… still "sending" 16 min after shareNow (07:02). Check next run; if error, re-post.
+- 07:21: owner posted MontanaBlack TikTok manually. Buffer copy 6afd3f7c… stuck 'sending' (cannot cancel). DO NOT re-post it; if it lands, owner deletes the newer duplicate.
