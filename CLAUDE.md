@@ -10,13 +10,26 @@ relax them. Read `playbook.md` before doing anything; it holds the mix, slots an
   account time zone **Europe/Vienna**. Always use the exact channel IDs in `playbook.md`.
 - **OpusClip** connector — turns long videos (YouTube/Twitch URLs) into vertical clips with captions.
   Trial plan with limited minutes: check `opusclip_get_usage` before submitting; never buy or upgrade.
-- **ElevenLabs** connector (Pro plan) — AI voiceover on every video (voice **Roman Voss**, `TFmrsRqiMPIeENU66yUi`, model
-  `eleven_v4`, generations_count 1 on scheduled runs) and images.
+- **ElevenLabs** connector (Pro plan) — AI voiceover (voice **Nicholas – YouTuber**, `AHc7z8dzjrGlVbbQ8enm`, model
+  `eleven_v4`, generations_count 1 on scheduled runs), word timings (Scribe), background music, images.
 - **ffmpeg** — local edits: 9:16 crop, trims, burned-in captions, mixing voiceover.
 - Media for Buffer must be a public permanent HTTPS URL. Put finished files in `media/edits/`,
   commit + push to `main`, and use
   `https://raw.githubusercontent.com/73Cosmin/gta6channel/main/media/edits/<file>`.
   Confirm the URL returns the file before scheduling.
+
+## VIDEO CHECKLIST — every single video, no exceptions (owner, 2026-11-18)
+Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the config in the repo).
+1. **Full 9:16 fill**: zoomed + blurred colourful copy of the footage behind a sharp 16:9 band.
+   Never black bars, never solid colour bands, never a static image background.
+2. **One-word captions** (bold yellow, key words red, centre of the band) whenever the AI voice OR a
+   streamer/creator is talking. Word timings from ElevenLabs Scribe (`eleven_scribe_v1`).
+3. **Voice**: Nicholas – YouTuber `AHc7z8dzjrGlVbbQ8enm`, model `eleven_v4`, hyped/enthusiastic
+   delivery (use tags like [excited]). Memes/vibe edits may skip voice.
+4. **Background music under every video** (`media/music/`, ducked under the voice, loudnorm -14 LUFS).
+   TikTok: also add a trending sound in-app when possible (see playbook).
+5. Credit line + "Fan page. Not affiliated with Rockstar Games." on screen. Creator clips: `🎥 @creator`.
+6. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
 
 ## Hard rules (never break)
 1. Every fact needs an official source (Rockstar, Take-Two, PlayStation, Xbox) logged in `facts.md`.
