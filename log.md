@@ -75,3 +75,11 @@
 | 2026-11-19 10:00 | X | Question | GTA 6 out in Europe 10 h: review it in ONE word | text | 6afe40cda588bd6687a9645d |
 - 2026-11-19 03:50 OWNER: hook title was too high (under TikTok search bar) and too wide (cut off at edges). info_build.py now puts it at y=330 and auto-fits it to 880 px; credit moved to y=1640 so TikTok's caption text doesn't cover it. CaseOh clip rebuilt as _v2 and the 3 Buffer posts updated.
 - 04:10 OWNER: night uploads (01-05) do nothing -> playbook slots changed: videos only 12:30 / 15:00 (TikTok) / 17:30 / 21:00, no posts 00:00-08:00. CaseOh clip moved from Nov 20 00:30 to Nov 19 17:30 on YT/TikTok/IG (posts 6afe40cb…, 6afe40cc…, 6afe40cd…).
+- 04:15 run (Nov 19): no new official GTA 6 news in last 6h (only the Nov 19 release itself). Metrics: Buffer has not refreshed since 23:42 UTC -> nothing new to score; night TikToks (xQc/ohne/Speed) per owner 19/4/4 views. Nov 19 video caps already exceeded (TikTok 4/4, YT/IG 4/3), so the new clip goes into the first daytime slot Nov 20 12:30 (same time on all 3). Clip: MontanaBlack "Opa Schradin" (Twitch top clip 4.7k views, DE, 16.7 s: two segments, dead air cut, source subs cropped). Thirst post: Lucia tall crop from official Trailer 2 (~79.5 s).
+| 2026-11-20 12:30 | TikTok | Creator clip | MontanaBlack trifft Opa Schradin in GTA 6 | 🎥 @montanablack88 | 6afe6b3a59eff0b616d8251a |
+| 2026-11-20 12:30 | YouTube | Creator clip | MontanaBlack trifft Opa Schradin in GTA 6 | 🎥 @montanablack88 | 6afe6b3ab16549e9b81e8900 |
+| 2026-11-20 12:30 | Instagram | Creator clip | MontanaBlack trifft Opa Schradin in GTA 6 | 🎥 @montanablack88 | 6afe6b3b749099bdc707e794 |
+| 2026-11-19 13:15 | X | Poll/question | How much sleep did you get because of GTA 6? A/B/C | text | 6afe6b3c3802f5b9fc63a777 |
+| 2026-11-19 16:45 | X | Thirst/vibe | Lucia in GTA 6 🥵🔥 | still t2_79_lucia_tall (official) | 6afe6b3b3802f5b9fc63a74c |
+| 2026-11-19 19:15 | X | Nostalgia | Your first ever GTA says a lot about your age | text | 6afe6b3c3802f5b9fc63a7a2 |
+| 2026-11-19 22:45 | X | Day recap | Day 1 in Leonida: better or worse than expected? | text | 6afe6b3d46636f319e83bfd3 |

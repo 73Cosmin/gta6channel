@@ -112,6 +112,11 @@
   generic "it's out" hype video had the worst hook (3.6 s avg watch) -> useful/practical > hype; next info video
   should be a practical day-1 tip. APPLIED this run: CaseOh clip keeps full setup (red car -> respray black ->
   lies to the cop), 14.6 s, dead air jump-cut, A/B end question "Genius or lucky?".
+- 2026-11-19 04:15 run: no Buffer refresh since 23:42 UTC, so no new winner/loser. Pattern so far: MontanaBlack (DE, edgy, full
+  setup->payoff) is our best clip on likes/shares/watch time, and every daytime TikTok gets the same ~700-800 view push.
+  APPLIED: next clip = Monte again (repeat the winner's creator + tone), 16.7 s with two segments and dead air cut,
+  hook line ("Was macht denn Schradin hier?") in the first 0.2 s, A/B end card "Verdient oder zu hart?". Test monte_de_repeat:
+  does a 2nd Monte clip beat the 34-like benchmark? Also first owner-style thirst post on X (Lucia, tall official still).
 
 ## Losses
 - 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
