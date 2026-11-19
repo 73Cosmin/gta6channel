@@ -161,3 +161,8 @@
   715-782 for daytime clips (Monte TikTok had 376 within 40 min at 07:00). Even US-evening timing doesn't help: TikTok's
   first test audience for this account is EU. RULE: no videos 00:00-08:00 Vienna; clip slots 12:30/17:30/21:00 (+15:00 TikTok).
 - 2026-11-19 OWNER: thirst/vibe posts on X (ref 'Mandy in GTA 6 🥵🔥' went viral). Rule added to playbook: real footage only (official or credited streamer gameplay), no AI fakes, no nudity, adults only, 1 per run on X in 16:45-22:45.
+- 2026-11-19 07:15 run: Buffer still frozen since 23:42 UTC -> no new winner/loser. Only new data = owner's night TikTok reads (19/4/4)
+  already turned into the no-night rule. APPLIED: first "impressive/jaw-drop" creator clip (CaseOh seaplane crash that floats) vs our
+  funny/fail clips, same 12-15 s length, payoff line kept, rating-style A/B ("10/10 or 0/10?"). Test impressive_vs_funny: compare
+  likes+shares/view vs CaseOh respray (Nov 19 17:30) once reads exist. Craft: X hot takes must not presuppose unconfirmed modes
+  (e.g. "GTA 6 Online") - keep to official places/characters from the trailers.

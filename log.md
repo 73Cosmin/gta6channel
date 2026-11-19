@@ -83,3 +83,8 @@
 | 2026-11-19 16:45 | X | Thirst/vibe | Lucia in GTA 6 🥵🔥 | still t2_79_lucia_tall (official) | 6afe6b3b3802f5b9fc63a74c |
 | 2026-11-19 19:15 | X | Nostalgia | Your first ever GTA says a lot about your age | text | 6afe6b3c3802f5b9fc63a7a2 |
 | 2026-11-19 22:45 | X | Day recap | Day 1 in Leonida: better or worse than expected? | text | 6afe6b3d46636f319e83bfd3 |
+- 07:15 run (Nov 19): no new official GTA 6 news in last 6h (no Rockstar/Take-Two launch statement or sales figures yet; analyst estimates ignored). Metrics: Buffer still not refreshed since 23:42 UTC -> nothing new; filled owner-reported night TikTok views (xQc 19, ohnePixel 4, Speed 4). Next 6h X slots already full (08:15/10:00/13:15) -> added one hot take at 11:35. Nov 19 video caps full -> new clip into Nov 20 17:30 (same time YT/TikTok/IG). TWITCH_TOKEN missing again -> yt-dlp fallback. Clip: CaseOh seaplane barrel roll -> lands in water and floats, "Don't question it, just accept it" (12.5 s, 2 segments, dead air cut, in-game subs cropped, profanity starred). Rejected: Kai "argues with girlfriend" (story cutscene) - kept as Nov 20 X thirst candidate (Mandy, real in-game, 🎥 @kaicenat). OpusClip 70 min unused.
+| 2026-11-19 11:35 | X | Hot take | Vice City > Los Santos, agree or cope | text | 6afe94d246636f319e91e1e2 |
+| 2026-11-20 17:30 | TikTok | Creator clip | CaseOh crash-lands a seaplane in GTA 6 | 🎥 @caseoh_ | 6afe94d0f6b6aa0cd4a839b7 |
+| 2026-11-20 17:30 | YouTube | Creator clip | CaseOh crash-lands a seaplane in GTA 6 | 🎥 @caseoh_ | 6afe94d1b16549e9b82c86b8 |
+| 2026-11-20 17:30 | Instagram | Creator clip | CaseOh crash-lands a seaplane in GTA 6 | 🎥 @caseoh_ | 6afe94d2749099bdc7161c42 |
