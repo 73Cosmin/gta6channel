@@ -1,6 +1,7 @@
 # Learning
 
 ## Current Rules
+- (2026-11-19 22:15) Buffer metrics have been empty for ~22 h on TikTok/IG/X; until they refresh, keep repeating the only proven winner (Monte DE, edgy line, A/B end question) and judge nothing else.
 - (2026-11-19 evening, data) YT/IG slots = strongest Monte-style clip only (big DE streamer, edgy line, full setup->payoff, 20-30 s). Info/hype and 12 s chops got 0 views on YT Shorts. Active test: stacked_vs_band.
 - (starting hypotheses — test, don't treat as law) Official trailer clips beat text-only number posts;
   countdowns are the cheapest reliable format; credited creator clips and HOW TO posts pull saves/shares;
