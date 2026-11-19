@@ -33,7 +33,9 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    Clips without a facecam / official footage: old blurred-fill + sharp 16:9 band layout. Never black bars.
 2. **One-word captions** (bold yellow, key words red, BELOW the 16:9 band — never over the streamer's face, owner 2026-11-18) whenever the AI voice OR a
    streamer/creator is talking. Word timings from ElevenLabs Scribe (`eleven_scribe_v1`).
-3. **Voice**: Nicholas – YouTuber `AHc7z8dzjrGlVbbQ8enm`, model `eleven_v4`, hyped/enthusiastic
+3. **Creator clips: NO AI voice** (owner 2026-11-19 23:40, "nicht gut"). Instead run
+   `python3 tools/replay_extend.py <cfg> <cfg_rp> <payoff_start> <payoff_end>` -> slow-mo replay, total 20-30 s, never <15 s
+   (TikTok flagged a 12 s re-cut as "unoriginal, low-quality" 2026-11-19). Info videos only: **Voice**: Nicholas – YouTuber `AHc7z8dzjrGlVbbQ8enm`, model `eleven_v4`, hyped/enthusiastic
    delivery (use tags like [excited]). Memes/vibe edits may skip voice.
 4. **Background music under every video** (`media/music/`, ducked under the voice, loudnorm -14 LUFS).
    TikTok: also add a trending sound in-app when possible (see playbook).

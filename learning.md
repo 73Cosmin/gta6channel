@@ -1,7 +1,7 @@
 # Learning
 
 ## Current Rules
-- (2026-11-19 23:29, OWNER SCREENSHOT) TikTok restricted Papaplatte Tankstelle (12.3 s, posted 23:01) from the For You feed: "Unoriginal, low-quality" (= imported/copied without new creative edits; very short videos). Our stacked re-cut + captions + title is NOT enough transformation for TikTok. Next clips: 20-30 s, add our own value (AI voice hook/commentary, slow-mo replay of the payoff, zoom/freeze-frame), avoid stream overlays/logos, never under ~15 s.
+- (2026-11-19 23:29, OWNER SCREENSHOT) TikTok restricted Papaplatte Tankstelle (12.3 s, posted 23:01) from the For You feed: "Unoriginal, low-quality" (= imported/copied without new creative edits; very short videos). Our stacked re-cut + captions + title is NOT enough transformation for TikTok. OWNER 23:40: NO AI voice on clips ("die ist nicht gut"). Fix = `tools/replay_extend.py` (slow-mo 0.5x replay of the payoff + 'NOCHMAL IN ZEITLUPE'/'SLOW-MO REPLAY' label, captions repeated) -> every creator clip 20-30 s. Avoid stream overlays/logos.
 - (2026-11-19 22:15) Buffer metrics have been empty for ~22 h on TikTok/IG/X; until they refresh, keep repeating the only proven winner (Monte DE, edgy line, A/B end question) and judge nothing else.
 - (2026-11-19 evening, data) YT/IG slots = strongest Monte-style clip only (big DE streamer, edgy line, full setup->payoff, 20-30 s). Info/hype and 12 s chops got 0 views on YT Shorts. Active test: stacked_vs_band.
 - (starting hypotheses — test, don't treat as law) Official trailer clips beat text-only number posts;
