@@ -88,3 +88,9 @@
 | 2026-11-20 17:30 | TikTok | Creator clip | CaseOh crash-lands a seaplane in GTA 6 | 🎥 @caseoh_ | 6afe94d0f6b6aa0cd4a839b7 |
 | 2026-11-20 17:30 | YouTube | Creator clip | CaseOh crash-lands a seaplane in GTA 6 | 🎥 @caseoh_ | 6afe94d1b16549e9b82c86b8 |
 | 2026-11-20 17:30 | Instagram | Creator clip | CaseOh crash-lands a seaplane in GTA 6 | 🎥 @caseoh_ | 6afe94d2749099bdc7161c42 |
+- 10:15 run (Nov 19): no new official GTA 6 news in last 6h. Metrics: Buffer still not refreshed since 23:42 UTC (all reads = send-minute 0s) -> nothing to score. TWITCH_TOKEN missing again -> yt-dlp fallback. ElevenLabs REST OK. OpusClip 70 min (unused). Nov 19 video caps + X (12) full -> clip into Nov 20 21:00 (last open daytime video slot), 2 X debate posts on Nov 20. Clip: Papaplatte drives into a gas station -> flips, explodes, WASTED (12.3 s, ends on WASTED card, profanity starred). Rejected: Speed "HAHAHAHH" (chat-ban bait, unclear content), Speed countdown (no payoff), Monte "kein Aim" (60 s, no punchline), Jynxzi plane (mostly NPC dialogue).
+| 2026-11-20 21:00 | TikTok | Creator clip | Papaplatte fährt in eine Tankstelle in GTA 6 | 🎥 @papaplatte | 6afebf374ad8a97b3a2f1cab |
+| 2026-11-20 21:00 | YouTube | Creator clip | Papaplatte fährt in eine Tankstelle in GTA 6 | 🎥 @papaplatte | 6afebf38fc3e30ab95ba7a26 |
+| 2026-11-20 21:00 | Instagram | Creator clip | Papaplatte fährt in eine Tankstelle in GTA 6 | 🎥 @papaplatte | 6afebf394fb82a830a0e1e6e |
+| 2026-11-20 10:00 | X | This-or-that | Day 2: haven't touched the story vs deep in it | text | 6afebf414a35072d027fdca6 |
+| 2026-11-20 16:45 | X | Hot take | Jason and Lucia best duo in GTA history | text | 6afebf42fc3e30ab95ba85a2 |

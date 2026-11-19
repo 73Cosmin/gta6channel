@@ -166,3 +166,9 @@
   funny/fail clips, same 12-15 s length, payoff line kept, rating-style A/B ("10/10 or 0/10?"). Test impressive_vs_funny: compare
   likes+shares/view vs CaseOh respray (Nov 19 17:30) once reads exist. Craft: X hot takes must not presuppose unconfirmed modes
   (e.g. "GTA 6 Online") - keep to official places/characters from the trailers.
+- 2026-11-19 10:15 run: Buffer STILL frozen since 23:42 UTC (11 h) -> no new winner/loser; the TikTok metric feed seems to refresh
+  only about once a day, so judge clips on the next nightly refresh, not per run. APPLIED the standing winners' pattern (full
+  setup->payoff, DE big streamer, punchline line in the first 1 s, A/B end card "Mutig oder dumm?"): Papaplatte gas-station crash,
+  12.3 s, cut ends ON the WASTED card (frame-checked at 13.9 s source, no black). New test fail_payoff_prime_time: first clip in the
+  21:00 slot -> compare with the 12:30/17:30 clips once reads exist. Craft: info_build uppercases words and strips .,!? before
+  matching red_words, and "ß" becomes "SS" (write red_words as e.g. "SCH*ISSE").
