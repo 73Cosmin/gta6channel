@@ -1,6 +1,7 @@
 # Learning
 
 ## Current Rules
+- (2026-11-19 evening, data) YT/IG slots = strongest Monte-style clip only (big DE streamer, edgy line, full setup->payoff, 20-30 s). Info/hype and 12 s chops got 0 views on YT Shorts. Active test: stacked_vs_band.
 - (starting hypotheses — test, don't treat as law) Official trailer clips beat text-only number posts;
   countdowns are the cheapest reliable format; credited creator clips and HOW TO posts pull saves/shares;
   emotional era-ending one-liners pull high like ratios.
@@ -129,9 +130,22 @@
   BURNED-IN purple-highlight subtitles at source y~990-1060 -> keep game_crop bottom <= ~940 and check the bottom edge of the gameplay half.
   If the nightly refresh stays missing again, ask owner for native TikTok numbers in the evening review.
 
+- 2026-11-19 21:45 EVENING REVIEW: 0 Buffer errors. Buffer TikTok/IG/X feed still frozen since 23:42 UTC Nov 18 (~22 h) -> NONE of today's
+  posts (Monte Schradin 12:47, CaseOh respray 16:17/17:31, seaplane 19:47, 8 tweets) has a real read; X today 0 impressions at send minute.
+  NEW DATA: YouTube refreshed once (00:37 UTC): MontanaBlack 30 s DE edgy full-arc Short = 531 views / 7 likes (1.32%) at ~18.6 h;
+  every other Short = 0-2 views (Papaplatte 20 s 2, launch info 0, HOW TO info 0, Monte 12 s cut 0).
+  Best measured (3 days) = MontanaBlack 30 s: TikTok 782 views/34 likes/2 shares + YT 531 views. Worst = YT info/hype Shorts (0 views)
+  and night TikToks (4 views).
+  RULE: YT/IG only get 2 slots/day -> fill them with the strongest Monte-style clip (big DE streamer, edgy line, full setup->payoff,
+  20-30 s); never spend a YT/IG slot on an info/hype video or a 12 s chop.
+  TOMORROW'S TEST (one variable = LAYOUT): stacked_vs_band - same creator (MontanaBlack), same language, same black-humor tone:
+  band layout "Opa Schradin" (Nov 19 12:47 TikTok) vs STACKED "Delfin" (Nov 20 10:30 TikTok). Compare likes+shares+saves per view and
+  avg watch % once a real read exists.
+
 ## Losses
 - 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
 - 2026-11-18: none measurable (Buffer metrics frozen at send for all posts except Monte TikTok).
+- 2026-11-18 YouTube Shorts: launch info 0, HOW TO info 0, Monte 12 s cut 0, Papaplatte 20 s 2 views (read ~8-18 h) vs Monte 30 s 531 -> on YT only the edgy full-arc clip got pushed.
 
 ## Weekly reviews
 
