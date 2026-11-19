@@ -152,3 +152,6 @@
   the streamer talking (Speed robbery: lines are Lucia's, in-game subs visible). Check volumedetect (> -60 dB) and the in-game
   subtitle line before picking; prefer clips where the STREAMER reacts. Applied: rejected silent Kai clip; Speed clip labelled SPOILER.
   Twitch clip "uploader" in yt-dlp is the clipper, not the streamer -> name files by the clip URL, credit the channel.
+- 2026-11-19 04:10 (owner + data): NIGHT POSTING LOSES. TikToks at 00:30/02:00/03:30 Vienna: 19/4/4 views after 1-3 h, vs
+  715-782 for daytime clips (Monte TikTok had 376 within 40 min at 07:00). Even US-evening timing doesn't help: TikTok's
+  first test audience for this account is EU. RULE: no videos 00:00-08:00 Vienna; clip slots 12:30/17:30/21:00 (+15:00 TikTok).

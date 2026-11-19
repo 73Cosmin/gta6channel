@@ -46,19 +46,23 @@ rather than post something weak or unverified.
 | YouTube Shorts | 2 | 3 |
 | Instagram Reels | 2 (+ Trial Reels for tests) | 3 |
 
-## Daily slots (Vienna time)
-| Time | X | TikTok | Shorts | IG Reels |
-|---|---|---|---|---|
-| 08:15 | Official news recap | | | |
-| 13:15 | HOW TO tip | clip / tip | | |
-| 15:00 | | | clip | |
-| 16:45 | Gameplay clip | | | |
-| 17:30 | | | | Reel |
-| 19:15 | Nostalgia / question | clip | | |
-| 22:45 | Spotlight / 2nd clip | | | |
-| 00:30 | | | clip | |
-| 01:15 | | clip | | |
-| 01:45 | Countdown / day recap | | | Reel |
+## Daily slots (Vienna time) — NO VIDEOS 00:00-08:00 (owner, 2026-11-19)
+Night uploads (00:30 xQc 19 views, 02:00 ohnePixel 4, 03:30 Speed 4) flopped vs daytime clips (715-782 views):
+TikTok gives our account almost no first push at night, even though it is US evening. Videos only in EU day/evening.
+| Time | X | TikTok + Shorts + IG Reels (same clip, same time) |
+|---|---|---|
+| 08:15 | Official news recap | |
+| 10:00 | Question / poll | |
+| 12:30 | | clip (EU lunch, US morning) |
+| 13:15 | HOW TO tip | |
+| 15:00 | | TikTok-only extra clip (launch window) |
+| 16:45 | Gameplay clip / hot take | |
+| 17:30 | | clip (EU after work, US noon) |
+| 19:15 | Nostalgia / question | |
+| 21:00 | | clip (EU prime time, US afternoon) |
+| 22:45 | Spotlight / day recap | |
+X: nothing between 00:00 and 08:00 either (0-7 impressions per tweet anyway), except time-critical official news.
+If a clip is ready at night, schedule it for the next daytime slot instead of posting it at night.
 
 ## Goal (owner, 2026-11-18)
 **Interactions are the #1 metric**: comments, shares, saves, likes. Being a bit controversial is wanted.

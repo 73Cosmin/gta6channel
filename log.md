@@ -74,3 +74,4 @@
 | 2026-11-20 00:30 | Instagram | Creator clip | CaseOh's 200 IQ plan to lose the cops in GTA 6 | 🎥 @caseoh_ | 6afe40cd4cace847b3846452 |
 | 2026-11-19 10:00 | X | Question | GTA 6 out in Europe 10 h: review it in ONE word | text | 6afe40cda588bd6687a9645d |
 - 2026-11-19 03:50 OWNER: hook title was too high (under TikTok search bar) and too wide (cut off at edges). info_build.py now puts it at y=330 and auto-fits it to 880 px; credit moved to y=1640 so TikTok's caption text doesn't cover it. CaseOh clip rebuilt as _v2 and the 3 Buffer posts updated.
+- 04:10 OWNER: night uploads (01-05) do nothing -> playbook slots changed: videos only 12:30 / 15:00 (TikTok) / 17:30 / 21:00, no posts 00:00-08:00. CaseOh clip moved from Nov 20 00:30 to Nov 19 17:30 on YT/TikTok/IG (posts 6afe40cb…, 6afe40cc…, 6afe40cd…).
