@@ -1,0 +1,9 @@
+{"footage": "media/raw/clips/monte_polizei_cut.mp4", "precrop": "null", "shots": [0], "vo": "media/raw/clips/monte_polizei_audio.mp3", "tail": 0,
+ "words": [["Guck", 1.02, 1.1], ["mal,", 1.12, 1.18], ["guck", 1.2, 1.28], ["mal,", 1.3, 1.34], ["guck", 1.38, 1.46], ["mal,", 1.48, 1.54], ["guck", 1.56, 1.66], ["mal.", 1.66, 1.78], ["Die", 2.46, 2.56], ["Polizei", 2.6, 2.94], ["macht", 2.98, 3.12], ["nichts.", 3.18, 3.44], ["Bro.", 3.94, 4.22], ["Die", 6.52, 6.62], ["Polizei", 6.66, 7.04], ["steht", 7.1, 7.26], ["neben", 7.3, 7.46], ["mir.", 7.48, 7.6], ["Ich", 7.64, 7.7], ["werd", 7.74, 7.86], ["verprügelt.", 7.9, 8.4], ["Ich", 8.86, 8.92], ["werd", 8.94, 9.06], ["verprügelt", 9.1, 9.7], ["neben", 10.06, 10.24], ["der", 10.26, 10.38], ["Polizei.", 10.42, 10.98], ["Bro,", 11.46, 11.6], ["der", 11.66, 11.78], ["Bulle", 11.82, 12.04], ["läuft", 12.08, 12.3], ["einfach", 12.34, 12.6], ["weg.", 12.66, 12.88]],
+ "red_words": ["POLIZEI", "NICHTS", "VERPRÜGELT", "BULLE", "WEG"],
+ "title": ["MONTE WIRD VERPRÜGELT", "UND DIE POLIZEI?"],
+ "end_text": ["REALISTISCH ODER BUG?", 11.4],
+ "music": "media/music/synthwave_trap_02.mp3",
+ "credit": "Clip: @montanablack88 on Twitch",
+ "out": "media/edits/2026-11-19_clip_monte_polizei.mp4",
+ "facecam": [1195, 768, 480, 312], "game_crop": [300, 0, 956, 1080]}
