@@ -172,3 +172,9 @@
   12.3 s, cut ends ON the WASTED card (frame-checked at 13.9 s source, no black). New test fail_payoff_prime_time: first clip in the
   21:00 slot -> compare with the 12:30/17:30 clips once reads exist. Craft: info_build uppercases words and strips .,!? before
   matching red_words, and "ß" becomes "SS" (write red_words as e.g. "SCH*ISSE").
+- 2026-11-19 13:00 OWNER REFERENCE (media/references/ref_stacked_monte.png, a Monte/Schradin repost with 8.9k likes, 958 saves,
+  6k shares): STACKED layout looks much better than our blurred band -> new default for streamer clips: facecam full width on top,
+  gameplay below, title = black TikTok Sans on white rounded line boxes on the seam, phrased as a question. Built into
+  info_build.py ("facecam" key). Craft: pick a facecam rect with aspect ~1.54 that keeps the whole head (cap included); the
+  gameplay half is a centre crop, so check that the action isn't at the far left/right. NOTE the reference got 958 saves +
+  6k shares on the SAME Monte/Schradin moment we posted -> moment choice is right, packaging was the gap.

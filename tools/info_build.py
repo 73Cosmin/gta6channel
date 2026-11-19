@@ -50,9 +50,20 @@ f = [f"[0:v]trim=start={s}:duration={seg:.3f},setpts=PTS-STARTPTS[s{i}]" for i, 
 f.append("".join(f"[s{i}]" for i in range(n)) +
          f"concat=n={n}:v=1:a=0,fps=30,{C.get('precrop','null')},split[a][b]")
 # full-screen fill: zoom in hard so there is never black, blur, keep colour
-f.append("[a]scale=-2:2400,crop=1080:1920,boxblur=22:2,eq=brightness=-0.06:saturation=1.35[bg]")
-f.append("[b]scale=1080:608:force_original_aspect_ratio=increase,crop=1080:608[fg]")
-f.append("[bg][fg]overlay=0:656[v0]")
+SPLIT = "facecam" in C          # owner 2026-11-19: stacked layout = facecam on top, gameplay below
+SY = C.get("split_y", 700)      # seam between facecam (top) and gameplay (bottom)
+if SPLIT:
+    fx, fy, fw, fh = C["facecam"]                       # facecam rect in source pixels
+    f.append(f"[a]crop={fw}:{fh}:{fx}:{fy},scale=1080:{SY}:force_original_aspect_ratio=increase,"
+             f"crop=1080:{SY}[top]")
+    gc = C.get("game_crop")                             # optional [x,y,w,h]; default whole frame
+    gcf = f"crop={gc[2]}:{gc[3]}:{gc[0]}:{gc[1]}," if gc else ""
+    f.append(f"[b]{gcf}scale=1080:{1920-SY}:force_original_aspect_ratio=increase,crop=1080:{1920-SY}[bot]")
+    f.append("[top][bot]vstack=inputs=2[v0]")
+else:
+    f.append("[a]scale=-2:2400,crop=1080:1920,boxblur=22:2,eq=brightness=-0.06:saturation=1.35[bg]")
+    f.append("[b]scale=1080:608:force_original_aspect_ratio=increase,crop=1080:608[fg]")
+    f.append("[bg][fg]overlay=0:656[v0]")
 
 dr = []
 t1, t2 = (C.get("title") or [None, None]) + [None] * (2 - len(C.get("title") or []))
@@ -65,10 +76,29 @@ def fit(txt, size, border, maxw=880):
     return size
 TY = C.get("title_y", 330)
 s1 = fit(t1, C.get("title1_size", 84), 8) if t1 else 0
-if t1:
+TT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "brand", "fonts", "TikTokSans-700.ttf")
+title_png = None
+if SPLIT and t1:
+    # TikTok-style title (owner ref IMG_0817): black bold TikTok Sans on white rounded boxes, one box per
+    # line, centred ON the seam between facecam and gameplay, visible the whole video.
+    lines = [l for l in (t1, t2) if l]
+    size = C.get("title_size", 84)
+    while size > 40 and max(ImageFont.truetype(TT, size).getlength(l) for l in lines) + 56 > 1010:
+        size -= 2
+    ft = ImageFont.truetype(TT, size); padx, lh = 28, int(size * 1.22)
+    ws = [ft.getlength(l) for l in lines]; Wb = int(max(ws) + 2 * padx + 8); Hb = lh * len(lines) + 16
+    im = Image.new("RGBA", (Wb, Hb), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    for k, (l, wl) in enumerate(zip(lines, ws)):
+        x0 = (Wb - wl) / 2 - padx; y0 = 8 + k * lh
+        d.rounded_rectangle([x0, y0, x0 + wl + 2 * padx, y0 + lh], radius=int(size * 0.22), fill=(255, 255, 255, 255))
+    for k, (l, wl) in enumerate(zip(lines, ws)):
+        d.text(((Wb - wl) / 2, 8 + k * lh + lh / 2), l, font=ft, fill=(0, 0, 0, 255), anchor="lm")
+    title_png = "/tmp/ne0n_title.png"; im.save(title_png)
+    title_xy = ((1080 - Wb) // 2, SY - Hb // 2)
+elif t1:
     dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize={s1}:fontcolor=white:borderw=8:bordercolor={PINK}:"
               f"shadowcolor=black@0.6:shadowx=4:shadowy=4:x=(w-tw)/2:y={TY}")
-if t2:
+if t2 and not SPLIT:
     s2 = fit(t2, C.get("title2_size", 52), 6)
     dr.append(f"drawtext=fontfile={F}:text='{esc(t2)}':fontsize={s2}:fontcolor={CYAN}:borderw=6:bordercolor=black:"
               f"x=(w-tw)/2:y={TY + s1 + 34}")
@@ -78,8 +108,8 @@ for i, (w, st, en) in enumerate(W):
     end = min(nxt, en + 0.6)
     c = w.strip(".,!?").upper()
     col = RED if c in red else YEL
-    dr.append(f"drawtext=fontfile={F}:text='{esc(c)}':fontsize=100:fontcolor={col}:borderw=9:bordercolor=black:"
-              f"x=(w-tw)/2:y={C.get('caption_y',1380)}-th/2:enable='gte(t,{st})*lt(t,{end:.3f})'")
+    dr.append(f"drawtext=fontfile={TT if SPLIT else F}:text='{esc(c)}':fontsize=100:fontcolor={col}:borderw=9:bordercolor=black:"
+              f"x=(w-tw)/2:y={C.get('caption_y', 1330 if SPLIT else 1380)}-th/2:enable='gte(t,{st})*lt(t,{end:.3f})'")
 steps = C.get("steps", [])
 for k, (a, b, t0) in enumerate(steps):
     y = 1310 + k * 150
@@ -110,9 +140,14 @@ if steps:
         cur = nx
 
 inputs = ["-i", C["footage"], "-loop", "1", "-i", arrow, "-i", vo]
-f.append(f"[2:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={dur:.2f},asplit[vo1][vo2]")
 if C.get("music"):
     inputs += ["-stream_loop", "-1", "-i", C["music"]]
+if title_png:
+    ti = 4 if C.get("music") else 3
+    inputs += ["-loop", "1", "-i", title_png]
+    f.append(f"[{cur}][{ti}:v]overlay={title_xy[0]}:{title_xy[1]}:shortest=0[vt]"); cur = "vt"
+f.append(f"[2:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={dur:.2f},asplit[vo1][vo2]")
+if C.get("music"):
     f.append(f"[3:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.09,"
              f"afade=t=out:st={dur-0.8:.2f}:d=0.8[mu]")
     f.append("[mu][vo1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[duck]")
