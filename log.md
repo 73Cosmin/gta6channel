@@ -94,3 +94,7 @@
 | 2026-11-20 21:00 | Instagram | Creator clip | Papaplatte fährt in eine Tankstelle in GTA 6 | 🎥 @papaplatte | 6afebf394fb82a830a0e1e6e |
 | 2026-11-20 10:00 | X | This-or-that | Day 2: haven't touched the story vs deep in it | text | 6afebf414a35072d027fdca6 |
 | 2026-11-20 16:45 | X | Hot take | Jason and Lucia best duo in GTA history | text | 6afebf42fc3e30ab95ba85a2 |
+- 12:45 OWNER: new cadence -> TikTok 5/day every 3.5-4 h (07:00-23:00), YT + IG 2/day (~11:30 + ~17:30), fewer tweets. playbook.md updated.
+  Done now: Monte Schradin posted NOW on TikTok/YT/IG (6afe6b3a…, 6afe6b3ab…, 6afe6b3b749…, was Nov 20 12:30). TikTok today: CaseOh respray 17:30 -> 16:15,
+  CaseOh seaplane Nov 20 17:30 -> today 19:45, Papaplatte Nov 20 21:00 -> today 23:00. YT/IG: Papaplatte Nov 20 21:00 -> Nov 20 11:30; CaseOh respray
+  today 17:30 and seaplane Nov 20 17:30 unchanged. Deleted X posts 13:15 sleep poll (6afe6b3c…a777) and 19:15 nostalgia (6afe6b3c…a7a2).

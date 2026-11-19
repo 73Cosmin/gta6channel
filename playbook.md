@@ -48,36 +48,20 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 - Every scheduled run: scan for 1 thirst/vibe candidate (new streamer screenshots/clips of beach, club, outfits,
   character models) and schedule it in the best X slot (16:45-22:45 Vienna).
 
-## Posts per day (chosen for the algorithms — revisit weekly from scoreboard)
-Reasoning: X rewards frequent, fast, text-first posting; TikTok rewards consistent volume of short
-clips (each one is its own lottery ticket for the For You page); Instagram penalises spammy volume and
-re-uploads, so fewer, more original Reels; Shorts sits between. Quality beats volume: skip a slot
-rather than post something weak or unverified.
-
-| Platform | Normal day | Launch window (Nov 18 12:00 → Nov 21) |
+## Posts per day + daily slots (OWNER, 2026-11-19 12:45 — replaces the old tables)
+| Platform | Per day | Slots (Vienna) |
 |---|---|---|
-| X | 6 | every 1.5–2 h while there is real news/clips (8–12) |
-| TikTok | 3 | 4 |
-| YouTube Shorts | 2 | 3 |
-| Instagram Reels | 2 (+ Trial Reels for tests) | 3 |
-
-## Daily slots (Vienna time) — NO VIDEOS 00:00-08:00 (owner, 2026-11-19)
-Night uploads (00:30 xQc 19 views, 02:00 ohnePixel 4, 03:30 Speed 4) flopped vs daytime clips (715-782 views):
-TikTok gives our account almost no first push at night, even though it is US evening. Videos only in EU day/evening.
-| Time | X | TikTok + Shorts + IG Reels (same clip, same time) |
-|---|---|---|
-| 08:15 | Official news recap | |
-| 10:00 | Question / poll | |
-| 12:30 | | clip (EU lunch, US morning) |
-| 13:15 | HOW TO tip | |
-| 15:00 | | TikTok-only extra clip (launch window) |
-| 16:45 | Gameplay clip / hot take | |
-| 17:30 | | clip (EU after work, US noon) |
-| 19:15 | Nostalgia / question | |
-| 21:00 | | clip (EU prime time, US afternoon) |
-| 22:45 | Spotlight / day recap | |
-X: nothing between 00:00 and 08:00 either (0-7 impressions per tweet anyway), except time-critical official news.
-If a clip is ready at night, schedule it for the next daytime slot instead of posting it at night.
+| TikTok | 5 | 07:00, 10:30, 14:00, 17:30, 21:00 (every 3.5-4 h, 07:00-23:00 only) |
+| YouTube Shorts | 2 | ~11:30 (before noon) + ~17:30 (17:00-18:00) |
+| Instagram Reels | 2 | ~11:30 (before noon) + ~17:30 (17:00-18:00) |
+| X | 3-4 | e.g. 10:00, 16:45 (thirst/vibe), 22:45 (+1 only for real official news) |
+- TikTok rewards volume + consistency -> it gets every clip; YT/IG get only the 2 strongest of the day
+  (they punish video spam). So TikTok-only clips are normal now; same-time rule applies only when a clip
+  goes to YT/IG too (put it on TikTok at the matching 10:30/17:30 slot or within ~1 h).
+- Nothing 23:00-07:00 on any platform (night posts got 4-19 views) except time-critical official news on X.
+- X gets FEWER posts (owner: 0-7 impressions = wasted effort). Keep the formats that can travel: thirst/vibe
+  image posts and A/B debate questions; drop filler (nostalgia, polls without an image).
+- Production need: ~5 new clips/day. Every 3 h run should finish at least 1-2 clips and fill the next empty TikTok slots.
 
 ## Goal (owner, 2026-11-18)
 **Interactions are the #1 metric**: comments, shares, saves, likes. Being a bit controversial is wanted.
