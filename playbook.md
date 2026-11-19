@@ -33,6 +33,18 @@ X does NOT repeat the clips we post on YT/TikTok/IG. X gets its own content, lik
 - images: official trailer stills in media/edits/stills/ (credit not needed in tweet; never AI 'gameplay').
 Different tweets ~1.5 h apart minimum.
 
+## THIRST / VIBE POSTS ON X (owner, 2026-11-19 — "people are horny and lustful")
+Owner's reference: "Mandy in GTA 6 🥵🔥" (single tall image of a female character in a bikini, 2-5 emoji, no other text)
+went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get the post removed):
+- Format: ONE tall/cropped image or 5-10 s clip of an attractive character/NPC (women AND men: Lucia, Jason, beach
+  NPCs, nightlife, gym, swimwear) + "<Name> in GTA 6 🥵🔥" or a one-liner ("Leonida beaches hit different 😮‍💨"). No hashtag spam (#GTA6 max).
+- Source MUST be real: official Rockstar stills/trailer frames, or real in-game footage/screenshots from a streamer
+  (credit 🎥 @creator). NEVER AI-made or edited "GTA 6" bodies/outfits (hard rule 5) — many viral ones are AI fakes;
+  if the source isn't clearly real gameplay, don't post it. Only use a character name if it is verified in-game or official.
+- Platform limits: swimwear/club outfits OK; no nudity, no sexual acts, nothing that looks underage. Adults only.
+- Every scheduled run: scan for 1 thirst/vibe candidate (new streamer screenshots/clips of beach, club, outfits,
+  character models) and schedule it in the best X slot (16:45-22:45 Vienna).
+
 ## Posts per day (chosen for the algorithms — revisit weekly from scoreboard)
 Reasoning: X rewards frequent, fast, text-first posting; TikTok rewards consistent volume of short
 clips (each one is its own lottery ticket for the For You page); Instagram penalises spammy volume and
