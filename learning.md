@@ -172,3 +172,8 @@
   12.3 s, cut ends ON the WASTED card (frame-checked at 13.9 s source, no black). New test fail_payoff_prime_time: first clip in the
   21:00 slot -> compare with the 12:30/17:30 clips once reads exist. Craft: info_build uppercases words and strips .,!? before
   matching red_words, and "ß" becomes "SS" (write red_words as e.g. "SCH*ISSE").
+- 2026-11-19 13:15 run: Buffer still frozen since 23:42 UTC (13.5 h) -> no new winner/loser. Standing winners (Monte 30 s full arc 34 likes,
+  HOW TO info 43 likes) say: full setup->payoff + a pick-a-side question. APPLIED: CaseOh "Grandma Peggy" keeps the whole callback arc
+  (prediction at 1.5 s -> payoff at 9-14 s), black-humor A/B "Too far or funny?". New test morning_slot_dark_humor: first clip in the
+  07:00 TikTok slot -> compare with the 12:47/16:15 clips once reads exist. Craft: top Twitch clips repeat across days (the 17k
+  "How did they survive" = our seaplane clip) -> check media/raw/clips + Scribe text against earlier cuts before building.
