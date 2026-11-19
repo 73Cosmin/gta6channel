@@ -123,6 +123,11 @@
   A/B "Lustig oder traurig?". Test stacked_vs_band: compare likes/shares/saves per view vs the band-layout Monte clips once reads exist.
   Craft: cutscene clips have letterbox bars + subtitles at y~930-1010 (1080p) -> game_crop [x,60,w,820] removes both; keep the facecam
   rect right of the subtitle line (x>=1250 for Monte's cam).
+- 2026-11-19 19:15 run: Buffer still frozen since 23:42 UTC (~19.5 h, longest gap yet) -> no new winner/loser; best stays MontanaBlack 30 s
+  TikTok (782 views, 34 likes, 2 shares, 1 comment). APPLIED: stacked layout + question hook that withholds the payoff ("KOMMT ER HIER NOCH
+  RAUS?") + A/B end card, on a new DE creator (Giggand) to widen the creator pool. Craft: Twitch clips made by clippers often carry
+  BURNED-IN purple-highlight subtitles at source y~990-1060 -> keep game_crop bottom <= ~940 and check the bottom edge of the gameplay half.
+  If the nightly refresh stays missing again, ask owner for native TikTok numbers in the evening review.
 
 ## Losses
 - 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
