@@ -117,6 +117,12 @@
   APPLIED: next clip = Monte again (repeat the winner's creator + tone), 16.7 s with two segments and dead air cut,
   hook line ("Was macht denn Schradin hier?") in the first 0.2 s, A/B end card "Verdient oder zu hart?". Test monte_de_repeat:
   does a 2nd Monte clip beat the 34-like benchmark? Also first owner-style thirst post on X (Lucia, tall official still).
+- 2026-11-19 16:15 run: Buffer still frozen since 23:42 UTC (16.5 h) -> no new winner/loser (the 2nd Monte clip went out 12:47, needs the nightly refresh).
+  APPLIED the owner-ref lesson ("moment choice right, packaging was the gap"): Monte again (our best creator) in the STACKED layout with a
+  question hook that withholds the payoff ("MONTE LÄSST DEN DELFIN FREI / WAS SOLL SCHON PASSIEREN?"), payoff at ~6 s, 23.7 s full arc,
+  A/B "Lustig oder traurig?". Test stacked_vs_band: compare likes/shares/saves per view vs the band-layout Monte clips once reads exist.
+  Craft: cutscene clips have letterbox bars + subtitles at y~930-1010 (1080p) -> game_crop [x,60,w,820] removes both; keep the facecam
+  rect right of the subtitle line (x>=1250 for Monte's cam).
 
 ## Losses
 - 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
