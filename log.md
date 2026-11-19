@@ -68,3 +68,8 @@
 | 2026-11-19 03:30 | TikTok | Creator clip | SPOILER: iShowSpeed's first robbery in GTA 6 | 🎥 @ishowspeed | 6afe16366fadb4be71188324 |
 | 2026-11-19 03:30 | Instagram | Creator clip | SPOILER: iShowSpeed's first robbery in GTA 6 | 🎥 @ishowspeed | 6afe1637570d3cc01e6aeb07 |
 | 2026-11-19 08:15 | X | Ranking | Ranking the main GTA protagonists (Tommy at 5 on purpose) | text | 6afe163d6fadb4be711885b9 |
+- 01:15 run (Nov 19): FIRST REAL METRICS (Buffer refreshed TikTok/IG ~23:40 UTC) -> scoreboard filled for 20 posts. Best: MontanaBlack TikTok 30 s 782 views/34 likes/2 shares/1 comment; HOW TO v5 = most TikTok likes (43) + best IG (828 views). YT never refreshes; X 0-7 impressions. No new official news in last 6h. TWITCH_TOKEN missing again (Helix 401) -> yt-dlp fallback. ElevenLabs REST OK (Scribe). OpusClip 70 min left (unused). Nov 19 caps already full on YT/IG (3/3), so the clip goes into the Nov 20 00:30 slot on all three (same time). Clip: CaseOh respray + lies to the cop (14.6 s, EN, source's burned-in subs cropped out).
+| 2026-11-20 00:30 | YouTube | Creator clip | CaseOh's 200 IQ plan to lose the cops in GTA 6 | 🎥 @caseoh_ | 6afe40cc01ba7c5e7922c2e5 |
+| 2026-11-20 00:30 | TikTok | Creator clip | CaseOh's 200 IQ plan to lose the cops in GTA 6 | 🎥 @caseoh_ | 6afe40cbc462756e9e2cc076 |
+| 2026-11-20 00:30 | Instagram | Creator clip | CaseOh's 200 IQ plan to lose the cops in GTA 6 | 🎥 @caseoh_ | 6afe40cd4cace847b3846452 |
+| 2026-11-19 10:00 | X | Question | GTA 6 out in Europe 10 h: review it in ONE word | text | 6afe40cda588bd6687a9645d |
