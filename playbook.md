@@ -41,7 +41,10 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 - Source MUST be real: official Rockstar stills/trailer frames, or real in-game footage/screenshots from a streamer
   (credit 🎥 @creator). NEVER AI-made or edited "GTA 6" bodies/outfits (hard rule 5) — many viral ones are AI fakes;
   if the source isn't clearly real gameplay, don't post it. Only use a character name if it is verified in-game or official.
-- Platform limits: swimwear/club outfits OK; no nudity, no sexual acts, nothing that looks underage. Adults only.
+- Platform limits (owner, 2026-11-19): on X, in-game nudity/sexual content is allowed (X permits consensual adult
+  content IF the account marks its media as sensitive — owner must enable that setting before any nude post goes out).
+  IG/TikTok/YouTube: never nudity or sexual content (swimwear/club outfits only). Everywhere: adults only, nothing that
+  looks underage, never AI-made or edited bodies, never real people.
 - Every scheduled run: scan for 1 thirst/vibe candidate (new streamer screenshots/clips of beach, club, outfits,
   character models) and schedule it in the best X slot (16:45-22:45 Vienna).
 
