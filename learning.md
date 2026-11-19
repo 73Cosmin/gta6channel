@@ -100,7 +100,21 @@
   + avg watch % once real reads exist. Name: lang_en_vs_de.
 - Build note: title1 at size 96 overflows 1080 px past ~16 characters -> use 84 for 17+ chars; end_text max ~22 chars.
 
+- 2026-11-19 01:15 run — FIRST REAL READS (Buffer refreshed TikTok/IG at ~23:40 UTC; YT + X still useless):
+  TikTok: MontanaBlack 30 s DE 782 views/34 likes/2 shares/1 comment, avg watch 11.95 s (best overall);
+  HOW TO v5 info+VO 761/43 likes (most likes); Papaplatte 20 s 766/15; Monte 12 s cut 727/16, avg 5.8 s;
+  launch v4 info+VO 715/15, avg watch only 3.6 s. IG: HOW TO v5 828 views/reach 720 (best IG by 4x);
+  Monte 12 s 191; launch v4 96; two early IG reels reach 1. X: 0-7 impressions per tweet (account has no reach yet).
+  LESSON 1: every TikTok lands at ~700-800 views (= baseline FYP push); what differs is likes/comments. The
+  30 s Monte clip with a full setup->payoff arc beat the 12 s cut of the same streamer on likes (34 vs 16),
+  shares and watch time -> do NOT chop clips to 12 s by default; keep the whole mini-story (setup + punchline),
+  13-20 s, and remove dead air instead. LESSON 2: the useful HOW TO info video was the like/IG winner while the
+  generic "it's out" hype video had the worst hook (3.6 s avg watch) -> useful/practical > hype; next info video
+  should be a practical day-1 tip. APPLIED this run: CaseOh clip keeps full setup (red car -> respray black ->
+  lies to the cop), 14.6 s, dead air jump-cut, A/B end question "Genius or lucky?".
+
 ## Losses
+- 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
 - 2026-11-18: none measurable (Buffer metrics frozen at send for all posts except Monte TikTok).
 
 ## Weekly reviews
