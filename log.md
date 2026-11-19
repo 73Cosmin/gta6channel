@@ -112,3 +112,4 @@
 | 2026-11-20 17:30 | TikTok | Creator clip | MontanaBlack wird neben der Polizei verprügelt | 🎥 @montanablack88 | 6aff67f36e5bb62d74ce4d26 |
 - 23:29 OWNER: TikTok 'Visibility restricted' on Papaplatte Tankstelle (6afebf374ad8a97b3a2f1cab) - unoriginal/low-quality. Lesson in learning.md.
 - 23:40 OWNER: no AI voice. Rebuilt 5 queued clips with slow-mo payoff replay (tools/replay_extend.py, 20.7-25.1 s) and swapped video in Buffer: TT Peggy (Nov 20 07:00), TT Giggand (14:00), TT Monte Polizei (17:30), YT+IG Papaplatte (11:30), YT+IG CaseOh seaplane (17:30). Monte Delfin (TT 10:30, 24 s) unchanged. CLAUDE.md checklist #3 updated.
+- 23:45 OWNER screenshot: YouTube Shorts tab shows 'No views' / 2 views on almost every Short (only exception so far: Monte 'sieht GTA 6 zum ersten Mal' 531 views on Nov 19 00:37 read). Asked owner to check YT Studio restrictions/feature eligibility.
