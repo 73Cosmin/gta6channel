@@ -34,7 +34,10 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 4. **Background music under every video** (`media/music/`, ducked under the voice, loudnorm -14 LUFS).
    TikTok: also add a trending sound in-app when possible (see playbook).
 5. Credit line + "Fan page. Not affiliated with Rockstar Games." on screen. Creator clips: `🎥 @creator`.
-6. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
+6. **Hook title placement** (owner, 2026-11-19): title block starts at y≈330 (below the TikTok search bar),
+   auto-shrunk to fit ~880 px with side margins; credit/disclaimer at y≈1640 (above TikTok's caption text).
+   info_build.py does this by default — don't override title_y/credit_y upward.
+7. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
 
 ## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
 TikTok posts use schedulingType **automatic**, like X/IG/YouTube. This overrides any scheduled prompt

@@ -56,12 +56,22 @@ f.append("[bg][fg]overlay=0:656[v0]")
 
 dr = []
 t1, t2 = (C.get("title") or [None, None]) + [None] * (2 - len(C.get("title") or []))
+# Title block (owner 2026-11-19): sits LOWER (TikTok search bar covers y<~280) and auto-shrinks so
+# each line fits inside ~880 px with side margins, never touching the screen edges.
+from PIL import ImageFont
+def fit(txt, size, border, maxw=880):
+    while size > 30 and ImageFont.truetype(F, size).getlength(txt) + 2 * border > maxw:
+        size -= 2
+    return size
+TY = C.get("title_y", 330)
+s1 = fit(t1, C.get("title1_size", 84), 8) if t1 else 0
 if t1:
-    dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize={C.get('title1_size',120)}:fontcolor=white:borderw=8:bordercolor={PINK}:"
-              f"shadowcolor=black@0.6:shadowx=4:shadowy=4:x=(w-tw)/2:y=170")
+    dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize={s1}:fontcolor=white:borderw=8:bordercolor={PINK}:"
+              f"shadowcolor=black@0.6:shadowx=4:shadowy=4:x=(w-tw)/2:y={TY}")
 if t2:
-    dr.append(f"drawtext=fontfile={F}:text='{esc(t2)}':fontsize={C.get('title2_size',58)}:fontcolor={CYAN}:borderw=6:bordercolor=black:"
-              f"x=(w-tw)/2:y=320")
+    s2 = fit(t2, C.get("title2_size", 52), 6)
+    dr.append(f"drawtext=fontfile={F}:text='{esc(t2)}':fontsize={s2}:fontcolor={CYAN}:borderw=6:bordercolor=black:"
+              f"x=(w-tw)/2:y={TY + s1 + 34}")
 W = C["words"]; red = set(C.get("red_words", []))
 for i, (w, st, en) in enumerate(W):
     nxt = W[i + 1][1] if i + 1 < len(W) else dur
@@ -88,7 +98,7 @@ if C.get("end_text"):
 for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
     if line:
         dr.append(f"drawtext=fontfile={F}:text='{esc(line)}':fontsize=28:fontcolor=white:borderw=3:bordercolor=black:"
-                  f"x=(w-tw)/2:y=h-{130 - k*42}")
+                  f"x=(w-tw)/2:y={C.get('credit_y',1640) + k*42}")
 f.append("[v0]" + ",".join(dr) + "[v1]")
 cur = "v1"
 if steps:
