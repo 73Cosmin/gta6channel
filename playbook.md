@@ -70,7 +70,7 @@ Get it through streamer clips, opinions and debates (NO memes), never through in
 ## NEW FORMAT (owner, 2026-11-20 03:55): TOP-5 COMPILATIONS
 "Top 5 <theme> in GTA 6" built from several credited creator clips around ONE take/theme (e.g. police doing nothing,
 worst landings, NPC chaos). Our ranking + countdown graphics = the original angle YouTube/TikTok want. Owner example video
-incoming -> copy its style. Main format for YouTube; single-streamer re-cuts = TikTok only.
+in media/references/top5/ (black header with coloured words + teaser, list 1.-5. left filling 5->1, clips below). Build: tools/top5_build.py (config media/configs/2026-11-20_top5_streamer_fails.json). Keep files <50 MB (crf 23). Main format for YouTube; single-streamer re-cuts = TikTok only.
 
 ## Content pillars (priority order after launch)
 1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,

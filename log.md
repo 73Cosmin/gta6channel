@@ -121,3 +121,8 @@
 - 03:37 OWNER YT Studio Content tab: all Shorts public, NO restriction/copyright icon. 0 views on CaseOh 200 IQ, Monte Schradin, Speed robbery, xQc, How-to-play; ohnePixel 2. => not blocked, just not distributed. Keeping today's 2 longer slow-mo replay Shorts (11:30 Papaplatte 20.7 s, 17:30 CaseOh seaplane 22.6 s) as the test; if both stay at 0 after 12 h -> YT drops to 1/day (best Monte clip, 25-30 s) or pauses.
 - 03:50 Research for owner (Reddit/algorithm): research/2026-11-20_algorithm.md.
 - 03:55 OWNER: likes 'Top 5 GTA moments' compilations made from several creators' clips (our ranking/take = original angle). Owner will send an example video; build the first one after studying it.
+- 03:55 First TOP-5 video built (tools/top5_build.py, 65.6 s, ranking: 5 CaseOh seaplane, 4 Giggand rotor, 3 Papaplatte Tankstelle, 2 Monte Polizei, 1 CaseOh Peggy; in-game subs + stream overlay cropped). Nov 20 17:30: YT (6afe94d1… edited, was seaplane) + IG (6afe94d2… edited, was seaplane) + TikTok (new 6affb5c9d5f8acdd0d66a918). Monte Polizei TikTok moved 17:30 -> 21:00 (6aff67f3…). Video sent to owner for review.
+| 2026-11-20 17:30 | YouTube | Top-5 compilation | Ranking the funniest GTA 6 streamer fails | 🎥 4 creators | 6afe94d1b16549e9b82c86b8 |
+| 2026-11-20 17:30 | Instagram | Top-5 compilation | Ranking the funniest GTA 6 streamer fails | 🎥 4 creators | 6afe94d2749099bdc7161c42 |
+| 2026-11-20 17:30 | TikTok | Top-5 compilation | Ranking the funniest GTA 6 streamer fails | 🎥 4 creators | 6affb5c9d5f8acdd0d66a918 |
+| 2026-11-20 21:00 | TikTok | Creator clip (moved) | MontanaBlack wird neben der Polizei verprügelt | 🎥 @montanablack88 | 6aff67f36e5bb62d74ce4d26 |
