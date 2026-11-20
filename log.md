@@ -119,3 +119,4 @@
 | 2026-11-20 17:30 | Instagram | Creator clip (swap) | Monte Polizei replaces CaseOh seaplane | 🎥 @montanablack88 | 6afe94d2749099bdc7161c42 |
 - 03:35 OWNER YT Studio screenshot: 1 subscriber, 532 views / 2.1 h watch time in 28 days (~all from Monte first-look Short). CaseOh 200 IQ (10 h), Monte Schradin (14h45), Speed robbery (1 day) = 0 views each -> YouTube is not distributing them at all. Waiting for Content tab restrictions screenshot.
 - 03:37 OWNER YT Studio Content tab: all Shorts public, NO restriction/copyright icon. 0 views on CaseOh 200 IQ, Monte Schradin, Speed robbery, xQc, How-to-play; ohnePixel 2. => not blocked, just not distributed. Keeping today's 2 longer slow-mo replay Shorts (11:30 Papaplatte 20.7 s, 17:30 CaseOh seaplane 22.6 s) as the test; if both stay at 0 after 12 h -> YT drops to 1/day (best Monte clip, 25-30 s) or pauses.
+- 03:50 Research for owner (Reddit/algorithm): research/2026-11-20_algorithm.md.
