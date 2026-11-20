@@ -126,3 +126,4 @@
 | 2026-11-20 17:30 | Instagram | Top-5 compilation | Ranking the funniest GTA 6 streamer fails | 🎥 4 creators | 6afe94d2749099bdc7161c42 |
 | 2026-11-20 17:30 | TikTok | Top-5 compilation | Ranking the funniest GTA 6 streamer fails | 🎥 4 creators | 6affb5c9d5f8acdd0d66a918 |
 | 2026-11-20 21:00 | TikTok | Creator clip (moved) | MontanaBlack wird neben der Polizei verprügelt | 🎥 @montanablack88 | 6aff67f36e5bb62d74ce4d26 |
+- 04:00 OWNER: Top-5 good, but music bed distracting -> v2 without music, whoosh+boom sting per rank (swapped in YT/IG/TT 17:30). New rule: min 1 creative video/day (CLAUDE.md + playbook formats list).

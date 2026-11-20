@@ -37,7 +37,8 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    `python3 tools/replay_extend.py <cfg> <cfg_rp> <payoff_start> <payoff_end>` -> slow-mo replay, total 20-30 s, never <15 s
    (TikTok flagged a 12 s re-cut as "unoriginal, low-quality" 2026-11-19). Info videos only: **Voice**: Nicholas – YouTuber `AHc7z8dzjrGlVbbQ8enm`, model `eleven_v4`, hyped/enthusiastic
    delivery (use tags like [excited]). Memes/vibe edits may skip voice.
-4. **Background music under every video** (`media/music/`, ducked under the voice, loudnorm -14 LUFS).
+4. **Compilations/Top-5: NO music bed** (owner 2026-11-20: "die Musik stört") - original audio + `media/music/sting_whoosh_boom.wav`
+   at every rank change (`"music": null, "sting": ...` in the top5 config). Single clips/info videos: **Background music under every video** (`media/music/`, ducked under the voice, loudnorm -14 LUFS).
    TikTok: also add a trending sound in-app when possible (see playbook).
 5. Credit line + "Fan page. Not affiliated with Rockstar Games." on screen. Creator clips: `🎥 @creator`.
 6. **Hook title placement**: stacked layout -> title on the facecam/gameplay seam (y≈700, auto-fit ~1000 px).
@@ -65,6 +66,8 @@ that says "notification"/reminder. Our own music stays baked in.
 11. Controversial creators and edgy/black humor are allowed (owner, 2026-11-18), e.g. MontanaBlack.
 
 ## Every run
+0. **At least 1 CREATIVE video per day** (owner 2026-11-20): Top-5 ranking, supercut or other compilation - not just single clips.
+   Check Buffer: if today has none scheduled, building one is the priority of this run (formats in playbook.md).
 1. `git pull`. Read `playbook.md`, `learning.md` (Current Rules), recent `log.md`.
 2. Do the task the scheduled prompt names (news check, clip run, metrics, report).
 3. **Analyze before creating**: pull Buffer metrics (`list_posts` includeMetrics) for everything posted

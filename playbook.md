@@ -72,6 +72,17 @@ Get it through streamer clips, opinions and debates (NO memes), never through in
 worst landings, NPC chaos). Our ranking + countdown graphics = the original angle YouTube/TikTok want. Owner example video
 in media/references/top5/ (black header with coloured words + teaser, list 1.-5. left filling 5->1, clips below). Build: tools/top5_build.py (config media/configs/2026-11-20_top5_streamer_fails.json). Keep files <50 MB (crf 23). Main format for YouTube; single-streamer re-cuts = TikTok only.
 
+## CREATIVE VIDEOS - MIN 1 PER DAY (owner, 2026-11-20)
+Owner wants creative cuts/compilations every day, not only single clips. Rotate formats (each = several credited creators
+around OUR idea; no music bed, sting on transitions; 40-70 s; first frame = title + teaser):
+- **Top 5 ranking** (tools/top5_build.py): funniest fails, worst landings, police moments, NPC chaos, best reactions, biggest rage.
+- **Supercut "Every streamer when..."**: the SAME moment/mission/place from 3-5 streamers back to back (e.g. first car theft,
+  first time seeing Vice City, first death) - reuse top5_build with a list of names instead of ranks.
+- **Streamer A vs Streamer B**: same challenge, side by side / back to back, viewers vote in comments.
+- **DE vs US streamers**: Monte/Papaplatte vs CaseOh/Kai reacting to the same thing.
+- **Day recap**: "GTA 6 day X in 60 seconds" - best 5-6 moments of the last 24 h.
+Titles: tease the payoff ("#1 IS PURE EVIL", "LAST ONE IS PERFECT"), never claim facts ("viral", "broke the internet") we can't back.
+
 ## Content pillars (priority order after launch)
 1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,
    jaw-drop "interesting" moments. Cut 7-30 s, hook text, captions, `🎥 @creator` credit. Biggest pillar.
