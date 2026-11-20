@@ -54,9 +54,10 @@ labels = {it["rank"]: it["label"] for it in items}
 def list_png(revealed, cur, path):
     im = Image.new("RGBA", (W, 420), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     fn, fl = font(70), font(56)
-    for k, r in enumerate([1, 2, 3, 4, 5]):
+    for k, r in enumerate(C.get("slots", [1, 2, 3, 4, 5])):  # "slots": ["A","B"] = versus mode
         y = k * 82
-        d.text((36, y), f"{r}.", font=fn, fill=COL[NUMCOL[r]], stroke_width=5, stroke_fill=(0, 0, 0))
+        d.text((36, y), f"{r}.", font=fn, fill=COL[C.get("slot_colors", {}).get(str(r), NUMCOL.get(r, "yellow"))],
+               stroke_width=5, stroke_fill=(0, 0, 0))
         if r in revealed:
             fill = COL["yellow"] if r == cur else COL["white"]
             d.text((130, y + 10), labels[r], font=fl, fill=fill, stroke_width=5, stroke_fill=(0, 0, 0))
