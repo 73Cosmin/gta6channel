@@ -1,6 +1,7 @@
 # Learning
 
 ## Current Rules
+- (2026-11-20 04:15) No new metrics (Buffer last refresh 22:44 UTC) -> no new lesson; kept applying DE-creator rule (Papaplatte next). Scheduling check: always list TikTok posts per slot before adding one - 21:00 Nov 20 had 2 clips (fixed). Twitch clipper edits often burn in their own subs at y~1000-1060 + in-game subs at y~950: crop game_crop to y<=920.
 - (2026-11-20 research, see research/2026-11-20_algorithm.md) YouTube cut reach for Shorts that re-upload other creators' videos (TeamYouTube 2026-10-01); even narration voice-over doesn't count. Our stream re-cuts = exactly that -> explains 0 views. TikTok same idea ('unoriginal'). Need OUR idea/voice per video (own gameplay, rankings/debates/compilations around a take); #shorts not needed, 3-5 hashtags.
 - (2026-11-20 03:37, YT Studio) YouTube Shorts: all public, no copyright/restriction, but 0 views on every Short after the first Monte one (531). Not blocked -> not distributed (new channel, 1 sub, ~8 short re-cut Shorts in 24 h). Test today: 20-23 s slow-mo replay versions. If still 0 after 12 h -> YT 1/day max or pause.
 - (2026-11-20 01:15, FIRST BUFFER REFRESH IN 23 h, read 22:44 UTC) LANGUAGE DECIDES TIKTOK REACH: DE creator clips get the push, EN ones don't.
