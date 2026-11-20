@@ -154,3 +154,7 @@
 - 13:25 OWNER TikTok Studio: Monte Delfin 14.3K views/273 likes/9 comments/22 shares/31 saves at 2.9 h, comments argue about the animal. Scoreboard + learning updated.
 - 13:27 OWNER: TikTok 'Your post has been boosted' -> HOW TO (Nov 18) +398 extra views via helpful-post program (search + shares). New pillar: German helpful/search videos every 1-2 days (playbook).
 - 13:30 OWNER: next scheduled run picks the topic of the first German helpful/search tip video and builds it (TODO next run).
+- 13:15 run (Nov 20): repo sync - local main was a stale Nov 18 history diverged from origin (53/53); backed up as local branch backup-stale-local-main and reset to origin/main (no local changes lost). No new official GTA 6 news (WebSearch). Metrics: Buffer still not refreshed (TikTok 22:44 UTC Nov 19) -> nothing to score; Delfin TikTok not yet 3 h old. TWITCH_TOKEN missing -> yt-dlp per channel (8 DE clips + Scribe via tools/eleven.py). quote_cut.py: "\n" in quote = 2 lines (long quotes overflowed). Fresh-first: new rewinside quote cut takes TT Nov 21 07:00, older Monte Polizei (built Nov 19) moved to Nov 22 07:00.
+| 2026-11-21 07:00 | TikTok | Quote cut | „Jetzt gleich gehen wir Lucia aus dem Knast abholen“ -> Fallschirm -> tot | 🎥 @rewinside | 6b003c1644831c50e4c24065 |
+| 2026-11-22 07:00 | TikTok | Creator clip (moved back) | MontanaBlack wird neben der Polizei verprügelt | 🎥 @montanablack88 | 6aff67f36e5bb62d74ce4d26 |
+| 2026-11-22 10:30 | TikTok | Creator clip | Eli überfällt Burgerladen - will nur sein Sandwich | 🎥 @eliasn97 | 6b003cc177e195b722fdecc6 |
