@@ -158,3 +158,5 @@
 | 2026-11-21 07:00 | TikTok | Quote cut | „Jetzt gleich gehen wir Lucia aus dem Knast abholen“ -> Fallschirm -> tot | 🎥 @rewinside | 6b003c1644831c50e4c24065 |
 | 2026-11-22 07:00 | TikTok | Creator clip (moved back) | MontanaBlack wird neben der Polizei verprügelt | 🎥 @montanablack88 | 6aff67f36e5bb62d74ce4d26 |
 | 2026-11-22 10:30 | TikTok | Creator clip | Eli überfällt Burgerladen - will nur sein Sandwich | 🎥 @eliasn97 | 6b003cc177e195b722fdecc6 |
+- 15:35 OWNER (ref x.com/kingtargaryenn/status/2123477561900425412): new X format STORY TWEETS (real streamer moment told as a story, mindblowing or bug-ragebait, 2-4 same-size frames). Rules in playbook + CLAUDE.md 'Every run' 0b. Buffer rejects >280 chars -> posted as a 5-tweet thread. First one replaced today's 19:30 text A/B (same post ID):
+| 2026-11-20 19:30 | X | Story tweet (thread, 4 images) | MontanaBlack klaut nachts einen Jet... und vergisst, dass er gesucht wird | 🎥 @montanablack88 | 6aff1497cfb6abb6944c581b |

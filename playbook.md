@@ -43,6 +43,7 @@ from that clip, all the SAME size (full 1920x1080 frames, facecam visible = proo
 - Truth rules still apply: every event in the story must be visible/audible in the clip; quotes in „…“ only if he really
   said them (Scribe transcript); no invented game features, numbers or dates (facts.md only). Ends with a question 👇 +
   `🎥 @creator`. Frames: media/edits/stills/story/<date>_<name>_<n>.jpg (ffmpeg -ss <t> -frames:v 1 -q:v 2).
+- Buffer blocks X posts >280 chars (no X Premium) -> post as a THREAD: tweet 1 = hook + 🧵 + the 2-4 images, tweets 2-5 = the story (each <=280), last = question + credit. If the owner gets X Premium, switch to one long tweet.
 - Slot: replaces the plain text A/B tweets (0-1 impressions); best X slot 16:45-22:45.
 
 ## THIRST / VIBE POSTS ON X (owner, 2026-11-19 — "people are horny and lustful")
