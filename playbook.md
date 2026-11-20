@@ -105,7 +105,7 @@ happens -> video ends right there. Only caption = that quote + emoji. 5-12 s. To
 look for: confident line -> immediate fail/crash/death. Low effort, high viral chance.
 
 ## MENTALITY EDITS (owner ref 2026-11-20, media/references/mentality_eli.mp4)
-'<Name> GTA 6 Mentality': tools/mentality_build.py. Sound = SAME as the reference: NO music bed, the ref's card hit
+'<Name> GTA 6 Mentality': tools/mentality_build.py. ALWAYS OPEN with the black '<Name> GTA 6 Mentality' card + card hit at 0.0 s (owner 2026-11-20 23:55: swipers must know the format instantly, otherwise it looks like a random clip) - the tool does this by default. Sound = SAME as the reference: NO music bed, the ref's card hit
 (media/music/mentality_card_hit.wav) on every black card + louder end hit (mentality_end_hit.wav) on the final card. Original
 streamer/game audio between cards. Facecam top, gameplay below, punchy grade, ~35 s.
 

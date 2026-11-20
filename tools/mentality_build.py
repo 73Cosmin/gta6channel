@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """'<Streamer> GTA 6 Mentality' edit (owner reference 2026-11-20, eliasn97clips style).
 
-Structure: streamer setup beat (original audio only) -> black card "<NAME> GTA 6 Mentality" + boom ->
+Structure: INTRO black card "<NAME> GTA 6 Mentality" + hit at 0.0 s (owner 2026-11-20) -> streamer setup beat (original audio only) -> black card "<NAME> GTA 6 Mentality" + boom ->
 action beats with phonk bed under the original audio, a card between beats. Layout: facecam full-width
 top (0-800), gameplay below (800-1920), punchy colour grade, one-word captions, credit + disclaimer.
 
@@ -33,7 +33,9 @@ cd = C.get("card_dur", 0.7)
 parts, timeline, t = [], [], 0.0   # timeline: (kind, start, end)
 disc = "Fan page. Not affiliated with Rockstar Games."
 for i, b in enumerate(C["beats"]):
-    if b.get("card_before"):
+    # owner 2026-11-20 23:55: ALWAYS open with the black "<Name> GTA 6 Mentality" card + hit at 0.0 s, so a
+    # swiping viewer instantly knows the format (otherwise it looks like a random clip). "intro_card": false disables.
+    if b.get("card_before") or (i == 0 and C.get("intro_card", True)):
         cp = f"{tmp}/card{i}.mp4"
         run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=black:s={W}x{H}:r=30:d={cd}",
              "-f", "lavfi", "-i", f"anullsrc=r=48000:cl=stereo", "-t", f"{cd}",
