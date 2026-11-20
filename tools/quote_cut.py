@@ -21,12 +21,11 @@ tmp = tempfile.mkdtemp()
 
 def overlay():
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    txt = f"„{C['quote']}“"
+    lines = f"„{C['quote']}“".split("\n")  # "\n" in the quote = 2 lines (long quotes)
     size = 66
     f = ImageFont.truetype(FONT, size)
-    while f.getlength(txt) > W - 200 and size > 40:
+    while max(f.getlength(t) for t in lines) > W - 200 and size > 40:
         size -= 2; f = ImageFont.truetype(FONT, size)
-    tw = f.getlength(txt)
     em = None
     if C.get("emoji"):
         ef = ImageFont.truetype(EMOJI, 109, layout_engine=ImageFont.Layout.BASIC)
@@ -34,15 +33,18 @@ def overlay():
         ImageDraw.Draw(e).text((0, 0), C["emoji"], font=ef, embedded_color=True)
         e = e.crop(e.getbbox()); k = size * 1.05 / e.height
         em = e.resize((int(e.width * k), int(e.height * k)), Image.LANCZOS)
-    total = tw + (em.width + 12 if em else 0)
-    x0, y0 = int((W - total) / 2), SEAM + 250
-    sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(sh).text((x0 + 3, y0 + 4), txt, font=f, fill=(0, 0, 0, 200))
-    img = Image.alpha_composite(img, sh.filter(ImageFilter.GaussianBlur(4)))
-    d = ImageDraw.Draw(img)
-    d.text((x0, y0), txt, font=f, fill="white", stroke_width=2, stroke_fill=(0, 0, 0, 160))
-    if em:
-        img.alpha_composite(em, (int(x0 + tw + 12), y0 + int(size * 0.08)))
+    for i, txt in enumerate(lines):
+        last = i == len(lines) - 1
+        tw = f.getlength(txt)
+        total = tw + (em.width + 12 if em and last else 0)
+        x0, y0 = int((W - total) / 2), SEAM + 250 + int(i * size * 1.25)
+        sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(sh).text((x0 + 3, y0 + 4), txt, font=f, fill=(0, 0, 0, 200))
+        img = Image.alpha_composite(img, sh.filter(ImageFilter.GaussianBlur(4)))
+        d = ImageDraw.Draw(img)
+        d.text((x0, y0), txt, font=f, fill="white", stroke_width=2, stroke_fill=(0, 0, 0, 160))
+        if em and last:
+            img.alpha_composite(em, (int(x0 + tw + 12), y0 + int(size * 0.08)))
     sf = ImageFont.truetype(FONT, 28)
     for k, line in enumerate([C["credit"], "Fan page. Not affiliated with Rockstar Games."]):
         lw = sf.getlength(line)
