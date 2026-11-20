@@ -153,3 +153,4 @@
 - 12:25 OWNER ref 'Schöner Autofahrer' (eli_clips77): new QUOTE CUT format -> tools/quote_cut.py (+ CLAUDE.md exception, playbook). First: Giggand „Guck, wie krass das aussieht“ 😍🚁 -> bird in rotor -> hard cut (6.8 s). Replaced the old full Giggand clip in TT Nov 21 14:00 (6aff3df4…, new text + video). Searched 8 fresh DE clips (Trymacs, Papaplatte, Elias, xrohat) -> none GTA quote->fail (talk/other games).
 - 13:25 OWNER TikTok Studio: Monte Delfin 14.3K views/273 likes/9 comments/22 shares/31 saves at 2.9 h, comments argue about the animal. Scoreboard + learning updated.
 - 13:27 OWNER: TikTok 'Your post has been boosted' -> HOW TO (Nov 18) +398 extra views via helpful-post program (search + shares). New pillar: German helpful/search videos every 1-2 days (playbook).
+- 13:30 OWNER: next scheduled run picks the topic of the first German helpful/search tip video and builds it (TODO next run).
