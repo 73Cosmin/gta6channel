@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """TOP-5 ranking compilation (owner refs media/references/top5/, 2026-11-20).
 
-Layout 1080x1920: black header (y 0-300) with coloured title words + teaser line, below it the
-clips in stacked layout (facecam y 300-1000, gameplay y 1000-1920). Ranking list 1.-5. on the left
+Layout 1080x1920 (TikTok-SAFE since 2026-11-20 23:51): facecam full-width top (y 0-760), coloured title words in
+rounded black boxes on the seam (+ green teaser), gameplay below (760-1920). Everything important inside x 120-860. Ranking list 1.-5. on the left
 (coloured numbers, labels appear as the countdown 5 -> 1 reaches them). One-word yellow captions,
 per-clip credit + fan-page disclaimer, music bed under the original audio, loudnorm -14 LUFS.
 
@@ -21,7 +21,13 @@ FB = "brand/fonts/TikTokSans-800.ttf"
 COL = {"white": (255, 255, 255), "green": (60, 230, 60), "pink": (255, 40, 170), "blue": (40, 150, 255),
        "yellow": (255, 220, 0), "red": (230, 30, 30), "orange": (255, 140, 20), "grey": (150, 150, 150)}
 NUMCOL = {1: "red", 2: "yellow", 3: "orange", 4: "grey", 5: "white"}
-W, H, HEAD, SEAM = 1080, 1920, 300, 1000
+W, H = 1080, 1920
+# TikTok SAFE LAYOUT (owner 2026-11-20 23:51: title + list were cut off). Phones (19.5:9) crop ~100 px off EACH
+# side of a 1080x1920 video; the search bar covers y~140-230, the caption/username y>~1560, the buttons x>~860.
+# -> no black header any more: facecam full-width top (0-SEAM), title in rounded black boxes ON the seam,
+#    gameplay below, list at x>=130 / y 990-1350, captions y 1440, credit y 1490 - all inside x 120-860.
+HEAD, SEAM = 0, 760
+SAFE_L, SAFE_R = 120, 860
 tmp = tempfile.mkdtemp(prefix="top5_")
 
 
@@ -29,22 +35,27 @@ def font(sz):
     return ImageFont.truetype(FB, sz)
 
 
-def line_img(d, parts, y, sz, maxw=1020):
+def line_img(d, parts, y, sz, maxw=SAFE_R - SAFE_L - 40, box=True):
     f = font(sz)
     while sum(d.textlength(t, font=f) for t, _ in parts) > maxw and sz > 30:
         sz -= 2; f = font(sz)
-    x = (W - sum(d.textlength(t, font=f) for t, _ in parts)) / 2
+    tw = sum(d.textlength(t, font=f) for t, _ in parts)
+    x = (SAFE_L + SAFE_R - tw) / 2          # centre of the SAFE zone (= frame centre)
+    if box:
+        d.rounded_rectangle((x - 22, y - 8, x + tw + 22, y + sz + 14), radius=18, fill=(0, 0, 0, 235))
     for t, c in parts:
-        d.text((x, y), t, font=f, fill=COL[c], stroke_width=3, stroke_fill=(0, 0, 0))
+        d.text((x, y), t, font=f, fill=COL[c], stroke_width=2, stroke_fill=(0, 0, 0))
         x += d.textlength(t, font=f)
+    return sz
 
 
-# header
-hd = Image.new("RGBA", (W, HEAD), (0, 0, 0, 255)); d = ImageDraw.Draw(hd)
+# title overlay on the facecam/gameplay seam (full-frame transparent PNG)
+hd = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(hd)
 t = C["title"]
-line_img(d, t[0], 22, 92)
-line_img(d, t[1], 122, 92)
-line_img(d, [[C.get("teaser", ""), "green"]], 232, 46)
+line_img(d, t[0], SEAM - 112, 72)
+line_img(d, t[1], SEAM - 18, 72)
+if C.get("teaser"):
+    line_img(d, [[C["teaser"], "green"]], SEAM + 76, 44)
 hd.save(f"{tmp}/head.png")
 
 items = C["items"]
@@ -52,15 +63,18 @@ labels = {it["rank"]: it["label"] for it in items}
 
 
 def list_png(revealed, cur, path):
-    im = Image.new("RGBA", (W, 420), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    fn, fl = font(70), font(56)
+    im = Image.new("RGBA", (W, 400), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    fn = font(60)
     for k, r in enumerate(C.get("slots", [1, 2, 3, 4, 5])):  # "slots": ["A","B"] = versus mode
-        y = k * 82
-        d.text((36, y), f"{r}.", font=fn, fill=COL[C.get("slot_colors", {}).get(str(r), NUMCOL.get(r, "yellow"))],
+        y = k * 72
+        d.text((SAFE_L + 10, y), f"{r}.", font=fn, fill=COL[C.get("slot_colors", {}).get(str(r), NUMCOL.get(r, "yellow"))],
                stroke_width=5, stroke_fill=(0, 0, 0))
         if r in revealed:
             fill = COL["yellow"] if r == cur else COL["white"]
-            d.text((130, y + 10), labels[r], font=fl, fill=fill, stroke_width=5, stroke_fill=(0, 0, 0))
+            sz = 48; fl = font(sz)
+            while d.textlength(labels[r], font=fl) > SAFE_R - (SAFE_L + 95) and sz > 28:
+                sz -= 2; fl = font(sz)
+            d.text((SAFE_L + 95, y + 8 + (48 - sz) // 2), labels[r], font=fl, fill=fill, stroke_width=5, stroke_fill=(0, 0, 0))
     im.save(path)
 
 
@@ -72,10 +86,12 @@ segs, revealed = [], []
 for i, it in enumerate(items):
     revealed.append(it["rank"])
     lp = f"{tmp}/list{i}.png"; list_png(revealed, it["rank"], lp)
-    cr = Image.new("RGBA", (W, 110), (0, 0, 0, 0)); d = ImageDraw.Draw(cr)
+    cr = Image.new("RGBA", (W, 90), (0, 0, 0, 0)); d = ImageDraw.Draw(cr)
     for k, s in enumerate([it["credit"], "Fan page. Not affiliated with Rockstar Games."]):
-        f = font(34 if k == 0 else 28)
-        d.text(((W - d.textlength(s, font=f)) / 2, k * 46), s, font=f, fill=(255, 255, 255),
+        sz = 30 if k == 0 else 25; f = font(sz)
+        while d.textlength(s, font=f) > SAFE_R - SAFE_L and sz > 18:
+            sz -= 1; f = font(sz)
+        d.text(((W - d.textlength(s, font=f)) / 2, k * 40), s, font=f, fill=(255, 255, 255),
                stroke_width=3, stroke_fill=(0, 0, 0))
     cp = f"{tmp}/cred{i}.png"; cr.save(cp)
     s0, s1 = it["start"], it["end"]; dur = s1 - s0
@@ -89,15 +105,15 @@ for i, it in enumerate(items):
             continue
         txt = w.upper().strip(".,!?…\"")
         c = "0xFF2A2A" if txt in red else "0xFFE600"
-        dr.append(f"drawtext=fontfile={FB}:text='{esc(txt)}':fontsize=96:fontcolor={c}:borderw=8:bordercolor=black:"
-                  f"x=(w-tw)/2:y=1520-th/2:enable='between(t,{max(0,a-s0):.2f},{b-s0:.2f})'")
+        dr.append(f"drawtext=fontfile={FB}:text='{esc(txt)}':fontsize=88:fontcolor={c}:borderw=8:bordercolor=black:"
+                  f"x=(w-tw)/2:y=1420-th/2:enable='between(t,{max(0,a-s0):.2f},{b-s0:.2f})'")
     cap = ("," + ",".join(dr)) if dr else ""
     fc = (f"[0:v]trim={s0}:{s1},setpts=PTS-STARTPTS,fps=30,split[a][b];"
-          f"[a]crop={fw}:{fh}:{fx}:{fy},scale={W}:{SEAM-HEAD}:force_original_aspect_ratio=increase,crop={W}:{SEAM-HEAD}[top];"
+          f"[a]crop={fw}:{fh}:{fx}:{fy},scale={W}:{SEAM}:force_original_aspect_ratio=increase,crop={W}:{SEAM}[top];"
           f"[b]{gcf}scale={W}:{H-SEAM}:force_original_aspect_ratio=increase,crop={W}:{H-SEAM}[bot];"
           f"color=black:s={W}x{H}:r=30:d={dur:.3f}[bg];"
-          f"[bg][top]overlay=0:{HEAD}[v1];[v1][bot]overlay=0:{SEAM}[v2];"
-          f"[v2][1:v]overlay=0:0[v3];[v3][2:v]overlay=0:1030[v4];[v4][3:v]overlay=0:1690{cap}[v];"
+          f"[bg][top]overlay=0:0[v1];[v1][bot]overlay=0:{SEAM}[v2];"
+          f"[v2][2:v]overlay=0:990[v3];[v3][3:v]overlay=0:1490{cap}[v4];[v4][1:v]overlay=0:0[v];"
           f"[0:a]atrim={s0}:{s1},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo[a]")
     out = f"{tmp}/seg{i}.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", it["footage"], "-i", f"{tmp}/head.png", "-i", lp, "-i", cp,
