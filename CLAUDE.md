@@ -66,6 +66,10 @@ that says "notification"/reminder. Our own music stays baked in.
 11. Controversial creators and edgy/black humor are allowed (owner, 2026-11-18), e.g. MontanaBlack.
 
 ## Every run
+**FRESH BEATS PLANNED (owner 2026-11-20 12:15):** whenever a run makes a new/better video or idea, put it into the
+EARLIEST open-or-weaker slot (today first) and push the older planned post back (swap dueAt with Buffer edit_post).
+Never let a new, better video wait a day while an outdated one goes out today.
+
 0. **At least 1 CREATIVE video per day** (owner 2026-11-20): Top-5 ranking, supercut or other compilation - not just single clips.
    Check Buffer: if today has none scheduled, building one is the priority of this run (formats in playbook.md).
 1. `git pull`. Read `playbook.md`, `learning.md` (Current Rules), recent `log.md`.

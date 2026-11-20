@@ -72,6 +72,11 @@ Get it through streamer clips, opinions and debates (NO memes), never through in
 worst landings, NPC chaos). Our ranking + countdown graphics = the original angle YouTube/TikTok want. Owner example video
 in media/references/top5/ (black header with coloured words + teaser, list 1.-5. left filling 5->1, clips below). Build: tools/top5_build.py (config media/configs/2026-11-20_top5_streamer_fails.json). Keep files <50 MB (crf 23). Main format for YouTube; single-streamer re-cuts = TikTok only.
 
+## MENTALITY EDITS (owner ref 2026-11-20, media/references/mentality_eli.mp4)
+'<Name> GTA 6 Mentality': tools/mentality_build.py. Sound = SAME as the reference: NO music bed, the ref's card hit
+(media/music/mentality_card_hit.wav) on every black card + louder end hit (mentality_end_hit.wav) on the final card. Original
+streamer/game audio between cards. Facecam top, gameplay below, punchy grade, ~35 s.
+
 ## CREATIVE VIDEOS - MIN 1 PER DAY (owner, 2026-11-20)
 Owner wants creative cuts/compilations every day, not only single clips. Rotate formats (each = several credited creators
 around OUR idea; no music bed, sting on transitions; 40-70 s; first frame = title + teaser):
