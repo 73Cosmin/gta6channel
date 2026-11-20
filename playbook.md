@@ -72,6 +72,11 @@ Get it through streamer clips, opinions and debates (NO memes), never through in
 worst landings, NPC chaos). Our ranking + countdown graphics = the original angle YouTube/TikTok want. Owner example video
 in media/references/top5/ (black header with coloured words + teaser, list 1.-5. left filling 5->1, clips below). Build: tools/top5_build.py (config media/configs/2026-11-20_top5_streamer_fails.json). Keep files <50 MB (crf 23). Main format for YouTube; single-streamer re-cuts = TikTok only.
 
+## HELPFUL / SEARCH VIDEOS (TikTok boost, 2026-11-20)
+TikTok boosted our HOW TO post as 'helpful' (search + shares). Every 1-2 days: one German tip video, >20 s, search-style title
+('GTA 6 Tipps für Anfänger', 'GTA 6: Das solltest du zuerst machen'), useful caption >50 chars. Facts only from facts.md or
+visible, credited gameplay. Long-tail search traffic keeps coming for weeks.
+
 ## QUOTE CUTS (owner ref 2026-11-20)
 Streamer says something ('Guck, wie krass das aussieht', 'Ich muss es tun', 'Schöner Autofahrer') -> instantly something dumb
 happens -> video ends right there. Only caption = that quote + emoji. 5-12 s. Tool: tools/quote_cut.py. When scanning clips,
