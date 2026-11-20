@@ -33,6 +33,18 @@ X does NOT repeat the clips we post on YT/TikTok/IG. X gets its own content, lik
 - images: official trailer stills in media/edits/stills/ (credit not needed in tweet; never AI 'gameplay').
 Different tweets ~1.5 h apart minimum.
 
+## X STORY TWEETS (owner 2026-11-20 ~13:35, ref x.com/kingtargaryenn/status/2123477561900425412)
+Main X format from now on. Every content run: pick ONE random real situation from a streamer clip and tell the whole
+story around it as a longer tweet (~600-1000 chars, short paragraphs, building up to the punchline), plus 2-4 frames
+from that clip, all the SAME size (full 1920x1080 frames, facecam visible = proof it's real).
+- Angle A, MINDBLOWING: how insanely good the game is (graphics, NPC reactions, physics, details) - "this isn't a trailer".
+- Angle B, RAGEBAIT: disappointment about a REAL bug/glitch seen in the clip ("years of development and THIS?").
+- Perspective: streamer's view (third person) or ICH-Perspektive as if we watched/played along. Language follows the creator.
+- Truth rules still apply: every event in the story must be visible/audible in the clip; quotes in „…“ only if he really
+  said them (Scribe transcript); no invented game features, numbers or dates (facts.md only). Ends with a question 👇 +
+  `🎥 @creator`. Frames: media/edits/stills/story/<date>_<name>_<n>.jpg (ffmpeg -ss <t> -frames:v 1 -q:v 2).
+- Slot: replaces the plain text A/B tweets (0-1 impressions); best X slot 16:45-22:45.
+
 ## THIRST / VIBE POSTS ON X (owner, 2026-11-19 — "people are horny and lustful")
 Owner's reference: "Mandy in GTA 6 🥵🔥" (single tall image of a female character in a bikini, 2-5 emoji, no other text)
 went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get the post removed):
