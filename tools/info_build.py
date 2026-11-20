@@ -124,11 +124,11 @@ for txt, t0, *rest in C.get("pop_texts", []):   # [text, start, end, y]
 if C.get("end_text"):
     txt, t0 = C["end_text"]
     dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize=58:fontcolor=white:borderw=6:bordercolor={PINK}:"
-              f"x=(w-tw)/2:y={C.get('end_text_y',1520)}:enable='gte(t,{t0})'")
+              f"x=(w-tw)/2:y={C.get('end_text_y',960)}:enable='gte(t,{t0})'")
 for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
     if line:
         dr.append(f"drawtext=fontfile={F}:text='{esc(line)}':fontsize=28:fontcolor=white:borderw=3:bordercolor=black:"
-                  f"x=(w-tw)/2:y={C.get('credit_y',1640) + k*42}")
+                  f"x=(w-tw)/2:y={C.get('credit_y',1480) + k*42}")
 f.append("[v0]" + ",".join(dr) + "[v1]")
 cur = "v1"
 if steps:

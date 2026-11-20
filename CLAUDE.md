@@ -41,8 +41,11 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    at every rank change (`"music": null, "sting": ...` in the top5 config). Single clips/info videos: **Background music under every video** (`media/music/`, ducked under the voice, loudnorm -14 LUFS).
    TikTok: also add a trending sound in-app when possible (see playbook).
 5. Credit line + "Fan page. Not affiliated with Rockstar Games." on screen. Creator clips: `🎥 @creator`.
-6. **Hook title placement**: stacked layout -> title on the facecam/gameplay seam (y≈700, auto-fit ~1000 px).
-   Band layout -> title at y≈330. Credit/disclaimer at y≈1640 (above TikTok's caption text). Don't override upward.
+6. **TikTok SAFE ZONE (owner 2026-11-20 23:51, Top-5 title + list were cut off)**: phones crop ~100 px off EACH side of a
+   1080x1920 video, the search bar covers y≈140-230, caption/username y>≈1560, buttons x>≈860. All text/graphics inside
+   x 120-860, y 240-1550. Stacked layout -> hook title on the seam (y≈700). Credit/disclaimer y≈1480 (info_build default),
+   end text y≈960, top5_build has no black header any more (title boxes on the seam). Check a phone-crop frame
+   (crop=883:1920:98:0) before publishing.
 7. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
 
 ## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
