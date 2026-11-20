@@ -126,6 +126,15 @@ CLICKBAIT + RAGEBAIT ALLOWED (owner 2026-11-20: "es geht nur um Klicks"):
 - Still NO invented news/facts/quotes/leaks (hard rules 1-4) and the video must deliver what the hook promises -
   a hook that lies gets swiped away, and viewed-vs-swiped is the main ranking signal.
 
+## INSTAGRAM ORIGINALITY WARNING (2026-11-20 ~00:20, owner screenshot: "Content you recently shared may go against our originality guidelines and affect your account", ~21 h old -> triggered by the Nov 19 single streamer re-cuts)
+Until the owner says otherwise:
+- Instagram gets NO single streamer clips (re-cuts of one creator's clip) any more. Only our own CREATIVE formats where
+  the idea/structure is ours: Top-5 rankings, Versus A/B, supercuts, German tip videos (VO), max 1 Reel per day.
+- Single clips stay on TikTok (+ YouTube). IG single posts Papaplatte Flugzeug (Nov 21 11:30, 6b001132…) and Monte Krokodil
+  (Nov 22 11:30, 6b00baa4…) moved to Buffer DRAFTS (not deleted).
+- Never repost the same file that already ran on TikTok with a TikTok watermark; no Twitch clipper overlays in frame if avoidable.
+- Watch IG reach for 7 days (Professional dashboard -> Account status). If a 2nd warning or "not eligible for recommendation" appears: pause IG completely.
+
 ## Content pillars (priority order after launch)
 1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,
    jaw-drop "interesting" moments. Cut 7-30 s, hook text, captions, `🎥 @creator` credit. Biggest pillar.
