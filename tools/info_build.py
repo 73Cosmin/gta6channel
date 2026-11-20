@@ -70,7 +70,7 @@ t1, t2 = (C.get("title") or [None, None]) + [None] * (2 - len(C.get("title") or 
 # Title block (owner 2026-11-19): sits LOWER (TikTok search bar covers y<~280) and auto-shrinks so
 # each line fits inside ~880 px with side margins, never touching the screen edges.
 from PIL import ImageFont
-def fit(txt, size, border, maxw=880):
+def fit(txt, size, border, maxw=740):  # TikTok safe width
     while size > 30 and ImageFont.truetype(F, size).getlength(txt) + 2 * border > maxw:
         size -= 2
     return size
@@ -83,7 +83,7 @@ if SPLIT and t1:
     # line, centred ON the seam between facecam and gameplay, visible the whole video.
     lines = [l for l in (t1, t2) if l]
     size = C.get("title_size", 84)
-    while size > 40 and max(ImageFont.truetype(TT, size).getlength(l) for l in lines) + 56 > 1010:
+    while size > 40 and max(ImageFont.truetype(TT, size).getlength(l) for l in lines) + 56 > 760:  # TikTok safe width (owner 2026-11-20)
         size -= 2
     ft = ImageFont.truetype(TT, size); padx, lh = 28, int(size * 1.22)
     ws = [ft.getlength(l) for l in lines]; Wb = int(max(ws) + 2 * padx + 8); Hb = lh * len(lines) + 16
@@ -108,26 +108,38 @@ for i, (w, st, en) in enumerate(W):
     end = min(nxt, en + 0.6)
     c = w.strip(".,!?").upper()
     col = RED if c in red else YEL
-    dr.append(f"drawtext=fontfile={TT if SPLIT else F}:text='{esc(c)}':fontsize=100:fontcolor={col}:borderw=9:bordercolor=black:"
+    cs = 100
+    while cs > 50 and ImageFont.truetype(TT if SPLIT else F, cs).getlength(c) + 18 > 620:   # TikTok safe width
+        cs -= 4
+    dr.append(f"drawtext=fontfile={TT if SPLIT else F}:text='{esc(c)}':fontsize={cs}:fontcolor={col}:borderw=9:bordercolor=black:"
               f"x=(w-tw)/2:y={C.get('caption_y', 1330 if SPLIT else 1380)}-th/2:enable='gte(t,{st})*lt(t,{end:.3f})'")
 steps = C.get("steps", [])
 for k, (a, b, t0) in enumerate(steps):
     y = 1310 + k * 150
-    dr.append(f"drawtext=fontfile={F}:text='{esc(a)}':fontsize=60:fontcolor=white:x=90:y={y}:box=1:"
+    dr.append(f"drawtext=fontfile={F}:text='{esc(a)}':fontsize=60:fontcolor=white:x=130:y={y}:box=1:"
               f"boxcolor=0x0A0014@0.8:boxborderw=14:enable='gte(t,{t0})'")
     dr.append(f"drawtext=fontfile={F}:text='{esc(b)}':fontsize=40:fontcolor={CYAN}:borderw=3:bordercolor=black:"
-              f"x=104:y={y+82}:enable='gte(t,{t0})'")
+              f"x=144:y={y+82}:enable='gte(t,{t0})'")
 for txt, t0, *rest in C.get("pop_texts", []):   # [text, start, end, y]
     t_end, y = (rest + [dur, 1360])[:2]
-    dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize=64:fontcolor=white:borderw=7:bordercolor={PINK}:"
+    ps = 64
+    while ps > 34 and ImageFont.truetype(F, ps).getlength(txt) + 14 > 620:
+        ps -= 2
+    dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize={ps}:fontcolor=white:borderw=7:bordercolor={PINK}:"
               f"x=(w-tw)/2:y={y}:enable='between(t,{t0},{t_end})'")
 if C.get("end_text"):
     txt, t0 = C["end_text"]
-    dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize=58:fontcolor=white:borderw=6:bordercolor={PINK}:"
+    es = 58
+    while es > 34 and ImageFont.truetype(F, es).getlength(txt) + 12 > 620:
+        es -= 2
+    dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize={es}:fontcolor=white:borderw=6:bordercolor={PINK}:"
               f"x=(w-tw)/2:y={C.get('end_text_y',960)}:enable='gte(t,{t0})'")
 for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
     if line:
-        dr.append(f"drawtext=fontfile={F}:text='{esc(line)}':fontsize=28:fontcolor=white:borderw=3:bordercolor=black:"
+        ls_ = 28
+        while ls_ > 18 and ImageFont.truetype(F, ls_).getlength(line) > 620:
+            ls_ -= 1
+        dr.append(f"drawtext=fontfile={F}:text='{esc(line)}':fontsize={ls_}:fontcolor=white:borderw=3:bordercolor=black:"
                   f"x=(w-tw)/2:y={C.get('credit_y',1480) + k*42}")
 f.append("[v0]" + ",".join(dr) + "[v1]")
 cur = "v1"

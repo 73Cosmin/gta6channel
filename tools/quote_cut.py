@@ -24,7 +24,9 @@ def overlay():
     lines = f"„{C['quote']}“".split("\n")  # "\n" in the quote = 2 lines (long quotes)
     size = 66
     f = ImageFont.truetype(FONT, size)
-    while max(f.getlength(t) for t in lines) > W - 200 and size > 40:
+    ew = 1.25 * len(C.get("emoji") or "")   # emoji ~1.25 x font size wide each, sits after the last line
+    while max(f.getlength(t) + (ew * size + 12 if i == len(lines) - 1 and ew else 0)
+              for i, t in enumerate(lines)) > 620 and size > 34:
         size -= 2; f = ImageFont.truetype(FONT, size)
     em = None
     if C.get("emoji"):
@@ -45,10 +47,12 @@ def overlay():
         d.text((x0, y0), txt, font=f, fill="white", stroke_width=2, stroke_fill=(0, 0, 0, 160))
         if em and last:
             img.alpha_composite(em, (int(x0 + tw + 12), y0 + int(size * 0.08)))
-    sf = ImageFont.truetype(FONT, 28)
     for k, line in enumerate([C["credit"], "Fan page. Not affiliated with Rockstar Games."]):
+        fs = 28; sf = ImageFont.truetype(FONT, fs)
+        while sf.getlength(line) > 620 and fs > 18:
+            fs -= 1; sf = ImageFont.truetype(FONT, fs)
         lw = sf.getlength(line)
-        d.text(((W - lw) / 2, 1640 + k * 40), line, font=sf, fill="white", stroke_width=3, stroke_fill="black")
+        d.text(((W - lw) / 2, 1480 + k * 40), line, font=sf, fill="white", stroke_width=3, stroke_fill="black")
     p = f"{tmp}/ov.png"; img.save(p); return p
 
 

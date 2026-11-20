@@ -43,7 +43,7 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 5. Credit line + "Fan page. Not affiliated with Rockstar Games." on screen. Creator clips: `🎥 @creator`.
 6. **TikTok SAFE ZONE (owner 2026-11-20 23:51, Top-5 title + list were cut off)**: phones crop ~100 px off EACH side of a
    1080x1920 video, the search bar covers y≈140-230, caption/username y>≈1560, buttons x>≈860. All text/graphics inside
-   x 120-860, y 240-1550. Stacked layout -> hook title on the seam (y≈700). Credit/disclaimer y≈1480 (info_build default),
+   x 120-860, y 240-1550; between y 900-1560 (next to the buttons) centred text max 620 px wide. Stacked layout -> hook title on the seam (y≈700). Credit/disclaimer y≈1480 (info_build default),
    end text y≈960, top5_build has no black header any more (title boxes on the seam). Check a phone-crop frame
    (crop=883:1920:98:0) before publishing.
 7. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.

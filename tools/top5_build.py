@@ -89,7 +89,7 @@ for i, it in enumerate(items):
     cr = Image.new("RGBA", (W, 90), (0, 0, 0, 0)); d = ImageDraw.Draw(cr)
     for k, s in enumerate([it["credit"], "Fan page. Not affiliated with Rockstar Games."]):
         sz = 30 if k == 0 else 25; f = font(sz)
-        while d.textlength(s, font=f) > SAFE_R - SAFE_L and sz > 18:
+        while d.textlength(s, font=f) > 620 and sz > 18:
             sz -= 1; f = font(sz)
         d.text(((W - d.textlength(s, font=f)) / 2, k * 40), s, font=f, fill=(255, 255, 255),
                stroke_width=3, stroke_fill=(0, 0, 0))
@@ -105,7 +105,10 @@ for i, it in enumerate(items):
             continue
         txt = w.upper().strip(".,!?…\"")
         c = "0xFF2A2A" if txt in red else "0xFFE600"
-        dr.append(f"drawtext=fontfile={FB}:text='{esc(txt)}':fontsize=88:fontcolor={c}:borderw=8:bordercolor=black:"
+        cs = 88
+        while cs > 48 and font(cs).getlength(txt) + 16 > 620:   # stay clear of TikTok's right-hand buttons
+            cs -= 4
+        dr.append(f"drawtext=fontfile={FB}:text='{esc(txt)}':fontsize={cs}:fontcolor={c}:borderw=8:bordercolor=black:"
                   f"x=(w-tw)/2:y=1420-th/2:enable='between(t,{max(0,a-s0):.2f},{b-s0:.2f})'")
     cap = ("," + ",".join(dr)) if dr else ""
     fc = (f"[0:v]trim={s0}:{s1},setpts=PTS-STARTPTS,fps=30,split[a][b];"
