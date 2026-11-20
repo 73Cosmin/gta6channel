@@ -1,6 +1,13 @@
 # Learning
 
 ## Current Rules
+- (2026-11-20 01:15, FIRST BUFFER REFRESH IN 23 h, read 22:44 UTC) LANGUAGE DECIDES TIKTOK REACH: DE creator clips get the push, EN ones don't.
+  TikTok: Monte Schradin DE 757 views/26 likes/1 share (10.9 h); Papaplatte DE 317 views/22 likes in 42 min (6.9% eng., before the 'unoriginal' flag);
+  CaseOh EN respray 118/5 (7.4 h); CaseOh EN seaplane 85/0 (4 h); EN night clips 0-4. The account's audience is DACH -> every TikTok/YT/IG slot = German
+  streamer (Monte first, then Papaplatte/Trymacs/xrohat/rewinside). EN creators only if the moment is huge. APPLIED: swapped YT/IG 17:30 CaseOh seaplane -> Monte Polizei;
+  new clip = Monte (Apfel). Test name de_vs_en.
+- (2026-11-20 01:15) IG Monte Schradin = 0 reach after 12 h while IG CaseOh got 234 views/11.95 s avg watch and IG HOW TO is at 1208 views -> IG may have
+  suppressed the Schradin reel (old band layout, Opa joke). Watch the next DE IG reel; if it also gets 0, ask owner to check IG account status. X stays dead (1-31 impressions; best = image hot take 31, ranking 22).
 - (2026-11-19 23:29, OWNER SCREENSHOT) TikTok restricted Papaplatte Tankstelle (12.3 s, posted 23:01) from the For You feed: "Unoriginal, low-quality" (= imported/copied without new creative edits; very short videos). Our stacked re-cut + captions + title is NOT enough transformation for TikTok. OWNER 23:40: NO AI voice on clips ("die ist nicht gut"). Fix = `tools/replay_extend.py` (slow-mo 0.5x replay of the payoff + 'NOCHMAL IN ZEITLUPE'/'SLOW-MO REPLAY' label, captions repeated) -> every creator clip 20-30 s. Avoid stream overlays/logos.
 - (2026-11-19 22:15) Buffer metrics have been empty for ~22 h on TikTok/IG/X; until they refresh, keep repeating the only proven winner (Monte DE, edgy line, A/B end question) and judge nothing else.
 - (2026-11-19 evening, data) YT/IG slots = strongest Monte-style clip only (big DE streamer, edgy line, full setup->payoff, 20-30 s). Info/hype and 12 s chops got 0 views on YT Shorts. Active test: stacked_vs_band.
