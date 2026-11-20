@@ -184,3 +184,4 @@
 | 2026-11-22 16:45 | X | Story tweet (thread 6, 4 images) | Eli zündet einen Bus an… beste Ausrede aller Zeiten | 🎥 @eliasn97 | 6b00bab620a2d09a0ab024b4 |
 | 2026-11-21 11:30 | YouTube | Creator clip | Papaplatte springt aus dem Flugzeug | 🎥 @papaplatte | 6b00bab69ffbc8503cd82cba |
 - Open after this run: X Nov 22 22:45, Nov 23 YT/IG 11:30+17:30, TT Nov 23 14:00/17:30/21:00, X Nov 23. Nov 23 needs its creative -> idea: 'Top 5 Tier-Momente in GTA 6' (Monte Krokodil, rewi Eisbär, Eli Kroko, Giggand Vogel, Monte Delfin/Wal) - none of these run as singles on Nov 23. Unused fresh DE clips: Papaplatte Fahrradunfall, Trymacs jumpscare, Monte 'Rewi gemacht' (sexual NPC scene - skip IG/TT), Monte Grenade88.
+- 23:46 OWNER TikTok Studio: Monte Delfin TT 72.2K views / 2,100 likes / 46 comments / 248 shares / 322 saves / 28 new followers at 13.3 h (avg watch 13.1 s, 22% full). Scoreboard + learning updated.
