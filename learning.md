@@ -1,6 +1,7 @@
 # Learning
 
 ## Current Rules
+- (2026-11-20 21:45 evening review) BEST today: Monte 'Delfin' TikTok (stacked, DE, black humor, wrong-animal hook) 14.3K views/273 likes/22 shares/31 saves at 2.9 h (owner read). WORST today: CaseOh 'Grandma Peggy' TikTok (EN, old band layout, 07:00) 258 views at 3.7 h = 55x less in the same morning. RULE (confirmed): packaging + language decide reach - every TikTok = DE streamer + stacked layout + a hook that withholds the payoff; no EN singles, no band layout for streamer clips. Buffer TikTok metrics frozen 22 h (7 runs) -> owner TikTok Studio reads are the only truth until Buffer refreshes. TOMORROW'S TEST (one variable = FORMAT LENGTH): quote_cut_vs_full - Nov 21 TikTok quote cuts (rewinside 07:00, 12 s; Giggand 14:00, 7 s) vs full slow-mo-replay clip (Papaplatte Flugzeug 10:30, 27 s); same language (DE), same layout (stacked). Compare views + avg watch % at 12 h.
 - (2026-11-20 19:16) 6th run without a Buffer metrics refresh -> no new numbers. Applied: DE creators only, A/B question in every caption, fresh-first swaps. New test versus_ab: an A-vs-B creative (two DE streamers doing the same kind of thing, viewers vote A/B) should pull more COMMENTS than a Top-5 because answering takes one letter - compare comments/views vs the Top-5s (Nov 20/21) once metrics exist. Scheduling lesson: never let a single clip run on the same day as a compilation that contains it (Monte Apfel was in the Nov 21 Top-5 AND a Nov 21 single) - check new creatives' items against the same day's singles. Craft: yt-dlp/ffmpeg inside a `while read` loop eat stdin -> always use `-nostdin` / `</dev/null`.
 - (2026-11-20 15:16) 5th run without a Buffer metrics refresh -> no new numbers; owner screenshots stay the only source (Delfin 14.3K). Applied standing rules: DE creators only, quote cuts 1-2/day, first German helpful tip video built (TikTok search boost). Craft: (1) quote_cut emoji = ONE plain emoji - ZWJ emoji (🐻‍❄️) splits into 2 glyphs and pushes line 2 off-screen; (2) info_build pop_texts are fixed 64 px -> max ~20 chars; credit line max ~55 chars at 28 px (drop '(Twitch)' for 4 creators); (3) a 'tip' video can be built 100% from credited streamer fails ('4 Fehler, die dich sofort killen') = helpful format with zero guessed mechanics. Test helpful_search_de: compare its TikTok views/saves vs quote cuts once metrics exist.
 - (2026-11-20 13:15) 4th run without a Buffer metrics refresh (TikTok last read 22:44 UTC Nov 19) -> no new numbers, standing DE rules applied. Testing 2 new DE creators (rewinside quote cut, Eli Sandwich) to find a 2nd Monte-level source; compare their TikTok views vs Monte/Papaplatte. Craft: quote cuts where line and fail are far apart -> pre-concat line + fail into one file (cut the menu/inventory dead air); long quotes -> "\n" in the config for 2 lines; Twitch clipper subs sit at y~1000 -> game_crop y<=970.
@@ -95,6 +96,7 @@
 - Trailer 2 file ends (~2:40) on the OLD date card "MAY 26, 2026". Never use frames/clips from ~2:35 on.
 
 ## Wins
+- 2026-11-20 Monte 'Delfin' TikTok: 14.3K views/273 likes/22 shares/31 saves at 2.9 h (owner read) - first viral post; stacked + DE + withheld-payoff hook + wrong-detail ragebait.
 - 2026-11-18 MontanaBlack TikTok (30 s, German, edgy line): 376 views/14 likes/1 share in ~40 min, 3.99% eng. but
   0 comments and avg watch 9.6 s = viewers leave at ~1/3. LESSON: cut creator clips to 10-15 s with the punchline
   inside the first 3 s, and end the caption with a question that forces a pick (A or B?) instead of an open
@@ -165,6 +167,7 @@
   avg watch % once a real read exists.
 
 ## Losses
+- 2026-11-20 CaseOh 'Grandma Peggy' TikTok (EN, band layout, 07:00): 258 views at 3.7 h vs Delfin 14.3K same morning -> EN + old layout dead on this DACH account.
 - 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
 - 2026-11-18: none measurable (Buffer metrics frozen at send for all posts except Monte TikTok).
 - 2026-11-18 YouTube Shorts: launch info 0, HOW TO info 0, Monte 12 s cut 0, Papaplatte 20 s 2 views (read ~8-18 h) vs Monte 30 s 531 -> on YT only the edgy full-arc clip got pushed.
