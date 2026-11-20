@@ -67,6 +67,11 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 **Interactions are the #1 metric**: comments, shares, saves, likes. Being a bit controversial is wanted.
 Get it through streamer clips, opinions and debates (NO memes), never through invented facts (hard rules 1-2 still apply).
 
+## NEW FORMAT (owner, 2026-11-20 03:55): TOP-5 COMPILATIONS
+"Top 5 <theme> in GTA 6" built from several credited creator clips around ONE take/theme (e.g. police doing nothing,
+worst landings, NPC chaos). Our ranking + countdown graphics = the original angle YouTube/TikTok want. Owner example video
+incoming -> copy its style. Main format for YouTube; single-streamer re-cuts = TikTok only.
+
 ## Content pillars (priority order after launch)
 1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,
    jaw-drop "interesting" moments. Cut 7-30 s, hook text, captions, `🎥 @creator` credit. Biggest pillar.
