@@ -141,3 +141,4 @@
 | 2026-11-21 14:00 | TikTok | Creator clip | MontanaBlack spielt Billard - Whoops | 🎥 @montanablack88 | 6b001131738ce4635fa12e7c |
 | 2026-11-21 11:30 | Instagram | Creator clip | Papaplatte springt aus dem Flugzeug | 🎥 @papaplatte | 6b001132d5f8acdd0d88bc02 |
 | 2026-11-21 22:45 | X | Hot take | Side stuff > missions | text | 6b0011327b0a126cebc2ca8f |
+- 10:45 OWNER (TikTok screenshot): CaseOh videos run badly (134-262 views vs DE 759-785). Scoreboard filled from screenshot; CaseOh/EN singles dropped (learning.md, watchlist.md). Only remaining CaseOh content queued: today's 17:30 Top-5 (#5 seaplane, #1 Peggy).

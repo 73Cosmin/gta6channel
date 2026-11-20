@@ -16,7 +16,7 @@
 | kaicenat | Twitch | unknown | Must-have. Chaos, screaming. Skip any pre-release story footage. |
 | ishowspeed | Twitch (mainly YouTube) | unknown | Must-have. Rage/comedy. |
 | jynxzi | Twitch | unknown | Rage, loud reactions |
-| caseoh_ | Twitch | unknown | Funny commentary |
+| caseoh_ | Twitch | unknown | DROPPED 2026-11-20 (owner: CaseOh videos run badly; EN = low reach) |
 | adinross | Twitch (mainly Kick) | unknown | Provocative; check content carefully |
 | n3on | Twitch (mainly Kick) | unknown | Drama/rage; check content carefully |
 | dukedennis | Twitch | unknown | AMP humor |
