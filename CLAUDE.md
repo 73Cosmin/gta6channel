@@ -49,6 +49,12 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 TikTok posts use schedulingType **automatic**, like X/IG/YouTube. This overrides any scheduled prompt
 that says "notification"/reminder. Our own music stays baked in.
 
+## QUOTE CUT exception (owner 2026-11-20 12:25, ref media/references/quote_cut_eli.mp4)
+Low-effort viral format: `python3 tools/quote_cut.py <cfg>`. Facecam top / gameplay below, ONE caption = the streamer's own
+ironic line in „quotes“ + emoji, video ends HARD on the dumb moment (5-12 s). Exempt from checklist #2 (word captions), #3
+(slow-mo replay / 15 s minimum), #4 (music) and #6 (hook box). Credit + disclaimer still on screen. Only for scenes where a
+line is said right BEFORE something stupid happens (setup -> instant karma). Aim 1-2 per day on TikTok.
+
 ## Hard rules (never break)
 1. Every fact needs an official source (Rockstar, Take-Two, PlayStation, Xbox) logged in `facts.md`.
    If you cannot verify it, do not post it.

@@ -150,3 +150,4 @@
 | 2026-11-20 21:00 | TikTok | Mentality edit (moved up) | Monte GTA 6 Mentality v2 | 🎥 @montanablack88 | 6b0029b59dd03fda0b05591b |
 | 2026-11-21 14:00 | TikTok | Creator clip (moved back) | Giggand Vogel im Rotor | 🎥 @giggand | 6aff3df4ed6071e70992f76a |
 | 2026-11-21 21:00 | TikTok | Creator clip (moved back) | Monte Apfel | 🎥 @montanablack88 | 6aff92504c1afd05dedb05b9 |
+- 12:25 OWNER ref 'Schöner Autofahrer' (eli_clips77): new QUOTE CUT format -> tools/quote_cut.py (+ CLAUDE.md exception, playbook). First: Giggand „Guck, wie krass das aussieht“ 😍🚁 -> bird in rotor -> hard cut (6.8 s). Replaced the old full Giggand clip in TT Nov 21 14:00 (6aff3df4…, new text + video). Searched 8 fresh DE clips (Trymacs, Papaplatte, Elias, xrohat) -> none GTA quote->fail (talk/other games).
