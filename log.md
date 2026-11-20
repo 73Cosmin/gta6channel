@@ -117,3 +117,4 @@
 | 2026-11-20 21:00 | TikTok | Creator clip | MontanaBlack wirft einen Apfel - Bullen jagen ihn | 🎥 @montanablack88 | 6aff92504c1afd05dedb05b9 |
 | 2026-11-20 17:30 | YouTube | Creator clip (swap) | Monte Polizei replaces CaseOh seaplane | 🎥 @montanablack88 | 6afe94d1b16549e9b82c86b8 |
 | 2026-11-20 17:30 | Instagram | Creator clip (swap) | Monte Polizei replaces CaseOh seaplane | 🎥 @montanablack88 | 6afe94d2749099bdc7161c42 |
+- 03:35 OWNER YT Studio screenshot: 1 subscriber, 532 views / 2.1 h watch time in 28 days (~all from Monte first-look Short). CaseOh 200 IQ (10 h), Monte Schradin (14h45), Speed robbery (1 day) = 0 views each -> YouTube is not distributing them at all. Waiting for Content tab restrictions screenshot.
