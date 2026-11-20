@@ -1,0 +1,144 @@
+{
+ "footage": "media/raw/clips/papa_beziehung_cut_rp.mp4",
+ "precrop": "null",
+ "shots": [
+  0
+ ],
+ "vo": "media/raw/clips/papa_beziehung_audio_rp.mp3",
+ "tail": 0,
+ "words": [
+  [
+   "Sh*t.",
+   3.06,
+   3.38
+  ],
+  [
+   "Are",
+   3.7,
+   3.82
+  ],
+  [
+   "you",
+   3.88,
+   3.96
+  ],
+  [
+   "good?",
+   4.04,
+   4.2
+  ],
+  [
+   "I",
+   5.56,
+   5.64
+  ],
+  [
+   "love",
+   5.74,
+   5.94
+  ],
+  [
+   "it.",
+   5.98,
+   6.14
+  ],
+  [
+   "F*ck,",
+   14.44,
+   14.68
+  ],
+  [
+   "ich",
+   14.74,
+   14.8
+  ],
+  [
+   "hab",
+   14.82,
+   14.88
+  ],
+  [
+   "versucht,",
+   14.9,
+   15.08
+  ],
+  [
+   "die",
+   15.1,
+   15.16
+  ],
+  [
+   "Beziehung",
+   15.18,
+   15.46
+  ],
+  [
+   "zu",
+   15.48,
+   15.58
+  ],
+  [
+   "dodgen,",
+   15.62,
+   15.86
+  ],
+  [
+   "aber",
+   15.9,
+   15.98
+  ],
+  [
+   "es",
+   16.02,
+   16.08
+  ],
+  [
+   "geht",
+   16.12,
+   16.28
+  ],
+  [
+   "nicht.",
+   16.32,
+   16.54
+  ]
+ ],
+ "red_words": [
+  "BEZIEHUNG",
+  "DODGEN",
+  "NICHT",
+  "F*CK",
+  "SH*T"
+ ],
+ "title": [
+  "PAPAPLATTE SPRINGT AUS",
+  "DEM FLUGZEUG - UND DANN?"
+ ],
+ "end_text": [
+  "SKILL ISSUE ODER GENIAL?",
+  23.29
+ ],
+ "music": "media/music/synthwave_trap_01.mp3",
+ "credit": "Clip: @papaplatte on Twitch",
+ "out": "media/edits/2026-11-21_clip_papaplatte_flugzeug_rp.mp4",
+ "facecam": [
+  1478,
+  288,
+  440,
+  286
+ ],
+ "game_crop": [
+  480,
+  40,
+  780,
+  880
+ ],
+ "pop_texts": [
+  [
+   "NOCHMAL IN ZEITLUPE",
+   18.29,
+   27.29,
+   1160
+  ]
+ ]
+}
