@@ -81,7 +81,13 @@ around OUR idea; no music bed, sting on transitions; 40-70 s; first frame = titl
 - **Streamer A vs Streamer B**: same challenge, side by side / back to back, viewers vote in comments.
 - **DE vs US streamers**: Monte/Papaplatte vs CaseOh/Kai reacting to the same thing.
 - **Day recap**: "GTA 6 day X in 60 seconds" - best 5-6 moments of the last 24 h.
-Titles: tease the payoff ("#1 IS PURE EVIL", "LAST ONE IS PERFECT"), never claim facts ("viral", "broke the internet") we can't back.
+CLICKBAIT + RAGEBAIT ALLOWED (owner 2026-11-20: "es geht nur um Klicks"):
+- Hype words freely: INSANE, VIRAL, BROKE THE INTERNET, NOBODY TALKS ABOUT THIS, YOU WON'T BELIEVE #1.
+- Ragebait: deliberately wrong rankings (fan favourite last), provocative takes ("German streamers are funnier than US
+  streamers", "CaseOh can't drive"), A/B questions that split people, captions that invite "wrong!" comments.
+- Teasers that hold watch time: "#1 IS PURE EVIL", "WAIT FOR #1", "LAST ONE IS PERFECT".
+- Still NO invented news/facts/quotes/leaks (hard rules 1-4) and the video must deliver what the hook promises -
+  a hook that lies gets swiped away, and viewed-vs-swiped is the main ranking signal.
 
 ## Content pillars (priority order after launch)
 1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,
