@@ -4,10 +4,10 @@
   "MONTE IN GTA 6",
   "WAS STIMMT NICHT MIT IHM?"
  ],
- "music": "media/music/phonk_mentality_01.mp3",
- "sting": "media/music/sting_whoosh_boom.wav",
+ "music": null,
+ "sting": null,
  "credit": "Clip: @montanablack88 on Twitch",
- "out": "media/edits/2026-11-21_mentality_monte.mp4",
+ "out": "media/edits/2026-11-20_mentality_monte_v2.mp4",
  "card_dur": 0.7,
  "music_vol": 0.3,
  "beats": [
@@ -866,5 +866,10 @@
    ],
    "card_before": true
   }
- ]
+ ],
+ "card_sound": "media/music/mentality_card_hit.wav",
+ "end_sound": "media/music/mentality_end_hit.wav",
+ "end_card": true,
+ "end_card_dur": 1.1,
+ "hit_lead": 0.1
 }

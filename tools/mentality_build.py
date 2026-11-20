@@ -78,8 +78,34 @@ cat = f"{tmp}/cat.mp4"
 run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c:v", "libx264", "-crf", "18",
      "-preset", "fast", "-c:a", "aac", "-ar", "48000", cat])
 
-# music bed: starts at the first card, full volume on cards, ducked under beats
+# optional end card (louder end hit)
+if C.get("end_card"):
+    ep = f"{tmp}/cardend.mp4"; ed = C.get("end_card_dur", 1.0)
+    run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=black:s={W}x{H}:r=30:d={ed}",
+         "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo", "-t", f"{ed}",
+         "-vf", f"drawtext=fontfile={FB}:text='{esc(C['card'])}':fontsize=64:fontcolor=white:x=(w-tw)/2:y=(h-th)/2",
+         "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-shortest", ep])
+    open(f"{tmp}/list.txt", "a").write(f"file '{ep}'\n")
+    timeline.append(("end", t, t + ed)); t += ed
+    run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{tmp}/list.txt", "-c:v", "libx264",
+         "-crf", "18", "-preset", "fast", "-c:a", "aac", "-ar", "48000", cat])
+
 cards = [(a, e) for k, a, e in timeline if k == "card"]
+ends = [(a, e) for k, a, e in timeline if k == "end"]
+if not C.get("music"):
+    # reference style (owner 2026-11-20): NO music bed, same hit sound on every card, louder hit on end card
+    inputs = ["-i", cat]; fa = ""; mix = ["[0:a]"]; j = 1
+    for a, e in cards + ends:
+        snd = C["end_sound"] if (a, e) in ends else C["card_sound"]
+        inputs += ["-i", snd]; d = max(0, a - C.get("hit_lead", 0.1))
+        fa += f"[{j}:a]adelay={int(d * 1000)}|{int(d * 1000)},volume={C.get('hit_vol', 1.0)}[h{j}];"
+        mix.append(f"[h{j}]"); j += 1
+    fa += f"{''.join(mix)}amix=inputs={len(mix)}:normalize=0,loudnorm=I=-14:TP=-1.0[aout]"
+    run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fa, "-map", "0:v", "-map", "[aout]",
+         "-c:v", "libx264", "-crf", str(C.get("crf", 22)), "-preset", "medium", "-c:a", "aac", "-b:a", "192k",
+         "-movflags", "+faststart", C["out"]])
+    print("ok", C["out"], f"{t:.2f}s"); sys.exit(0)
+# music bed: starts at the first card, full volume on cards, ducked under beats
 m0 = cards[0][0] if cards else 0.0
 mv = C.get("music_vol", 0.32)
 loud = "+".join(f"between(t,{a + m0 * 0:.2f},{e:.2f})" for a, e in cards) or "0"
