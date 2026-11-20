@@ -22,8 +22,8 @@
   ]
  ],
  "teaser": "(#1 IS PURE EVIL)",
- "music": "media/music/synthwave_trap_01.mp3",
- "out": "media/edits/2026-11-20_top5_streamer_fails.mp4",
+ "music": null,
+ "out": "media/edits/2026-11-20_top5_streamer_fails_v2.mp4",
  "items": [
   {
    "rank": 5,
@@ -942,5 +942,6 @@
    ],
    "credit": "Clip: @caseoh_ on Twitch"
   }
- ]
+ ],
+ "sting": "media/music/sting_whoosh_boom.wav"
 }

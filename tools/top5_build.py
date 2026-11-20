@@ -110,9 +110,25 @@ joined = f"{tmp}/joined.mp4"
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", joined], check=True)
 total = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
                                        joined]).decode())
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", joined, "-stream_loop", "-1", "-i", C["music"], "-filter_complex",
-                f"[1:a]volume=0.16,atrim=0:{total:.3f}[m];[0:a][m]amix=inputs=2:duration=first:normalize=0,"
-                "loudnorm=I=-14:TP=-1.5:LRA=11[a]",
+# audio: original clip audio; optional music bed (owner 2026-11-20: bed felt distracting -> default off);
+# optional "sting" (whoosh + boom) at every rank change
+starts, acc = [], 0.0
+for sp in segs:
+    starts.append(acc)
+    acc += float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                          "-of", "csv=p=0", sp]).decode())
+ins, fl, mix = ["-i", joined], [], ["[0:a]"]
+k = 1
+if C.get("music"):
+    ins += ["-stream_loop", "-1", "-i", C["music"]]
+    fl.append(f"[{k}:a]volume={C.get('music_vol', 0.16)},atrim=0:{total:.3f}[m]"); mix.append("[m]"); k += 1
+if C.get("sting"):
+    for j, st in enumerate(starts):
+        ins += ["-i", C["sting"]]
+        ms = int(max(0, st - 0.35) * 1000)
+        fl.append(f"[{k}:a]volume={C.get('sting_vol', 0.7)},adelay={ms}|{ms}[s{j}]"); mix.append(f"[s{j}]"); k += 1
+fl.append("".join(mix) + f"amix=inputs={len(mix)}:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
+subprocess.run(["ffmpeg", "-v", "error", "-y"] + ins + ["-filter_complex", ";".join(fl),
                 "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
                 "-movflags", "+faststart", C["out"]], check=True)
 print("ok", C["out"], f"{total:.2f}s")
