@@ -1,6 +1,7 @@
 # Learning
 
 ## Current Rules
+- (2026-11-20 03:37, YT Studio) YouTube Shorts: all public, no copyright/restriction, but 0 views on every Short after the first Monte one (531). Not blocked -> not distributed (new channel, 1 sub, ~8 short re-cut Shorts in 24 h). Test today: 20-23 s slow-mo replay versions. If still 0 after 12 h -> YT 1/day max or pause.
 - (2026-11-20 01:15, FIRST BUFFER REFRESH IN 23 h, read 22:44 UTC) LANGUAGE DECIDES TIKTOK REACH: DE creator clips get the push, EN ones don't.
   TikTok: Monte Schradin DE 757 views/26 likes/1 share (10.9 h); Papaplatte DE 317 views/22 likes in 42 min (6.9% eng., before the 'unoriginal' flag);
   CaseOh EN respray 118/5 (7.4 h); CaseOh EN seaplane 85/0 (4 h); EN night clips 0-4. The account's audience is DACH -> every TikTok/YT/IG slot = German
