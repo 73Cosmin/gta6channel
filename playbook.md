@@ -34,12 +34,21 @@ X does NOT repeat the clips we post on YT/TikTok/IG. X gets its own content, lik
 Different tweets ~1.5 h apart minimum.
 
 ## X STORY TWEETS (owner 2026-11-20 ~13:35, ref x.com/kingtargaryenn/status/2123477561900425412)
+REFERENCE, studied 2026-11-20 (via fxtwitter API): Spanish account, 19 Nov 18:04 UTC, ONE long post (~1100 chars, no thread),
+4 photos, near-square portrait (~1900x2048 each, all the same size), 3.1M views / 31.7k likes / 4k bookmarks. Story, told in the
+first person: "I've only played GTA 6 for a few hours and I'm blown away". At Jason's house he showers, changes clothes, turns on the TV
+for the first time -> the news reports the clothing-store robbery HE just did (an NPC filmed it on a phone, 'the thief took
+women's clothes' = he stole for Lucia). Ends: the world keeps going and has consequences -> 'has anyone seen this too?'.
+WHY IT WORKS: (1) opens with personal amazement, (2) small everyday actions told step by step, (3) the twist = the game REACTS to
+what you did (emergent consequence), (4) ends with a question that pulls replies. Copy this structure.
 Main X format from now on. Every content run: pick ONE random real situation from a streamer clip and tell the whole
 story around it as a longer tweet (~600-1000 chars, short paragraphs, building up to the punchline), plus 2-4 frames
-from that clip, all the SAME size (full 1920x1080 frames, facecam visible = proof it's real).
+from that clip, all the SAME size: crop each to near-square portrait 1080x1150 centred on the action (like the ref),
+  facecam may be cropped out; credit stays in the text.
 - Angle A, MINDBLOWING: how insanely good the game is (graphics, NPC reactions, physics, details) - "this isn't a trailer".
 - Angle B, RAGEBAIT: disappointment about a REAL bug/glitch seen in the clip ("years of development and THIS?").
-- Perspective: streamer's view (third person) or ICH-Perspektive as if we watched/played along. Language follows the creator.
+- Perspective: ICH-Perspektive preferred (like the ref: 'Ich spiel erst seit ein paar Stunden und bin fassungslos...') or streamer's view.
+  Best twist type: the game REACTS to something the player did (NPC films it, news/radio reports it, cops remember, NPC holds a grudge). Language follows the creator.
 - Truth rules still apply: every event in the story must be visible/audible in the clip; quotes in „…“ only if he really
   said them (Scribe transcript); no invented game features, numbers or dates (facts.md only). Ends with a question 👇 +
   `🎥 @creator`. Frames: media/edits/stills/story/<date>_<name>_<n>.jpg (ffmpeg -ss <t> -frames:v 1 -q:v 2).
