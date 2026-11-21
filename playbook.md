@@ -135,6 +135,13 @@ Until the owner says otherwise:
 - Never repost the same file that already ran on TikTok with a TikTok watermark; no Twitch clipper overlays in frame if avoidable.
 - Watch IG reach for 7 days (Professional dashboard -> Account status). If a 2nd warning or "not eligible for recommendation" appears: pause IG completely.
 
+## TIKTOK SEARCH KEYWORDS (owner question 2026-11-21)
+TikTok's in-app "Manage keywords" field can't be set through Buffer (API has no field). TikTok search indexes the caption,
+on-screen text and spoken words instead, so every TikTok caption gets a keyword line in natural German, e.g.
+"GTA 6 MontanaBlack Krokodil | GTA 6 deutsch lustige Momente", and the hook title names the creator + topic. Use the words
+people actually type: "gta 6 deutsch", "gta 6 montanablack", "gta 6 papaplatte", "gta 6 lustige momente", "gta 6 tipps",
+"gta 6 tiere", "gta 6 polizei". Hashtags: #gta6 #gta6deutsch #<creator> #fyp.
+
 ## Content pillars (priority order after launch)
 1. **Streamer/YouTuber clips** (from the moment it drops): funny fails, rage, wholesome/sad reactions,
    jaw-drop "interesting" moments. Cut 7-30 s, hook text, captions, `🎥 @creator` credit. Biggest pillar.
