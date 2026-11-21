@@ -1,6 +1,7 @@
 # Learning
 
 ## Current Rules
+- (2026-11-21 21:45 evening review) Only IG refreshed today (20:35 UTC); TikTok still frozen at 02:18 UTC (13th read) -> TikTok judged by owner reads only. BEST today: IG Top-5 'Die bösesten deutschen Streamer' (72 s, DE-only, provocative superlative) = 181 views / reach 131 / avg watch 35.8 s (~50% of 72 s) at 4.1 h - first IG reel with reach since the originality warning; the Nov 20 IG Top-5 'Streamer-Fails' (mixed, neutral title) sits at 0 views after 28 h, IG singles 0-197. WORST today: TikTok Monte 'GTA 6 langweilig' (talking-only opinion clip, ~113 views at 1 h, owner read). RULE: IG is NOT dead - it distributes our OWN DE ranking with a provocative superlative title ('bösesten', 'dümmsten') and punishes re-cut singles -> IG = exactly 1 own DE creative/day with a provocative superlative hook; no single clips. On IG a 72 s ranking held 36 s, so the '<=45 s' compilation rule is TikTok-specific. Also moved TikTok Monte Polizei (Nov 23 07:00) to drafts (day-by-day rule). TOMORROW'S TEST (one variable = TITLE TYPE on IG creative): ig_superlative_vs_ab - Nov 22 IG Versus 'Wer flieht krasser? A oder B' (40 s, neutral A/B question title) vs today's 'Die bösesten deutschen Streamer' (superlative ranking): compare IG views/reach + avg watch % at the same age (~4 h and 24 h).
 - (2026-11-21 19:18) 12th read with no Buffer refresh since 02:18 UTC -> no new scores; owner's TikTok Studio reads stay the only truth (TikTok judge at 30-45 min). Applied: slots full + TikTok cap -> no video built; the run's value went into the 1 X story (fresh Eli clip from the last 24 h, same-day). Craft: Monte's 24h clips were all just-chatting -> check clip titles/contact sheet for GTA gameplay before Scribe; instant-karma story (setup line 'Ich muss neu anfangen' -> point-blank shot at a tank -> AUSSER GEFECHT) = same setup->karma rule as quote cuts, keep that structure for X stories too.
 - (2026-11-21 16:18) 11th read with no Buffer refresh since 02:18 UTC -> no new scores. Applied: day-by-day + TikTok cap means a run with full slots should NOT build videos that would only sit as drafts. Instead it upgrades the weakest planned post (X 10:00 text tweet -> same-day-fresh Monte story thread). X text tweets: 0-5 impressions in every read so far -> replace them with story threads whenever one is ready.
 - (2026-11-21 ~15:00, OWNER) 'Man merkt in den ersten 30-45 min, ob ein TikTok gut ist.' RULE: judge a TikTok at 30-45 min, not 3 h (Delfin had 1,898 views at 1.4 h; a flop sits at ~100). Monte 'GTA 6 langweilig' = FLOP: 113 views at ~1 h. Likely why: nothing HAPPENS on screen - Monte just talks, the gameplay half is a parked car on a dirt road for 27 s; hook is an opinion, not a moment with a withheld payoff. RULE: no talking-only clips on TikTok - the gameplay half must show action (fail, chase, animal, crash) within the first 2 s. Opinion/hot takes go to X as text/story instead.
@@ -113,6 +114,7 @@
 - Trailer 2 file ends (~2:40) on the OLD date card "MAY 26, 2026". Never use frames/clips from ~2:35 on.
 
 ## Wins
+- 2026-11-21: IG Top-5 'Die bösesten deutschen Streamer' 181 views / 131 reach / 35.8 s avg watch at 4.1 h (IG not dead for own DE creatives).
 - 2026-11-20 Monte 'Delfin' TikTok: 14.3K views/273 likes/22 shares/31 saves at 2.9 h (owner read) - first viral post; stacked + DE + withheld-payoff hook + wrong-detail ragebait.
 - 2026-11-18 MontanaBlack TikTok (30 s, German, edgy line): 376 views/14 likes/1 share in ~40 min, 3.99% eng. but
   0 comments and avg watch 9.6 s = viewers leave at ~1/3. LESSON: cut creator clips to 10-15 s with the punchline
@@ -184,6 +186,7 @@
   avg watch % once a real read exists.
 
 ## Losses
+- 2026-11-21: TikTok Monte 'GTA 6 langweilig' (talk-only opinion) ~113 views at 1 h; IG Top-5 'Streamer-Fails' 0 views at 28 h; X story threads still show 0 impressions (Buffer X read stale).
 - 2026-11-20 CaseOh 'Grandma Peggy' TikTok (EN, band layout, 07:00): 258 views at 3.7 h vs Delfin 14.3K same morning -> EN + old layout dead on this DACH account.
 - 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
 - 2026-11-18: none measurable (Buffer metrics frozen at send for all posts except Monte TikTok).
