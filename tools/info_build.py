@@ -78,7 +78,8 @@ TY = C.get("title_y", 330)
 s1 = fit(t1, C.get("title1_size", 84), 8) if t1 else 0
 TT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "brand", "fonts", "TikTokSans-700.ttf")
 title_png = None
-if SPLIT and t1:
+TIKTOK_TITLE = C.get("title_style", "tiktok") == "tiktok"   # owner 2026-11-21: ALWAYS black-on-white TikTok boxes, every layout
+if TIKTOK_TITLE and t1:
     # TikTok-style title (owner ref IMG_0817): black bold TikTok Sans on white rounded boxes, one box per
     # line, centred ON the seam between facecam and gameplay, visible the whole video.
     lines = [l for l in (t1, t2) if l]
@@ -94,11 +95,11 @@ if SPLIT and t1:
     for k, (l, wl) in enumerate(zip(lines, ws)):
         d.text(((Wb - wl) / 2, 8 + k * lh + lh / 2), l, font=ft, fill=(0, 0, 0, 255), anchor="lm")
     title_png = "/tmp/ne0n_title.png"; im.save(title_png)
-    title_xy = ((1080 - Wb) // 2, SY - Hb // 2)
+    title_xy = ((1080 - Wb) // 2, (SY if SPLIT else 656) - Hb // 2)   # on the seam / top edge of the band
 elif t1:
     dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize={s1}:fontcolor=white:borderw=8:bordercolor={PINK}:"
               f"shadowcolor=black@0.6:shadowx=4:shadowy=4:x=(w-tw)/2:y={TY}")
-if t2 and not SPLIT:
+if t2 and not TIKTOK_TITLE:
     s2 = fit(t2, C.get("title2_size", 52), 6)
     dr.append(f"drawtext=fontfile={F}:text='{esc(t2)}':fontsize={s2}:fontcolor={CYAN}:borderw=6:bordercolor=black:"
               f"x=(w-tw)/2:y={TY + s1 + 34}")
