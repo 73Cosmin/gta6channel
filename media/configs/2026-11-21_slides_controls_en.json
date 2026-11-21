@@ -1,0 +1,92 @@
+{
+  "video": "media/official/trailer2_landscape_clean.mp4",
+  "out_dir": "media/edits/2026-11-21_slides_controls_en",
+  "credit": "Info: @GTA6NewsHub",
+  "slides": [
+    {
+      "t": 150,
+      "cover": true,
+      "title": [
+        "10 GTA 6 TRICKS",
+        "NOBODY TELLS YOU"
+      ],
+      "sub": "#1 saves you hours"
+    },
+    {
+      "t": 36,
+      "tips": [
+        {
+          "num": "1",
+          "head": "SELF-DRIVING CAR",
+          "how": "Waypoint > hold D-pad down > Options > hold Circle/B"
+        },
+        {
+          "num": "2",
+          "head": "FLIP YOUR CAR",
+          "how": "L3/LS, then hold Square/X"
+        }
+      ]
+    },
+    {
+      "t": 14,
+      "tips": [
+        {
+          "num": "3",
+          "head": "KEEP ENGINE RUNNING",
+          "how": "Double-tap Triangle/Y as you exit"
+        },
+        {
+          "num": "4",
+          "head": "VEHICLE MENU",
+          "how": "Hold D-pad left"
+        }
+      ]
+    },
+    {
+      "t": 20,
+      "tips": [
+        {
+          "num": "5",
+          "head": "SIT ANYWHERE",
+          "how": "On foot, hold Circle/B"
+        },
+        {
+          "num": "6",
+          "head": "DOOR ATTACK",
+          "how": "Square/X while driving"
+        }
+      ]
+    },
+    {
+      "t": 30,
+      "tips": [
+        {
+          "num": "7",
+          "head": "DUCK IN YOUR CAR",
+          "how": "Hold Circle/B while driving"
+        },
+        {
+          "num": "8",
+          "head": "SCAN CARS",
+          "how": "Hold R1/RB"
+        }
+      ]
+    },
+    {
+      "t": 8,
+      "tips": [
+        {
+          "num": "9",
+          "head": "QUICK NAV",
+          "how": "Hold D-pad down"
+        },
+        {
+          "num": "10",
+          "head": "SLOW-MO (FOCUS)",
+          "how": "Click L3 + R3"
+        }
+      ],
+      "cta": "Which one did you NOT know?"
+    }
+  ]
+}
