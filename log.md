@@ -237,3 +237,4 @@
 - Own re-designs (DE/EN, trailer frames) kept on branch claude/sweet-turing-wzvfx5 + tools/slides_build.py.
 - 14:43 OWNER TikTok profile screenshot: Monte Mentality 13K (pinned), Delfin 94.3K (pinned), Monte langweilig 80 (43 min old), Dümmster Tod 416 (~4 h), rewi Dach quote cut 265 (~7.7 h), Top-5 Streamer-Fails 714 (~21 h). TikTok notice: a post boosted as 'helpful and authentic' (HOW TO). Owner asks if we upload too often.
 - 14:47 OWNER: TikTok today 17:30 Top-5 'Böseste Streamer' 6affe7ba… -> draft (YT/IG 17:30 Top-5 unchanged); 21:00 Monte Kroko Teil 2 stays. Nov 22 TikTok = slideshow 07:00 (6b019214…) + 3 videos: Eli Mentality 10:30, Versus 17:30, Papaplatte Mentality 21:00. Test fewer_better: max 3 TikTok videos/day (+ optional slideshow morning/noon).
+- ~15:00 OWNER: Monte langweilig TT 6b018de8… = 113 views at ~1 h (flop). Rule: judge TikToks at 30-45 min; no talking-only clips (gameplay must show action in first 2 s).
