@@ -78,6 +78,7 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
 **DAY-BY-DAY ONLY (owner 2026-11-21 13:40):** clips go stale fast ("den kennt jeder bis Sonntag"). Each run makes MAX 2 videos,
 and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
 videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
+**TikTok max 3 videos/day** (owner 2026-11-21 14:47, + optionally 1 slideshow in the morning or at noon) - quality over volume.
 **No rewinside clips** (owner 2026-11-21: run badly) - not as singles, story tweets or compilation items.
 
 **FRESH BEATS PLANNED (owner 2026-11-20 12:15):** whenever a run makes a new/better video or idea, put it into the
