@@ -208,3 +208,6 @@
 | 2026-11-24 07:00 | TikTok | Quote cut (moved back) | Eli Kroko 1v1 | 🎥 @eliasn97 | 6b0066d877e195b722127e20 |
 | 2026-11-23 22:45 | X | Story tweet (thread 6, 4 images) | Trymacs legt mit dem Boot an… bedankt sich mit einem toten Vogel | 🎥 @trymacs | 6b013979dd205ed779c3bc02 |
 - Open after this run: TT Nov 23 21:00, X Nov 23 10:00, all of Nov 24 except TT 07:00. Nov 24 needs its creative (<=45 s, 3 items) + a Mentality (Trymacs/Giggand/rewi next). Unused fresh clips: Papaplatte Kampfjet-Landung (CK), Trymacs Briefkasten.
+- 09:28 Nov 21 OWNER: swap next TikTok with x.com/VideoArtGame/status/2123751964768981022 ('The stupidest death in GTA VI so far', 3.2M views; Lucia on a quad -> mud -> cow -> WASTED; real HUD gameplay, no facecam). Built 2026-11-21_clip_duemmster_tod.mp4 (blur-fill + band, hook 'DER DÜMMSTE TOD / IN GTA 6 BISHER', Scribe captions, synthwave bed, end 'SKILL ISSUE ODER PECH?', credit @VideoArtGame on X, 26.6 s, phone-crop ok). Papaplatte Flugzeug TT moved Nov 21 10:30 -> Nov 23 21:00.
+| 2026-11-21 10:30 | TikTok | Creator clip (owner pick) | Der dümmste Tod in GTA 6 bisher | 🎥 @VideoArtGame (X) | 6b015632510276624509de70 |
+| 2026-11-23 21:00 | TikTok | Creator clip (moved back) | Papaplatte Flugzeug | 🎥 @papaplatte | 6affbcaed5f8acdd0d6998cf |
