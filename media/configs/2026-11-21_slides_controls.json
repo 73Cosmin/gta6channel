@@ -1,0 +1,92 @@
+{
+  "video": "media/official/trailer2_landscape_clean.mp4",
+  "out_dir": "media/edits/2026-11-21_slides_controls",
+  "credit": "Info: @GTA6NewsHub",
+  "slides": [
+    {
+      "t": 150,
+      "cover": true,
+      "title": [
+        "10 GTA 6 TRICKS",
+        "DIE KEINER KENNT"
+      ],
+      "sub": "Nr. 1 spart dir Stunden"
+    },
+    {
+      "t": 36,
+      "tips": [
+        {
+          "num": "1",
+          "head": "AUTO FÄHRT ALLEIN",
+          "how": "Wegpunkt > D-Pad unten halten > Options > Kreis/B halten"
+        },
+        {
+          "num": "2",
+          "head": "AUTO UMDREHEN",
+          "how": "L3/LS, dann Viereck/X halten"
+        }
+      ]
+    },
+    {
+      "t": 14,
+      "tips": [
+        {
+          "num": "3",
+          "head": "MOTOR LAUFEN LASSEN",
+          "how": "Beim Aussteigen 2x Dreieck/Y"
+        },
+        {
+          "num": "4",
+          "head": "FAHRZEUG-MENÜ",
+          "how": "D-Pad links halten"
+        }
+      ]
+    },
+    {
+      "t": 20,
+      "tips": [
+        {
+          "num": "5",
+          "head": "ÜBERALL HINSETZEN",
+          "how": "Zu Fuß Kreis/B halten"
+        },
+        {
+          "num": "6",
+          "head": "TÜR-ATTACKE",
+          "how": "Beim Fahren Viereck/X"
+        }
+      ]
+    },
+    {
+      "t": 30,
+      "tips": [
+        {
+          "num": "7",
+          "head": "IM AUTO DUCKEN",
+          "how": "Beim Fahren Kreis/B halten"
+        },
+        {
+          "num": "8",
+          "head": "AUTO SCANNEN",
+          "how": "R1/RB halten"
+        }
+      ]
+    },
+    {
+      "t": 8,
+      "tips": [
+        {
+          "num": "9",
+          "head": "SCHNELL-NAVI",
+          "how": "D-Pad unten halten"
+        },
+        {
+          "num": "10",
+          "head": "ZEITLUPE (FOCUS)",
+          "how": "L3 + R3 drücken"
+        }
+      ],
+      "cta": "Welchen kanntest du nicht?"
+    }
+  ]
+}
