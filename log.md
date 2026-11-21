@@ -235,3 +235,4 @@
 - MOVED TT Monte Polizei 6aff67f3…4d26 from Nov 22 07:00 -> Nov 23 07:00.
 - Note: button mappings are NOT in facts.md (no official source; guides disagree on Auto Drive). Posted on owner's explicit OK. Slides are another account's graphics (@GTA6INTEL watermark) -> takedown = remove same day.
 - Own re-designs (DE/EN, trailer frames) kept on branch claude/sweet-turing-wzvfx5 + tools/slides_build.py.
+- 14:43 OWNER TikTok profile screenshot: Monte Mentality 13K (pinned), Delfin 94.3K (pinned), Monte langweilig 80 (43 min old), Dümmster Tod 416 (~4 h), rewi Dach quote cut 265 (~7.7 h), Top-5 Streamer-Fails 714 (~21 h). TikTok notice: a post boosted as 'helpful and authentic' (HOW TO). Owner asks if we upload too often.
