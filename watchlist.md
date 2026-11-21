@@ -29,4 +29,4 @@
 | xrohat | Twitch | unknown | DE, GTA RP |
 | gtasty | Twitch | unknown | DE, GTA V veteran |
 | giggand | Twitch | unknown | DE, GTA RP. Claimed pre-release play 2026-11-17: verify before using |
-| rewinside | Twitch | unknown | DE |
+| rewinside | Twitch | unknown | DROPPED 2026-11-21 (owner: rewi clips run badly) |
