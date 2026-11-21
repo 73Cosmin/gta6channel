@@ -228,3 +228,10 @@
 - -> DRAFTS (rewi): X rewi Eisbär story 6affe7c1… (was today 16:45), TT rewi Eisbär quote cut 6b0066d877…7d6d (was Nov 22 14:00).
 - -> DRAFTS (too far ahead, fallback only): TT Monte Apfel 6aff9250…, TT Eli Sandwich 6b003cc1…, TT Giggand Rotor 6aff3df4…, X Giggand story 6b010ef1…, Top 3 Tier TT/YT/IG 6b010ee2…/ee3…/ee4… (contains rewi - re-cut before reuse), TT Papaplatte Flugzeug 6affbcae…, X Trymacs story 6b013979…, TT Eli Kroko 6b0066d8…7e20, TT Tipps 6b006807… (contains rewi tip - re-cut before reuse), TT Eli Feuer 6b01632c5e…, X Monte Reh story 6b01632c51….
 - Still scheduled: today TT 17:30 Top-5 (+YT/IG), TT 21:00 Monte Kroko Teil 2, X 22:45 Papaplatte Militärbasis; Nov 22 as before (TT 07:00/10:30/17:30/21:00, YT 11:30+17:30, IG 17:30, X 10:00/16:45/22:45). Nov 22 TT 14:00 now open for a fresh clip.
+
+## 2026-11-21 13:45 — owner request: TikTok slideshow from @GTA6NewsHub tweet
+- OWNER asked: turn x.com/gta6newshub/status/2124084824302383176 (10 GTA VI controls, 6 slides) into a TikTok slideshow, same images + same point texts, only the caption shortened. Owner approved after preview.
+- SCHEDULED TT photo post 6b019214846b0ee907097f67 Nov 22 07:00: 6 original slides (media/edits/2026-11-21_slides_controls_orig/), caption "10 GTA 6 controls you probably missed 🎮 Save this for later." + 📸 @GTA6NewsHub credit.
+- MOVED TT Monte Polizei 6aff67f3…4d26 from Nov 22 07:00 -> Nov 23 07:00.
+- Note: button mappings are NOT in facts.md (no official source; guides disagree on Auto Drive). Posted on owner's explicit OK. Slides are another account's graphics (@GTA6INTEL watermark) -> takedown = remove same day.
+- Own re-designs (DE/EN, trailer frames) kept on branch claude/sweet-turing-wzvfx5 + tools/slides_build.py.
