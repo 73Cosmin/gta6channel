@@ -75,6 +75,11 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
 11. Controversial creators and edgy/black humor are allowed (owner, 2026-11-18), e.g. MontanaBlack.
 
 ## Every run
+**DAY-BY-DAY ONLY (owner 2026-11-21 13:40):** clips go stale fast ("den kennt jeder bis Sonntag"). Each run makes MAX 2 videos,
+and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
+videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
+**No rewinside clips** (owner 2026-11-21: run badly) - not as singles, story tweets or compilation items.
+
 **FRESH BEATS PLANNED (owner 2026-11-20 12:15):** whenever a run makes a new/better video or idea, put it into the
 EARLIEST open-or-weaker slot (today first) and push the older planned post back (swap dueAt with Buffer edit_post).
 Never let a new, better video wait a day while an outdated one goes out today.
