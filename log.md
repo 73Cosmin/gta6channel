@@ -195,3 +195,4 @@
 | 2026-11-23 14:00 | TikTok | Quote cut (moved back) | Giggand Rotor | 🎥 @giggand | 6aff3df4ed6071e70992f76a |
 | 2026-11-22 22:45 | X | Story tweet (thread 5, 4 images) | Papaplatte klaut eine Yacht… und wird erwischt | 🎥 @papaplatte | 6b00e6025e993799d83d5a6e |
 - Open after this run: Nov 23 TT 17:30/21:00, YT/IG Nov 23 11:30+17:30, X Nov 23. Nov 23 creative still needed -> make it <=45 s (3 items) per new rule, e.g. 'Top 3 Tier-Momente'. Unused fresh clips in media/raw/clips/new1121: Eli Oma (quote cut candidate 'Fresse, Oma.'), Eli rastet aus, Trymacs pool (sexual joke - X only).
+- 03:10 Nov 21 OWNER IG Account Status: only Monetization flagged ('Established presence' = account too new for monetization, not a penalty). Content removals, Recommendation eligibility, Features, Under-18 availability all GREEN -> reach not restricted. Keep IG creative-only rule as precaution; IG continues with Top-5 Nov 21 17:30 + Versus Nov 22 17:30.
