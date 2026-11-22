@@ -1,0 +1,51 @@
+{
+ "out_dir": "media/edits/2026-11-23_slides_gta6_passiert",
+ "slides": [
+  {
+   "img": "media/edits/stills/story/2026-11-21_monte_reh_1.jpg",
+   "cover": true,
+   "title": [
+    "5 DINGE, DIE IN",
+    "GTA 6 EINFACH PASSIEREN"
+   ],
+   "sub": "Nr. 1 ist eiskalt",
+   "credit": "Gesehen bei deutschen Streamern"
+  },
+  {
+   "img": "media/edits/stills/story/2026-11-22_papa_hai_2.jpg",
+   "num": "1",
+   "head": "DAS SPIEL ERKLÄRT DICH ZUM PSYCHO",
+   "how": "Papaplatte harpuniert einen Delfin - und das Spiel blendet ein: 'Jason is now psycho'",
+   "credit": "🎥 @papaplatte"
+  },
+  {
+   "img": "media/edits/stills/story/2026-11-24_monte_feuerwehr_1.jpg",
+   "num": "2",
+   "head": "DIE FEUERWEHR LÖSCHT UNFÄLLE",
+   "how": "Monte findet einen Heli-Absturz auf dem Highway - die Feuerwehr spritzt schon",
+   "credit": "🎥 @montanablack88"
+  },
+  {
+   "img": "media/edits/stills/story/2026-11-21_monte_reh_4.jpg",
+   "num": "3",
+   "head": "DU KANNST TIERE TRAGEN",
+   "how": "Monte findet ein totes Reh im Sumpf - und nimmt es einfach auf die Schultern",
+   "credit": "🎥 @montanablack88"
+  },
+  {
+   "img": "media/edits/stills/story/2026-11-22_papa_hai_3.jpg",
+   "num": "4",
+   "head": "UNTER WASSER WARTEN HAIE",
+   "how": "Papaplatte taucht mit einem Kumpel - ein Hai schnappt ihn sich direkt vor ihm",
+   "credit": "🎥 @papaplatte"
+  },
+  {
+   "img": "media/edits/stills/story/2026-11-21_eli_grill_3.jpg",
+   "num": "5",
+   "head": "TANKANHÄNGER EXPLODIEREN",
+   "how": "Eli schießt aus nächster Nähe auf einen Tankanhänger - danach: 'Außer Gefecht'",
+   "credit": "🎥 @eliasn97",
+   "cta": "Welche kanntest du NICHT? Schreib die Nummer"
+  }
+ ]
+}
