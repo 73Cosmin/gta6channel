@@ -263,3 +263,6 @@
 - 18:45 OWNER screenshot (TikTok profile 18:41): slideshow controls 3,574 (winner), Versus 129 @1.2 h, Eli Mentality 327, Kroko Teil 2 263, langweilig 442, Dümmster Tod 500, pinned Delfin 118.7K / Monte Mentality 16.1K -> scoreboard + lesson. Built own DE slideshow (6 slides 4:5, tools/slides45_build.py):
 | 2026-11-23 07:00 | TikTok | Slideshow (own, DE) | 5 Dinge, die in GTA 6 einfach passieren | 🎥 @papaplatte @montanablack88 @eliasn97 | 6b0329decc364169c1720b03 |
 - 18:50 OWNER: 'Das ist die schlechteste Slideshow die ich jemals gesehen habe.' -> TT slideshow 6b0329decc364169c1720b03 moved to DRAFT (will not post Nov 23 07:00). Do not reuse.
+- 19:18 run (Nov 22): no new official GTA 6 news in last 6 h (WebSearch). Buffer metrics: no refresh (TT 20:48 UTC Nov 21) -> nothing to score. Today full (TT 21:00 Papaplatte Mentality, X 22:45 Trymacs story; TikTok cap reached). OpusClip 70 min left (unused). Built from Monte's top 24h clip (twitch.tv/montanablack88/clip/SlickTenuousFriesFailFish-727ygMxv79ctxfgt):
+| 2026-11-23 07:00 | TikTok | Quote cut (8 s, stacked) | „Ich möchte die Katze streicheln.“ 🐈 -> Tritt | 🎥 @montanablack88 | 6b0332c6d864a01105e6126f |
+| 2026-11-23 10:00 | X | Story tweet (thread 6, 4 images) | Monte will nur eine Katze streicheln… am Ende kniet ein Bauarbeiter auf der Straße | 🎥 @montanablack88 | 6b0332c7846b0ee907aa24e0 |
