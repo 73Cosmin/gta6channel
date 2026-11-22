@@ -1,0 +1,393 @@
+{
+ "title": [
+  [
+   [
+    "TOP 3 ",
+    "white"
+   ],
+   [
+    "TIER-MOMENTE",
+    "green"
+   ]
+  ],
+  [
+   [
+    "DEUTSCHER STREAMER ",
+    "pink"
+   ],
+   [
+    "IN GTA 6",
+    "blue"
+   ]
+  ]
+ ],
+ "teaser": "(#1 IST KEIN DELFIN)",
+ "music": null,
+ "sting": "media/music/sting_whoosh_boom.wav",
+ "crf": 24,
+ "out": "media/edits/2026-11-23_top3_tier_momente_v2.mp4",
+ "items": [
+  {
+   "rank": 3,
+   "label": "Krokodil 1v1",
+   "footage": "media/raw/clips/eli_kroko_cut.mp4",
+   "start": 0,
+   "end": 11.25,
+   "facecam": [
+    1440,
+    252,
+    468,
+    268
+   ],
+   "game_crop": [
+    500,
+    90,
+    705,
+    850
+   ],
+   "words": [
+    [
+     "Ich",
+     0.08,
+     0.14
+    ],
+    [
+     "kann",
+     0.16,
+     0.26
+    ],
+    [
+     "nicht",
+     0.28,
+     0.38
+    ],
+    [
+     "eins",
+     0.42,
+     0.56
+    ],
+    [
+     "gegen",
+     0.58,
+     0.72
+    ],
+    [
+     "eins",
+     0.76,
+     0.92
+    ],
+    [
+     "mit",
+     0.94,
+     1.06
+    ],
+    [
+     "dem?",
+     1.08,
+     1.34
+    ],
+    [
+     "Komm",
+     2.18,
+     2.28
+    ],
+    [
+     "mal.",
+     2.32,
+     2.5
+    ],
+    [
+     "Komm",
+     4.06,
+     4.16
+    ],
+    [
+     "mal.",
+     4.18,
+     4.44
+    ],
+    [
+     "Komm",
+     6.04,
+     6.16
+    ],
+    [
+     "mal.",
+     6.6,
+     6.64
+    ],
+    [
+     "Komm",
+     6.7,
+     6.8
+    ],
+    [
+     "mal",
+     6.82,
+     6.88
+    ],
+    [
+     "her.",
+     6.92,
+     7.22
+    ]
+   ],
+   "red_words": [
+    "EINS",
+    "KOMM"
+   ],
+   "credit": "Clip: @eliasn97 on Twitch"
+  },
+  {
+   "rank": 2,
+   "label": "Pony-Futter",
+   "footage": "media/raw/clips/monte_kroko_cut.mp4",
+   "start": 6.2,
+   "end": 22.6,
+   "facecam": [
+    1210,
+    745,
+    500,
+    325
+   ],
+   "game_crop": [
+    180,
+    0,
+    956,
+    1080
+   ],
+   "words": [
+    [
+     "Nicht,",
+     6.48,
+     6.62
+    ],
+    [
+     "nicht",
+     6.74,
+     6.86
+    ],
+    [
+     "mich",
+     6.88,
+     7.0
+    ],
+    [
+     "beißen,",
+     7.04,
+     7.28
+    ],
+    [
+     "nicht",
+     7.32,
+     7.44
+    ],
+    [
+     "mich",
+     7.48,
+     7.6
+    ],
+    [
+     "beißen.",
+     7.62,
+     7.98
+    ],
+    [
+     "Friss",
+     10.32,
+     10.56
+    ],
+    [
+     "doch",
+     10.6,
+     10.72
+    ],
+    [
+     "mal,",
+     10.76,
+     10.92
+    ],
+    [
+     "du",
+     10.98,
+     11.06
+    ],
+    [
+     "Idi--",
+     11.12,
+     11.24
+    ],
+    [
+     "Falsche",
+     13.14,
+     13.42
+    ],
+    [
+     "Beute,",
+     13.48,
+     13.76
+    ],
+    [
+     "falsche",
+     13.88,
+     14.16
+    ],
+    [
+     "Beute,",
+     14.2,
+     14.46
+    ],
+    [
+     "falsche",
+     14.54,
+     14.78
+    ],
+    [
+     "Beute.",
+     14.84,
+     15.26
+    ],
+    [
+     "Meine",
+     18.58,
+     18.84
+    ],
+    [
+     "Güte.",
+     18.88,
+     19.24
+    ],
+    [
+     "Oh,",
+     20.52,
+     20.58
+    ],
+    [
+     "er",
+     20.6,
+     20.64
+    ],
+    [
+     "hat",
+     20.66,
+     20.7
+    ],
+    [
+     "mir",
+     20.72,
+     20.8
+    ],
+    [
+     "das",
+     20.82,
+     20.9
+    ],
+    [
+     "ganze",
+     20.94,
+     21.16
+    ],
+    [
+     "Bein",
+     21.34,
+     21.54
+    ],
+    [
+     "zerfetzt.",
+     21.82,
+     22.34
+    ]
+   ],
+   "red_words": [
+    "BEUTE",
+    "BEIN",
+    "ZERFETZT",
+    "MAHLZEIT",
+    "BEIßEN"
+   ],
+   "credit": "Clip: @montanablack88 on Twitch"
+  },
+  {
+   "rank": 1,
+   "label": "Delfin frei",
+   "footage": "media/raw/clips/monte_wal_cut.mp4",
+   "start": 9.6,
+   "end": 23.7,
+   "facecam": [
+    1250,
+    700,
+    570,
+    370
+   ],
+   "game_crop": [
+    250,
+    60,
+    1150,
+    820
+   ],
+   "words": [
+    [
+     "Ja!",
+     10.2,
+     10.68
+    ],
+    [
+     "Ja,",
+     11.32,
+     11.62
+    ],
+    [
+     "Digga.",
+     11.92,
+     12.38
+    ],
+    [
+     "Jawohl.",
+     13.28,
+     14.12
+    ],
+    [
+     "Oh",
+     20.9,
+     21.08
+    ],
+    [
+     "Sh*t.",
+     21.12,
+     21.32
+    ],
+    [
+     "Ey,",
+     22.42,
+     22.52
+    ],
+    [
+     "Digga,",
+     22.58,
+     22.88
+    ],
+    [
+     "ey",
+     22.92,
+     23.06
+    ],
+    [
+     "Digga",
+     23.1,
+     23.4
+    ]
+   ],
+   "red_words": [
+    "JA",
+    "JAWOHL",
+    "SH*T"
+   ],
+   "credit": "Clip: @montanablack88 on Twitch"
+  }
+ ],
+ "slots": [
+  1,
+  2,
+  3
+ ]
+}
