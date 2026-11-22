@@ -1,6 +1,7 @@
 # Learning
 
 ## Current Rules
+- (2026-11-22 21:45 evening review, FIRST BUFFER REFRESH SINCE NOV 21: TT 19:49 UTC, IG 19:36, X 19:51) BEST today: TikTok slideshow '10 GTA 6 controls you probably missed' = 3,588 views / 167 likes (4.7%) / 12 shares at 13.8 h - 10x every video of the day. WORST: X story threads (Monte Sumpf 6 impr. at 10.8 h, Papaplatte Delfin 5 at 4 h) and YouTube Krokodil 0. Videos today: Eli Mentality 328 at 10.3 h (non-Monte Mentality = baseline), Versus Monte vs Papaplatte TT 225 at 3.3 h but IG 288 at 3.1 h (IG beat TT for the first time - own creative format is what IG rewards). Late reads: Delfin 120.5K at 58 h, Monte Mentality 16.2K at 48 h (both still growing slowly), Papa Tankstelle 915 at 70 h. LESSON/RULE: save-able concrete info (button steps) in photo mode beats any non-Monte video by ~10x and gets the best like rate after Delfin -> keep 1 how-to slideshow per day in the morning slot, but ONLY with the controls-slideshow recipe (bright official images, huge headline, concrete actionable steps, every fact in facts.md); the owner-rejected '5 Dinge' design stays banned. TOMORROW'S TEST quote_cut_creator (one variable = creator): Monte Katze quote cut 07:00 vs Papaplatte Hai quote cut 10:30 - same format (animal + setup line -> instant karma, 8-12 s, stacked, no music); compare views at 1 h and 12 h.
 - (2026-11-22 19:18) No Buffer refresh (TT 20:48 UTC Nov 21; X stories only send-time snapshots) -> no new scores. Today already at TikTok cap (slideshow + 3 videos) and X 3/3, so the run built for tomorrow's FIRST open slots only (TT 07:00 freed by the rejected slideshow, X 10:00). Applied: pick by Twitch clip views - Monte's #1 clip of the last 24 h (1,025 views, 'tötet Katze') = animal + black humor + setup line ('Ich möchte die Katze streicheln.') -> instant karma, i.e. the Delfin + quote-cut recipe in one clip; same moment told as X story with the game-reacts twist (worker kneels next to the cat). Test quote_cut_animal_monte: compare vs Papaplatte 'friendly' quote cut (10:30 same day) at 30-45 min.
 - (2026-11-22 18:50, OWNER) Own slideshow '5 Dinge, die in GTA 6 einfach passieren' = 'die schlechteste Slideshow, die ich je gesehen habe' -> pulled to draft. Why it failed vs the 3.5K controls slideshow: dark, blurry stream screenshots with facecam/HUD junk instead of clean, bright key art; small text in a dark lower half instead of one huge headline; 'things that happen' is trivia, not a save-able how-to with concrete button steps; cover had no strong visual or promise. RULE: no own slideshow without (1) clean bright images (official trailer/screenshot frames), (2) huge bold headline on the cover, (3) concrete actionable info the viewer saves; show the owner a preview before the first one of a new design.
 - (2026-11-22 18:41, OWNER TikTok profile) 'Die letzten Videos laufen wieder nicht gut außer das eine.' Reads: SLIDESHOW '10 hidden GTA VI controls' (repost, photo mode, 07:00) = 3,574 views at ~12 h = 7-10x every video posted since Nov 21; Versus Monte vs Papaplatte 129 at ~1.2 h (flop), Eli Mentality 327 at 9 h (non-Monte Mentality = baseline, not Monte's 16.1K), Monte Kroko Teil 2 263, Monte langweilig 442, Dümmster Tod 500. TikTok also boosted the EN how-to post again as 'helpful'. LESSON: on this account, SAVE-ABLE HELPFUL content (slideshow/how-to) beats re-cut streamer clips; streamer clips only break out with Monte + one strong moment (Delfin 118.7K, Mentality 16.1K). APPLY: (1) slideshows only per the 18:50 rule below (owner rejected the first own one); (2) videos per day stay <=3 and only Monte-level moments; (3) no more non-Monte Mentality edits until one beats 1K; (4) A/B Versus format on TikTok paused (129).
@@ -124,6 +125,7 @@
 - Trailer 2 file ends (~2:40) on the OLD date card "MAY 26, 2026". Never use frames/clips from ~2:35 on.
 
 ## Wins
+- 2026-11-22 TikTok slideshow (repost, credited) '10 GTA 6 controls you probably missed' 3,588 views / 167 likes / 12 shares at 13.8 h (07:00 slot).
 - 2026-11-21: IG Top-5 'Die bösesten deutschen Streamer' 181 views / 131 reach / 35.8 s avg watch at 4.1 h (IG not dead for own DE creatives).
 - 2026-11-20 Monte 'Delfin' TikTok: 14.3K views/273 likes/22 shares/31 saves at 2.9 h (owner read) - first viral post; stacked + DE + withheld-payoff hook + wrong-detail ragebait.
 - 2026-11-18 MontanaBlack TikTok (30 s, German, edgy line): 376 views/14 likes/1 share in ~40 min, 3.99% eng. but
@@ -196,6 +198,7 @@
   avg watch % once a real read exists.
 
 ## Losses
+- 2026-11-22: X story threads 0-6 impressions (Eli Tankstelle 0 at 24.6 h, Papa Militärbasis 4 at 22 h); YouTube still 0-1 per Short; Eli Mentality only 328 (Mentality works for Monte, not as a format by itself).
 - 2026-11-21: TikTok Monte 'GTA 6 langweilig' (talk-only opinion) ~113 views at 1 h; IG Top-5 'Streamer-Fails' 0 views at 28 h; X story threads still show 0 impressions (Buffer X read stale).
 - 2026-11-20 CaseOh 'Grandma Peggy' TikTok (EN, band layout, 07:00): 258 views at 3.7 h vs Delfin 14.3K same morning -> EN + old layout dead on this DACH account.
 - 2026-11-18 launch v4 info video: 3.6 s avg watch on TikTok, 96 views IG -> generic hype hook loses.
@@ -203,6 +206,11 @@
 - 2026-11-18 YouTube Shorts: launch info 0, HOW TO info 0, Monte 12 s cut 0, Papaplatte 20 s 2 views (read ~8-18 h) vs Monte 30 s 531 -> on YT only the edgy full-arc clip got pushed.
 
 ## Weekly reviews
+### Week 1 (2026-11-18 -> 2026-11-22, review Sun Nov 22; best read per post, 77 scored rows)
+- TOP 3: (1) TikTok Monte 'Delfin' (stacked, DE, wrong-animal hook) 75.4K at 24 h -> 120.5K at 58 h, 3,152 likes, 414 shares, 106 comments; (2) TikTok Monte 'GTA 6 Mentality' v2 15.3K at 24 h -> 16.2K at 48 h; (3) TikTok slideshow '10 controls' 3,588 at 13.8 h.
+- BOTTOM 3: (1) IG single creator re-cuts (xQc, ohnePixel, Speed, Monte Schradin) 0 views + originality warning; (2) YouTube Shorts 0-1 views on every post since Nov 19; (3) X text/story tweets median 5 impressions (n=28).
+- Median by platform: TikTok 726 (n=23), X 5, IG 1, YouTube 0. TikTok by pillar: Mentality 7.8K (n=2, Monte 15.3K vs Eli 328), Tips slideshow 3,574 (n=1), Top-5 726, creator single 682 (n=17). TikTok by slot: 10:30 and 21:00 carry the 2 breakouts; 07:00/17:30 ~760-780; 14:00 ~440; 00-03 h 4-19.
+- Changes: playbook table rewritten to the real cadence (TikTok 3 videos + 1 slideshow, YT 1, IG 1 creative, X 3). Every breakout so far = MontanaBlack + stacked facecam + question/wrong-detail hook; everything else sits at the ~250-900 TikTok baseline.
 
 ## Notes
 - 2026-11-18 04:15 run: no GTA 6 posts sent yet (first goes out 08:15), so nothing to score. Test set up for

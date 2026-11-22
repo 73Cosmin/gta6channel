@@ -70,20 +70,23 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 - Every scheduled run: scan for 1 thirst/vibe candidate (new streamer screenshots/clips of beach, club, outfits,
   character models) and schedule it in the best X slot (16:45-22:45 Vienna).
 
-## Posts per day + daily slots (OWNER, 2026-11-19 12:45 — replaces the old tables)
+## Posts per day + daily slots (weekly review 2026-11-22 — replaces the 2026-11-19 table; owner rules Nov 20-21 included)
 | Platform | Per day | Slots (Vienna) |
 |---|---|---|
-| TikTok | 5 | 07:00, 10:30, 14:00, 17:30, 21:00 (every 3.5-4 h, 07:00-23:00 only) |
-| YouTube Shorts | 2 | ~11:30 (before noon) + ~17:30 (17:00-18:00) |
-| Instagram Reels | 2 | ~11:30 (before noon) + ~17:30 (17:00-18:00) |
-| X | 3-4 | e.g. 10:00, 16:45 (thirst/vibe), 22:45 (+1 only for real official news) |
+| TikTok | 3 videos + 1 slideshow | slideshow 07:00 or 12:30; videos pick 3 of 10:30 / 14:00 / 17:30 / 21:00 (owner cap 3 videos, 2026-11-21) |
+| YouTube Shorts | 1 | 17:30 (the day's creative; YT median 0 views all week = channel-level, don't invest more) |
+| Instagram Reels | 1 | 17:30, own creative formats only (Top-3/5, Versus) - single re-cuts got 0 + originality warning |
+| X | 3 | 10:00, 16:45, 22:45 (1 story tweet per run; median 5 impressions all week) |
+- Week 1 medians (best read per post): TikTok 726 views (n=23), X 5 impressions (n=28), IG 1 (n=13), YouTube 0 (n=13).
+  TikTok by format: Mentality edit 15.3K (Monte) / 328 (Eli), tips slideshow 3,574, creator single 682, Top-5 726.
+  TikTok by slot: 10:30 = Delfin 75K, 21:00 = Monte Mentality 15K, 07:00 ~780, 17:30 ~760, 14:00 ~440, night (00-03) 4-19.
 - TikTok rewards volume + consistency -> it gets every clip; YT/IG get only the 2 strongest of the day
   (they punish video spam). So TikTok-only clips are normal now; same-time rule applies only when a clip
   goes to YT/IG too (put it on TikTok at the matching 10:30/17:30 slot or within ~1 h).
 - Nothing 23:00-07:00 on any platform (night posts got 4-19 views) except time-critical official news on X.
 - X gets FEWER posts (owner: 0-7 impressions = wasted effort). Keep the formats that can travel: thirst/vibe
   image posts and A/B debate questions; drop filler (nostalgia, polls without an image).
-- Production need: ~5 new clips/day. Every 3 h run should finish at least 1-2 clips and fill the next empty TikTok slots.
+- Production need: max 2 new videos per run, same-day only (owner 2026-11-21).
 
 ## Goal (owner, 2026-11-18)
 **Interactions are the #1 metric**: comments, shares, saves, likes. Being a bit controversial is wanted.
