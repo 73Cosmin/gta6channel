@@ -262,3 +262,4 @@
 | 2026-11-23 17:30 | YouTube | Top-3 compilation (daily creative) | Top 3 Tier-Momente deutscher Streamer in GTA 6 | 🎥 @eliasn97 @montanablack88 | 6b03083acc364169c163d5e1 |
 - 18:45 OWNER screenshot (TikTok profile 18:41): slideshow controls 3,574 (winner), Versus 129 @1.2 h, Eli Mentality 327, Kroko Teil 2 263, langweilig 442, Dümmster Tod 500, pinned Delfin 118.7K / Monte Mentality 16.1K -> scoreboard + lesson. Built own DE slideshow (6 slides 4:5, tools/slides45_build.py):
 | 2026-11-23 07:00 | TikTok | Slideshow (own, DE) | 5 Dinge, die in GTA 6 einfach passieren | 🎥 @papaplatte @montanablack88 @eliasn97 | 6b0329decc364169c1720b03 |
+- 18:50 OWNER: 'Das ist die schlechteste Slideshow die ich jemals gesehen habe.' -> TT slideshow 6b0329decc364169c1720b03 moved to DRAFT (will not post Nov 23 07:00). Do not reuse.
