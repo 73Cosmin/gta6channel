@@ -43,7 +43,8 @@ for i, sl in enumerate(C["slides"], 1):
     if sl.get("cover") or sl.get("end"):
         im = Image.new("RGB", (W, H), BG); im.paste(top_image(src, 820, sl.get('crop_x')), (0, 0)); im = fade(im, 560, 860); d = ImageDraw.Draw(im); pill(d, i)
         y = 830; d.text((L, y), sl["h1"], font=f8(116), fill=WHITE, anchor="lt"); y += 132
-        fh = f8(116) if d.textlength(sl["h2"], font=f8(116)) < R - L else f8(84)
+        fh = f8(116)
+        while d.textlength(sl["h2"], font=fh) > R - L: fh = f8(fh.size - 4)
         d.text((L, y), sl["h2"], font=fh, fill=TEAL, anchor="lt"); y += fh.size + 40
         for ln in wrap(d, sl["sub"], f7(40), R - L): d.text((L, y), ln, font=f7(40), fill=WHITE, anchor="lt"); y += 52
         if sl.get("swipe"): d.text((L, y + 30), sl["swipe"], font=f8(32), fill=TEAL, anchor="lt")

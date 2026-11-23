@@ -1,0 +1,14 @@
+{"out_dir": "media/edits/2026-11-23_slides_platin_en", "video": "media/official/trailer2_landscape_clean.mp4",
+ "tag": "GTA VI  /  PLATINUM CHECKLIST", "credit": "LIST: @KIKEGAMES97", "save": "SAVE THIS CHECKLIST",
+ "slides": [
+  {"cover": true, "img": "media/raw/kike/cover.jpg", "crop_x": 0.12, "h1": "GTA VI PLATINUM", "h2": "EVERYTHING FOR 100%", "sub": "The full checklist for the Platinum trophy.", "swipe": "SWIPE FOR THE FULL LIST →"},
+  {"t": 36, "big": "300 H", "items": [["300 h", "HOW LONG IS THE PLATINUM?", "PowerPyx says 200 hours and 4/10. Players who are deep into it say more like 300 hours and 6-7/10."]]},
+  {"t": 150, "big": "~85%", "items": [["85%", "YOU DON'T NEED A TRUE 100%", "You don't need all of the content - roughly 85% is enough for the trophy."]]},
+  {"t": 14, "big": "STORY", "head": "STORY & SIDE CONTENT", "list": [["ALL", "Finish the story"], ["100", "optional missions"], ["39/39", "gang operations (yellow zones, incl. stealing the unique valuable)"]]},
+  {"t": 75, "big": "HEISTS", "head": "HEISTS & ROBBERIES", "list": [["22/22", "bank heists (14 small, 8 big)"], ["7/7", "quick loan jobs"], ["34/35", "jewelry & pawn shop robberies"], ["50", "different stick-ups (50 of 91)"], ["$100,000", "in narcotics stolen"], ["$100,000", "in jewelry stolen"], ["$250,000", "in marked bills"], ["$200,000", "in stolen vehicles"]]},
+  {"t": 22, "big": "COLLECTIBLES", "head": "COLLECTIBLES", "list": [["15/18", "card games (372 cards)"], ["100/125", "flamingos destroyed"], ["2/2", "unique lists"], ["70/79", "styles discovered"]]},
+  {"t": 90, "big": "ACTIVITIES", "head": "ACTIVITIES", "list": [["5/7", "Kenton's treasures"], ["33/33", "underwater discoveries"], ["30/34", "magazines, comics, books"], ["18/18", "meditation spots"], ["30/40", "races won"], ["10/13", "Race Challenge golds"], ["42/42", "shooting range golds"], ["4/4", "arcade games played"], ["5/7", "pool opponents beaten"], ["2/3", "mini-golf courses"], ["90/100", "basketball shots made"], ["42/42", "drone time trials"], ["130", "stunt jumps"], ["202", "under-the-bridge flights"], ["40", "knife flights"], ["25", "skydives"], ["70/80", "challenges"]]},
+  {"t": 48, "big": "COMPENDIUM", "head": "COMPENDIUM", "list": [["100", "WAiNK locations scanned"], ["200/277", "vehicles scanned"], ["100/255", "animals analyzed"], ["50/66", "base weapons found"]]},
+  {"t": 105, "big": "1000 H?", "items": [["!", "SO MUCH TO DO", "\"Even if it's 1000 hours - I'm enjoying this game like a kid.\""], ["X", "THE CATCH", "There is no map that shows you what you've already collected."]]},
+  {"t": 60, "end": true, "h1": "AND YOU?", "h2": "WHAT ARE YOU MISSING?", "sub": "Tell us in the comments how far you are."}
+ ]}
