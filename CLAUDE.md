@@ -78,6 +78,9 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
 **DAY-BY-DAY ONLY (owner 2026-11-21 13:40):** clips go stale fast ("den kennt jeder bis Sonntag"). Each run makes MAX 2 videos,
 and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
 videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
+**TIKTOK VIRAL HOLD (owner 2026-11-23 19:56, happened twice: Delfin, Platinum 121K -> next upload 211):** while any TikTok from the
+last 48 h has >10K views and is still climbing, schedule NO automatic TikTok videos (move them to Buffer drafts). Only same-theme
+follow-ups to the viral post (owner posts them). The hold ends when it grows <10% in 6 h or the owner says so. Check this before every TikTok schedule.
 **TikTok max 3 videos/day** (owner 2026-11-21 14:47, + optionally 1 slideshow in the morning or at noon) - quality over volume.
 **No rewinside clips** (owner 2026-11-21: run badly) - not as singles, story tweets or compilation items.
 
