@@ -1,0 +1,80 @@
+{
+ "out_dir": "media/edits/2026-11-23_slides_userguide_en",
+ "video": "media/official/trailer2_landscape_clean.mp4",
+ "tag": "GTA VI  /  USER GUIDE",
+ "credit": "GUIDE: @KINGOFCROWES",
+ "save": "SAVE THIS GUIDE",
+ "slides": [
+  {
+   "cover": true,
+   "t": 36,
+   "h1": "THE GTA 6",
+   "h2": "USER GUIDE",
+   "sub": "Profiles, stars, weapons, cars + more.",
+   "swipe": "SWIPE FOR ALL 10 GUIDES →"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/01.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/04.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/09a.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/09b.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/09c.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/07.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/08.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/10a.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/10b.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/02.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/05.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/06a.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/06b.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/bf_guide/03.jpg"
+  },
+  {
+   "end": true,
+   "t": 150,
+   "h1": "YOUR PROFILE?",
+   "h2": "COMMENT YOUR COLOR",
+   "sub": "Professional, Violent or full Psycho? Be honest. Save this for your next session."
+  }
+ ]
+}
