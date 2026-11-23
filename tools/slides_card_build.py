@@ -32,7 +32,9 @@ def pill(d, i):
     ft = f8(30); w = d.textlength(C["tag"], font=ft)
     d.rounded_rectangle((L, 56, L + w + 56, 112), 28, fill=(18, 15, 24)); d.rectangle((L + 20, 70, L + 26, 98), fill=TEAL)
     d.text((L + 40, 84), C["tag"], font=ft, fill=WHITE, anchor="lm")
-    d.text((R, 84), f"{i:02d} / {N:02d}", font=f8(30), fill=TEAL, anchor="rm")
+    ct = f"{i:02d} / {N:02d}"; cw = d.textlength(ct, font=f8(30))
+    d.rounded_rectangle((R - cw - 40, 56, R + 8, 112), 28, fill=(18, 15, 24))  # dark pill so the counter reads on bright images
+    d.text((R - 16, 84), ct, font=f8(30), fill=TEAL, anchor="rm")
 def footer(d):
     d.line((L, 1262, R, 1262), fill=(70, 64, 86), width=2)
     d.text((L, 1296), C["credit"], font=f8(28), fill=WHITE, anchor="lm")
