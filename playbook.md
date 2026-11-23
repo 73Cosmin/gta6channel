@@ -73,9 +73,9 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 ## Posts per day + daily slots (weekly review 2026-11-22 — replaces the 2026-11-19 table; owner rules Nov 20-21 included)
 | Platform | Per day | Slots (Vienna) |
 |---|---|---|
-| TikTok | 3 videos + 1 slideshow | slideshow 07:00 or 12:30; videos pick 3 of 10:30 / 14:00 / 17:30 / 21:00 (owner cap 3 videos, 2026-11-21) |
-| YouTube Shorts | 1 | 17:30 (the day's creative; YT median 0 views all week = channel-level, don't invest more) |
-| Instagram Reels | 1 | 17:30, own creative formats only (Top-3/5, Versus) - single re-cuts got 0 + originality warning |
+| TikTok | 3 videos | **07:00, 12:00, 17:00** (OWNER 2026-11-23: one video each, max 3/day) |
+| YouTube Shorts | 1 | 17:00 (the day's creative; YT median 0 views all week = channel-level, don't invest more) |
+| Instagram Reels | 1 | 17:00, own creative formats only (Top-3/5, Versus) - single re-cuts got 0 + originality warning |
 | X | 3 | 10:00, 16:45, 22:45 (1 story tweet per run; median 5 impressions all week) |
 - Week 1 medians (best read per post): TikTok 726 views (n=23), X 5 impressions (n=28), IG 1 (n=13), YouTube 0 (n=13).
   TikTok by format: Mentality edit 15.3K (Monte) / 328 (Eli), tips slideshow 3,574, creator single 682, Top-5 726.
