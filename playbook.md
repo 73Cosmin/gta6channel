@@ -82,7 +82,7 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
   TikTok by slot: 10:30 = Delfin 75K, 21:00 = Monte Mentality 15K, 07:00 ~780, 17:30 ~760, 14:00 ~440, night (00-03) 4-19.
 - TikTok rewards volume + consistency -> it gets every clip; YT/IG get only the 2 strongest of the day
   (they punish video spam). So TikTok-only clips are normal now; same-time rule applies only when a clip
-  goes to YT/IG too (put it on TikTok at the matching 10:30/17:30 slot or within ~1 h).
+  goes to YT/IG too (daily creative at 17:00 on TikTok + YT + IG).
 - Nothing 23:00-07:00 on any platform (night posts got 4-19 views) except time-critical official news on X.
 - X gets FEWER posts (owner: 0-7 impressions = wasted effort). Keep the formats that can travel: thirst/vibe
   image posts and A/B debate questions; drop filler (nostalgia, polls without an image).
