@@ -273,3 +273,5 @@
   (prediction at 1.5 s -> payoff at 9-14 s), black-humor A/B "Too far or funny?". New test morning_slot_dark_humor: first clip in the
   07:00 TikTok slot -> compare with the 12:47/16:15 clips once reads exist. Craft: top Twitch clips repeat across days (the 17k
   "How did they survive" = our seaplane clip) -> check media/raw/clips + Scribe text against earlier cuts before building.
+- 2026-11-23 09:19 (owner screenshot): Platinum checklist slideshow (EN, card style, 10 slides 4:5, posted MANUALLY in the TikTok app with trending sound 'burn this shit down') = **13.6K views + >700 likes after ~1 h**. That's the fastest start we've had (controls slideshow 3.6K @13.8 h; Monte Mentality 16.3K total). Same day: Eli Mentality 338, Papaplatte Mentality 307, Versus 241.
+  LESSON: a save-worthy EN checklist/guide slideshow + an in-app trending sound beats our single streamer clips by about 40x. Next: 1 such slideshow every morning (07:00 or 12:00). Hand the owner the slides as files to post manually with a sound (Buffer photo reminders failed). Topics must be facts.md-backed or credited lists (like @kikegames97), never invented numbers.

@@ -281,3 +281,4 @@
 | 2026-11-23 22:45 | X | Story tweet (thread 6, 4 images) | SPOILER: CaseOh's 'party' at Raph's -> 'You said she died in prison' -> 'I did time for you!' -> loots the jewelry | 🎥 @caseoh_ | 6b03dae0846b0ee907eb3c3d |
 - 07:45 (Nov 23) OWNER: Platinum slideshow not available in Buffer -> re-sent as TikTok REMINDER (shareNow, same 10 slides + caption) so the owner can add the sound in-app: 6b03e0fccc364169c1b8f758 (old reminder 6b03b1ca... already notified/sent).
 - 07:55 (Nov 23) OWNER: Buffer reminder for the Platinum slideshow doesn't work -> sent the 10 slides directly; owner posts manually on TikTok (with sound). Buffer reminder 6b03e0fc... is not the real post - scoreboard numbers come from the owner.
+- 09:19 (Nov 23) OWNER screenshot: Platinum slideshow (manual post) 13.6K views / >700 likes at ~1 h -> scoreboard + lesson (EN checklist slideshows + in-app sound = top format).
