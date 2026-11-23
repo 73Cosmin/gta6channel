@@ -1,0 +1,72 @@
+{
+ "out_dir": "media/edits/2026-11-24_slides_collectibles_en",
+ "video": "media/official/trailer2_landscape_clean.mp4",
+ "tag": "GTA VI  /  COLLECTIBLE MAPS",
+ "credit": "MAPS: @SKSJ002 / GAME CHECKLISTS",
+ "save": "SAVE THESE MAPS",
+ "slides": [
+  {
+   "cover": true,
+   "img": "media/raw/sksj_collect/01.jpg",
+   "h1": "ALL GTA 6",
+   "h2": "COLLECTIBLES FOUND",
+   "sub": "All GTA 6 collectibles have been discovered, with 100% of collectible maps unlocked.",
+   "swipe": "SWIPE FOR ALL 12 MAPS \u2192"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/01.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/02.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/03.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/04.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/05.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/06.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/07.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/08.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/09.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/10.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/11.jpg"
+  },
+  {
+   "full": true,
+   "img": "media/raw/sksj_collect/12.jpg"
+  },
+  {
+   "end": true,
+   "img": "media/raw/sksj_collect/11.jpg",
+   "h1": "WHICH ONE?",
+   "h2": "ARE YOU STILL MISSING?",
+   "sub": "Save this and tell us which map you need most."
+  }
+ ]
+}

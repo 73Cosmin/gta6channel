@@ -49,6 +49,13 @@ for i, sl in enumerate(C["slides"], 1):
         for ln in wrap(d, sl["sub"], f7(40), R - L): d.text((L, y), ln, font=f7(40), fill=WHITE, anchor="lt"); y += 52
         if sl.get("swipe"): d.text((L, y + 30), sl["swipe"], font=f8(32), fill=TEAL, anchor="lt")
         footer(d); im.save(f"{out}/{i:02d}.jpg", quality=93); print(i); continue
+    if sl.get("full"):  # whole screenshot/map on a card (owner 2026-11-23: map slideshow), fit into y 132-1240
+        im = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(im); pill(d, i)
+        bh = 1240 - 132; s = min((R - L) / src.width, bh / src.height); w, h = int(src.width * s), int(src.height * s)
+        x, y = (W - w) // 2, 132 + (bh - h) // 2
+        m = Image.new("L", (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), 22, fill=255)
+        d.rounded_rectangle((x - 4, y - 4, x + w + 3, y + h + 3), 26, fill=TEAL); im.paste(src.resize((w, h)), (x, y), m)
+        footer(ImageDraw.Draw(im)); im.save(f"{out}/{i:02d}.jpg", quality=93); print(i); continue
     lst = sl.get("list"); n = len(lst) if lst else 0
     ih = 660 if not lst else (600 if n <= 4 else 380 if n <= 8 else 250)
     im = Image.new("RGB", (W, H), BG); im.paste(top_image(src, ih), (0, 0)); im = fade(im, ih - 220, ih); d = ImageDraw.Draw(im); pill(d, i)
