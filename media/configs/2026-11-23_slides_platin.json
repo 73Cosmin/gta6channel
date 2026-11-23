@@ -1,0 +1,242 @@
+{
+ "out_dir": "media/edits/2026-11-23_slides_platin",
+ "video": "media/official/trailer2_landscape_clean.mp4",
+ "tag": "GTA VI  /  PLATIN-CHECKLISTE",
+ "credit": "LISTE: @KIKEGAMES97",
+ "save": "SPEICHER DIR DIE CHECKLISTE",
+ "slides": [
+  {
+   "cover": true,
+   "img": "media/raw/kike/cover.jpg",
+   "h1": "GTA VI PLATIN",
+   "h2": "ALLES FÜR 100%",
+   "sub": "Die komplette Checkliste für die Platin-Trophäe.",
+   "swipe": "WISCHEN FÜR DIE GANZE LISTE →",
+   "crop_x": 0.12
+  },
+  {
+   "t": 36,
+   "big": "300 H",
+   "items": [
+    [
+     "300 h",
+     "WIE LANGE DAUERT PLATIN?",
+     "PowerPyx sagt 200 Stunden und 4/10. Spieler, die schon lange dran sind, schätzen eher 300 Stunden und 6-7/10."
+    ]
+   ]
+  },
+  {
+   "t": 150,
+   "big": "~85%",
+   "items": [
+    [
+     "85%",
+     "KEINE ECHTEN 100 % NÖTIG",
+     "Du brauchst nicht den kompletten Inhalt - ungefähr 85 % reichen für die Trophäe."
+    ]
+   ]
+  },
+  {
+   "t": 14,
+   "big": "STORY",
+   "head": "STORY & NEBENMISSIONEN",
+   "list": [
+    [
+     "ALLE",
+     "Story abschließen"
+    ],
+    [
+     "100",
+     "optionale Missionen"
+    ],
+    [
+     "39/39",
+     "Gang-Operationen (gelbe Zonen, inkl. Wertgegenstand klauen)"
+    ]
+   ]
+  },
+  {
+   "t": 75,
+   "big": "RAUB",
+   "head": "RAUBZÜGE & ÜBERFÄLLE",
+   "list": [
+    [
+     "22/22",
+     "Banküberfälle (14 kleine, 8 große)"
+    ],
+    [
+     "7/7",
+     "Schnellkredit-Jobs"
+    ],
+    [
+     "34/35",
+     "Juweliere & Pfandhäuser"
+    ],
+    [
+     "50",
+     "verschiedene Überfälle (50 von 91)"
+    ],
+    [
+     "100.000 $",
+     "Drogen klauen"
+    ],
+    [
+     "100.000 $",
+     "Schmuck klauen"
+    ],
+    [
+     "250.000 $",
+     "markierte Scheine"
+    ],
+    [
+     "200.000 $",
+     "gestohlene Fahrzeuge"
+    ]
+   ]
+  },
+  {
+   "t": 22,
+   "big": "SAMMELN",
+   "head": "SAMMELOBJEKTE",
+   "list": [
+    [
+     "15/18",
+     "Kartenspiele (372 Karten)"
+    ],
+    [
+     "100/125",
+     "Flamingos zerstören"
+    ],
+    [
+     "2/2",
+     "einzigartige Listen"
+    ],
+    [
+     "70/79",
+     "Styles entdecken"
+    ]
+   ]
+  },
+  {
+   "t": 90,
+   "big": "AKTIVITÄTEN",
+   "head": "AKTIVITÄTEN",
+   "list": [
+    [
+     "5/7",
+     "Kentons Schätze"
+    ],
+    [
+     "33/33",
+     "Unterwasser-Funde"
+    ],
+    [
+     "30/34",
+     "Magazine, Comics, Bücher"
+    ],
+    [
+     "18/18",
+     "Meditationsorte"
+    ],
+    [
+     "30/40",
+     "Rennen gewinnen"
+    ],
+    [
+     "10/13",
+     "Gold im Race Challenge"
+    ],
+    [
+     "42/42",
+     "Gold auf Schießständen"
+    ],
+    [
+     "4/4",
+     "Arcade-Spiele"
+    ],
+    [
+     "5/7",
+     "Billard-Gegner besiegen"
+    ],
+    [
+     "2/3",
+     "Minigolf-Plätze"
+    ],
+    [
+     "90/100",
+     "Basketball-Körbe"
+    ],
+    [
+     "42/42",
+     "Drohnen-Zeitrennen"
+    ],
+    [
+     "130",
+     "Stuntsprünge"
+    ],
+    [
+     "202",
+     "Flüge unter Brücken"
+    ],
+    [
+     "40",
+     "Messerflüge"
+    ],
+    [
+     "25",
+     "Fallschirmsprünge"
+    ],
+    [
+     "70/80",
+     "Herausforderungen"
+    ]
+   ]
+  },
+  {
+   "t": 48,
+   "big": "KOMPENDIUM",
+   "head": "KOMPENDIUM",
+   "list": [
+    [
+     "100",
+     "WAiNK-Orte scannen"
+    ],
+    [
+     "200/277",
+     "Fahrzeuge scannen"
+    ],
+    [
+     "100/255",
+     "Tiere analysieren"
+    ],
+    [
+     "50/66",
+     "Basiswaffen finden"
+    ]
+   ]
+  },
+  {
+   "t": 105,
+   "big": "1000 H?",
+   "items": [
+    [
+     "!",
+     "VIEL ZU TUN",
+     "„Und wenn es 1000 Stunden sind - ich genieße das Spiel wie ein Kind.“"
+    ],
+    [
+     "X",
+     "DER HAKEN",
+     "Es gibt keine Karte, die dir zeigt, was du schon gesammelt hast."
+    ]
+   ]
+  },
+  {
+   "t": 60,
+   "end": true,
+   "h1": "UND DU?",
+   "h2": "WAS FEHLT DIR NOCH?",
+   "sub": "Schreib in die Kommentare, wie weit du bist."
+  }
+ ]
+}
