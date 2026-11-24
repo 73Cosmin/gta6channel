@@ -108,7 +108,7 @@ if TIKTOK_TITLE and t1:
     title_png = "/tmp/ne0n_title.png"; im.save(title_png)
     edge = SY if SPLIT else 656
     # "title_anchor": "above" -> box bottom sits exactly on the top edge of the gameplay (owner 2026-11-24)
-    title_xy = ((1080 - Wb) // 2, edge - Hb + 8 if C.get("title_anchor") == "above" else edge - Hb // 2)
+    title_xy = ((1080 - Wb) // 2, (edge - Hb + 8 if C.get("title_anchor") == "above" else edge - Hb // 2) + C.get("title_dy", 0))
 elif t1:
     dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize={s1}:fontcolor=white:borderw=8:bordercolor={PINK}:"
               f"shadowcolor=black@0.6:shadowx=4:shadowy=4:x=(w-tw)/2:y={TY}")
