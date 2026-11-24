@@ -172,7 +172,7 @@ if title_png:
     f.append(f"[{cur}][{ti}:v]overlay={title_xy[0]}:{title_xy[1]}:shortest=0[vt]"); cur = "vt"
 f.append(f"[2:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={dur:.2f},asplit[vo1][vo2]")
 if C.get("music"):
-    f.append(f"[3:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.09,"
+    f.append(f"[3:a]aformat=sample_rates=44100:channel_layouts=stereo,volume={C.get("music_vol", 0.09)},"
              f"afade=t=out:st={dur-0.8:.2f}:d=0.8[mu]")
     f.append("[mu][vo1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[duck]")
     f.append("[vo2][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7[aout]")
