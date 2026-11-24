@@ -81,7 +81,7 @@ videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS an
 **TIKTOK WHILE PLATINUM RUNS (owner decision 2026-11-24, replaces the 2026-11-23 viral hold):** keep the NORMAL upload plan
 (07:00/12:00/17:00). While the Platinum slideshow is still running well, post ONLY best-ofs/compilations and normal streamer clips
 like before - NO slideshows. Once Platinum has calmed down (growth <10% in 6 h, or the owner says so), the owner posts the
-mysteries slideshow (Part 1, `media/slides/` kiminino72) - don't post or schedule it yourself, and nothing else as a slideshow before it.
+mysteries slideshow (Part 1-3 ready in `media/edits/2026-11-23_slides_mysteries_p1..p3`) - don't post or schedule it yourself, and nothing else as a slideshow before it.
 Data behind it: Delfin 72K + Mentality 15K on the same day (Nov 20); Collectibles slideshow next to Platinum = 137 views.
 **TikTok max 3 videos/day** (owner 2026-11-21 14:47, + optionally 1 slideshow in the morning or at noon) - quality over volume.
 **No rewinside clips** (owner 2026-11-21: run badly) - not as singles, story tweets or compilation items.
