@@ -194,9 +194,9 @@ after 48 h /yt-retention on the Studio export. hookscore.py is calibrated on Eng
 Turns a URL/file into timestamped frames + transcript (local) or a Gemini answer about the whole video.
 Per session setup (container is fresh each time): `python3 -m venv /tmp/venv && /tmp/venv/bin/pip -q install "yt-dlp[default]"`,
 `export PATH=/tmp/venv/bin:$PATH`, `python3 .claude/skills/watch/scripts/setup.py --engine local` then `--backend none --detail balanced`.
-Gemini: key is a NETWORK SECRET on the cloud env for generativelanguage.googleapis.com (header x-goog-api-key, injected by the
-proxy) - never in files/chat. The script refuses to run without a local key, so pass a dummy: `GEMINI_API_KEY=proxy-injected
-python3 .claude/skills/watch/scripts/watch.py <url> --engine gemini --question "..."`. Gemini uploads non-YouTube videos to Google.
+Gemini: key = env var `GEMINI_API_KEY` in the cloud **gta6** environment (like ELEVENLABS_TOKEN; never in files/chat) - the
+script reads it directly, `--engine auto` then uses Gemini: `python3 .claude/skills/watch/scripts/watch.py <url> --question "..."`.
+No key -> local engine automatically (force with `--engine local`). Gemini uploads non-YouTube videos to Google.
 Uses: find the exact second an easter egg/rumor shows up in long videos/VODs, verify a rumor is actually visible, screen clips for
 nudity/sex scenes/hack material BEFORE downloading+Scribe, study competitor hooks, 3+ frame check of our own edits.
 
