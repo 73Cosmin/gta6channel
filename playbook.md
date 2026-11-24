@@ -193,7 +193,7 @@ after 48 h /yt-retention on the Studio export. hookscore.py is calibrated on Eng
 ## /watch — VIDEO EYES (installed 2026-11-24, github.com/bradautomates/claude-video, MIT, `.claude/skills/watch`)
 Turns a URL/file into timestamped frames + transcript (local) or a Gemini answer about the whole video.
 Per session setup (container is fresh each time): `python3 -m venv /tmp/venv && /tmp/venv/bin/pip -q install "yt-dlp[default]"`,
-`export PATH=/tmp/venv/bin:$PATH`, `python3 .claude/skills/watch/scripts/setup.py --engine local` then `--backend none --detail balanced`.
+`export PATH=/tmp/venv/bin:$PATH`, `python3 .claude/skills/watch/scripts/setup.py --engine gemini` (if GEMINI_API_KEY is set, else `--engine local`), then `--backend none --detail balanced`.
 Gemini: key = env var `GEMINI_API_KEY` in the cloud **gta6** environment (like ELEVENLABS_TOKEN; never in files/chat) - the
 script reads it directly, `--engine auto` then uses Gemini: `python3 .claude/skills/watch/scripts/watch.py <url> --question "..."`.
 No key -> local engine automatically (force with `--engine local`). Gemini uploads non-YouTube videos to Google.
