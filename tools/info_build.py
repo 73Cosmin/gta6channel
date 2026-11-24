@@ -87,13 +87,24 @@ if TIKTOK_TITLE and t1:
     while size > 40 and max(ImageFont.truetype(TT, size).getlength(l) for l in lines) + 56 > 760:  # TikTok safe width (owner 2026-11-20)
         size -= 2
     ft = ImageFont.truetype(TT, size); padx, lh = 28, int(size * 1.22)
-    ws = [ft.getlength(l) for l in lines]; Wb = int(max(ws) + 2 * padx + 8); Hb = lh * len(lines) + 16
+    emo = C.get("title_emoji")   # optional colour emoji after the last title line (Noto Color Emoji, owner 2026-11-24)
+    ew = int(size * 1.05) if emo else 0
+    ws = [ft.getlength(l) for l in lines]
+    if emo: ws[-1] += ew + int(size * 0.2)
+    Wb = int(max(ws) + 2 * padx + 8); Hb = lh * len(lines) + 16
     im = Image.new("RGBA", (Wb, Hb), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     for k, (l, wl) in enumerate(zip(lines, ws)):
         x0 = (Wb - wl) / 2 - padx; y0 = 8 + k * lh
         d.rounded_rectangle([x0, y0, x0 + wl + 2 * padx, y0 + lh], radius=int(size * 0.22), fill=(255, 255, 255, 255))
     for k, (l, wl) in enumerate(zip(lines, ws)):
         d.text(((Wb - wl) / 2, 8 + k * lh + lh / 2), l, font=ft, fill=(0, 0, 0, 255), anchor="lm")
+    if emo:
+        ef = ImageFont.truetype("/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf", 109)
+        eim = Image.new("RGBA", (136, 128), (0, 0, 0, 0))
+        ImageDraw.Draw(eim).text((0, 0), emo, font=ef, embedded_color=True)
+        eim = eim.crop(eim.getbbox()).resize((ew, ew), Image.LANCZOS)
+        k = len(lines) - 1; wl = ws[-1]
+        im.alpha_composite(eim, (int((Wb + wl) / 2 - ew), int(8 + k * lh + (lh - ew) / 2)))
     title_png = "/tmp/ne0n_title.png"; im.save(title_png)
     title_xy = ((1080 - Wb) // 2, (SY if SPLIT else 656) - Hb // 2)   # on the seam / top edge of the band
 elif t1:
