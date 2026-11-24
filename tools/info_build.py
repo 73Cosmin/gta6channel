@@ -106,7 +106,9 @@ if TIKTOK_TITLE and t1:
         k = len(lines) - 1; wl = ws[-1]
         im.alpha_composite(eim, (int((Wb + wl) / 2 - ew), int(8 + k * lh + (lh - ew) / 2)))
     title_png = "/tmp/ne0n_title.png"; im.save(title_png)
-    title_xy = ((1080 - Wb) // 2, (SY if SPLIT else 656) - Hb // 2)   # on the seam / top edge of the band
+    edge = SY if SPLIT else 656
+    # "title_anchor": "above" -> box bottom sits exactly on the top edge of the gameplay (owner 2026-11-24)
+    title_xy = ((1080 - Wb) // 2, edge - Hb + 8 if C.get("title_anchor") == "above" else edge - Hb // 2)
 elif t1:
     dr.append(f"drawtext=fontfile={F}:text='{esc(t1)}':fontsize={s1}:fontcolor=white:borderw=8:bordercolor={PINK}:"
               f"shadowcolor=black@0.6:shadowx=4:shadowy=4:x=(w-tw)/2:y={TY}")
@@ -146,7 +148,7 @@ if C.get("end_text"):
         es -= 2
     dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize={es}:fontcolor=white:borderw=6:bordercolor={PINK}:"
               f"x=(w-tw)/2:y={C.get('end_text_y',960)}:enable='gte(t,{t0})'")
-for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
+for k, line in enumerate([] if C.get("no_credit") else [C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
     if line:
         ls_ = 28
         while ls_ > 18 and ImageFont.truetype(F, ls_).getlength(line) > 620:
