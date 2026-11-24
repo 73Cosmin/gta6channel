@@ -82,9 +82,9 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
 and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
 videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
 **TIKTOK VIDEO HOLD WHILE PLATINUM RUNS (owner 2026-11-24 17:31, replaces the morning rule):** every TikTok VIDEO posted next to
-the Platinum push flopped (Eli 211, Jynxzi 337, own cashier clip 164 @30 min) while the same-theme Collectibles SLIDESHOW still
+the Platinum push flopped (Eli 211, Jynxzi 337, own cashier clip 164 @30 min - BUT the cashier clip recovered to 908 @1.5 h, 20.1 s avg watch, 40% full views) while the same-theme Collectibles SLIDESHOW still
 grew to 3.9K. So: NO automatic TikTok videos while Platinum grows >10% in 6 h - finished videos wait as Buffer DRAFTS. The owner
-posts the mysteries slideshow (Part 1-3 in `media/edits/2026-11-23_slides_mysteries_p1..p3`) when they choose. The hold ends when
+posts the mysteries slideshow (Part 1-3 in `media/edits/2026-11-23_slides_mysteries_p1..p3`) when they choose. During the push a video starts SLOW: never delete/judge a TikTok before ~3 h (owner 18:36). The hold ends when
 Platinum grows <10% in 6 h or the owner says so; first video after it = own cashier clip re-upload variant
 (`media/edits/2026-11-24_own_fake_robbery_v5_reupload.mp4`, new hook 'HE ASKED ME TO PUNCH HIM', never the identical file).
 **TikTok max 3 videos/day** (owner 2026-11-21 14:47, + optionally 1 slideshow in the morning or at noon) - quality over volume.
