@@ -183,9 +183,9 @@ Clips 7–30 s. Hook text in the first second, big centred burned-in captions, c
 - **TikTok: upload AUTOMATICALLY** (owner, 2026-11-18; reminders dropped). Our music stays baked in.
 
 ## YOUTUBE LONG-FORM TOOLKIT (installed 2026-11-24, owner request)
-11 skills from github.com/jakeschincariol/youtube-agent-skill (MIT) in `.claude/skills/yt-*`; channel voice in
-`.claude/youtube/voice.md`. Nothing publishes by itself. Pipeline per easter-egg video (needs owner gameplay):
-/yt-viral (topic) -> /yt-script (hook scored with hookscore.py) -> ElevenLabs VO + our ffmpeg build ->
-/yt-chapters + /yt-seo -> /yt-package (title + thumbnail text, title.py) -> /yt-shorts (3-5 TikTok cuts) ->
-after 48 h /yt-retention on the Studio export. Note: hookscore.py is calibrated on English hooks - treat its
-score on German lines as a rough hint only.
+11 skills from github.com/jakeschincariol/youtube-agent-skill (MIT) in `.claude/skills/yt-*`; channel voice + rules in
+`.claude/youtube/voice.md` (ENGLISH, rumors/leaks allowed when labeled, voice TBD). Nothing publishes by itself.
+Footage = public credited clips (X/Twitch/YouTube/TikTok), from owner links or found via tools/twitch_top.py + yt-dlp.
+Pipeline: /yt-viral (topic) -> collect + credit clips (sources list) -> /yt-script (hookscore.py) -> ElevenLabs VO + ffmpeg
+build -> /yt-chapters + /yt-seo (sources & credits in description) -> /yt-package -> /yt-shorts (3-5 TikTok cuts) ->
+after 48 h /yt-retention on the Studio export. hookscore.py is calibrated on English hooks.

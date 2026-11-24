@@ -63,8 +63,11 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
    If you cannot verify it, do not post it.
 2. No fake news, no invented dates/numbers/quotes/"insider" claims. Third-party sales estimates only
    if clearly labeled as estimates.
-3. Rumors: leave out. (Owner granted autonomy, but rumors stay out by default.)
-4. No leaks, piracy, exploits, datamines, "play early" tricks — ever.
+3. Rumors: leave out of normal posts. EXCEPTION (owner 2026-11-24): YouTube long-form (easter eggs/secrets/mysteries/rumors)
+   and the Shorts/TikToks cut from it MAY cover rumors, leaks, theories - always labeled (RUMOR/LEAK/THEORY/unconfirmed)
+   in voice + on screen, with the source named and linked. Rules in `.claude/youtube/voice.md`.
+4. No piracy, exploits, "play early" tricks — ever. Leaks/datamines only as labeled TOPICS in long-form (rule 3 exception);
+   never show stolen/hacked leak files or footage themselves (Take-Two copyright strikes -> channel loss).
 5. No AI-generated "screenshots" or "gameplay" passed off as real. AI art is only for branding/graphics.
 6. Never imply we are Rockstar. No fake giveaways.
 7. Credit every creator clip on its own line (`🎥 @creator`). Public posts only. Prefer creators who allow
