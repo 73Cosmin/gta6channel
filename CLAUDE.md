@@ -78,11 +78,12 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
 **DAY-BY-DAY ONLY (owner 2026-11-21 13:40):** clips go stale fast ("den kennt jeder bis Sonntag"). Each run makes MAX 2 videos,
 and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
 videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
-**TIKTOK WHILE PLATINUM RUNS (owner decision 2026-11-24, replaces the 2026-11-23 viral hold):** keep the NORMAL upload plan
-(07:00/12:00/17:00). While the Platinum slideshow is still running well, post ONLY best-ofs/compilations and normal streamer clips
-like before - NO slideshows. Once Platinum has calmed down (growth <10% in 6 h, or the owner says so), the owner posts the
-mysteries slideshow (Part 1-3 ready in `media/edits/2026-11-23_slides_mysteries_p1..p3`) - don't post or schedule it yourself, and nothing else as a slideshow before it.
-Data behind it: Delfin 72K + Mentality 15K on the same day (Nov 20); Collectibles slideshow next to Platinum = 137 views.
+**TIKTOK VIDEO HOLD WHILE PLATINUM RUNS (owner 2026-11-24 17:31, replaces the morning rule):** every TikTok VIDEO posted next to
+the Platinum push flopped (Eli 211, Jynxzi 337, own cashier clip 164 @30 min) while the same-theme Collectibles SLIDESHOW still
+grew to 3.9K. So: NO automatic TikTok videos while Platinum grows >10% in 6 h - finished videos wait as Buffer DRAFTS. The owner
+posts the mysteries slideshow (Part 1-3 in `media/edits/2026-11-23_slides_mysteries_p1..p3`) when they choose. The hold ends when
+Platinum grows <10% in 6 h or the owner says so; first video after it = own cashier clip re-upload variant
+(`media/edits/2026-11-24_own_fake_robbery_v5_reupload.mp4`, new hook 'HE ASKED ME TO PUNCH HIM', never the identical file).
 **TikTok max 3 videos/day** (owner 2026-11-21 14:47, + optionally 1 slideshow in the morning or at noon) - quality over volume.
 **No rewinside clips** (owner 2026-11-21: run badly) - not as singles, story tweets or compilation items.
 
