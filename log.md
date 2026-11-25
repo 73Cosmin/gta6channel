@@ -355,3 +355,4 @@
 | 2026-11-25 17:00 | Instagram | Reel mirror (own gameplay, 53 s) | Lucia roasting Jason will never not be funny 😭 | own capture (owner) | 6b06d2e11deee71c1238553a |
 | 2026-11-25 17:00 | YouTube | Short mirror (own gameplay, 53 s) | Lucia roasting Jason will never not be funny 😭 | own capture (owner) | 6b06d2e21deee71c12385587 |
 | 2026-11-25 22:45 | X | Story tweet (thread 5, 4 images) | MontanaBlack zieht den letzten Hebel… und landet im ALTEN Vice City | 🎥 @montanablack88 | 6b06d3021deee71c123862a2 |
+- 13:33 (Nov 25) OWNER: Monte cow clip 'brauchen wir nicht, eh schlecht' -> TT 18:30 post 6b06a848… DELETED from Buffer. Owner screenshot Lucia roast TT 12:10: 221 views / 3 likes / 0 comments / 0 saves @ ~1 h = flop (owner).
