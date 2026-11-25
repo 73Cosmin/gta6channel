@@ -1,6 +1,9 @@
 # Learning
 
 ## Current Rules
+- (2026-11-25 21:45 EVENING REVIEW, latest Buffer refresh TT 16:54 UTC / X 16:51 / IG 16:37; 0 error posts) BEST today: TikTok own-capture 'Lucia roasting Jason' (12:10) = **384 views / 5 likes / 2 shares @5.7 h** (weak; IG mirror 95 @0.6 h, YT 0). Monte quote cut 07:00 + Monte Vice City 18:30 + Hurricane slideshow (owner manual) not yet in Buffer metrics. WORST today: X story Kai Cenat WASTED (10:00) **0 impressions @7.9 h**. Long tail: Platinum **350,015 / 25,060 likes / 3,665 shares @58 h** (+26% since 35 h), Collectibles 3,949 @11.5 h -> 4,691 @34.5 h (+19%), while video clips stall after ~12-24 h (Eli plane 253 @26 h -> 269 @49 h, Papaplatte Mentality 469 @69 h).
+  LESSON/RULE: SAVE-ABLE UTILITY SLIDESHOWS ARE THE ONLY POSTS THAT KEEP GROWING FOR DAYS; videos are final at ~24 h. -> Judge slideshows at 24-36 h (not 12 h), keep 1 utility slideshow/day (checklist/secret/how-to, every fact sourced), and stop counting X story threads as growth: 15 threads in 5 days = 0-21 impressions each -> keep X at the 1 story/run minimum, no extra build time.
+  TOMORROW'S TEST `secret_vs_gag_video` (one variable = TOPIC): TikTok 12:00 = a creator clip about a hidden secret/easter egg (<=35 s, DE, stacked) vs TikTok 17:00 = a gag/karma clip of the same length + language. Compare views + avg watch % at ~3 h and 24 h; pair with tonight's Monte Vice City (easter_egg_discovery_de) read.
 - (2026-11-25 19:15, Buffer refresh 16:54 UTC TT / 16:51 X / 16:37 IG) OWN CAPTURE IS NOT ENOUGH - THE SHAPE IS: cashier (own, 37 s, setup->punch->twist) **3,148 views / 85 likes / 3 comments @24.9 h, avg 19.8 s (54%)** vs Lucia roast (own, 53 s, pure dialogue, no punch) **384 / 5 likes / 2 shares @5.7 h, avg 13.0 s (24%)**. Same source, same language -> length + missing payoff halved retention and killed the push. Creator re-cut Jynxzi flat at 440 @29.9 h (+23% since 6.9 h); Collectibles slideshow still creeping 3,949 -> 4,691 @34.5 h (utility long tail). X stories 7-15 impressions after a day (Trymacs 15, CaseOh 13, Kai bridge 7). APPLY: own captures cut to <=40 s with a visible punch in the first half and a twist ending (the SWAT yoink v1 at 38.4 s fits; Lucia-type dialogue clips only as <=25 s best-line cuts).
 - (2026-11-25 13:15) No Buffer refresh since 17:53 UTC Nov 24 -> no new numbers. Applied: fresh-first swap (Monte Vice City easter egg replaces the day-old Kuh clip at TT 18:30). New test `easter_egg_discovery_de`: a 'secret/discovery' creator moment (nostalgia + mindblowing, 42 s supercut of 4 clips) vs our gag clips - Platinum/Collectibles/Hurricane show 'secret & completion' topics travel; check if that holds for a video. Judge views + shares at ~3 h vs cashier (1,385 @1.8 h).
 - (2026-11-25 04:15, YT refresh 02:17 UTC) Same own-capture cashier video, same 17:00 slot: TikTok 1,385 @1.8 h, IG 251 @7.6 h (56% avg watch, 0 likes), **YouTube 5 views @10.3 h**. Even our most original content gets ~0 on YT -> YT problem is channel-level, not re-upload/originality. Keep YT at 1 mirror/day max, zero extra build effort; spend production time on TikTok + X.
@@ -142,6 +145,7 @@
 - Trailer 2 file ends (~2:40) on the OLD date card "MAY 26, 2026". Never use frames/clips from ~2:35 on.
 
 ## Wins
+- 2026-11-25: long tail - Platinum slideshow 350,015 views / 25,060 likes @58 h; Collectibles 4,691 @34.5 h. Best new post today only Lucia own-capture TT 384 @5.7 h.
 - 2026-11-24: own-capture cashier clip 1,385 views @1.8 h, 53% avg watch, 40% full views (best retention ever); Collectibles slideshow 3,949 @11.5 h; Platinum 278K @35 h.
 - 2026-11-23 TikTok Platinum checklist slideshow (EN, card style, owner manual + sound) 120,986 views / 8,463 likes / 1,305 shares / 60 comments at 12 h - biggest post ever at 12 h.
 - 2026-11-22 TikTok slideshow (repost, credited) '10 GTA 6 controls you probably missed' 3,588 views / 167 likes / 12 shares at 13.8 h (07:00 slot).
@@ -217,6 +221,7 @@
   avg watch % once a real read exists.
 
 ## Losses
+- 2026-11-25: X story Kai Cenat WASTED 0 impr. @7.9 h; Lucia own capture (53 s dialogue, no payoff) 384 @5.7 h, 24% watched; YT Lucia mirror 0.
 - 2026-11-24: Jynxzi EN creator re-cut (46 s) 357 views @6.9 h, 29% watched; X story threads 2-11 impressions (Trymacs camp 2 @2.1 h, CaseOh crash 8 @8.8 h); YT cashier mirror 0 at send-time read.
 - 2026-11-23: Eli quote cut 'Jason, jetzt steig ein' 211 views at 2.8 h (uploaded next to the viral Platinum -> no push; VIRAL HOLD rule); X stories Monte Katze 4 impr. at 9.8 h, Monte Tür 1 at 3.1 h; no IG/YT post today (owner deleted Top-3).
 - 2026-11-22: X story threads 0-6 impressions (Eli Tankstelle 0 at 24.6 h, Papa Militärbasis 4 at 22 h); YouTube still 0-1 per Short; Eli Mentality only 328 (Mentality works for Monte, not as a format by itself).
