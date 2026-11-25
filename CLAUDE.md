@@ -58,17 +58,17 @@ ironic line in „quotes“ + emoji, video ends HARD on the dumb moment (5-12 s)
 (slow-mo replay / 15 s minimum), #4 (music) and #6 (hook box). Credit + disclaimer still on screen. Only for scenes where a
 line is said right BEFORE something stupid happens (setup -> instant karma). Aim 1-2 per day on TikTok.
 
-## Hard rules (never break)
-1. Every fact needs an official source (Rockstar, Take-Two, PlayStation, Xbox) logged in `facts.md`.
-   If you cannot verify it, do not post it.
-2. No fake news, no invented dates/numbers/quotes/"insider" claims. Third-party sales estimates only
-   if clearly labeled as estimates.
-3. Rumors: leave out of normal posts. EXCEPTION (owner 2026-11-24): YouTube long-form (easter eggs/secrets/mysteries/rumors)
-   and the Shorts/TikToks cut from it MAY cover rumors, leaks, theories - always labeled (RUMOR/LEAK/THEORY/unconfirmed)
-   in voice + on screen, with the source named and linked. Rules in `.claude/youtube/voice.md`.
-4. No piracy, exploits, "play early" tricks — ever. Leaks/datamines only as labeled TOPICS in long-form (rule 3 exception);
-   never show stolen/hacked leak files or footage themselves (Take-Two copyright strikes -> channel loss).
-5. No AI-generated "screenshots" or "gameplay" passed off as real. AI art is only for branding/graphics.
+## Hard rules
+**OWNER 2026-11-25 ~12:35: rules loosened** - AI images/videos, clickbait, ragebait and leaks are OK on every platform.
+1. Posts presented as NEWS/FACT need a real source; official facts go in `facts.md` with the link. Leaks, rumors,
+   insider claims and third-party estimates are allowed in any post - name/link where they come from.
+2. No fabricated news: never invent dates/numbers/quotes/announcements and present them as real (owner asked for
+   occasional fake news 2026-11-25 - declined; instead use clearly-joking satire, "what if" or hot takes).
+3. Clickbait and ragebait hooks are allowed (owner 2026-11-25), incl. hooks that overpromise.
+4. No piracy, exploits, "play early" tricks. Leaks/datamines allowed as topics AND material (owner 2026-11-25);
+   risk note: stolen leak footage = Take-Two copyright strikes -> prefer screenshots/descriptions over full leaked videos.
+5. AI-generated images/videos are allowed, also as "gameplay"/thumbnails (owner 2026-11-25). Still set the platform's
+   AI label (isAiGenerated true on TikTok/YouTube/IG/X when content is AI-made) - unlabeled realistic AI gets removed.
 6. Never imply we are Rockstar. No fake giveaways.
 7. Credit every creator clip on its own line (`🎥 @creator`). Public posts only. Prefer creators who allow
    reposts. Transform clips (hook, captions, voiceover/tip) — never plain re-uploads.
