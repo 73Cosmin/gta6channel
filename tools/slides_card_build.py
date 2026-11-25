@@ -58,6 +58,20 @@ for i, sl in enumerate(C["slides"], 1):
         m = Image.new("L", (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), 22, fill=255)
         d.rounded_rectangle((x - 4, y - 4, x + w + 3, y + h + 3), 26, fill=TEAL); im.paste(src.resize((w, h)), (x, y), m)
         footer(ImageDraw.Draw(im)); im.save(f"{out}/{i:02d}.jpg", quality=93); print(i); continue
+    if sl.get("step"):  # owner 2026-11-25: image = top half, big instruction text = bottom half (no empty space)
+        ih = 640; im = Image.new("RGB", (W, H), BG); im.paste(top_image(src, ih), (0, 0)); im = fade(im, ih - 160, ih + 10)
+        d = ImageDraw.Draw(im); pill(d, i)
+        hf = f8(84)
+        while d.textlength(sl["head"], font=hf) > R - L: hf = f8(hf.size - 4)
+        bs = 56
+        while bs > 34 and (len(wrap(d, sl["body"], f7(bs), R - L)) * int(bs * 1.32) > 1236 - (ih + 140 + hf.size)): bs -= 2
+        blk = 64 + hf.size + 70 + len(wrap(d, sl["body"], f7(bs), R - L)) * int(bs * 1.32)
+        y = ih + 6 + max(0, (1236 - ih - 6 - blk) // 2)  # centre the text block in the lower half
+        d.text((L, y), sl["step"], font=f8(44), fill=TEAL, anchor="lt"); y += 64
+        d.text((L, y), sl["head"], font=hf, fill=WHITE, anchor="lt"); y += hf.size + 30
+        d.rectangle((L, y, L + 120, y + 6), fill=TEAL); y += 34
+        for ln in wrap(d, sl["body"], f7(bs), R - L): d.text((L, y), ln, font=f7(bs), fill=WHITE, anchor="lt"); y += int(bs * 1.32)
+        footer(d); im.save(f"{out}/{i:02d}.jpg", quality=93); print(i); continue
     lst = sl.get("list"); n = len(lst) if lst else 0
     ih = 660 if not lst else (600 if n <= 4 else 380 if n <= 8 else 250)
     im = Image.new("RGB", (W, H), BG); im.paste(top_image(src, ih), (0, 0)); im = fade(im, ih - 220, ih); d = ImageDraw.Draw(im); pill(d, i)
