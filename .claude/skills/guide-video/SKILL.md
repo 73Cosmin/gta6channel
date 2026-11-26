@@ -41,6 +41,24 @@ Builder: `python3 tools/guide_build_v2.py media/configs/<file>.json` (example co
   shadow, y ~1330. NO black/white title boxes (owner: unprofessional) - replaces checklist #7 for guides.
 - Credit + disclaimer small at y ~1488. Music bed quiet (0.05) under the VO.
 
+## ALGORITHM CHECK (owner 2026-11-26 ~21:30, Emerus Studio read + tiktok-algorithm skill) - EVERY guide
+Emerus guide (dark night opening, payoff word at ~3 s) = 441 views @2.4 h, **24% avg watch, ~60% gone by 0:03**;
+but 8 saves (36% of likes) and **47.5% of views from TikTok SEARCH**. Completion is the #1 ranking signal, the first
+2 s decide it, and guides live off search + saves. So:
+1. **Frame 0 = bright** (mean luma >= 90 on frames 0-3 s; measure:
+   `ffmpeg -i out.mp4 -vf "fps=1,signalstats,metadata=print:key=lavfi.signalstats.YAVG" -f null - 2>&1 | grep -o 'YAVG=[0-9]*'`).
+   Night footage: cut gamma 1.4-1.8, or pick a daytime/studio shot for cut 0. No dark run-up (man at a gate, walking at night).
+   Quick fix for a finished file: `eq=gamma=1.2,eq=gamma=1.15:enable='lt(t,6)'` -> new filename.
+2. **Payoff word in the first 1.5 s of VO**: put the item first, e.g. "[excited] FREE hypercar in GTA 6! Here's how you get it."
+   or keep "This is how you get a FREE <X>" short - never a long adjective chain before the item ("one of the fastest...").
+3. **Hook card image bright** (`img_gamma` 1.3-1.6 for dim shots) - the item must read at thumbnail size.
+4. **Length 25-35 s**; cut every 2-3 s, no step that isn't needed.
+5. **End**: last VO line or caption = save prompt ("Save this before you forget 📌") + a question viewers can answer/correct.
+6. **Caption = the exact search phrase** people type ("how to get the free hypercar in GTA 6", "gta 6 secret car location")
+   + item name + save prompt + question + credit + **max 5 hashtags** (2 broad #gta6 #fyp + 2-3 niche #gta6cars #gta6secrets #gta6tips).
+7. **Read at ~3 h** (owner Studio): <30% avg watch -> hook problem (fix 1-2); >40% watched but shares+saves <1% -> payoff problem;
+   high Search share -> keep it up, guides grow for days via search, never delete early.
+
 ## 1. Prep (one command)
 ```bash
 python3 .claude/skills/guide-video/scripts/guide.py prep <name> "<youtube-url>" <start> <end>
@@ -53,7 +71,7 @@ with `frame <name> <t>` (exact item names, prices, mission names - never guess).
 YouTube auto-subs are rate-limited (429); Scribe is the transcript.
 
 ## 2. Script (EN, ~30-40 s, ~85-110 words) - HOOK STRUCTURE v2 (owner 2026-11-26)
-- Sentence 1 = hook, starts EXACTLY like: "This is how you get <X> in GTA 6 for free!" (or "...start the hidden
+- Sentence 1 = hook, starts EXACTLY like: "This is how you get <X> in GTA 6 for free!" (<X> = 1-3 words, payoff spoken by ~1.5 s - see ALGORITHM CHECK) (or "...start the hidden
   <quest>..."), optional tease ("green flames included", "most players walk right past it"). The picture card
   shows <X> during this sentence.
 - Sentence 2 = "Here's how." -> then explain FROM THE START, one short sentence per visible step
@@ -103,7 +121,7 @@ Prints VO sentences with start/end times (one ElevenLabs generation - never re-r
 ```bash
 python3 tools/guide_build_v2.py media/configs/<file>.json
 ```
-Check phone-crop frames (crop=883:1920:98:0) at 0.03 s, ~2 s (card in), the end of the hook, one frame per
+Measure luma of 0-3 s (ALGORITHM CHECK #1, >= 90) and check phone-crop frames (crop=883:1920:98:0) at 0.03 s, ~2 s (card in), the end of the hook, one frame per
 sentence and the last frame -> Read them: first frame bright + moving gameplay, card centred and not covering the
 logo or captions, captions readable, each cut matches its sentence, nothing black/cut off. Fix -> rebuild (~1 min).
 When replacing an already scheduled file, publish it under a NEW filename (raw.githubusercontent caches ~5 min)
@@ -112,6 +130,6 @@ Old builder tools/guide_build.py (blurred band + black/white title box) = legacy
 
 ## 5. Publish
 Commit config + mp4 to `main`, confirm the raw URL returns 200, then Buffer per playbook slots/caps
-(TikTok every 3 h: 07/10/13/16/19/22:00, day-by-day rule; YT/IG only the 1-2 strongest guides/day). Caption: hook + question + `🎥 Footage: @creator` +
-"Fan page, not affiliated with Rockstar Games." + 5 hashtags. Story/side-quest twist → caption starts
+(TikTok every 3 h: 07/10/13/16/19/22:00, day-by-day rule; YT/IG only the 1-2 strongest guides/day). Caption (ALGORITHM CHECK #6): search phrase + save prompt + question + `🎥 Footage: @creator` +
+"Fan page, not affiliated with Rockstar Games." + max 5 hashtags. Story/side-quest twist → caption starts
 with "SPOILER". Log in `log.md` + `scoreboard.csv`.
