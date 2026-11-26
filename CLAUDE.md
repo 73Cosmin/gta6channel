@@ -57,6 +57,12 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 ## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
 TikTok posts use schedulingType **automatic**, like X/IG/YouTube. This overrides any scheduled prompt
 that says "notification"/reminder. Our own music stays baked in.
+**EXCEPTION - TikTok SLIDESHOWS (photo mode) = REMINDER (owner 2026-11-26 ~22:45):** the 22:00 cars slideshow went out
+automatically WITHOUT ANY SOUND ("das geht auch nicht") - Buffer/TikTok's API cannot attach a sound to photo posts. So every
+TikTok slideshow is scheduled with schedulingType **notification** at its slot: Buffer pings the owner's phone, the owner posts
+it in the TikTok app with the sound (official GTA VI soundtrack 'Flower In A Hurricane' / a trending GTA sound). Put the
+sound suggestion in the run's final message (never in the public caption). Never schedule a TikTok photo post as automatic again. (Fallback only if the owner
+says so: render the slides as an mp4 with a GTA-style bed from media/music/ and post that automatically.)
 
 ## QUOTE CUT exception (owner 2026-11-20 12:25, ref media/references/quote_cut_eli.mp4)
 Low-effort viral format: `python3 tools/quote_cut.py <cfg>`. Facecam top / gameplay below, ONE caption = the streamer's own
