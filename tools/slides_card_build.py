@@ -9,7 +9,7 @@ F8, F7 = "brand/fonts/TikTokSans-800.ttf", "brand/fonts/TikTokSans-700.ttf"
 f8 = lambda s: ImageFont.truetype(F8, s); f7 = lambda s: ImageFont.truetype(F7, s)
 W, H = 1080, 1350; BG = (20, 17, 28); CARD = (34, 29, 46); TEAL = (94, 230, 200); WHITE = (250, 246, 238); GREY = (190, 186, 200)
 L, R = 64, 1016
-N = len(C["slides"])
+N = C.get("total", len(C["slides"]))   # "total"/"start": build a single cover for a longer slideshow
 def grab(t):
     p = f"/tmp/_card_{t}.png"
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-ss", str(t), "-i", C["video"], "-frames:v", "1", p], check=True)
@@ -37,9 +37,9 @@ def pill(d, i):
     d.text((R - 16, 84), ct, font=f8(30), fill=TEAL, anchor="rm")
 def footer(d):
     d.line((L, 1262, R, 1262), fill=(70, 64, 86), width=2)
-    d.text((L, 1296), C["credit"], font=f8(28), fill=WHITE, anchor="lm")
+    d.text((22, H - 22), C["credit"], font=f7(18), fill=GREY, anchor="ls")   # tiny source, bottom-left (owner 2026-11-26)
     d.text((R, 1296), C["save"], font=f8(28), fill=TEAL, anchor="rm")
-for i, sl in enumerate(C["slides"], 1):
+for i, sl in enumerate(C["slides"], C.get("start", 1)):
     src = Image.open(sl["img"]).convert("RGB") if sl.get("img") else grab(sl["t"])
     if sl.get("cover") or sl.get("end"):
         im = Image.new("RGB", (W, H), BG); im.paste(top_image(src, 820, sl.get('crop_x')), (0, 0)); im = fade(im, 560, 860); d = ImageDraw.Draw(im); pill(d, i)

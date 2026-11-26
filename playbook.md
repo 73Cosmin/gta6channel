@@ -209,8 +209,11 @@ Owner wants our next slideshows built like this. Reference posts (TikTok photo m
 - 'GTA 6 cheat codes are back' 4 slides = 557K / 33K saves; 'cheat codes have leaked' 3 slides = 393K / 24K saves
 - 'How to get the fastest muscle car' 6 slides = 32.5K; '80K money spot' 11 slides = 30.9K; loot/alien guides 2.8-4.3K
 Recipe:
-1. COVER: official key art of a character (top ~65%), black band at the bottom with a condensed bold all-caps title
-   (white + ONE keyword in a purple->pink gradient, e.g. 'GTA 6 / CARS AND THEIR / LOCATIONS'), small 'SWIPE FOR INFO ->'.
+1. COVER = OUR CARD STYLE, ALWAYS (owner 2026-11-26 ~23:30: 'das ist unser Wiedererkennungswert' - see the 3 pinned
+   slideshows Hurricane / Collectibles / Platinum): tools/slides_card_build.py cover slide = bright image top, dark navy band,
+   pill tag 'GTA VI / <TOPIC>' + '01 / NN' counter, giant white h1 + teal h2, white sub line, teal 'SWIPE FOR ... →',
+   teal 'SAVE THIS ...' bottom right, tiny source bottom-left. Body slides may use other builders, but slide 1 never.
+   (For a slides_v2 body: build the cover alone with "total": N and copy it over 01.jpg.)
 2. BODY = PAIRS: slide A = in-game screenshot of the item, slide B = the pause-map screenshot with the waypoint.
    Each slide ONE short caps label in the lower middle ('GOLD LAMBORGHINI URUS', 'HEAD HERE', 'TYPE 2134 AT GATE').
    Plain white condensed font, no boxes, no paragraphs. Native phone-screenshot look is fine (even the progress bar).
