@@ -42,8 +42,39 @@ def esc(t):
              .replace(",", "\\,").replace("%", "\\%"))
 
 
+# 0) JUMP-CUT GUARD (owner 2026-11-26: "komische Jumpcuts ganz random" in the Emerus guide -> never again).
+# A jump cut = the picture skips a little inside the SAME shot (same place, slightly moved) -> looks like a glitch.
+# For every cut: cont = where the previous segment would continue, src = where the new cut starts.
+#  1. |src - cont| < 2.0 s            -> MERGE: drop the cut, the footage just keeps playing (no skip at all).
+#  2. junction frames look alike      -> DISSOLVE: 0.3 s crossfade from the previous segment's last frame, so a
+#     (mean gray diff 0.01-0.16)         time skip inside one shot reads as an intended "later..." transition.
+#  3. clearly different picture       -> normal hard cut (that is a real cut, fine).
+# Identical frames (diff < 0.01, e.g. a static map screen) need nothing.
+import numpy as np
+
+
+def gray(t):
+    b = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(t, 0):.3f}", "-i", C["footage"], "-frames:v", "1",
+                        "-vf", "scale=64:36,format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
+    return np.frombuffer(b, np.uint8).astype(float) if len(b) == 64 * 36 else None
+
+
+cuts = [list(c) for c in C["cuts"]]
+merged, dissolve = [cuts[0]], set()
+for i, cut in enumerate(cuts[1:], 1):
+    pv = merged[-1]; cont = pv[1] + (cut[0] - pv[0]); src = cut[1]
+    if abs(src - cont) < 2.0 and i not in C.get("keep_cut", []):
+        print(f"jumpcut guard: cut {i} at vo {cut[0]:.2f}s merged (src {src:.2f} vs continuous {cont:.2f})")
+        continue
+    a, b = gray(cont - 0.05), gray(src)
+    d = abs(a - b).mean() / 255 if a is not None and b is not None else 1.0
+    if 0.01 <= d < C.get("dissolve_below", 0.16):
+        dissolve.add(len(merged))
+        print(f"jumpcut guard: cut {i} at vo {cut[0]:.2f}s same-looking shot (diff {d:.3f}) -> 0.3 s dissolve")
+    merged.append(cut)
+
 # 1) segments: zoomed crop 1080x1500 per cut
-cuts = C["cuts"]
+cuts = merged
 lst = os.path.join(tmp, "list.txt")
 bw = int(round(BAND_H * 16 / 9 / 2)) * 2
 with open(lst, "w") as L:
@@ -58,6 +89,14 @@ with open(lst, "w") as L:
                         "-vf", f"fps=30,scale={bw}:{BAND_H},crop=1080:{BAND_H}:{x}:0,"
                                f"eq=gamma={g}:contrast=1.05:saturation={1.1 + (g - 1) * 0.3:.2f}",
                         "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", seg], check=True)
+        if i in dissolve:      # crossfade from the previous segment's last frame (no timing change)
+            prev = os.path.join(tmp, f"s{i - 1:02d}.mp4"); last = os.path.join(tmp, f"last{i:02d}.png")
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-sseof", "-0.1", "-i", prev, "-frames:v", "1", last], check=True)
+            seg2 = os.path.join(tmp, f"s{i:02d}x.mp4")
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", seg, "-loop", "1", "-i", last, "-filter_complex",
+                            "[1:v]format=rgba,fade=t=out:st=0:d=0.3:alpha=1[o];[0:v][o]overlay=shortest=1",
+                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", "30", seg2], check=True)
+            seg = seg2
         L.write(f"file '{seg}'\n")
 joined = os.path.join(tmp, "joined.mp4")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", joined], check=True)

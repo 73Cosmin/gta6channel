@@ -410,3 +410,4 @@
 - guide-video SKILL.md: new ALGORITHM CHECK section (bright frame 0 luma>=90, payoff word <=1.5 s, bright card, 25-35 s, save prompt, search-phrase caption, max 5 hashtags, 3 h diagnosis).
 - Brightened + swapped in Buffer (same post IDs): serial killer v3 (TT/IG/YT Nov 27 07:00), SWAT yoink v2 (TT 13:00), Rolls Royce v3 (TT 16:00). Luma 0-3 s now ~86-103 (was 57-81).
 - Captions: SK TT/IG + RR TT now search phrase + save prompt. Pink Porsche 10:00 already bright + save prompt -> unchanged. 22:00 cars slideshow unchanged (already save prompt, 5 tags).
+- ~22:35 (Nov 26) OWNER: no more random jump cuts. guide_build_v2.py JUMP-CUT GUARD (merge <2 s skips, 0.3 s dissolve for same-looking skips) + skill rule #8. Re-downloaded sources, re-rendered video (audio = previous final mix): serial killer v4 (TT/IG/YT 07:00), pink Porsche v3 (TT/IG/YT 10:00), Rolls Royce v4 (TT 16:00); swapped in Buffer, same post IDs.

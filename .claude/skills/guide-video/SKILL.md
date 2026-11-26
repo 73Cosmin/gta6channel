@@ -59,6 +59,17 @@ but 8 saves (36% of likes) and **47.5% of views from TikTok SEARCH**. Completion
 7. **Read at ~3 h** (owner Studio): <30% avg watch -> hook problem (fix 1-2); >40% watched but shares+saves <1% -> payoff problem;
    high Search share -> keep it up, guides grow for days via search, never delete early.
 
+8. **NO JUMP CUTS (owner 2026-11-26: "komische Jumpcuts ganz random" in the Emerus guide - stop it).** A jump cut = the
+   picture skips a bit inside the SAME shot (same place, slightly moved/repeated) and looks like a glitch. Rules:
+   - Never start a new cut 0.1-2 s before/after where the previous one would continue: let the footage keep PLAYING and
+     only cut when the picture changes to a different shot. One VO sentence does NOT need its own cut.
+   - Never jump backwards inside a shot (repeats frames).
+   - tools/guide_build_v2.py enforces this automatically (JUMP-CUT GUARD): skips < 2 s are merged into continuous
+     playback, same-looking skips (frame diff 0.01-0.16) get a 0.3 s dissolve, real shot changes stay hard cuts.
+     Read its "jumpcut guard:" lines - many merges = cuts planned too finely; pick fewer, bigger cuts.
+     `"keep_cut": [i]` forces a cut, `"dissolve_below"` tunes the threshold.
+   - Check: watch every cut boundary (frames 0.2 s before/after) - nothing may look like the video stuttered.
+
 ## 1. Prep (one command)
 ```bash
 python3 .claude/skills/guide-video/scripts/guide.py prep <name> "<youtube-url>" <start> <end>
@@ -105,8 +116,8 @@ Prints VO sentences with start/end times (one ElevenLabs generation - never re-r
  "out": "media/edits/<YYYY-MM-DD>_guide_<slug>_v2.mp4"
 }
 ```
-- `cuts` = `[vo_time, section_time, gamma?, xfocus?]`; each runs until the next cut. One cut per VO sentence
-  (split long ones at the key word, e.g. "there she is"). xfocus 0..1 = which horizontal part of the 16:9 frame
+- `cuts` = `[vo_time, section_time, gamma?, xfocus?]`; each runs until the next cut. Cut only where the SHOT changes
+  (ALGORITHM CHECK #8 - no jump cuts); a sentence can play over continuous footage. xfocus 0..1 = which horizontal part of the 16:9 frame
   stays in the zoomed crop (0.9-1.0 for menus on the right, ~0.1 for prices bottom-left).
 - **Cut 0 = MOVING, BRIGHT gameplay** (driving, walking in daylight) - it runs behind the hook card. Never a
   still image/photo there, never a dark or black frame at 0.0 s: measure brightness of the first frames
