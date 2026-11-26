@@ -2,7 +2,8 @@
 name: guide-video
 description: >-
   Build a 1deflay-style GTA 6 secret/how-to guide video (Short, 30-45 s) from a YouTube video section:
-  "HOW TO GET X" hook, step-by-step gameplay synced to an AI voiceover, title box, one-word captions.
+  "This is how you get X" hook with a sliding item picture card + swoosh over moving gameplay, step-by-step
+  full-screen gameplay synced to an AI voiceover, GTA VI logo on top, 2-3-word Poppins captions (layout v2).
   Use when the owner sends a YouTube link + timestamp/number and says "mach ein Video wie deflay",
   "guide video", "how to get", "secret location", "free car", or similar.
 ---
@@ -51,51 +52,63 @@ Prints the creator's transcript (section seconds) and writes a contact sheet `/t
 with `frame <name> <t>` (exact item names, prices, mission names - never guess).
 YouTube auto-subs are rate-limited (429); Scribe is the transcript.
 
-## 2. Script (EN, ~30-40 s, ~90-110 words)
-- Line 1 = payoff/proof + hook: "This is how you get this <X> in GTA 6 for FREE." / "This hidden quest in GTA 6 makes YOU the next victim."
-- Line 2 = promise: "Here's how ... in literally two minutes." or a qualifier ("And yes, it works even in chapter two.")
-- Then one short sentence per visible step (map marker → go there → the action → reward/where to register).
-- End right after the payoff + a twist or flex ("green flames out the back. You're welcome.").
-- ONLY facts visible in the footage or said by the creator (hard rule 2). Clickbait in the title is OK
-  (rule 3), but say honestly in the VO what it costs (e.g. "register it for 9,500").
-- Start with `[excited]`; a `[whispers]` before a twist works.
+## 2. Script (EN, ~30-40 s, ~85-110 words) - HOOK STRUCTURE v2 (owner 2026-11-26)
+- Sentence 1 = hook, starts EXACTLY like: "This is how you get <X> in GTA 6 for free!" (or "...start the hidden
+  <quest>..."), optional tease ("green flames included", "most players walk right past it"). The picture card
+  shows <X> during this sentence.
+- Sentence 2 = "Here's how." -> then explain FROM THE START, one short sentence per visible step
+  (map marker -> go there -> the action -> reward / where to register).
+- End right after the payoff + a twist or flex ("You're welcome." / "[whispers] Because the next victim... is you.").
+- ONLY facts visible in the footage or said by the creator (hard rule 2). Clickbait hook is OK (rule 3), but the
+  VO says honestly what it costs ("Register it as yours for 9,500").
+- Start with `[excited]`; `[whispers]` before a twist works.
+- Check Scribe's word list for mishearings ("defenses" vs "the fences", "VI" -> builder shows "6") and fix
+  `vo_words.json` before building - captions are built from it.
 
 ```bash
-python3 .claude/skills/guide-video/scripts/guide.py vo <name> "[excited] This is how you ..."
+python3 .claude/skills/guide-video/scripts/guide.py vo <name> "[excited] This is how you get ..."
 ```
-Prints VO sentences with start/end times.
+Prints VO sentences with start/end times (one ElevenLabs generation - never re-roll on scheduled runs).
 
-## 3. Config `media/configs/<YYYY-MM-DD>_guide_<slug>.json`
+## 3. Config `media/configs/<YYYY-MM-DD>_guide_<slug>_v2.json` (builder tools/guide_build_v2.py)
 ```json
 {
  "footage": "media/raw/yt/<name>/section.mp4",
  "vo": "media/raw/yt/<name>/vo.mp3",
  "words": "media/raw/yt/<name>/vo_words.json",
- "title": ["FREE ROLLS ROYCE", "IN GTA 6"],
- "title_until": null,
- "gamma": 1.1,
- "cuts": [[0.0, 25.2], [4.1, 108.0, 1.25], [7.0, 6.0]],
- "red_words": ["FREE", "FAST"],
+ "cuts": [[0.0, 36.0, 1.15], [6.06, 4.0, 1.0, 0.5], [6.96, 8.0, 1.0, 0.8], [9.96, 18.0, 1.2]],
+ "hook": {"img_t": 25.0, "crop": [470, 330, 1570, 949], "img_gamma": 1.0,
+          "label": "BUCKINGHAM BOURBON WINDSOR", "in": 0.0, "out": 5.6, "from": "right"},
+ "hook_y": 840, "caption_y": 1330,
+ "yellow_words": ["LUXURY", "FREE", "WINDSOR"],
  "music": "media/music/synthwave_trap_01.mp3", "music_vol": 0.05,
  "credit": "Footage: @<creator> (YouTube)",
  "tail": 0.8,
- "out": "media/edits/<YYYY-MM-DD>_guide_<slug>.mp4"
+ "out": "media/edits/<YYYY-MM-DD>_guide_<slug>_v2.mp4"
 }
 ```
-- `cuts` = `[vo_time, section_time, optional_gamma]`; each runs until the next cut. Put a cut at the start
-  of every VO sentence (split long sentences at the key word, e.g. "there she is").
-- **Cut 0 must show the payoff in a BRIGHT frame from frame 1** (owner: dark start = swipe). Check the sheet:
-  a cut that starts 1 s early can still show the previous scene. Dark/night shots: gamma 1.3-1.7.
-- **Title box ALWAYS** (CLAUDE.md checklist #7): 2 short caps lines, what you get. `title_until: null` = whole
-  video (captions then sit below the gameplay automatically).
+- `cuts` = `[vo_time, section_time, gamma?, xfocus?]`; each runs until the next cut. One cut per VO sentence
+  (split long ones at the key word, e.g. "there she is"). xfocus 0..1 = which horizontal part of the 16:9 frame
+  stays in the zoomed crop (0.9-1.0 for menus on the right, ~0.1 for prices bottom-left).
+- **Cut 0 = MOVING, BRIGHT gameplay** (driving, walking in daylight) - it runs behind the hook card. Never a
+  still image/photo there, never a dark or black frame at 0.0 s: measure brightness of the first frames
+  (`ffmpeg -ss T -i section.mp4 -frames:v 1 -vf scale=32:18,format=gray -f rawvideo -` -> mean > ~70) - scene
+  transitions often flash black. Dark night shots: gamma 1.3-1.8.
+- `hook.img_t` = the most beautiful BRIGHT frame of the item (studio shot, daylight photo, garage); `hook.crop` =
+  `[x0,y0,x1,y1]` in source px (~16:9) so the item fills the card (grid-check the frame first). `label` = exact
+  in-game name from the menu. `in` 0.0 (card flies in during the first 0.4 s), `out` = end of the hook sentence.
+- A source segment must not run past the end of its scene (count: next cut vo_time - this vo_time).
 
 ## 4. Build + check
 ```bash
-python3 tools/guide_build.py media/configs/<file>.json
-python3 .claude/skills/guide-video/scripts/guide.py check <name> <config-name-without-.json>
+python3 tools/guide_build_v2.py media/configs/<file>.json
 ```
-Read `/tmp/guide_<name>/check.png` (phone crop): first frame bright + shows the payoff, title box readable,
-each cut matches its sentence, nothing cut off. Fix cuts → rebuild (≈1 min).
+Check phone-crop frames (crop=883:1920:98:0) at 0.03 s, ~2 s (card in), the end of the hook, one frame per
+sentence and the last frame -> Read them: first frame bright + moving gameplay, card centred and not covering the
+logo or captions, captions readable, each cut matches its sentence, nothing black/cut off. Fix -> rebuild (~1 min).
+When replacing an already scheduled file, publish it under a NEW filename (raw.githubusercontent caches ~5 min)
+and swap the asset with Buffer edit_post (same post IDs).
+Old builder tools/guide_build.py (blurred band + black/white title box) = legacy, don't use for new guides.
 
 ## 5. Publish
 Commit config + mp4 to `main`, confirm the raw URL returns 200, then Buffer per playbook slots/caps
