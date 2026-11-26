@@ -176,10 +176,10 @@ for i, ch_ in enumerate(chunks):
                   f"shadowx=0:shadowy=5:shadowcolor=black@0.55:x={x:.0f}:y={cy}-ascent:"
                   f"enable='gte(t,{st:.3f})*lt(t,{en:.3f})'")
         x += ws[k] + sp
-for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
-    if line:
-        dr.append(f"drawtext=fontfile={DJ}:text='{esc(line)}':fontsize={26 - 4 * k}:fontcolor=white@0.9:borderw=2:"
-                  f"bordercolor=black:x=(w-tw)/2:y={C.get('credit_y', 1488) + k * 36}")
+# credit: tiny, bottom-left corner (owner 2026-11-26: no "fan page / not affiliated" line any more, source barely visible)
+if C.get("credit"):
+    dr.append(f"drawtext=fontfile={DJ}:text='{esc(C['credit'])}':fontsize=20:fontcolor=white@0.6:borderw=1:"
+              f"bordercolor=black@0.6:x=24:y=h-44")
 f.append("[v0]" + ",".join(dr) + "[v1]")
 
 inputs = ["-i", joined, "-i", vo, "-loop", "1", "-i", logo_png]

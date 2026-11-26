@@ -148,13 +148,9 @@ if C.get("end_text"):
         es -= 2
     dr.append(f"drawtext=fontfile={F}:text='{esc(txt)}':fontsize={es}:fontcolor=white:borderw=6:bordercolor={PINK}:"
               f"x=(w-tw)/2:y={C.get('end_text_y',960)}:enable='gte(t,{t0})'")
-for k, line in enumerate([] if C.get("no_credit") else [C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
-    if line:
-        ls_ = 28
-        while ls_ > 18 and ImageFont.truetype(F, ls_).getlength(line) > 620:
-            ls_ -= 1
-        dr.append(f"drawtext=fontfile={F}:text='{esc(line)}':fontsize={ls_}:fontcolor=white:borderw=3:bordercolor=black:"
-                  f"x=(w-tw)/2:y={C.get('credit_y',1480) + k*42}")
+if C.get("credit") and not C.get("no_credit"):   # tiny bottom-left (owner 2026-11-26: no disclaimer line)
+    dr.append(f"drawtext=fontfile={F}:text='{esc(C['credit'])}':fontsize=20:fontcolor=white@0.6:borderw=1:"
+              f"bordercolor=black@0.6:x=24:y=h-44")
 f.append("[v0]" + ",".join(dr) + "[v1]")
 cur = "v1"
 if steps:

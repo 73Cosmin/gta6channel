@@ -40,10 +40,12 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 4. **Compilations/Top-5: NO music bed** (owner 2026-11-20: "die Musik stört") - original audio + `media/music/sting_whoosh_boom.wav`
    at every rank change (`"music": null, "sting": ...` in the top5 config). Single clips/info videos: **Background music under every video** (`media/music/`, ducked under the voice, loudnorm -14 LUFS).
    TikTok: also add a trending sound in-app when possible (see playbook).
-5. Credit line + "Fan page. Not affiliated with Rockstar Games." on screen. Creator clips: `🎥 @creator`.
+5. **NO "Fan page / not affiliated with Rockstar" line - HARD RULE (owner 2026-11-26 ~23:00): never on screen, never in captions.**
+   Source/credit only TINY in the bottom-left corner (20 px, white ~60%, x 24, y h-44 - deliberately barely visible; all builders
+   do this). Captions: credit line `🎥 @creator` stays (hard rule 7), nothing else.
 6. **TikTok SAFE ZONE (owner 2026-11-20 23:51, Top-5 title + list were cut off)**: phones crop ~100 px off EACH side of a
    1080x1920 video, the search bar covers y≈140-230, caption/username y>≈1560, buttons x>≈860. All text/graphics inside
-   x 120-860, y 240-1550; between y 900-1560 (next to the buttons) centred text max 620 px wide. Stacked layout -> hook title on the seam (y≈700). Credit/disclaimer y≈1480 (info_build default),
+   x 120-860, y 240-1550; between y 900-1560 (next to the buttons) centred text max 620 px wide. Stacked layout -> hook title on the seam (y≈700). Credit = tiny bottom-left corner (no disclaimer),
    end text y≈960, top5_build has no black header any more (title boxes on the seam). Check a phone-crop frame
    (crop=883:1920:98:0) before publishing.
 7. **HOOK TITLE BOX + BRIGHT START (owner 2026-11-26, ALL videos)**: a catchy black-on-white title box (TikTok Sans, white rounded
@@ -67,7 +69,7 @@ says so: render the slides as an mp4 with a GTA-style bed from media/music/ and 
 ## QUOTE CUT exception (owner 2026-11-20 12:25, ref media/references/quote_cut_eli.mp4)
 Low-effort viral format: `python3 tools/quote_cut.py <cfg>`. Facecam top / gameplay below, ONE caption = the streamer's own
 ironic line in „quotes“ + emoji, video ends HARD on the dumb moment (5-12 s). Exempt from checklist #2 (word captions), #3
-(slow-mo replay / 15 s minimum), #4 (music) and #6 (hook box). Credit + disclaimer still on screen. Only for scenes where a
+(slow-mo replay / 15 s minimum), #4 (music) and #6 (hook box). Tiny bottom-left credit still on screen. Only for scenes where a
 line is said right BEFORE something stupid happens (setup -> instant karma). Aim 1-2 per day on TikTok.
 
 ## Hard rules

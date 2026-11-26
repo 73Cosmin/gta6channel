@@ -20,7 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 W, H = 1080, 1920
 TXT = "/usr/share/fonts/opentype/inter/Inter-Bold.otf"
 EMO = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
-DEFAULT_FOOTER = "AI-generated scene · Fan page. Not affiliated with Rockstar Games."
+DEFAULT_FOOTER = "AI-generated scene"   # owner 2026-11-26: no fan-page/not-affiliated line
 
 
 def is_emoji(ch):

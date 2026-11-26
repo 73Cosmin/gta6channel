@@ -57,5 +57,5 @@ button" in the first minute. Nothing else is banned — rumors, leaks, theories 
   next video.
 - Every long video -> 3-5 standalone Shorts/TikToks (`/yt-shorts`), 20-45 s, CLAUDE.md 9:16 + safe-zone rules.
 - Description: first 2 lines = what the viewer gets; chapters; "Sources & credits" list; footer
-  "Fan page. Not affiliated with Rockstar Games."
+  (no fan-page/not-affiliated line - owner 2026-11-26)
 - Title/thumbnail: English, label rumors in the title too when the video is mainly rumors ("...RUMORS").

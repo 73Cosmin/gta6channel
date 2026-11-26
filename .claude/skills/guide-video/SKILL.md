@@ -39,7 +39,7 @@ Builder: `python3 tools/guide_build_v2.py media/configs/<file>.json` (example co
 - GTA VI logo top centre the whole video (brand/logo/gta6_logo.png, y 232 = below the TikTok search bar).
 - Captions: 2-3 words, Poppins ExtraBold, white + one yellow key word (numbers/yellow_words/longest word), soft
   shadow, y ~1330. NO black/white title boxes (owner: unprofessional) - replaces checklist #7 for guides.
-- Credit + disclaimer small at y ~1488. Music bed quiet (0.05) under the VO.
+- Credit TINY in the bottom-left corner (builder default), NO "fan page / not affiliated" line (owner hard rule 2026-11-26). Music bed quiet (0.05) under the VO.
 
 ## ALGORITHM CHECK (owner 2026-11-26 ~21:30, Emerus Studio read + tiktok-algorithm skill) - EVERY guide
 Emerus guide (dark night opening, payoff word at ~3 s) = 441 views @2.4 h, **24% avg watch, ~60% gone by 0:03**;
@@ -142,5 +142,5 @@ Old builder tools/guide_build.py (blurred band + black/white title box) = legacy
 ## 5. Publish
 Commit config + mp4 to `main`, confirm the raw URL returns 200, then Buffer per playbook slots/caps
 (TikTok every 3 h: 07/10/13/16/19/22:00, day-by-day rule; YT/IG only the 1-2 strongest guides/day). Caption (ALGORITHM CHECK #6): search phrase + save prompt + question + `🎥 Footage: @creator` +
-"Fan page, not affiliated with Rockstar Games." + max 5 hashtags. Story/side-quest twist → caption starts
+max 5 hashtags (NO "fan page / not affiliated" line). Story/side-quest twist → caption starts
 with "SPOILER". Log in `log.md` + `scoreboard.csv`.

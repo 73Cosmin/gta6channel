@@ -34,9 +34,8 @@ def grad_text(im, y, s, size):
         a = x / max(1, w - 1); ImageDraw.Draw(g).line([(x, 0), (x, h)], fill=(int(150 + 105 * a), int(70 - 20 * a), int(255 - 60 * a)))
     im.paste(g, ((W - w) // 2, y), mask); return y + int(size * 1.12)
 
-def credit(d):
-    d.text((W // 2, 1262), cfg["credit"], font=f(28), fill=(255, 255, 255), anchor="mt", stroke_width=3, stroke_fill=(0, 0, 0))
-    d.text((W // 2, 1298), "Fan page. Not affiliated with Rockstar Games.", font=f(22), fill=(210, 210, 210), anchor="mt", stroke_width=3, stroke_fill=(0, 0, 0))
+def credit(d):   # tiny bottom-left, no disclaimer (owner 2026-11-26)
+    d.text((22, H - 22), cfg["credit"], font=f(18), fill=(190, 190, 190), anchor="ls", stroke_width=1, stroke_fill=(0, 0, 0))
 
 n = 0
 def save(im):

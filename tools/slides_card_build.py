@@ -39,7 +39,6 @@ def footer(d):
     d.line((L, 1262, R, 1262), fill=(70, 64, 86), width=2)
     d.text((L, 1296), C["credit"], font=f8(28), fill=WHITE, anchor="lm")
     d.text((R, 1296), C["save"], font=f8(28), fill=TEAL, anchor="rm")
-    d.text((W // 2, 1332), "Fan page. Not affiliated with Rockstar Games.", font=f7(20), fill=GREY, anchor="mm")
 for i, sl in enumerate(C["slides"], 1):
     src = Image.open(sl["img"]).convert("RGB") if sl.get("img") else grab(sl["t"])
     if sl.get("cover") or sl.get("end"):

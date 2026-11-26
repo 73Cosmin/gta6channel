@@ -47,12 +47,9 @@ def overlay():
         d.text((x0, y0), txt, font=f, fill="white", stroke_width=2, stroke_fill=(0, 0, 0, 160))
         if em and last:
             img.alpha_composite(em, (int(x0 + tw + 12), y0 + int(size * 0.08)))
-    for k, line in enumerate([C["credit"], "Fan page. Not affiliated with Rockstar Games."]):
-        fs = 28; sf = ImageFont.truetype(FONT, fs)
-        while sf.getlength(line) > 620 and fs > 18:
-            fs -= 1; sf = ImageFont.truetype(FONT, fs)
-        lw = sf.getlength(line)
-        d.text(((W - lw) / 2, 1480 + k * 40), line, font=sf, fill="white", stroke_width=3, stroke_fill="black")
+    if C.get("credit"):   # tiny bottom-left (owner 2026-11-26: no disclaimer line)
+        d.text((24, H - 44), C["credit"], font=ImageFont.truetype(FONT, 20), fill=(255, 255, 255, 150),
+               stroke_width=1, stroke_fill=(0, 0, 0, 150))
     p = f"{tmp}/ov.png"; img.save(p); return p
 
 

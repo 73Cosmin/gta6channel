@@ -46,6 +46,5 @@ for i, sl in enumerate(cfg["slides"], 1):
             y = ctext(d, y, tip["num"] + " " + tip["head"], f(64), YEL)
             y = ctext(d, y + 8, tip["how"], f(46), WHITE) + 50
         if sl.get("cta"): ctext(d, max(y, 1330), sl["cta"], f(50), RED)
-    d.text((W // 2, 1480), cfg["credit"], font=f(30), fill=WHITE, anchor="mt", stroke_width=3, stroke_fill=(0, 0, 0))
-    d.text((W // 2, 1518), "Fan page. Not affiliated with Rockstar Games.", font=f(24), fill=(200, 200, 200), anchor="mt", stroke_width=3, stroke_fill=(0, 0, 0))
+    d.text((22, H - 22), cfg["credit"], font=f(18), fill=(190, 190, 190), anchor="ls", stroke_width=1, stroke_fill=(0, 0, 0))  # tiny, no disclaimer (owner 2026-11-26)
     p = f"{out}/{i:02d}.jpg"; im.save(p, quality=92); print(p)

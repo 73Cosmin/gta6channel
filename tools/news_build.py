@@ -33,7 +33,7 @@ def tag(num,label):
     return italic(L,279)
 def credit():
     L=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(L)
-    for t,y,s in [('Clips: @fanum, @ishowspeed (Twitch)',1400,26),('Post: @MasonWaltemyer (X)',1436,26),('Fan page. Not affiliated with Rockstar Games.',1476,26)]:
+    for t,y,s in [('Clips: @fanum, @ishowspeed (Twitch)',1400,26),('Post: @MasonWaltemyer (X)',1436,26)]:
         f=F(s,700); w=d.textlength(t,font=f); d.text(((W-w)/2,y),t,font=f,fill='white',stroke_width=3,stroke_fill='black')
     return L
 TWEET=("🚨 JUST IN: Rockstar FIRED GTA 6 narrative writer ███████████ 🚨\n\nAlexa was exposed for running a WOKE blog teaching women how to manipulate men and take advantage of them.\n\n"

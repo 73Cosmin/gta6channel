@@ -4,7 +4,7 @@
 Layout 1080x1920 (TikTok-SAFE since 2026-11-20 23:51): facecam full-width top (y 0-760), coloured title words in
 rounded black boxes on the seam (+ green teaser), gameplay below (760-1920). Everything important inside x 120-860. Ranking list 1.-5. on the left
 (coloured numbers, labels appear as the countdown 5 -> 1 reaches them). One-word yellow captions,
-per-clip credit + fan-page disclaimer, music bed under the original audio, loudnorm -14 LUFS.
+per-clip credit (tiny, bottom-left), music bed under the original audio, loudnorm -14 LUFS.
 
 Config: {"title": [[["RANKING THE ","white"],["FUNNIEST","green"]], [["GTA 6 ","pink"],["FAILS","blue"]]],
   "teaser": "(#1 IS PURE EVIL)", "music": "...", "out": "...",
@@ -87,12 +87,8 @@ for i, it in enumerate(items):
     revealed.append(it["rank"])
     lp = f"{tmp}/list{i}.png"; list_png(revealed, it["rank"], lp)
     cr = Image.new("RGBA", (W, 90), (0, 0, 0, 0)); d = ImageDraw.Draw(cr)
-    for k, s in enumerate([it["credit"], "Fan page. Not affiliated with Rockstar Games."]):
-        sz = 30 if k == 0 else 25; f = font(sz)
-        while d.textlength(s, font=f) > 620 and sz > 18:
-            sz -= 1; f = font(sz)
-        d.text(((W - d.textlength(s, font=f)) / 2, k * 40), s, font=f, fill=(255, 255, 255),
-               stroke_width=3, stroke_fill=(0, 0, 0))
+    # tiny bottom-left credit, no disclaimer (owner 2026-11-26); the strip is placed as before, text sits left/bottom
+    d.text((24, 50), it["credit"], font=font(20), fill=(255, 255, 255, 150), stroke_width=1, stroke_fill=(0, 0, 0, 150))
     cp = f"{tmp}/cred{i}.png"; cr.save(cp)
     s0, s1 = it["start"], it["end"]; dur = s1 - s0
     fx, fy, fw, fh = it["facecam"]
@@ -116,7 +112,7 @@ for i, it in enumerate(items):
           f"[b]{gcf}scale={W}:{H-SEAM}:force_original_aspect_ratio=increase,crop={W}:{H-SEAM}[bot];"
           f"color=black:s={W}x{H}:r=30:d={dur:.3f}[bg];"
           f"[bg][top]overlay=0:0[v1];[v1][bot]overlay=0:{SEAM}[v2];"
-          f"[v2][2:v]overlay=0:990[v3];[v3][3:v]overlay=0:1490{cap}[v4];[v4][1:v]overlay=0:0[v];"
+          f"[v2][2:v]overlay=0:990[v3];[v3][3:v]overlay=0:1830{cap}[v4];[v4][1:v]overlay=0:0[v];"
           f"[0:a]atrim={s0}:{s1},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo[a]")
     out = f"{tmp}/seg{i}.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", it["footage"], "-i", f"{tmp}/head.png", "-i", lp, "-i", cp,

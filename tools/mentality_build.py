@@ -3,7 +3,7 @@
 
 Structure: INTRO black card "<NAME> GTA 6 Mentality" + hit at 0.0 s (owner 2026-11-20) -> streamer setup beat (original audio only) -> black card "<NAME> GTA 6 Mentality" + boom ->
 action beats with phonk bed under the original audio, a card between beats. Layout: facecam full-width
-top (0-800), gameplay below (800-1920), punchy colour grade, one-word captions, credit + disclaimer.
+top (0-800), gameplay below (800-1920), punchy colour grade, one-word captions, tiny credit bottom-left.
 
 Usage: python3 tools/mentality_build.py media/configs/<name>.json
 Config: {"card": "Monte GTA 6 Mentality", "hook": ["LINE 1", "LINE 2"], "music": "media/music/x.mp3",
@@ -31,7 +31,7 @@ C = json.load(open(sys.argv[1]))
 tmp = tempfile.mkdtemp()
 cd = C.get("card_dur", 0.7)
 parts, timeline, t = [], [], 0.0   # timeline: (kind, start, end)
-disc = "Fan page. Not affiliated with Rockstar Games."
+
 for i, b in enumerate(C["beats"]):
     # owner 2026-11-20 23:55: ALWAYS open with the black "<Name> GTA 6 Mentality" card + hit at 0.0 s, so a
     # swiping viewer instantly knows the format (otherwise it looks like a random clip). "intro_card": false disables.
@@ -60,10 +60,8 @@ for i, b in enumerate(C["beats"]):
             y = SEAM - 66 + k * 78
             dr.append(f"drawtext=fontfile={FB}:text='{esc(line)}':fontsize=56:fontcolor=black:box=1:"
                       f"boxcolor=white:boxborderw=14:x=(w-tw)/2:y={y}")
-    dr.append(f"drawtext=fontfile={FB}:text='{esc(C['credit'])}':fontsize=30:fontcolor=white:borderw=3:"
-              f"bordercolor=black:x=(w-tw)/2:y=1640")
-    dr.append(f"drawtext=fontfile={FB}:text='{esc(disc)}':fontsize=26:fontcolor=white:borderw=3:"
-              f"bordercolor=black:x=(w-tw)/2:y=1682")
+    dr.append(f"drawtext=fontfile={FB}:text='{esc(C['credit'])}':fontsize=20:fontcolor=white@0.6:borderw=1:"
+              f"bordercolor=black@0.6:x=24:y=h-44")   # tiny bottom-left, no disclaimer (owner 2026-11-26)
     fc = (f"[0:v]trim={s0}:{s1},setpts=PTS-STARTPTS,fps=30,split[a][b];"
           f"[a]crop={fw}:{fh}:{fx}:{fy},scale={W}:{SEAM}:force_original_aspect_ratio=increase,crop={W}:{SEAM}[top];"
           f"[b]{gcf}scale={W}:{H - SEAM}:force_original_aspect_ratio=increase,crop={W}:{H - SEAM}[bot];"

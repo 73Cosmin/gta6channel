@@ -18,8 +18,8 @@ $(H 'GTA 6' 150 190),$(H 'IS OUT NOW' 120 370),
 $(B 'New Zealand got it FIRST' 56 white 1060 3.5 7.9),
 $(B 'Midnight local time everywhere' 52 $CYAN 1160 4.8 7.9),
 $(B 'WELCOME TO LEONIDA' 72 white 1100 7.9 $D),
-drawtext=fontfile=$F:text='Footage\: Rockstar Games (Trailer 2)':fontsize=26:fontcolor=white@0.85:x=(w-tw)/2:y=h-120,
-drawtext=fontfile=$F:text='Fan page. Not affiliated with Rockstar Games.':fontsize=26:fontcolor=white@0.85:x=(w-tw)/2:y=h-80[v];
+drawtext=fontfile=$F:text='Footage\: Rockstar Games (Trailer 2)':fontsize=20:fontcolor=white@0.6:x=24:y=h-44,
+null[v];
 [2:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur=$D,asplit[vo1][vo2];
 [3:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.09,afade=t=out:st=$(echo "$D-0.8"|bc):d=0.8[mu];
 [mu][vo1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[duck];
