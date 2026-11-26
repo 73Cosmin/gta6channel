@@ -26,6 +26,20 @@ OWNER 2026-11-26: only items people WANT - beautiful/cool/fast (supercars, luxur
 Pick ONE concrete, visual payoff (free car, hidden weapon, money spot, secret quest, stat boost) that the
 footage shows step by step. After publishing add a row to `media/guides_used.csv`.
 
+## LAYOUT v2 (OWNER-APPROVED 2026-11-26 ~17:45, refs @gta6_deutschland, media/references/tt_1126) - DEFAULT for every guide
+Builder: `python3 tools/guide_build_v2.py media/configs/<file>.json` (example config: media/configs/2026-11-26_guide_emerus_v2.json).
+- HOOK (first ~4 s): VO starts "This is how you get <X> ..." while a PICTURE CARD of the item (bright gameplay frame,
+  `hook.img_t` + `hook.crop`, rounded white border, item name pill below) SLIDES IN from the side (`hook.from`
+  right/left/top/bottom) with a swoosh (media/music/swoosh.wav, swoosh_vol 0.7 = owner-approved level), stays centred
+  (hook_y ~840, not covering the logo), then slides out. Then "Here's how." and the walkthrough FROM THE START.
+- Behind the card MOVING GAMEPLAY, never a still image (owner: keeps people watching).
+- Gameplay ZOOMED to nearly full screen (band 1080x1500 at y 210); per cut `[vo_t, src_t, gamma, xfocus]` -
+  xfocus 0..1 picks which part of the 16:9 frame stays visible (e.g. 0.95 for menus on the right).
+- GTA VI logo top centre the whole video (brand/logo/gta6_logo.png, y 232 = below the TikTok search bar).
+- Captions: 2-3 words, Poppins ExtraBold, white + one yellow key word (numbers/yellow_words/longest word), soft
+  shadow, y ~1330. NO black/white title boxes (owner: unprofessional) - replaces checklist #7 for guides.
+- Credit + disclaimer small at y ~1488. Music bed quiet (0.05) under the VO.
+
 ## 1. Prep (one command)
 ```bash
 python3 .claude/skills/guide-video/scripts/guide.py prep <name> "<youtube-url>" <start> <end>

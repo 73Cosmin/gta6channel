@@ -170,7 +170,7 @@ else:
     f.append("[vo1]anullsink")
 if H:
     sw = C.get("swoosh", "media/music/swoosh.wav")
-    for k, (tt, vol) in enumerate([(H.get("in", 0.3), 0.9), (H["out"], 0.5)]):
+    for k, (tt, vol) in enumerate([(H.get("in", 0.3), C.get("swoosh_vol", 0.7)), (H["out"], C.get("swoosh_vol", 0.7) * 0.55)]):
         inputs += ["-i", sw]; si = idx; idx += 1
         f.append(f"[{si}:a]aformat=sample_rates=44100:channel_layouts=stereo,volume={vol},adelay={int(tt * 1000)}:all=1[sw{k}]")
         mix.append(f"[sw{k}]")

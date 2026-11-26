@@ -5,9 +5,9 @@
  "cuts": [
   [
    0.0,
-   36.55,
-   1.0,
-   0.2
+   48.0,
+   1.7,
+   0.5
   ],
   [
    4.6,
@@ -67,7 +67,7 @@
    848
   ],
   "label": "PROGEN ROYAL RUBY EMERUS",
-  "in": 0.12,
+  "in": 0.0,
   "out": 4.3,
   "from": "right"
  },
@@ -81,7 +81,7 @@
  "music_vol": 0.05,
  "credit": "Footage: @subscribefortacos (YouTube)",
  "tail": 0.8,
- "out": "media/edits/2026-11-26_guide_emerus_v2.mp4",
+ "out": "media/edits/2026-11-26_guide_emerus_v3.mp4",
  "hook_y": 840,
  "caption_y": 1330
 }

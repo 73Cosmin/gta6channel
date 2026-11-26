@@ -49,6 +49,9 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
 7. **HOOK TITLE BOX + BRIGHT START (owner 2026-11-26, ALL videos)**: a catchy black-on-white title box (TikTok Sans, white rounded
    boxes, 1-2 short lines, e.g. 'FREE ROLLS ROYCE / IN GTA 6') ABOVE the gameplay saying what the video is about - whole video
    or at least the first 5-10 s. Never open on a dark shot: pick a bright first frame or brighten it (guide_build `gamma` per cut).
+7b. **GUIDE LAYOUT v2 (owner-approved 2026-11-26 ~17:45)**: guides use tools/guide_build_v2.py - full-screen gameplay, GTA VI logo
+   top, 2-3-word Poppins captions (white + yellow key word), sliding item picture card + swoosh as hook over MOVING gameplay,
+   no black/white title boxes (see .claude/skills/guide-video/SKILL.md 'LAYOUT v2').
 8. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
 
 ## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
