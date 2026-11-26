@@ -12,6 +12,15 @@ description: >-
 Proven format (owner 2026-11-26, refs @1deflay; first two: serial killer quest, free Rolls Royce).
 Every sentence of the voiceover gets its own gameplay cut that SHOWS exactly that step.
 
+## 0. Find a source (daily automatic run, or when no link was given)
+```bash
+python3 tools/guide_scout.py --hours 72 --top 12
+```
+Ranks fresh GTA 6 guide videos by views/hour and prints their chapters. Skip anything in
+`media/guides_used.csv` (same video+chapter or same TOPIC), glitches/exploits (rule 4) and topics we already posted.
+Pick ONE concrete, visual payoff (free car, hidden weapon, money spot, secret quest, stat boost) that the
+footage shows step by step. After publishing add a row to `media/guides_used.csv`.
+
 ## 1. Prep (one command)
 ```bash
 python3 .claude/skills/guide-video/scripts/guide.py prep <name> "<youtube-url>" <start> <end>
