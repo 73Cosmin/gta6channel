@@ -214,6 +214,8 @@ Recipe:
    pill tag 'GTA VI / <TOPIC>' + '01 / NN' counter, giant white h1 + teal h2, white sub line, teal 'SWIPE FOR ... →',
    teal 'SAVE THIS ...' bottom right, tiny source bottom-left. Body slides may use other builders, but slide 1 never.
    (For a slides_v2 body: build the cover alone with "total": N and copy it over 01.jpg.)
+   BODY SLIDES carry the brand too (owner 2026-11-26 ~23:45: 'man muss merken dass es von meinem account ist'): same pill tag
+   top-left + teal 'NN / TT' counter top-right + teal divider line (slides_v2_build: "brand": {"tag": "GTA VI  /  <TOPIC>"}).
 2. BODY = PAIRS: slide A = in-game screenshot of the item, slide B = the pause-map screenshot with the waypoint.
    Each slide ONE short caps label in the lower middle ('GOLD LAMBORGHINI URUS', 'HEAD HERE', 'TYPE 2134 AT GATE').
    Plain white condensed font, no boxes, no paragraphs. Native phone-screenshot look is fine (even the progress bar).

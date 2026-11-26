@@ -37,6 +37,20 @@ def grad_text(im, y, s, size):
 def credit(d):   # tiny bottom-left, no disclaimer (owner 2026-11-26)
     d.text((22, H - 22), cfg["credit"], font=f(18), fill=(190, 190, 190), anchor="ls", stroke_width=1, stroke_fill=(0, 0, 0))
 
+# BRAND (owner 2026-11-26 ~23:40: "man muss merken dass es von meinem account ist"): same pill tag + "NN / TT" counter
+# as the card-style cover (tools/slides_card_build.py) on every slide, teal divider between item and map.
+TEAL, PILL, WHITE = (94, 230, 200), (18, 15, 24), (250, 246, 238)
+B = cfg.get("brand")
+TOTAL = len(cfg["items"]) + 2
+def brand(d, i):
+    if not B:
+        return
+    ft = f(30); L, R = 64, 1016; w = d.textlength(B["tag"], font=ft)
+    d.rounded_rectangle((L, 56, L + w + 56, 112), 28, fill=PILL); d.rectangle((L + 20, 70, L + 26, 98), fill=TEAL)
+    d.text((L + 40, 84), B["tag"], font=ft, fill=WHITE, anchor="lm")
+    ct = f"{i:02d} / {TOTAL:02d}"; cw = d.textlength(ct, font=ft)
+    d.rounded_rectangle((R - cw - 40, 56, R + 8, 112), 28, fill=PILL); d.text((R - 16, 84), ct, font=ft, fill=TEAL, anchor="rm")
+
 n = 0
 def save(im):
     global n; n += 1; p = f"{out}/{n:02d}.jpg"; im.save(p, quality=92); print(p)
@@ -52,7 +66,7 @@ for i, it in enumerate(cfg["items"], 1):
     im = Image.new("RGB", (W, H))
     im.paste(fill(grab(it["car"], it.get("gamma", 1.0)), W, 680, it.get("cx", 0.5)), (0, 0))
     im.paste(fill(grab(it["map"]), W, 670, it.get("mcx", 0.5)), (0, 680))
-    d = ImageDraw.Draw(im); d.rectangle((0, 676, W, 684), fill=(0, 0, 0))
+    d = ImageDraw.Draw(im); d.rectangle((0, 676, W, 684), fill=TEAL if B else (0, 0, 0)); brand(d, i + 1)
     y = text(d, 548, f"{i}. {it['name']}", 58)
     text(d, y, it["info"], 38, (255, 214, 0))
     y = text(d, 1100, "HEAD HERE", 54); text(d, y, it["where"], 38, (255, 214, 0))
@@ -61,4 +75,4 @@ for i, it in enumerate(cfg["items"], 1):
 e = cfg["end"]; im = fill(grab(e["t"], e.get("gamma", 1.0)), W, H).filter(ImageFilter.GaussianBlur(6))
 im = Image.blend(im, Image.new("RGB", (W, H)), 0.45); d = ImageDraw.Draw(im); y = 420
 for ln in e["lines"]: y = text(d, y, ln, 74)
-y = text(d, y + 40, e["sub"], 40, (255, 214, 0)); credit(d); save(im)
+y = text(d, y + 40, e["sub"], 40, (255, 214, 0)); brand(d, TOTAL); credit(d); save(im)

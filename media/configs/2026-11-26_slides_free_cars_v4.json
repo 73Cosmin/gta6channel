@@ -1,0 +1,98 @@
+{
+ "src": "media/raw/yt/magma/src.mp4",
+ "out_dir": "media/edits/2026-11-26_slides_free_cars_v4",
+ "credit": "Source: @subscribefortacos (YouTube)",
+ "cover": {
+  "t": 270,
+  "title": [
+   "GTA 6",
+   "*9 FREE CARS",
+   "WITH NO TRACKER"
+  ],
+  "sub": "AND THEIR LOCATIONS - SWIPE FOR INFO ->",
+  "cx": 0.35
+ },
+ "items": [
+  {
+   "name": "VAPID RED HOT HUSTLER",
+   "car": 59,
+   "map": 41,
+   "info": "NO TRACKER - REGISTER $6,550",
+   "where": "CAPRI, JUST BELOW PORT GELLHORN"
+  },
+  {
+   "name": "VAPID CULTIVATOR SANDKING",
+   "car": 74,
+   "gamma": 1.5,
+   "map": 82,
+   "info": "NO TRACKER - REGISTER $6,300",
+   "where": "INSIDE A ROBBERY OPPORTUNITY"
+  },
+  {
+   "name": "CANIS BLACK MOTH KAMACHO",
+   "car": 151,
+   "map": 135,
+   "info": "NO TRACKER - REGISTER $6,700",
+   "where": "GANG HIDEOUT NEAR WATSON BAY"
+  },
+  {
+   "name": "ALBANY TENIENTE",
+   "car": 184,
+   "gamma": 1.3,
+   "map": 172,
+   "info": "NO SECURITY, NO TRACKER - REGISTER $1,400",
+   "where": "GANG HIDEOUT IN HAMLET"
+  },
+  {
+   "name": "BENEFACTOR NIGHTLIGHT SCHAFTER",
+   "car": 223,
+   "gamma": 1.15,
+   "map": 237,
+   "info": "NO TRACKER - REGISTER $3,650",
+   "where": "LITTLE CUBA, VICE CITY (ROBBERY OPP.)"
+  },
+  {
+   "name": "PEGASSI CHARRED TOROS",
+   "car": 290.8,
+   "gamma": 1.25,
+   "cx": 0.3,
+   "map": 254,
+   "info": "UNLOCKED, NO TRACKER - REGISTER $8,950",
+   "where": "GANG COMPOUND - THIS SPOT"
+  },
+  {
+   "name": "BUCKINGHAM BOURBON WINDSOR",
+   "car": 319,
+   "gamma": 1.1,
+   "map": 301,
+   "info": "REGISTER $9,500 AT MOSES'",
+   "where": "ROBBERY OPPORTUNITY - RECORDING STUDIO"
+  },
+  {
+   "name": "PROGEN PURPLE DRANK EMERUS",
+   "car": 494,
+   "map": 455,
+   "info": "NO TRACKER - REGISTER $30,000",
+   "where": "INSIDE A CONTAINER AT THIS SPOT"
+  },
+  {
+   "name": "PROGEN ROYAL RUBY EMERUS",
+   "car": 555,
+   "map": 523,
+   "info": "NO TRACKER - REGISTER $29,900",
+   "where": "GATED HOUSE ON VESPUCCI ISLAND"
+  }
+ ],
+ "end": {
+  "t": 352,
+  "lines": [
+   "WHICH ONE ARE",
+   "YOU GRABBING",
+   "FIRST?"
+  ],
+  "sub": "SELLING SOME OF THEM UNLOCKS IN CHAPTER 3"
+ },
+ "brand": {
+  "tag": "GTA VI  /  FREE CARS"
+ }
+}
