@@ -420,3 +420,5 @@
 - ~23:35 (Nov 26) OWNER: cars slideshow cover was not in our card style (pinned slideshows = recognition). Rebuilt 01.jpg with slides_card_build (tiny credit, total=11); playbook rule: slide 1 always card style.
 - ~23:50 (Nov 26) OWNER: body slides need our look too -> slides_v2_build 'brand' option (pill tag + counter + teal divider). Cars slideshow v4 (11 slides, card cover) sent to owner for manual upload.
 - ~00:05 (Nov 27) OWNER: new skill /slideshow (.claude/skills/slideshow) bundles recipe, card cover, branding, caption, reminder publishing, metrics.
+- ~00:05 (Nov 27) Owner re-uploaded/deleted the cars slideshow twice -> wait. New TikTok REMINDER 6b08acbc82b7c4bc1654ed99 Nov 27 13:00 (v4 slides, sound: Flower In A Hurricane); SWAT TT 6b0824641f2319fb54eb478d moved 13:00 -> 19:00.
+| 2026-11-27 13:00 | TikTok (reminder) | Utility slideshow v4 (11 slides, card cover + brand) | 9 FREE cars in GTA 6 with NO tracker + where to find them | 📋 @subscribefortacos | 6b08acbc82b7c4bc1654ed99 |
