@@ -1,0 +1,26 @@
+{
+ "footage": "media/raw/yt/porsche/section.mp4",
+ "vo": "media/raw/yt/porsche/vo.mp3",
+ "words": "media/raw/yt/porsche/vo_words.json",
+ "cuts": [
+  [0.0, 82.0, 1.0, 0.45],
+  [4.6, 2.0, 1.1, 0.5],
+  [8.52, 8.0, 1.2, 0.5],
+  [11.16, 23.8, 1.3, 0.55],
+  [13.88, 29.8, 1.5, 0.7],
+  [16.02, 35.5, 1.3, 0.5],
+  [20.88, 58.0, 1.2, 0.5],
+  [23.38, 64.0, 1.0, 0.5],
+  [25.76, 68.0, 1.2, 0.5],
+  [29.28, 73.5, 1.0, 0.5],
+  [33.06, 80.0, 1.0, 0.5]
+ ],
+ "hook": {"img_t": 87.0, "crop": [380, 200, 1340, 740], "img_gamma": 1.0,
+          "label": "PFISTER LUCIA'S GROWLER", "in": 0.0, "out": 4.4, "from": "right"},
+ "hook_y": 840, "caption_y": 1330,
+ "yellow_words": ["PORSCHE", "FREE", "MUFFINS,", "QUEEN,", "15,", "92665", "FOREVER.", "GROWLER,", "SECRET"],
+ "music": "media/music/synthwave_trap_01.mp3", "music_vol": 0.05,
+ "credit": "Footage: @dkdynamite (YouTube)",
+ "tail": 0.8,
+ "out": "media/edits/2026-11-26_guide_pink_porsche_v2.mp4"
+}
