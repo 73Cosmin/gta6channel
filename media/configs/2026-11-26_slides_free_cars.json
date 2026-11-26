@@ -1,12 +1,12 @@
 {
  "src": "media/raw/yt/magma/src.mp4",
- "out_dir": "media/edits/2026-11-26_slides_free_cars",
+ "out_dir": "media/edits/2026-11-26_slides_free_cars_v2",
  "credit": "Source: @subscribefortacos (YouTube)",
  "cover": {
   "t": 270,
   "title": [
    "GTA 6",
-   "*10 FREE CARS",
+   "*9 FREE CARS",
    "WITH NO TRACKER"
   ],
   "sub": "AND THEIR LOCATIONS - SWIPE FOR INFO ->",
@@ -27,14 +27,6 @@
    "map": 82,
    "info": "NO TRACKER - REGISTER $6,300",
    "where": "INSIDE A ROBBERY OPPORTUNITY"
-  },
-  {
-   "name": "WESTERN MAGMA CLIFFHANGER",
-   "car": 108,
-   "gamma": 1.15,
-   "map": 130,
-   "info": "NO SECURITY, NO TRACKER - REGISTER $9,400",
-   "where": "WATSON BAY, MARIANA COUNTY"
   },
   {
    "name": "CANIS BLACK MOTH KAMACHO",

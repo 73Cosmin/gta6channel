@@ -1,0 +1,16 @@
+{
+ "footage": "media/raw/yt/emerus/section.mp4",
+ "vo": "media/raw/yt/emerus/vo.mp3",
+ "words": "media/raw/yt/emerus/vo_words.json",
+ "title": ["FREE HYPERCAR", "IN GTA 6"],
+ "title_until": null,
+ "gamma": 1.1,
+ "cuts": [[0.0, 36.7], [4.58, 30.5, 1.6], [10.1, 3.0], [12.58, 12.0], [14.74, 24.5, 1.6], [17.9, 56.0, 1.8],
+          [20.7, 44.0, 1.6], [22.84, 46.5, 1.6], [26.08, 59.5, 1.8], [28.26, 36.9]],
+ "red_words": ["HYPERCAR", "NO", "FASTEST", "EMERUS", "29,900"],
+ "music": "media/music/synthwave_trap_01.mp3",
+ "music_vol": 0.05,
+ "credit": "Footage: @subscribefortacos (YouTube)",
+ "tail": 0.8,
+ "out": "media/edits/2026-11-26_guide_royal_ruby_emerus.mp4"
+}
