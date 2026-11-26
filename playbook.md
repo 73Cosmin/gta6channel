@@ -219,3 +219,19 @@ Recipe:
 5. Our rule still applies: every location/step must be real and checked (own capture or a credited guide source).
    Their 'cheat codes' posts look invented -> we do NOT copy fake codes (hard rule 2).
 Material problem: needs in-game + map screenshots -> owner's own captures are best; else frames from credited streams/guides.
+
+## SECRET-GUIDE VIDEOS (owner reference 2026-11-26: @1deflay, 141K followers, 8.2M likes; owner: "die besten Videos")
+Read 2026-11-26 ~13:00 UTC. His GTA 6 hits: '$20,000 in ONE minute' 6.1M | '$50,000 AND a LEGENDARY AR (secret location)' 3.5M |
+'Easy money fast (secret method)' 1.9M | 'Permanently BUFF all stats' (alien bunker) 1.8M | '5 SECRET supercar locations' 1.3M |
+'Bugatti for FREE' 728K | 'Kingpin AR + hypercar + $10K in one minute' 613K. Newest ones weaker (805-67K) -> topics saturate, be FIRST.
+Recipe:
+1. TITLE/CAPTION stacks rewards: 'Get $X + a LEGENDARY <weapon> + <car> in GTA 6! (Secret Location)'. No hook box on screen.
+2. FIRST FRAME = PROOF of the payoff (stat popup 'Max health increased' + red arrow, the car, the cash), then
+   'Here's how you can ... in literally two minutes.'
+3. BODY = step-by-step walkthrough: pause-map with waypoint -> walk there -> each action ('break this door', 'code 4132',
+   'don't take the middle door'). Calm, fast US male narrator, no filler. 41-108 s (most ~60 s).
+4. LAYOUT = our old blurred-fill + sharp 16:9 band (info_build default, no facecam) + ONE-WORD white bold captions
+   in the upper third. No music needed (voice only) - optional quiet bed.
+5. Ends right after the payoff (+ a twist: 'the alien takes out the cops for you'). Credit the footage source on screen.
+Footage: best = owner's own capture of the walkthrough (original -> no 'unoriginal' flag). Else a credited creator's
+guide footage re-narrated by us (rule 7: transform). Every step must be visible in the footage (no guessed steps).
