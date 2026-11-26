@@ -186,6 +186,7 @@ Clips 7–30 s. Hook text in the first second, big centred burned-in captions, c
 11 skills from github.com/jakeschincariol/youtube-agent-skill (MIT) in `.claude/skills/yt-*`; channel voice + rules in
 `.claude/youtube/voice.md` (ENGLISH, rumors/leaks allowed when labeled, voice TBD). Nothing publishes by itself.
 Footage = public credited clips (X/Twitch/YouTube/TikTok), from owner links or found via tools/twitch_top.py + yt-dlp.
+YouTube downloads: `tools/yt.sh <url> -o media/raw/clips/%(id)s.%(ext)s` (owner cookies from env `YT_COOKIES`, base64; needs `--js-runtimes node`, built in; tested OK 2026-11-26).
 Pipeline: /yt-viral (topic) -> collect + credit clips (sources list) -> /yt-script (hookscore.py) -> ElevenLabs VO + ffmpeg
 build -> /yt-chapters + /yt-seo (sources & credits in description) -> /yt-package -> /yt-shorts (3-5 TikTok cuts) ->
 after 48 h /yt-retention on the Studio export. hookscore.py is calibrated on English hooks.
