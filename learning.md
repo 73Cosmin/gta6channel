@@ -1,6 +1,9 @@
 # Learning
 
 ## Current Rules
+- (2026-11-26 21:45 EVENING REVIEW; latest Buffer refresh TT 15:55 UTC / X 15:52 / IG 15:38 / YT 02:53; 0 error posts) BEST today: TikTok Hurricane how-to slideshow re-upload (real-frame cover) = **13,490 views / 751 likes / 149 shares / 3 comments @9.7 h**, avg 18.7 s (owner read 498 saves). WORST today: TikTok own-capture SWAT 74.5 s = 186 views @52 min, 9.6 s avg, 2.9% full -> deleted by owner; X Jynxzi parking story 3 impressions @6.9 h. Late signal: YT cashier mirror woke up 5 -> **1,117 views @34.9 h** (after Lucia YT 2,004) - YT Shorts pick up own gameplay a day late.
+  LESSON/RULE: **ONE strong how-to per day beats every clip combined** - today the hurricane slideshow did ~4x the next-best post (Monte Vice City 3,456 @22 h) and ~25x the shares of all our clips together. Under content plan v3 the 07:00 slot (first of the day, longest runway) always gets the day's strongest how-to/secret (guide or slideshow with a real bright cover), never a creator gag or news. Judge how-tos at 24-36 h, clips at ~3 h/24 h.
+  TOMORROW'S TEST `guide_secret_quest_vs_car` (one variable = TOPIC TYPE, same guide layout v2 + VO + length ~33-37 s): TT 10:00 Nov 27 secret pink Porsche quest (password + garage code) vs TT 19:00 Nov 26 Emerus hypercar 'just sitting there'. Compare views + avg watch % at ~3 h and 24 h (both EN, Nicholas VO).
 - (2026-11-26 19:15, Buffer TT refresh 15:55 UTC) Hurricane how-to slideshow re-upload = **13,490 views / 751 likes / 149 shares @9.7 h** (owner read 10.1K @8.5 h -> still climbing) vs the SAME day's creator clip Monte Vice City easter egg = 3,456 / 59 likes / 4 shares @22.4 h (final). A 'how to trigger X' secret with steps beats a creator reaction to a secret by ~4x views and ~37x shares. RULE applied: for guide picks, prefer chapters that are a SECRET PROCEDURE (password, code, hidden trigger, step chain) over 'car just sitting there' or joke clips - the Tesla chapter had 11.7M search demand but no steps, so we took the Pink Porsche puzzle (laptop password + garage code 92665) for TT/YT/IG Nov 27 10:00. Put the code/password in the caption text so the post is save-worthy.
 - (2026-11-26 16:55, OWNER) Magma Cliffhanger motorcycle guide pulled before posting: 'sieht nicht gut aus, will keiner haben'. RULE: guide/slideshow picks must be items people WANT - beautiful, cool or fast (supercars/hypercars, luxury, legendary weapons, big money). Not plain bikes, beaters or utility vehicles, even if the source chapter is 'free/no tracker'. Prefer a bright shot of the item for the first frame. Replaced with the Progen Royal Ruby Emerus hypercar ('one of the fastest vehicles in the game' per creator); bike also removed from the 22:00 cars slideshow (now 9 cars).
 - (2026-11-26 15:40, OWNER Studio screenshot) Hurricane slideshow re-upload, real-frame cover (Jason in the storm) = **10.1K views / 554 likes / 98 shares / 498 saves / 2 comments / 9 followers @~8.5 h**, 5/10 photos viewed, still rising in waves (peaks ~2.2K and ~2.9K views/h). Same slides with the AI-looking cover = 543 @6 h -> **~18x from the cover alone**. Saves ~ likes (498 vs 554) = people keep it as a guide. RULE: every slideshow cover = a real in-game frame with a character + one 'DID YOU KNOW / EVERYTHING FOR 100%'-style promise; a flopped slideshow gets one re-upload with a new real-frame cover. Slideshows grow slowly in waves -> judge at 6-10 h.
@@ -151,6 +154,7 @@
 - Trailer 2 file ends (~2:40) on the OLD date card "MAY 26, 2026". Never use frames/clips from ~2:35 on.
 
 ## Wins
+- 2026-11-26: Hurricane how-to slideshow re-upload (real-frame cover) 13,490 views / 751 likes / 149 shares @9.7 h; YT cashier mirror 1,117 @34.9 h (late pickup); Collectibles still growing 5,508 @57.6 h.
 - 2026-11-25: long tail - Platinum slideshow 350,015 views / 25,060 likes @58 h; Collectibles 4,691 @34.5 h. Best new post today only Lucia own-capture TT 384 @5.7 h.
 - 2026-11-24: own-capture cashier clip 1,385 views @1.8 h, 53% avg watch, 40% full views (best retention ever); Collectibles slideshow 3,949 @11.5 h; Platinum 278K @35 h.
 - 2026-11-23 TikTok Platinum checklist slideshow (EN, card style, owner manual + sound) 120,986 views / 8,463 likes / 1,305 shares / 60 comments at 12 h - biggest post ever at 12 h.
@@ -227,6 +231,7 @@
   avg watch % once a real read exists.
 
 ## Losses
+- 2026-11-26: own-capture SWAT 74.5 s continuous (dark opener, payoff at ~30 s) 186 @52 min, 9.6 s avg -> deleted; X stories 0-3 impressions (Jynxzi parking 3 @6.9 h, Kai WASTED 2 @30.9 h).
 - 2026-11-25: X story Kai Cenat WASTED 0 impr. @7.9 h; Lucia own capture (53 s dialogue, no payoff) 384 @5.7 h, 24% watched; YT Lucia mirror 0.
 - 2026-11-24: Jynxzi EN creator re-cut (46 s) 357 views @6.9 h, 29% watched; X story threads 2-11 impressions (Trymacs camp 2 @2.1 h, CaseOh crash 8 @8.8 h); YT cashier mirror 0 at send-time read.
 - 2026-11-23: Eli quote cut 'Jason, jetzt steig ein' 211 views at 2.8 h (uploaded next to the viral Platinum -> no push; VIRAL HOLD rule); X stories Monte Katze 4 impr. at 9.8 h, Monte Tür 1 at 3.1 h; no IG/YT post today (owner deleted Top-3).
