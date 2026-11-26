@@ -1,0 +1,17 @@
+{
+ "footage": "media/raw/yt/rr/rr.mp4",
+ "vo": "media/raw/yt/rr/vo.mp3",
+ "words": "media/raw/yt/rr/vo_words.json",
+ "title": ["FREE ROLLS ROYCE", "IN GTA 6"],
+ "title_until": null,
+ "gamma": 1.1,
+ "cuts": [[0.0, 25.2], [4.1, 108.0, 1.25], [7.0, 6.0], [11.1, 18.0, 1.3], [12.7, 27.0], [17.2, 31.0],
+          [20.0, 41.0], [22.7, 51.0, 1.3], [24.5, 60.5, 1.3], [28.2, 93.0, 1.35], [31.4, 104.0, 1.35],
+          [32.8, 116.3, 1.4], [34.5, 109.0, 1.2]],
+ "red_words": ["FREE", "FAST", "ROLLS-ROYCE", "9,500"],
+ "music": "media/music/synthwave_trap_01.mp3",
+ "music_vol": 0.05,
+ "credit": "Footage: @subscribefortacos (YouTube)",
+ "tail": 0.8,
+ "out": "media/edits/2026-11-26_guide_free_rolls_royce.mp4"
+}

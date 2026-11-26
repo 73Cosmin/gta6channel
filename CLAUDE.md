@@ -46,7 +46,10 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    x 120-860, y 240-1550; between y 900-1560 (next to the buttons) centred text max 620 px wide. Stacked layout -> hook title on the seam (y≈700). Credit/disclaimer y≈1480 (info_build default),
    end text y≈960, top5_build has no black header any more (title boxes on the seam). Check a phone-crop frame
    (crop=883:1920:98:0) before publishing.
-7. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
+7. **HOOK TITLE BOX + BRIGHT START (owner 2026-11-26, ALL videos)**: a catchy black-on-white title box (TikTok Sans, white rounded
+   boxes, 1-2 short lines, e.g. 'FREE ROLLS ROYCE / IN GTA 6') ABOVE the gameplay saying what the video is about - whole video
+   or at least the first 5-10 s. Never open on a dark shot: pick a bright first frame or brighten it (guide_build `gamma` per cut).
+8. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
 
 ## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
 TikTok posts use schedulingType **automatic**, like X/IG/YouTube. This overrides any scheduled prompt
