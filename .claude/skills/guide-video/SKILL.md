@@ -22,6 +22,7 @@ A source video usually has ~10 points (chapters) -> REUSE it: rank its chapters 
 `python3 tools/guide_scout.py --chapters <video_id>` (YouTube click demand per topic; `(USED)` = done) and take the
 highest-demand unused point. Record the EXACT chapter title in guides_used.csv. Topics: cars, weapons, money, easter eggs,
 secret quests, stat boosts.
+OWNER 2026-11-26: only items people WANT - beautiful/cool/fast (supercars, luxury, legendary weapons, big money); no plain bikes/beaters.
 Pick ONE concrete, visual payoff (free car, hidden weapon, money spot, secret quest, stat boost) that the
 footage shows step by step. After publishing add a row to `media/guides_used.csv`.
 
