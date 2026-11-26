@@ -53,7 +53,7 @@ def main():
     sec_mp4 = f"{D}/section.mp4"
     if cmd == "prep":
         url, a, b = sys.argv[3], sec(sys.argv[4]), sec(sys.argv[5])
-        run("tools/yt.sh", url, "-o", f"{D}/src.%(ext)s")
+        run("tools/yt.sh", url, "--write-info-json", "-o", f"{D}/src.%(ext)s")
         run("ffmpeg", "-v", "error", "-y", "-ss", str(a), "-to", str(b), "-i", f"{D}/src.mp4", "-c:v", "libx264",
             "-crf", "18", "-preset", "veryfast", "-c:a", "aac", sec_mp4)
         run("ffmpeg", "-v", "error", "-y", "-i", sec_mp4, "-vn", "-ac", "1", "-b:a", "96k", f"{D}/section.mp3")
