@@ -200,3 +200,22 @@ No key -> local engine automatically (force with `--engine local`). Gemini uploa
 Uses: find the exact second an easter egg/rumor shows up in long videos/VODs, verify a rumor is actually visible, screen clips for
 nudity/sex scenes/hack material BEFORE downloading+Scribe, study competitor hooks, 3+ frame check of our own edits.
 
+
+## SLIDESHOW RECIPE v2 (owner reference 2026-11-26: @gta6clips114, 0 -> 9.9K followers in ~8 days with 14 posts)
+Owner wants our next slideshows built like this. Reference posts (TikTok photo mode, read 2026-11-26 ~12:50 UTC):
+- 'GTA 6 CARS AND THEIR LOCATIONS' 13 slides = 4.9M views / 472K likes / **406K saves** / 106K shares
+- 'GTA 6 cheat codes are back' 4 slides = 557K / 33K saves; 'cheat codes have leaked' 3 slides = 393K / 24K saves
+- 'How to get the fastest muscle car' 6 slides = 32.5K; '80K money spot' 11 slides = 30.9K; loot/alien guides 2.8-4.3K
+Recipe:
+1. COVER: official key art of a character (top ~65%), black band at the bottom with a condensed bold all-caps title
+   (white + ONE keyword in a purple->pink gradient, e.g. 'GTA 6 / CARS AND THEIR / LOCATIONS'), small 'SWIPE FOR INFO ->'.
+2. BODY = PAIRS: slide A = in-game screenshot of the item, slide B = the pause-map screenshot with the waypoint.
+   Each slide ONE short caps label in the lower middle ('GOLD LAMBORGHINI URUS', 'HEAD HERE', 'TYPE 2134 AT GATE').
+   Plain white condensed font, no boxes, no paragraphs. Native phone-screenshot look is fine (even the progress bar).
+3. Topic = SAVE-WORTHY utility: 'X and their locations', 'how to get X', money spots, step-by-step secrets.
+   Lists of collectible THINGS (cars, weapons, money) beat single-item guides by 100x.
+4. Sound: official GTA VI soundtrack ('Flower In A Hurricane', trailer song). Caption = 5 hashtags only
+   (#gta6 #gta6cars #grandtheftauto6 #gta6map #gta6news). Optional last slide 'LIKE AND FOLLOW FOR MORE'.
+5. Our rule still applies: every location/step must be real and checked (own capture or a credited guide source).
+   Their 'cheat codes' posts look invented -> we do NOT copy fake codes (hard rule 2).
+Material problem: needs in-game + map screenshots -> owner's own captures are best; else frames from credited streams/guides.
