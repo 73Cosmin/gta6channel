@@ -5,11 +5,13 @@
  "cuts": [
   [
    0.0,
-   73.0
+   73.0,
+   1.7
   ],
   [
    4.0,
-   86.8
+   86.8,
+   1.6
   ],
   [
    8.6,
@@ -33,11 +35,13 @@
   ],
   [
    22.4,
-   39.0
+   39.0,
+   1.45
   ],
   [
    26.7,
-   45.6
+   45.6,
+   1.35
   ],
   [
    28.6,
@@ -49,15 +53,18 @@
   ],
   [
    33.9,
-   80.0
+   80.0,
+   1.3
   ],
   [
    36.3,
-   66.8
+   66.8,
+   1.4
   ],
   [
    37.9,
-   71.0
+   71.0,
+   1.6
   ]
  ],
  "red_words": [
@@ -67,10 +74,15 @@
   "HOLE",
   "SHRINE"
  ],
- "caption_y": 470,
  "music": "media/music/synthwave_trap_02.mp3",
  "music_vol": 0.05,
  "credit": "Footage: @gameranxTV (YouTube)",
  "tail": 0.8,
- "out": "media/edits/2026-11-26_guide_serial_killer_quest.mp4"
+ "out": "media/edits/2026-11-26_guide_serial_killer_quest.mp4",
+ "title": [
+  "SECRET SERIAL KILLER",
+  "QUEST IN GTA 6"
+ ],
+ "title_until": null,
+ "gamma": 1.1
 }

@@ -46,11 +46,12 @@ import os, tempfile
 tmp = tempfile.mkdtemp(prefix="guide_")
 lst = os.path.join(tmp, "list.txt")
 with open(lst, "w") as L:
-    for i, (vt, src) in enumerate(cuts):
+    for i, (vt, src, *opt) in enumerate(cuts):
         end = cuts[i + 1][0] if i + 1 < len(cuts) else dur
+        g = opt[0] if opt else C.get("gamma", 1.0)          # owner 2026-11-26: no dark openings
         seg = os.path.join(tmp, f"s{i:02d}.mp4")
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(src), "-i", C["footage"], "-t", f"{end - vt:.3f}",
-                        "-an", "-vf", "fps=30,scale=1920:1080", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
+                        "-an", "-vf", f"fps=30,scale=1920:1080,eq=gamma={g}:saturation={1.0 + (g - 1) * 0.3:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
                         seg], check=True)
         L.write(f"file '{seg}'\n")
 joined = os.path.join(tmp, "joined.mp4")
@@ -63,8 +64,28 @@ f.append("[b]scale=1080:608:force_original_aspect_ratio=increase,crop=1080:608,"
 f.append("[bg][fg]overlay=0:656[v0]")
 
 dr = []
+# Title box (owner 2026-11-26, ALL videos): black bold TikTok Sans on white rounded boxes ABOVE the band,
+# says what the video is about. "title_until": null = whole video (word captions then go below the band).
+from PIL import Image, ImageDraw
+title_png = None
+if C.get("title"):
+    lines = C["title"]; size = C.get("title_size", 78)
+    while size > 40 and max(ImageFont.truetype(TT, size).getlength(l) for l in lines) + 56 > 740:
+        size -= 2
+    ft = ImageFont.truetype(TT, size); padx, lh = 26, int(size * 1.22)
+    ws = [ft.getlength(l) for l in lines]
+    Wb = int(max(ws) + 2 * padx + 8); Hb = lh * len(lines) + 16
+    im = Image.new("RGBA", (Wb, Hb), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    for k, wl in enumerate(ws):
+        x0 = (Wb - wl) / 2 - padx; y0 = 8 + k * lh
+        d.rounded_rectangle([x0, y0, x0 + wl + 2 * padx, y0 + lh], radius=int(size * 0.22), fill=(255, 255, 255, 255))
+    for k, (l, wl) in enumerate(zip(lines, ws)):
+        d.text(((Wb - wl) / 2, 8 + k * lh + lh / 2), l, font=ft, fill=(0, 0, 0, 255), anchor="lm")
+    title_png = os.path.join(tmp, "title.png"); im.save(title_png)
+    title_xy = ((1080 - Wb) // 2, 656 - Hb - 24)
+TU = C.get("title_until")
 red = set(C.get("red_words", []))
-cy = C.get("caption_y", 470)
+cy = C.get("caption_y", 1390 if (title_png and TU is None) else 470)
 for i, (w, st, en) in enumerate(W):
     nxt = W[i + 1][1] if i + 1 < len(W) else dur
     e = min(nxt, en + 0.5)
@@ -75,7 +96,7 @@ for i, (w, st, en) in enumerate(W):
         cs -= 4
     dr.append(f"drawtext=fontfile={TT}:text='{esc(c)}':fontsize={cs}:fontcolor={col}:borderw=8:bordercolor=black:"
               f"shadowx=0:shadowy=6:shadowcolor=black@0.6:x=(w-tw)/2:y={cy}-th/2:"
-              f"enable='gte(t,{st})*lt(t,{e:.3f})'")
+              f"enable='gte(t,{st})*lt(t,{e:.3f})" + (f"*gte(t,{TU})" if (title_png and TU and cy < 656) else "") + "'")
 for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Rockstar Games."]):
     if line:
         ls_ = 28
@@ -86,6 +107,12 @@ for k, line in enumerate([C.get("credit", ""), "Fan page. Not affiliated with Ro
 f.append("[v0]" + ",".join(dr) + "[v1]")
 
 inputs = ["-i", C["footage"], "-i", vo]
+cur = "v1"
+if title_png:
+    inputs_t = ["-loop", "1", "-i", title_png]
+    ti = 3 if C.get("music") else 2
+    en = f":enable='lt(t,{TU})'" if TU else ""
+    f.append(f"[v1][{ti}:v]overlay={title_xy[0]}:{title_xy[1]}:shortest=0{en}[vt]"); cur = "vt"
 f.append(f"[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={dur:.2f},asplit[vo1][vo2]")
 if C.get("music"):
     inputs += ["-stream_loop", "-1", "-i", C["music"]]
@@ -95,7 +122,9 @@ if C.get("music"):
     f.append("[vo2][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7[aout]")
 else:
     f.append("[vo1]anullsink;[vo2]loudnorm=I=-14:TP=-1.5:LRA=7[aout]")
-cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(f), "-map", "[v1]",
+if title_png:
+    inputs += inputs_t
+cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(f), "-map", f"[{cur}]",
        "-map", "[aout]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21",
        "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", C["out"]]
 subprocess.run(cmd, check=True)
