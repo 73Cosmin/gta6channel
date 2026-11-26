@@ -18,6 +18,10 @@ python3 tools/guide_scout.py --hours 72 --top 12
 ```
 Ranks fresh GTA 6 guide videos by views/hour and prints their chapters. Skip anything in
 `media/guides_used.csv` (same video+chapter or same TOPIC), glitches/exploits (rule 4) and topics we already posted.
+A source video usually has ~10 points (chapters) -> REUSE it: rank its chapters with
+`python3 tools/guide_scout.py --chapters <video_id>` (YouTube click demand per topic; `(USED)` = done) and take the
+highest-demand unused point. Record the EXACT chapter title in guides_used.csv. Topics: cars, weapons, money, easter eggs,
+secret quests, stat boosts.
 Pick ONE concrete, visual payoff (free car, hidden weapon, money spot, secret quest, stat boost) that the
 footage shows step by step. After publishing add a row to `media/guides_used.csv`.
 
@@ -80,6 +84,6 @@ each cut matches its sentence, nothing cut off. Fix cuts → rebuild (≈1 min).
 
 ## 5. Publish
 Commit config + mp4 to `main`, confirm the raw URL returns 200, then Buffer per playbook slots/caps
-(TikTok 07:00/12:00/17:00, day-by-day rule). Caption: hook + question + `🎥 Footage: @creator` +
+(TikTok every 3 h: 07/10/13/16/19/22:00, day-by-day rule; YT/IG only the 1-2 strongest guides/day). Caption: hook + question + `🎥 Footage: @creator` +
 "Fan page, not affiliated with Rockstar Games." + 5 hashtags. Story/side-quest twist → caption starts
 with "SPOILER". Log in `log.md` + `scoreboard.csv`.

@@ -73,9 +73,9 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 ## Posts per day + daily slots (weekly review 2026-11-22 — replaces the 2026-11-19 table; owner rules Nov 20-21 included)
 | Platform | Per day | Slots (Vienna) |
 |---|---|---|
-| TikTok | 3 videos | **07:00, 12:00, 17:00** (OWNER 2026-11-23: one video each, max 3/day) |
-| YouTube Shorts | 1 | 17:00 (the day's creative; YT median 0 views all week = channel-level, don't invest more) |
-| Instagram Reels | 1 | 17:00, own creative formats only (Top-3/5, Versus) - single re-cuts got 0 + originality warning |
+| TikTok | 6 videos | **07:00, 10:00, 13:00, 16:00, 19:00, 22:00** (OWNER 2026-11-26 CONTENT PLAN v3: every 3 h, mainly guides + banger clips/slideshows) |
+| YouTube Shorts | 1-2 | the day's strongest guide(s), same time as on TikTok ( YT median 0 views all week = channel-level, don't invest more) |
+| Instagram Reels | 1-2 | the day's strongest guide(s), same time as on TikTok; own creative formats only (Top-3/5, Versus) - single re-cuts got 0 + originality warning |
 | X | 3 | 10:00, 16:45, 22:45 (1 story tweet per run; median 5 impressions all week) |
 - Week 1 medians (best read per post): TikTok 726 views (n=23), X 5 impressions (n=28), IG 1 (n=13), YouTube 0 (n=13).
   TikTok by format: Mentality edit 15.3K (Monte) / 328 (Eli), tips slideshow 3,574, creator single 682, Top-5 726.
@@ -86,7 +86,7 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 - Nothing 23:00-07:00 on any platform (night posts got 4-19 views) except time-critical official news on X.
 - X gets FEWER posts (owner: 0-7 impressions = wasted effort). Keep the formats that can travel: thirst/vibe
   image posts and A/B debate questions; drop filler (nostalgia, polls without an image).
-- Production need: max 2 new videos per run, same-day only (owner 2026-11-21).
+- Production need (v3): 6 TikTok videos/day = each 3-hourly run builds the next slot's video (max 2/run, same day; night runs prepare 07:00/10:00).
 
 ## Goal (owner, 2026-11-18)
 **Interactions are the #1 metric**: comments, shares, saves, likes. Being a bit controversial is wanted.

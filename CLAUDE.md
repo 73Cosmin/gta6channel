@@ -84,13 +84,21 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
 **DAY-BY-DAY ONLY (owner 2026-11-21 13:40):** clips go stale fast ("den kennt jeder bis Sonntag"). Each run makes MAX 2 videos,
 and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
 videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
-**TIKTOK WHILE PLATINUM RUNS (owner 2026-11-24 ~18:45, loosens the 17:31 hold):** post TikTok videos again at the NORMAL
+**CONTENT PLAN v3 (owner 2026-11-26 ~14:20, REPLACES the 3/day cap + the Platinum-slot rule below):** TikTok gets ONE upload
+every 3 hours from 07:00 to 22:00 Vienna = **07:00, 10:00, 13:00, 16:00, 19:00, 22:00 (6/day)**. Mix: MAINLY GUIDES
+(/guide-video: cars, weapons, money spots, easter eggs, secret quests, stat boosts - ~4/day) + real BANGER clips (proven-creator
+moments with a clear payoff, no filler) or SLIDESHOWS (playbook SLIDESHOW RECIPE v2) for the other slots. One YouTube guide video has
+~10 points -> reuse it: one point = one guide, pick the points with the most viral potential first
+(`python3 tools/guide_scout.py --chapters <id>` ranks chapters by YouTube click demand; generic titles -> judge from transcript/frames).
+YT Shorts + IG Reels: only the 1-2 strongest guides of the day (they punish spam). Each scheduled run builds the video(s) for the
+NEXT open slot(s) (max 2 per run; the 01:14/04:14 night runs prepare 07:00/10:00).
+**(old, superseded by v3 for slots/count) TIKTOK WHILE PLATINUM RUNS (owner 2026-11-24 ~18:45, loosens the 17:31 hold):** post TikTok videos again at the NORMAL
 slots (07:00/12:00/17:00), but ONLY strong videos (own gameplay with a story, proven-creator moments with a clear payoff - no filler).
 During the push every video starts SLOW (cashier clip: 164 @31 min -> 908 @1.5 h, 20.1 s avg watch, 40% full views), so judge a
-TikTok at ~3 h and never delete it before that. No slideshows except the owner's mysteries slideshow (Part 1-3 in
+TikTok at ~3 h and never delete it before that. (v3: slideshows allowed again in the mix.) Earlier: no slideshows except the owner's mysteries slideshow (Part 1-3 in
 `media/edits/2026-11-23_slides_mysteries_p1..p3`), which the owner posts when they choose. Cashier re-upload variant
 (`media/edits/2026-11-24_own_fake_robbery_v5_reupload.mp4`) is NOT needed while the original keeps growing.
-**TikTok max 3 videos/day** (owner 2026-11-21 14:47, + optionally 1 slideshow in the morning or at noon) - quality over volume.
+**(superseded by CONTENT PLAN v3: 6 TikTok uploads/day)** TikTok max 3 videos/day (owner 2026-11-21 14:47) - quality over volume still applies.
 **No rewinside clips** (owner 2026-11-21: run badly) - not as singles, story tweets or compilation items.
 
 **FRESH BEATS PLANNED (owner 2026-11-20 12:15):** whenever a run makes a new/better video or idea, put it into the
