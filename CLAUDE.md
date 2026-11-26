@@ -98,7 +98,7 @@ videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS an
 **CONTENT PLAN v3 (owner 2026-11-26 ~14:20, REPLACES the 3/day cap + the Platinum-slot rule below):** TikTok gets ONE upload
 every 3 hours from 07:00 to 22:00 Vienna = **07:00, 10:00, 13:00, 16:00, 19:00, 22:00 (6/day)**. Mix: MAINLY GUIDES
 (/guide-video: cars, weapons, money spots, easter eggs, secret quests, stat boosts - ~4/day) + real BANGER clips (proven-creator
-moments with a clear payoff, no filler) or SLIDESHOWS (playbook SLIDESHOW RECIPE v2) for the other slots. One YouTube guide video has
+moments with a clear payoff, no filler) or SLIDESHOWS (skill /slideshow, .claude/skills/slideshow) for the other slots. One YouTube guide video has
 ~10 points -> reuse it: one point = one guide, pick the points with the most viral potential first
 (`python3 tools/guide_scout.py --chapters <id>` ranks chapters by YouTube click demand; generic titles -> judge from transcript/frames).
 YT Shorts + IG Reels: only the 1-2 strongest guides of the day (they punish spam). Each scheduled run builds the video(s) for the

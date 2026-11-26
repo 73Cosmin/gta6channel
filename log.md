@@ -419,3 +419,4 @@
 - ~23:20 (Nov 26) OWNER took down the silent 22:00 cars slideshow, re-uploads manually with sound. Re-rendered slides without disclaimer -> media/edits/2026-11-26_slides_free_cars_v3 (11 slides), caption sent to owner.
 - ~23:35 (Nov 26) OWNER: cars slideshow cover was not in our card style (pinned slideshows = recognition). Rebuilt 01.jpg with slides_card_build (tiny credit, total=11); playbook rule: slide 1 always card style.
 - ~23:50 (Nov 26) OWNER: body slides need our look too -> slides_v2_build 'brand' option (pill tag + counter + teal divider). Cars slideshow v4 (11 slides, card cover) sent to owner for manual upload.
+- ~00:05 (Nov 27) OWNER: new skill /slideshow (.claude/skills/slideshow) bundles recipe, card cover, branding, caption, reminder publishing, metrics.

@@ -204,6 +204,7 @@ Uses: find the exact second an easter egg/rumor shows up in long videos/VODs, ve
 nudity/sex scenes/hack material BEFORE downloading+Scribe, study competitor hooks, 3+ frame check of our own edits.
 
 ## SLIDESHOW RECIPE v2 (owner reference 2026-11-26: @gta6clips114, 0 -> 9.9K followers in ~8 days with 14 posts)
+**-> The full, current workflow is the skill `/slideshow` (.claude/skills/slideshow/SKILL.md). It wins over this section.**
 Owner wants our next slideshows built like this. Reference posts (TikTok photo mode, read 2026-11-26 ~12:50 UTC):
 - 'GTA 6 CARS AND THEIR LOCATIONS' 13 slides = 4.9M views / 472K likes / **406K saves** / 106K shares
 - 'GTA 6 cheat codes are back' 4 slides = 557K / 33K saves; 'cheat codes have leaked' 3 slides = 393K / 24K saves
