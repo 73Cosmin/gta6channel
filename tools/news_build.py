@@ -59,7 +59,7 @@ def tweet_card():
         y+=38
     L=Image.new('RGBA',(W,H),(0,0,0,0)); sh=Image.new('RGBA',(W,H),(0,0,0,0)); ImageDraw.Draw(sh).rounded_rectangle((160,350,160+cw,350+h),28,fill=(0,0,0,150))
     L.alpha_composite(sh.filter(ImageFilter.GaussianBlur(14))); L.alpha_composite(C,(160,330)); return L,330+h
-words=json.load(open(S+'/vo/words.json'))
+words=json.load(open(sys.argv[3] if len(sys.argv)>3 else S+'/vo/words.json'))
 # caption chunks of <=3 words, break on punctuation
 chunks=[];cur=[]
 for w in words:
@@ -67,18 +67,24 @@ for w in words:
     if len(cur)==3 or w[0][-1] in '.,?!:"':
         chunks.append(cur);cur=[]
 if cur:chunks.append(cur)
-KEYS={'FIRED','WOKE','MANIPULATE','DELETED','HORRIBLE','5.7','JUNK','NONE','CONFIRMED','HARASSMENT','DIFFERENT','99','DRAMA','HOUSER','RUMORS','BREAKING','LUCIA','HATE'}
+KEYS={'WOKE','FIRED','WOKE','MANIPULATE','DELETED','HORRIBLE','5.7','JUNK','NONE','CONFIRMED','HARASSMENT','DIFFERENT','99','DRAMA','HOUSER','RUMORS','BREAKING','LUCIA','HATE'}
+WORDS_FILE=sys.argv[3] if len(sys.argv)>3 else S+'/vo/words.json'
+_w=json.load(open(WORDS_FILE))
+def _at(word,after=0):
+    for x in _w:
+        if x[1]>=after and x[0].strip('.,"?!').lower()==word: return x[1]-0.05
+_b=_at('here'); _c=_at('but',20); _d=_at('what',_c); _e=_at('and',_at('name',_d)) or _at('critics',_d); _f=_at('so',_e)
 def scene(t):
-    if t<7.0: return 'A'
-    if t<34.7: return 'B'
-    if t<42.4: return 'C'
-    if t<50.5: return 'D'
-    if t<54.4: return 'E'
+    if t<_b: return 'A'
+    if t<_c: return 'B'
+    if t<_d: return 'C'
+    if t<_e: return 'D'
+    if t<_f: return 'E'
     return 'F'
 card,cardbot=tweet_card()
 def base(sc):
     L=Image.new('RGBA',(W,H),(0,0,0,0))
-    if sc=='A': L.alpha_composite(tag('!','RUMOR')); L.alpha_composite(headline([('BREAKING',(255,255,255)),('NEWS',PINK)],560,150)); L.alpha_composite(pill('GTA 6 WRITER FIRED?',830,keys=('FIRED?',),size=46))
+    if sc=='A': L.alpha_composite(tag('!','RUMOR')); L.alpha_composite(headline([('WOKE GTA VI',(255,255,255)),('WRITER',(255,255,255)),('FIRED?',PINK)],620,130))
     if sc=='B': L.alpha_composite(tag('1','THE VIRAL POST')); L.alpha_composite(card)
     if sc=='C': L.alpha_composite(tag('2','FACT CHECK')); L.alpha_composite(headline([('NOT',(255,255,255)),('CONFIRMED',(255,70,70))],560,130)); L.alpha_composite(pill('ROCKSTAR: NO COMMENT',830,size=42,check='✗'))
     if sc=='D': L.alpha_composite(tag('3','WHAT WE KNOW')); L.alpha_composite(pill('X ACCOUNT DELETED',520,keys=('DELETED',),size=44,check='✓')); L.alpha_composite(pill('AFTER HARASSMENT WAVE',620,keys=('HARASSMENT',),size=44,check='✓')); L.alpha_composite(pill('HATE HIT THE WRONG WOMAN',720,keys=('WRONG',),size=44,check='✓'))
