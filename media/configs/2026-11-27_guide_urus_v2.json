@@ -1,0 +1,68 @@
+{
+ "footage": "media/raw/yt/urus/section.mp4",
+ "vo": "media/raw/yt/urus/vo.mp3",
+ "words": "media/raw/yt/urus/vo_words.json",
+ "cuts": [
+  [
+   0.0,
+   16.0,
+   1.05,
+   0.5
+  ],
+  [
+   4.4,
+   4.0,
+   1.0,
+   0.5
+  ],
+  [
+   8.0,
+   13.5,
+   1.05,
+   0.45
+  ],
+  [
+   13.6,
+   23.0,
+   1.05,
+   0.5
+  ],
+  [
+   21.4,
+   0.5,
+   1.05,
+   1.0
+  ]
+ ],
+ "hook": {
+  "img_t": 16.5,
+  "crop": [
+   330,
+   300,
+   1530,
+   975
+  ],
+  "img_gamma": 1.0,
+  "label": "BLACK & YELLOW URUS",
+  "in": 0.0,
+  "out": 4.1,
+  "from": "right"
+ },
+ "hook_y": 840,
+ "caption_y": 1330,
+ "yellow_words": [
+  "FREE",
+  "LAMBORGHINI",
+  "URUS",
+  "PERLE",
+  "14",
+  "SAVE",
+  "ROLLS-ROYCE?"
+ ],
+ "music": "media/music/synthwave_trap_01.mp3",
+ "music_vol": 0.05,
+ "credit": "Footage: @dkdynamite (YouTube)",
+ "tail": 0.8,
+ "out": "media/edits/2026-11-27_guide_urus_v2.mp4",
+ "_source": "https://www.youtube.com/watch?v=Tpafa9P2XyE chapter 'Black and Yellow Lamborghini Urus' 7:18-8:34"
+}
