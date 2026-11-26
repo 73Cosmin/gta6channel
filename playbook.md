@@ -235,5 +235,5 @@ Recipe:
 5. Ends right after the payoff (+ a twist: 'the alien takes out the cops for you'). Credit the footage source on screen.
 Footage: best = owner's own capture of the walkthrough (original -> no 'unoriginal' flag). Else a credited creator's
 guide footage re-narrated by us (rule 7: transform). Every step must be visible in the footage (no guessed steps).
-Builder: `python3 tools/guide_build.py media/configs/<name>.json` (one footage cut per VO sentence, white one-word captions y≈470).
+Workflow = skill **/guide-video** (`.claude/skills/guide-video`): prep -> script -> vo -> config -> build -> check -> publish. Builder: `tools/guide_build.py` (one footage cut per VO sentence, title box, captions).
 First one: 2026-11-26_guide_serial_killer_quest (gameranx '10 Secret Locations' #7, 39.6 s).
