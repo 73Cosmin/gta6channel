@@ -1,0 +1,72 @@
+{
+ "src": "media/raw/clips/swat_orig.mp4",
+ "segments": [
+  {
+   "a": 0.0,
+   "b": 24.0,
+   "x": 0.53,
+   "zoom": 1.18,
+   "y": 0.42,
+   "gamma": 1.6
+  },
+  {
+   "a": 28.8,
+   "b": 33.2,
+   "x": 0.6,
+   "zoom": 1.18,
+   "y": 0.42,
+   "gamma": 1.6
+  },
+  {
+   "a": 45.0,
+   "b": 62.0,
+   "x": 0.56,
+   "x_end": 0.6,
+   "zoom": 1.18,
+   "y": 0.42,
+   "gamma": 1.55
+  },
+  {
+   "a": 62.0,
+   "b": 68.8,
+   "x": 0.62,
+   "zoom": 1.4,
+   "y": 0.36,
+   "bars": true,
+   "bar_h": 150,
+   "gamma": 1.5
+  },
+  {
+   "a": 73.0,
+   "b": 80.5,
+   "x": 0.5,
+   "zoom": 1.45,
+   "y": 0.36,
+   "gamma": 1.45
+  }
+ ],
+ "hook": {
+  "lines": [
+   "They really thought",
+   "it was over"
+  ],
+  "emoji": "\ud83d\udc80",
+  "secs": 5.0
+ },
+ "arrows": [
+  {
+   "t": [
+    12.2,
+    14.4
+   ],
+   "x": 503,
+   "y": 1360,
+   "angle": 90
+  }
+ ],
+ "words": "media/configs/2026-11-27_story_swat_words.json",
+ "watermark": "ne0nleonida",
+ "credit": "",
+ "fps": 60,
+ "out": "media/edits/2026-11-27_story_swat.mp4"
+}
