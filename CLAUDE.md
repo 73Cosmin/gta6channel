@@ -77,6 +77,11 @@ ironic line in „quotes“ + emoji, video ends HARD on the dumb moment (5-12 s)
 (slow-mo replay / 15 s minimum), #4 (music) and #6 (hook box). Tiny bottom-left credit still on screen. Only for scenes where a
 line is said right BEFORE something stupid happens (setup -> instant karma). Aim 1-2 per day on TikTok.
 
+## STORY CLIP exception (owner 2026-11-27, ref x.com/toastergta 2.0M views - same SWAT scene as ours with 1.1K)
+Own 16:9 gameplay with NPC dialogue -> skill /story-clip (tools/story_build.py): full-screen 9:16 crop (no band/blur bars),
+original game audio only, one-word white subtitles of the dialogue, understated hook line in a dark translucent box,
+red arrow, punch-in zooms with cinematic bars, 30-120 s. Exempt from checklist #4 (music) and #7 (black/white title box).
+
 ## Hard rules
 **OWNER 2026-11-25 ~12:35: rules loosened** - AI images/videos, clickbait, ragebait and leaks are OK on every platform.
 1. Posts presented as NEWS/FACT need a real source; official facts go in `facts.md` with the link. Leaks, rumors,
