@@ -9,6 +9,11 @@ description: >-
 
 # story-clip
 
+> **STATUS 2026-11-27 ~22:40: first build REJECTED by the owner** ("gefällt mir gar nicht ... komischer Pfeil ... allgemein
+> schlecht gemacht, verwirf es"). Built from the night 1080p SWAT capture (media/configs/2026-11-27_story_swat.json).
+> No red arrow any more (owner disliked it). Don't build another story clip unless the owner asks again; then ask first
+> what should look different and show a short preview (10-15 s) before a full render.
+
 ## Why this format (analysis 2026-11-27)
 Reference: x.com/toastergta/status/2126279048179707967 - "All that SWAT backup just for it to end like this 💀",
 115 s, **2.02M views / 25.3K likes / 7.8K bookmarks / 744 reposts** in <10 h (account: 20K followers).
@@ -45,7 +50,7 @@ Length is NOT the problem: 115 s worked because every few seconds a new dialogue
    slow pan with `x_end`. Dark capture -> `"gamma": 1.2-1.4`. No jump cuts inside one take (cut only where time really skips).
 4. **Hook** (`hook.lines`, 2 short lines, sentence case, 1 emoji, 4-6 s): understated joke / curiosity that does NOT
    spoil the payoff ("It's free money at this point 😭", "They really thought this was over 💀"). Dark translucent box (builder default).
-5. **Arrow** (`arrows`): once, 1.5-2.5 s, at the thing the viewer must watch (where the suspect/stash/cop is).
+5. **No arrows** (owner 2026-11-27: 'komischer Pfeil'). The `arrows` option stays in the builder but is not used.
 6. **Words**: `"words": "auto"` (Scribe on the cut audio); drop non-dialogue tags (builder skips `[...]`).
    Check the words json for mishearings and fix before the final build.
 7. **Build + check**: `python3 tools/story_build.py media/configs/<date>_story_<slug>.json`; look at frames at 0.5 s,
