@@ -13,6 +13,15 @@ def grab(t, gamma=1.0):
     im = Image.open(p).convert("RGB")
     return ImageEnhance.Brightness(im).enhance(gamma) if gamma != 1.0 else im
 
+def from_img(spec):
+    # spec = [path, top, bottom] (rows of the source image) - e.g. a car or map half of a reference post image
+    path, top, bottom = spec
+    im = Image.open(path).convert("RGB")
+    return im.crop((0, top, im.width, bottom))
+
+def sharp(im):
+    return im.filter(ImageFilter.UnsharpMask(radius=2, percent=90, threshold=2))
+
 def fill(im, w, h, cx=0.5):
     s = max(w / im.width, h / im.height); im = im.resize((int(im.width * s) + 1, int(im.height * s) + 1))
     x = int((im.width - w) * cx); y = (im.height - h) // 2
@@ -55,7 +64,7 @@ n = 0
 def save(im):
     global n; n += 1; p = f"{out}/{n:02d}.jpg"; im.save(p, quality=92); print(p)
 
-c = cfg["cover"]; im = Image.new("RGB", (W, H)); im.paste(fill(grab(c["t"], c.get("gamma", 1.0)), W, 900, c.get("cx", 0.5)), (0, 0))
+c = cfg["cover"]; im = Image.new("RGB", (W, H)); im.paste(fill(from_img(c["img"]) if c.get("img") else grab(c["t"], c.get("gamma", 1.0)), W, 900, c.get("cx", 0.5)), (0, 0))
 d = ImageDraw.Draw(im); d.rectangle((0, 900, W, H), fill=(0, 0, 0))
 y = 912
 for ln in c["title"]:
@@ -64,15 +73,18 @@ d = ImageDraw.Draw(im); text(d, y + 8, c["sub"], 36, (200, 200, 200)); credit(d)
 
 for i, it in enumerate(cfg["items"], 1):
     im = Image.new("RGB", (W, H))
-    im.paste(fill(grab(it["car"], it.get("gamma", 1.0)), W, 680, it.get("cx", 0.5)), (0, 0))
-    im.paste(fill(grab(it["map"]), W, 670, it.get("mcx", 0.5)), (0, 680))
+    car = from_img(it["car_img"]) if it.get("car_img") else grab(it["car"], it.get("gamma", 1.0))
+    mp = from_img(it["map_img"]) if it.get("map_img") else grab(it["map"])
+    im.paste(sharp(fill(car, W, 680, it.get("cx", 0.5))), (0, 0))
+    im.paste(sharp(fill(mp, W, 670, it.get("mcx", 0.5))), (0, 680))
     d = ImageDraw.Draw(im); d.rectangle((0, 676, W, 684), fill=TEAL if B else (0, 0, 0)); brand(d, i + 1)
-    y = text(d, 548, f"{i}. {it['name']}", 58)
-    text(d, y, it["info"], 38, (255, 214, 0))
+    y = text(d, 548 if it.get("info") else 590, f"{i}. {it['name']}", 58)
+    if it.get("info"):
+        text(d, y, it["info"], 38, (255, 214, 0))
     y = text(d, 1100, "HEAD HERE", 54); text(d, y, it["where"], 38, (255, 214, 0))
     credit(d); save(im)
 
-e = cfg["end"]; im = fill(grab(e["t"], e.get("gamma", 1.0)), W, H).filter(ImageFilter.GaussianBlur(6))
+e = cfg["end"]; im = fill(from_img(e["img"]) if e.get("img") else grab(e["t"], e.get("gamma", 1.0)), W, H).filter(ImageFilter.GaussianBlur(6))
 im = Image.blend(im, Image.new("RGB", (W, H)), 0.45); d = ImageDraw.Draw(im); y = 420
 for ln in e["lines"]: y = text(d, y, ln, 74)
 y = text(d, y + 40, e["sub"], 40, (255, 214, 0)); brand(d, TOTAL); credit(d); save(im)

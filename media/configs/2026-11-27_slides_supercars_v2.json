@@ -1,0 +1,243 @@
+{
+ "src": "media/raw/yt/dkcars/src.mp4",
+ "out_dir": "media/edits/2026-11-27_slides_supercars_v2",
+ "credit": "Source: @eliplaysgta (X)",
+ "brand": {
+  "tag": "GTA VI  /  SUPERCARS"
+ },
+ "cover": {
+  "img": [
+   "media/raw/yt/eli/02.jpg",
+   0,
+   362
+  ],
+  "title": [
+   "x"
+  ],
+  "sub": "x"
+ },
+ "items": [
+  {
+   "name": "FERRARI SF90 STRADALE",
+   "where": "VESPUCCI ISLAND - NORTH END",
+   "car_img": [
+    "media/raw/yt/eli/01.jpg",
+    0,
+    334
+   ],
+   "map_img": [
+    "media/raw/yt/eli/01.jpg",
+    391,
+    772
+   ]
+  },
+  {
+   "name": "McLAREN SENNA",
+   "where": "MIDDLE OF VESPUCCI ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/02.jpg",
+    0,
+    362
+   ],
+   "map_img": [
+    "media/raw/yt/eli/02.jpg",
+    421,
+    771
+   ]
+  },
+  {
+   "name": "BUGATTI CHIRON",
+   "where": "STARFISH ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/03.jpg",
+    0,
+    312
+   ],
+   "map_img": [
+    "media/raw/yt/eli/03.jpg",
+    379,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI URUS",
+   "where": "LA PERLE",
+   "car_img": [
+    "media/raw/yt/eli/04.jpg",
+    0,
+    384
+   ],
+   "map_img": [
+    "media/raw/yt/eli/04.jpg",
+    430,
+    772
+   ]
+  },
+  {
+   "name": "McLAREN NITROUS",
+   "where": "WAXMAN ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/05.jpg",
+    0,
+    337
+   ],
+   "map_img": [
+    "media/raw/yt/eli/05.jpg",
+    397,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI GALLARDO",
+   "where": "SOUTH OF OLDBY ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/06.jpg",
+    0,
+    375
+   ],
+   "map_img": [
+    "media/raw/yt/eli/06.jpg",
+    433,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI AVENTADOR SVJ",
+   "where": "VICE DALE - EAST SHORE",
+   "car_img": [
+    "media/raw/yt/eli/07.jpg",
+    0,
+    376
+   ],
+   "map_img": [
+    "media/raw/yt/eli/07.jpg",
+    425,
+    772
+   ]
+  },
+  {
+   "name": "NEW BENEFACTOR CAR",
+   "where": "VESPUCCI ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/08.jpg",
+    0,
+    361
+   ],
+   "map_img": [
+    "media/raw/yt/eli/08.jpg",
+    439,
+    772
+   ]
+  },
+  {
+   "name": "NISSAN SKYLINE ('90 ELEGY)",
+   "where": "STARFISH ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/09.jpg",
+    0,
+    353
+   ],
+   "map_img": [
+    "media/raw/yt/eli/09.jpg",
+    411,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI AVENTADOR",
+   "where": "PORT GELLHORN",
+   "car_img": [
+    "media/raw/yt/eli/10.jpg",
+    0,
+    366
+   ],
+   "map_img": [
+    "media/raw/yt/eli/10.jpg",
+    415,
+    772
+   ]
+  },
+  {
+   "name": "MITSUBISHI ECLIPSE (1995)",
+   "where": "VESPUCCI ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/11.jpg",
+    0,
+    363
+   ],
+   "map_img": [
+    "media/raw/yt/eli/11.jpg",
+    417,
+    772
+   ]
+  },
+  {
+   "name": "NISSAN GTR R34",
+   "where": "PORT GELLHORN",
+   "car_img": [
+    "media/raw/yt/eli/12.jpg",
+    0,
+    374
+   ],
+   "map_img": [
+    "media/raw/yt/eli/12.jpg",
+    425,
+    772
+   ]
+  },
+  {
+   "name": "LEOPARD SUPERCAR",
+   "where": "STARFISH ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/13.jpg",
+    0,
+    364
+   ],
+   "map_img": [
+    "media/raw/yt/eli/13.jpg",
+    429,
+    772
+   ]
+  },
+  {
+   "name": "DODGE CHALLENGER",
+   "where": "AMBROSIA",
+   "car_img": [
+    "media/raw/yt/eli/14.jpg",
+    0,
+    435
+   ],
+   "map_img": [
+    "media/raw/yt/eli/14.jpg",
+    484,
+    772
+   ]
+  },
+  {
+   "name": "PROGEN ROYAL RUBY EMERUS",
+   "where": "VESPUCCI MANSION",
+   "car_img": [
+    "media/raw/yt/eli/15.jpg",
+    0,
+    324
+   ],
+   "map_img": [
+    "media/raw/yt/eli/15.jpg",
+    436,
+    772
+   ]
+  }
+ ],
+ "end": {
+  "img": [
+   "media/raw/yt/eli/13.jpg",
+   0,
+   364
+  ],
+  "lines": [
+   "WHICH ONE ARE",
+   "YOU TAKING FIRST?"
+  ],
+  "sub": "COMMENT YOUR GARAGE PICK"
+ }
+}

@@ -38,6 +38,15 @@ Collectibles 5.7K, "10 hidden controls" 3.6K. Reference account @gta6clips114 ('
   names/prices/locations exactly.
 - 8-14 items (list) or 5-9 steps (how-to). Cover + items + end slide.
 
+## 1b. Image quality beats "own frames" (owner 2026-11-27: "maximal schlecht ... Bildqualität katastrophal")
+Frames grabbed from a 1080p YouTube video (blurred motion, HUD, tiny map) look bad on a 4:5 slide - the owner rejected
+the dkdynamite version. When a viral reference post has clean car shots + clear map crops, the owner wants THOSE images
+restyled in our look: `slides_v2_build.py` items take `"car_img": [path, top, bottom]` / `"map_img": [...]` (row crops of
+the reference image, the reference's own label band cut out) + unsharp mask; cover via card builder `"img"`.
+Credit the reference account (`Source: @account (X)` tiny + `📋 Source:` in the caption).
+Example: media/configs/2026-11-27_slides_supercars_v2.json (ref x.com/eliplaysgta, 714K views).
+If we use our own frames: only sharp, still, well-lit shots and FULL-SCREEN pause-map frames - never mid-motion frames.
+
 ## 2. DESIGN (our look - all builders in `tools/`)
 **Cover (slide 1) = card style**, `tools/slides_card_build.py` slide with `"cover": true`:
 bright image top (~820 px) fading into dark navy, pill tag top-left `▍GTA VI / <TOPIC>`, teal counter `01 / NN`
