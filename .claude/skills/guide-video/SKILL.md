@@ -78,6 +78,21 @@ but 8 saves (36% of likes) and **47.5% of views from TikTok SEARCH**. Completion
      `"keep_cut": [i]` forces a cut, `"dissolve_below"` tunes the threshold.
    - Check: watch every cut boundary (frames 0.2 s before/after) - nothing may look like the video stuttered.
 
+9. **EXPLAIN THE WAY, DON'T JUMP TO THE ITEM (owner 2026-11-27: "du gehst zu schnell zum Auto ... erklär wie man an der
+   Location genau hinkommt, wo man abbiegen muss, welche Tür").** The script walks the viewer there step by step:
+   map icon + the landmark next to it (e.g. "right next to the big highway interchange in Port Gellhorn") -> what you see
+   on arrival ("walk up the driveway past the two muscle cars") -> the exact entrance/door/turn ("straight through the big
+   open garage door in the middle of the white building") -> where inside the item is ("on the white photo stage next to
+   the green screen") -> how to leave ("drive straight back out the same garage door") -> where to register/what it costs.
+   Read these details from FRAMES (contact sheet every 1 s + zoomed single frames) and the creator's words - never invent a
+   turn or door that the footage doesn't show; if the creator's video skips a part, describe only what is visible.
+   Length may go to ~40-45 s for this; never "on the map... and here it is".
+10. **CUT PLAN = CONTINUOUS TAKES (no jump cuts, see #8).** Before writing cuts, list the source's real scene changes:
+   `ffmpeg -i section.mp4 -an -vf "scale=320:-2,select='gt(scene,0.3)',showinfo" -f null - 2>&1 | grep -o "pts_time:[0-9.]*"`.
+   Write the VO so whole sentences play over ONE continuous take (driveway -> door -> inside -> drive out = one cut);
+   start a new cut only at a scene change of the source or a new location. Typical guide = 4-6 cuts, not one per sentence.
+   Example: media/configs/2026-11-27_guide_rolls_royce_v7.json (5 cuts, 42 s).
+
 ## 1. Prep (one command)
 ```bash
 python3 .claude/skills/guide-video/scripts/guide.py prep <name> "<youtube-url>" <start> <end>
@@ -93,8 +108,8 @@ YouTube auto-subs are rate-limited (429); Scribe is the transcript.
 - Sentence 1 = hook, starts EXACTLY like: "This is how you get <X> in GTA 6 for free!" (<X> = 1-3 words, payoff spoken by ~1.5 s - see ALGORITHM CHECK) (or "...start the hidden
   <quest>..."), optional tease ("green flames included", "most players walk right past it"). The picture card
   shows <X> during this sentence.
-- Sentence 2 = "Here's how." -> then explain FROM THE START, one short sentence per visible step
-  (map marker -> go there -> the action -> reward / where to register).
+- Sentence 2 = "Here's how." -> then explain FROM THE START with the exact route (ALGORITHM CHECK #9): map icon + landmark ->
+  arrival -> exact door/turn -> where the item is -> how to get out -> where to register + price.
 - End right after the payoff + a twist or flex ("You're welcome." / "[whispers] Because the next victim... is you.").
 - ONLY facts visible in the footage or said by the creator (hard rule 2). Clickbait hook is OK (rule 3), but the
   VO says honestly what it costs ("Register it as yours for 9,500").

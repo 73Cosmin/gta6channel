@@ -1,0 +1,64 @@
+{
+ "footage": "media/raw/yt/rr6/section.mp4",
+ "vo": "media/raw/yt/rr6/vo.mp3",
+ "words": "media/raw/yt/rr6/vo_words.json",
+ "cuts": [
+  [
+   0.0,
+   36.5,
+   1.5
+  ],
+  [
+   4.6,
+   3.0,
+   1.1
+  ],
+  [
+   12.3,
+   19.0,
+   1.45
+  ],
+  [
+   29.0,
+   52.0,
+   1.6
+  ],
+  [
+   34.1,
+   111.0,
+   1.6
+  ]
+ ],
+ "hook": {
+  "img_t": 25.0,
+  "label": "BUCKINGHAM BOURBON WINDSOR",
+  "in": 0.0,
+  "out": 4.4,
+  "from": "right",
+  "crop": [
+   470,
+   330,
+   1570,
+   949
+  ]
+ },
+ "hook_y": 840,
+ "caption_y": 1330,
+ "yellow_words": [
+  "FREE",
+  "ROLLS-ROYCE",
+  "WINDSOR",
+  "GARAGE",
+  "WATKINS",
+  "9,500",
+  "FLAMES",
+  "STAGE"
+ ],
+ "music": "media/music/synthwave_trap_01.mp3",
+ "music_vol": 0.05,
+ "credit": "Footage: @subscribefortacos (YouTube)",
+ "tail": 0.8,
+ "out": "media/edits/2026-11-27_guide_rolls_royce_v7.mp4",
+ "swoosh_vol": 0.7,
+ "_note": "2026-11-27 v7: new detailed route VO (map icon at highway interchange -> driveway -> big garage door -> white stage -> drive out -> Watkins), continuous takes, cuts only at real scene changes"
+}
