@@ -44,6 +44,12 @@ the dkdynamite version. When a viral reference post has clean car shots + clear 
 restyled in our look: `slides_v2_build.py` items take `"car_img": [path, top, bottom]` / `"map_img": [...]` (row crops of
 the reference image, the reference's own label band cut out) + unsharp mask; cover via card builder `"img"`.
 Credit the reference account (`Source: @account (X)` tiny + `📋 Source:` in the caption).
+**LOW-RES SOURCES MUST BE AI-UPSCALED FIRST (owner 2026-11-27: v2 'extrem schlecht, verpixelt' - X images are only ~626 px wide):**
+never plain-resize a <1000 px image to a 1080 slide. Run Real-ESRGAN x4 (CPU, ~80 s/image, run in background for many):
+`curl -sL -o /tmp/RealESRGAN_x4plus.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth`
+(needs `pip install torch --index-url https://download.pytorch.org/whl/cpu`; model stays OUTSIDE the repo), then
+`python3 tools/upscale.py /tmp/RealESRGAN_x4plus.pth in.jpg out_x4.png`, and in the config `"img_scale": 4, "sharpen": false`
+with the crops still measured on the original. Example: media/configs/2026-11-27_slides_supercars_v3.json.
 Example: media/configs/2026-11-27_slides_supercars_v2.json (ref x.com/eliplaysgta, 714K views).
 If we use our own frames: only sharp, still, well-lit shots and FULL-SCREEN pause-map frames - never mid-motion frames.
 
