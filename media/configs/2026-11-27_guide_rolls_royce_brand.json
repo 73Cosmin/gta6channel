@@ -1,0 +1,93 @@
+{
+ "footage": "media/raw/yt/rr/section.mp4",
+ "vo": "media/raw/yt/rr/final_audio.wav",
+ "words": "media/raw/yt/rr/vo_words.json",
+ "cuts": [
+  [
+   0.0,
+   36.0,
+   1.15
+  ],
+  [
+   6.06,
+   4.0,
+   1.0,
+   0.5
+  ],
+  [
+   6.96,
+   8.0,
+   1.0,
+   0.8
+  ],
+  [
+   9.96,
+   18.0,
+   1.2
+  ],
+  [
+   12.06,
+   24.0
+  ],
+  [
+   15.08,
+   32.0,
+   1.1
+  ],
+  [
+   17.52,
+   52.0,
+   1.2
+  ],
+  [
+   19.98,
+   60.0,
+   1.1,
+   0.12
+  ],
+  [
+   22.86,
+   94.0,
+   1.2
+  ],
+  [
+   27.02,
+   98.0,
+   1.2
+  ],
+  [
+   29.88,
+   114.0,
+   1.4
+  ]
+ ],
+ "hook": {
+  "img_t": 25.0,
+  "label": "BUCKINGHAM BOURBON WINDSOR",
+  "in": 0.0,
+  "out": 5.6,
+  "from": "right",
+  "crop": [
+   470,
+   330,
+   1570,
+   949
+  ]
+ },
+ "hook_y": 840,
+ "caption_y": 1330,
+ "yellow_words": [
+  "LUXURY",
+  "FREE",
+  "WINDSOR",
+  "MOSES",
+  "FLAMES"
+ ],
+ "music": null,
+ "music_vol": 0.05,
+ "credit": "Footage: @subscribefortacos (YouTube)",
+ "tail": 0,
+ "out": "media/edits/2026-11-27_guide_rolls_royce_brand.mp4",
+ "swoosh_vol": 0,
+ "_note": "2026-11-26 rebuild without jump cuts: video re-rendered, audio = finished mix of the previous version (VO+music+swoosh), so music/swoosh off here | v-next: no disclaimer, tiny bottom-left credit (owner 2026-11-26) | brand style preview (owner 2026-11-27)"
+}

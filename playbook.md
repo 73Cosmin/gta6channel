@@ -33,7 +33,8 @@ X does NOT repeat the clips we post on YT/TikTok/IG. X gets its own content, lik
 - images: official trailer stills in media/edits/stills/ (credit not needed in tweet; never AI 'gameplay').
 Different tweets ~1.5 h apart minimum.
 
-## X STORY TWEETS (owner 2026-11-20 ~13:35, ref x.com/kingtargaryenn/status/2123477561900425412)
+## X STORY TWEETS - DISABLED (owner 2026-11-27: useless, turned off completely; kept only as history)
+(old) X STORY TWEETS (owner 2026-11-20 ~13:35, ref x.com/kingtargaryenn/status/2123477561900425412)
 REFERENCE, studied 2026-11-20 (via fxtwitter API): Spanish account, 19 Nov 18:04 UTC, ONE long post (~1100 chars, no thread),
 4 photos, near-square portrait (~1900x2048 each, all the same size), 3.1M views / 31.7k likes / 4k bookmarks. Story, told in the
 first person: "I've only played GTA 6 for a few hours and I'm blown away". At Jason's house he showers, changes clothes, turns on the TV

@@ -122,7 +122,8 @@ Never let a new, better video wait a day while an outdated one goes out today.
 
 0. **At least 1 CREATIVE video per day** (owner 2026-11-20): Top-5 ranking, supercut or other compilation - not just single clips.
    Check Buffer: if today has none scheduled, building one is the priority of this run (formats in playbook.md).
-0b. **1 X STORY TWEET per run** (owner 2026-11-20): long story about a real streamer moment (mindblowing OR bug-ragebait) + 2-4 same-size frames - see playbook 'X STORY TWEETS'.
+0b. **X STORY TWEETS ARE OFF** (owner 2026-11-27: "komplett abstellen, nutzlos" - 15+ threads got 0-21 impressions). No story tweets, no X
+   story stills. X only for breaking OFFICIAL news (shareNow). The content run fires shortly before each TikTok slot (05:34/08:34/13:34/18:34).
 1. `git pull`. Read `playbook.md`, `learning.md` (Current Rules), recent `log.md`.
 2. Do the task the scheduled prompt names (news check, clip run, metrics, report).
 3. **Analyze before creating**: pull Buffer metrics (`list_posts` includeMetrics) for everything posted

@@ -41,6 +41,14 @@ Builder: `python3 tools/guide_build_v2.py media/configs/<file>.json` (example co
   shadow, y ~1330. NO black/white title boxes (owner: unprofessional) - replaces checklist #7 for guides.
 - Credit TINY in the bottom-left corner (builder default), NO "fan page / not affiliated" line (owner hard rule 2026-11-26). Music bed quiet (0.05) under the VO.
 
+## BRAND STYLE (owner 2026-11-27: "die Guides auch ein bisschen in dem Stil von meinem Kanal" - recognition)
+Same look as our pinned card slideshows (/slideshow skill), built into tools/guide_build_v2.py (default ON, `"brand": false` = off):
+- teal accent **#5EE6C8** instead of yellow: caption key word teal, hook picture card has a TEAL border;
+- item label under the card = our pill: dark navy, teal bar left, white TikTok Sans 800 (`▍PROGEN ROYAL RUBY EMERUS`);
+- last ~3 s: navy pill `▍SAVE THIS GUIDE` in teal at y 1120 (`"save_tag"`, `"save_secs"`, `"save_y"`; `"save_tag": ""` = off);
+- GTA VI logo top, Poppins captions, tiny bottom-left credit stay as approved in LAYOUT v2.
+Example: media/configs/2026-11-27_guide_rolls_royce_brand.json -> media/edits/2026-11-27_guide_rolls_royce_brand.mp4.
+
 ## ALGORITHM CHECK (owner 2026-11-26 ~21:30, Emerus Studio read + tiktok-algorithm skill) - EVERY guide
 Emerus guide (dark night opening, payoff word at ~3 s) = 441 views @2.4 h, **24% avg watch, ~60% gone by 0:03**;
 but 8 saves (36% of likes) and **47.5% of views from TikTok SEARCH**. Completion is the #1 ranking signal, the first

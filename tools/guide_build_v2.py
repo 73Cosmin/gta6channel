@@ -109,6 +109,11 @@ sh.paste((0, 0, 0, 150), (20, 26), logo.split()[3]); sh = sh.filter(ImageFilter.
 sh.alpha_composite(logo, (20, 20)); logo_png = os.path.join(tmp, "logo.png"); sh.save(logo_png)
 logo_xy = ((1080 - sh.width) // 2, C.get("logo_y", 232))
 
+# BRAND STYLE (owner 2026-11-27: guides need our channel look, like the pinned card slideshows):
+# teal accent (94,230,200), dark navy pills with a teal bar, TikTok Sans 800. "brand": false switches it off.
+BR = C.get("brand", True)
+TEAL, NAVY = (94, 230, 200), (18, 15, 24)
+TT8 = "brand/fonts/TikTokSans-800.ttf"
 H = C.get("hook")
 if H:
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(H["img_t"]), "-i", C["footage"], "-frames:v", "1",
@@ -127,15 +132,21 @@ if H:
     d.rounded_rectangle((20, 28, 20 + cw + 2 * bd, 28 + ch + 2 * bd), 34, fill=(0, 0, 0, 170))
     card.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(12)))
     d = ImageDraw.Draw(card)
-    d.rounded_rectangle((20, 20, 20 + cw + 2 * bd, 20 + ch + 2 * bd), 34, fill=(255, 255, 255, 255))
+    d.rounded_rectangle((20, 20, 20 + cw + 2 * bd, 20 + ch + 2 * bd), 34, fill=TEAL + (255,) if BR else (255, 255, 255, 255))
     m = Image.new("L", (cw, ch), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, cw, ch), 28, fill=255)
     card.paste(im, (20 + bd, 20 + bd), m)
     if lab:
         while fl.getlength(lab) > cw - 60:
             fl = ImageFont.truetype(PF, fl.size - 2)
         tw = fl.getlength(lab); x0 = (card.width - tw) / 2 - 30; y0 = 20 + ch + 2 * bd + 18
-        d.rounded_rectangle((x0, y0, x0 + tw + 60, y0 + 70), 35, fill=(18, 14, 30, 235), outline=(255, 70, 170), width=4)
-        d.text((card.width / 2, y0 + 35), lab, font=fl, fill=(255, 255, 255), anchor="mm")
+        if BR:   # card-slideshow pill: navy, teal bar left, white TikTok Sans
+            fl = ImageFont.truetype(TT8, fl.size); tw = fl.getlength(lab); x0 = (card.width - tw) / 2 - 44
+            d.rounded_rectangle((x0, y0, x0 + tw + 76, y0 + 70), 35, fill=NAVY + (245,))
+            d.rectangle((x0 + 22, y0 + 18, x0 + 29, y0 + 52), fill=TEAL)
+            d.text((x0 + 48, y0 + 35), lab, font=fl, fill=(250, 246, 238), anchor="lm")
+        else:
+            d.rounded_rectangle((x0, y0, x0 + tw + 60, y0 + 70), 35, fill=(18, 14, 30, 235), outline=(255, 70, 170), width=4)
+            d.text((card.width / 2, y0 + 35), lab, font=fl, fill=(255, 255, 255), anchor="mm")
     hook_png = os.path.join(tmp, "card.png"); card.save(hook_png)
     hx = (1080 - card.width) // 2; hy = C.get("hook_y", 960) - card.height // 2
 
@@ -171,7 +182,7 @@ for i, ch_ in enumerate(chunks):
     ws = [fnt.getlength(w) for w in words]; total = sum(ws) + sp * (len(words) - 1)
     x = (1080 - total) / 2
     for k, w in enumerate(words):
-        col = "0xFFE81F" if k in hi else "white"
+        col = ("0x5EE6C8" if BR else "0xFFE81F") if k in hi else "white"
         dr.append(f"drawtext=fontfile={PF}:text='{esc(w)}':fontsize={fsz}:fontcolor={col}:borderw=3:bordercolor=black@0.85:"
                   f"shadowx=0:shadowy=5:shadowcolor=black@0.55:x={x:.0f}:y={cy}-ascent:"
                   f"enable='gte(t,{st:.3f})*lt(t,{en:.3f})'")
@@ -185,6 +196,16 @@ f.append("[v0]" + ",".join(dr) + "[v1]")
 inputs = ["-i", joined, "-i", vo, "-loop", "1", "-i", logo_png]
 idx = 3
 f.append(f"[v1][2:v]overlay={logo_xy[0]}:{logo_xy[1]}:shortest=1[v2]"); cur = "v2"
+if BR and C.get("save_tag", "SAVE THIS GUIDE"):   # branded end tag for the last ~3 s (save trigger)
+    sv = C.get("save_tag", "SAVE THIS GUIDE"); ft = ImageFont.truetype(TT8, 46)
+    tw = int(ft.getlength(sv)); pw, ph = tw + 104, 84
+    tag = Image.new("RGBA", (pw, ph), (0, 0, 0, 0)); d = ImageDraw.Draw(tag)
+    d.rounded_rectangle((0, 0, pw - 1, ph - 1), 42, fill=NAVY + (240,)); d.rectangle((30, 22, 38, 62), fill=TEAL)
+    d.text((62, ph // 2), sv, font=ft, fill=TEAL, anchor="lm")
+    tag_png = os.path.join(tmp, "save.png"); tag.save(tag_png)
+    inputs += ["-loop", "1", "-i", tag_png]; si_ = idx; idx += 1
+    ts = max(0.0, dur - C.get("save_secs", 3.0))
+    f.append(f"[{cur}][{si_}:v]overlay=x=(W-w)/2:y={C.get('save_y', 1120)}:shortest=1:enable='gte(t,{ts:.2f})'[vs]"); cur = "vs"
 if H:
     inputs += ["-loop", "1", "-i", hook_png]; hi_ = idx; idx += 1
     t0, t1, D = H.get("in", 0.3), H["out"], 0.38
