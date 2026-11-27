@@ -11,7 +11,7 @@ H(){ echo "drawtext=fontfile=$F:text='$1':fontsize=$2:fontcolor=white:borderw=7:
 B(){ echo "drawtext=fontfile=$F:text='$1':fontsize=$2:fontcolor=$3:x=(w-tw)/2:y=$4:box=1:boxcolor=black@0.75:boxborderw=16:enable='between(t,$5,$6)'"; }
 ffmpeg -v error -y -ss 75 -t $D -i $T -i $R/brand/profile_picture.png -i $VO -stream_loop -1 -i $MU -filter_complex "
 [0:v]$BG,trim=0:$D,setpts=PTS-STARTPTS[bg];
-[1:v]scale=360:360,format=rgba,colorchannelmixer=aa=0.92[logo];
+[1:v]scale=360:360:flags=lanczos,format=rgba,colorchannelmixer=aa=0.92[logo];
 [bg][logo]overlay=(W-w)/2:H-620[v1];
 [v1]drawbox=x=0:y=0:w=iw:h=580:color=0x0A0014@1:t=fill,
 $(H 'GTA 6' 150 190),$(H 'IS OUT NOW' 120 370),
@@ -24,5 +24,5 @@ null[v];
 [3:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.09,afade=t=out:st=$(echo "$D-0.8"|bc):d=0.8[mu];
 [mu][vo1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[duck];
 [vo2][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7[a]" \
- -map "[v]" -map "[a]" -t $D -c:v libx264 -preset medium -crf 20 -pix_fmt yuv420p -r 30 -c:a aac -b:a 160k -movflags +faststart $OUT
+ -map "[v]" -map "[a]" -t $D -c:v libx264 -preset slow -crf 16 -profile:v high -maxrate 16M -bufsize 32M -pix_fmt yuv420p -r 30 -c:a aac -b:a 160k -movflags +faststart $OUT
 echo ok $OUT

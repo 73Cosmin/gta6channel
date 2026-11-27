@@ -51,14 +51,14 @@ with open(lst, "w") as L:
         g = opt[0] if opt else C.get("gamma", 1.0)          # owner 2026-11-26: no dark openings
         seg = os.path.join(tmp, f"s{i:02d}.mp4")
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(src), "-i", C["footage"], "-t", f"{end - vt:.3f}",
-                        "-an", "-vf", f"fps=30,scale=1920:1080,eq=gamma={g}:saturation={1.0 + (g - 1) * 0.3:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
+                        "-an", "-vf", f"fps=30,scale=1920:1080:flags=lanczos,eq=gamma={g}:saturation={1.0 + (g - 1) * 0.3:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
                         seg], check=True)
         L.write(f"file '{seg}'\n")
 joined = os.path.join(tmp, "joined.mp4")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", joined], check=True)
 C["footage"] = joined
 f = ["[0:v]setpts=PTS-STARTPTS,split[a][b]"]
-f.append("[a]scale=-2:2400,crop=1080:1920,boxblur=22:2,eq=brightness=-0.08:saturation=1.3[bg]")
+f.append("[a]scale=-2:2400:flags=lanczos,crop=1080:1920,boxblur=22:2,eq=brightness=-0.08:saturation=1.3[bg]")
 f.append("[b]scale=1080:608:force_original_aspect_ratio=increase,crop=1080:608,"
          "eq=contrast=1.06:saturation=1.12[fg]")
 f.append("[bg][fg]overlay=0:656[v0]")
@@ -121,7 +121,7 @@ else:
 if title_png:
     inputs += inputs_t
 cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(f), "-map", f"[{cur}]",
-       "-map", "[aout]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21",
+       "-map", "[aout]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M",
        "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", C["out"]]
 subprocess.run(cmd, check=True)
 print("ok", C["out"], f"{dur:.2f}s")

@@ -54,8 +54,12 @@ def main():
     if cmd == "prep":
         url, a, b = sys.argv[3], sec(sys.argv[4]), sec(sys.argv[5])
         run("tools/yt.sh", url, "--write-info-json", "-o", f"{D}/src.%(ext)s")
-        run("ffmpeg", "-v", "error", "-y", "-ss", str(a), "-to", str(b), "-i", f"{D}/src.mp4", "-c:v", "libx264",
-            "-crf", "18", "-preset", "veryfast", "-c:a", "aac", sec_mp4)
+        src = next(f"{D}/{f}" for f in sorted(os.listdir(D)) if f.startswith("src.") and f.endswith((".mkv", ".mp4", ".webm")))
+        # section.mp4 = 1080p WORKING COPY for sheets/frames/transcript only. The build uses the full source:
+        run("ffmpeg", "-v", "error", "-y", "-ss", str(a), "-to", str(b), "-i", src, "-vf", "scale=-2:1080:flags=lanczos",
+            "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-c:a", "aac", sec_mp4)
+        print(f'\nCONFIG (quality rule 2026-11-27): "footage": "{src}", "footage_offset": {a}  '
+              f'(cuts/hook times stay section seconds; never build from section.mp4)')
         run("ffmpeg", "-v", "error", "-y", "-i", sec_mp4, "-vn", "-ac", "1", "-b:a", "96k", f"{D}/section.mp3")
         run("python3", "tools/eleven.py", "scribe", f"{D}/section.mp3", f"{D}/section_words.json")
         print("\n=== SOURCE TRANSCRIPT (section seconds) ===")

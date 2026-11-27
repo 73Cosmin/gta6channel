@@ -61,7 +61,7 @@ if SPLIT:
     f.append(f"[b]{gcf}scale=1080:{1920-SY}:force_original_aspect_ratio=increase,crop=1080:{1920-SY}[bot]")
     f.append("[top][bot]vstack=inputs=2[v0]")
 else:
-    f.append("[a]scale=-2:2400,crop=1080:1920,boxblur=22:2,eq=brightness=-0.06:saturation=1.35[bg]")
+    f.append("[a]scale=-2:2400:flags=lanczos,crop=1080:1920,boxblur=22:2,eq=brightness=-0.06:saturation=1.35[bg]")
     f.append("[b]scale=1080:608:force_original_aspect_ratio=increase,crop=1080:608[fg]")
     f.append("[bg][fg]overlay=0:656[v0]")
 
@@ -154,7 +154,7 @@ if C.get("credit") and not C.get("no_credit"):   # tiny bottom-left (owner 2026-
 f.append("[v0]" + ",".join(dr) + "[v1]")
 cur = "v1"
 if steps:
-    f.append(f"[1:v]format=rgba,scale=200:-1,split={len(steps)}" + "".join(f"[ar{k}]" for k in range(len(steps))))
+    f.append(f"[1:v]format=rgba,scale=200:-1:flags=lanczos,split={len(steps)}" + "".join(f"[ar{k}]" for k in range(len(steps))))
     for k, (_, _, t0) in enumerate(steps):
         y = 1310 + k * 150 - 40; nx = f"v{k+2}"
         f.append(f"[{cur}][ar{k}]overlay=x='if(lt(t,{t0}+0.25),1080-220*(t-{t0})/0.25,860)':y={y}:"
@@ -177,7 +177,7 @@ if C.get("music"):
 else:
     f.append("[vo1]anullsink;[vo2]loudnorm=I=-14:TP=-1.5:LRA=7[aout]")
 cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(f), "-map", f"[{cur}]",
-       "-map", "[aout]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
+       "-map", "[aout]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M",
        "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", C["out"]]
 subprocess.run(cmd, check=True)
 print("ok", C["out"], f"{dur:.2f}s")

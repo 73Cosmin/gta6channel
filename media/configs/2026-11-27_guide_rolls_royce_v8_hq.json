@@ -1,0 +1,66 @@
+{
+ "footage": "media/raw/yt/full/5f6c9HkezD8.mkv",
+ "vo": "media/raw/yt/rr6/vo_mixed.mp3",
+ "words": "media/raw/yt/rr6/vo_words.json",
+ "cuts": [
+  [
+   0.0,
+   36.5,
+   1.5
+  ],
+  [
+   4.6,
+   3.0,
+   1.1
+  ],
+  [
+   12.3,
+   19.0,
+   1.45
+  ],
+  [
+   29.0,
+   52.0,
+   1.6
+  ],
+  [
+   34.1,
+   111.0,
+   1.6
+  ]
+ ],
+ "hook": {
+  "img_t": 25.0,
+  "label": "BUCKINGHAM BOURBON WINDSOR",
+  "in": 0.0,
+  "out": 4.4,
+  "from": "right",
+  "crop": [
+   470,
+   330,
+   1570,
+   949
+  ]
+ },
+ "hook_y": 840,
+ "caption_y": 1330,
+ "yellow_words": [
+  "FREE",
+  "ROLLS-ROYCE",
+  "WINDSOR",
+  "GARAGE",
+  "WATKINS",
+  "9,500",
+  "FLAMES",
+  "STAGE"
+ ],
+ "music": null,
+ "music_vol": 0.05,
+ "credit": "Footage: @subscribefortacos (YouTube)",
+ "tail": 0.0,
+ "out": "media/edits/2026-11-27_guide_rolls_royce_v8_hq.mp4",
+ "swoosh_vol": 0.0,
+ "_note": "v8 HQ (owner 2026-11-27 \"verpixelt\"): same cut/VO as v7, footage = full 4K source + offset, audio = v7 final mix (music/swoosh already in it)",
+ "footage_offset": 292.0,
+ "_source": "https://www.youtube.com/watch?v=5f6c9HkezD8 chapter Buckinham Bourbon Windsor 4:52-7:14"
+}

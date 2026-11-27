@@ -22,7 +22,7 @@ subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", foot, "-filter_complex",
     f"[0:a]atrim=0:{dur:.3f},asetpts=PTS-STARTPTS[a0];"
     f"[0:a]atrim={a}:{b},asetpts=PTS-STARTPTS,atempo={sp}[a1];"
     "[v0][a0][v1][a1]concat=n=2:v=1:a=1[v][a]",
-    "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "18", "-preset", "fast", "-c:a", "aac", nf],
+    "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M", "-c:a", "aac", nf],
     check=True)
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", nf, "-vn", "-c:a", "libmp3lame", "-b:a", "192k", na],
                check=True)

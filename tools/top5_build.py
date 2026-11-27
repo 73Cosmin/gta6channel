@@ -116,8 +116,8 @@ for i, it in enumerate(items):
           f"[0:a]atrim={s0}:{s1},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo[a]")
     out = f"{tmp}/seg{i}.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", it["footage"], "-i", f"{tmp}/head.png", "-i", lp, "-i", cp,
-                    "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", str(C.get("crf", 23)),
-                    "-preset", "fast", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", out], check=True)
+                    "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", str(C.get("crf", 16)), "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M",
+                    "-preset", "slow", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", out], check=True)
     segs.append(out)
 
 lst = f"{tmp}/list.txt"

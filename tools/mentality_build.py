@@ -102,7 +102,7 @@ if not C.get("music"):
         mix.append(f"[h{j}]"); j += 1
     fa += f"{''.join(mix)}amix=inputs={len(mix)}:normalize=0,loudnorm=I=-14:TP=-1.0[aout]"
     run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fa, "-map", "0:v", "-map", "[aout]",
-         "-c:v", "libx264", "-crf", str(C.get("crf", 22)), "-preset", "medium", "-c:a", "aac", "-b:a", "192k",
+         "-c:v", "libx264", "-crf", str(C.get("crf", 16)), "-preset", "slow", "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M", "-c:a", "aac", "-b:a", "192k",
          "-movflags", "+faststart", C["out"]])
     print("ok", C["out"], f"{t:.2f}s"); sys.exit(0)
 # music bed: starts at the first card, full volume on cards, ducked under beats
@@ -121,6 +121,6 @@ if C.get("sting"):
 fa += f"{''.join(mix)}amix=inputs={len(mix)}:normalize=0,loudnorm=I=-14:TP=-1.5[aout]"
 os.makedirs(os.path.dirname(C["out"]), exist_ok=True)
 run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fa, "-map", "0:v", "-map", "[aout]",
-     "-c:v", "libx264", "-crf", str(C.get("crf", 22)), "-preset", "medium", "-c:a", "aac", "-b:a", "192k",
+     "-c:v", "libx264", "-crf", str(C.get("crf", 16)), "-preset", "slow", "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M", "-c:a", "aac", "-b:a", "192k",
      "-movflags", "+faststart", C["out"]])
 print("ok", C["out"], f"{t:.2f}s")

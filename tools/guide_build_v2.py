@@ -35,6 +35,13 @@ if isinstance(W, str):
     W = json.load(open(W))
 W = [[("6" if w.strip(".,!?") == "VI" else w), s, e] for w, s, e in W]
 tmp = tempfile.mkdtemp(prefix="guide2_")
+# QUALITY (owner 2026-11-27: "immer so verpixelt"): footage = the FULL source in max resolution (tools/yt.sh, up to 4K),
+# never a re-encoded section; "footage_offset" = where the old section started (s), every src time is relative to it.
+# The 1500 px band is then DOWN-scaled from 4K/1440p (sharp) instead of up-scaled from 1080p (soft/pixelated).
+OFF = C.get("footage_offset", 0.0)
+SRC_W = int(subprocess.check_output(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width",
+                                     "-of", "csv=p=0", C["footage"]]).decode().split()[0])
+SHARP = C.get("sharpen", 0.35 if SRC_W >= 2500 else 0.7)   # light unsharp after scaling (more when up-scaling 1080p)
 
 
 def esc(t):
@@ -54,7 +61,7 @@ import numpy as np
 
 
 def gray(t):
-    b = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(t, 0):.3f}", "-i", C["footage"], "-frames:v", "1",
+    b = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(t, 0) + OFF:.3f}", "-i", C["footage"], "-frames:v", "1",
                         "-vf", "scale=64:36,format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
     return np.frombuffer(b, np.uint8).astype(float) if len(b) == 64 * 36 else None
 
@@ -85,17 +92,18 @@ with open(lst, "w") as L:
         end = cuts[i + 1][0] if i + 1 < len(cuts) else dur
         seg = os.path.join(tmp, f"s{i:02d}.mp4")
         x = int((bw - 1080) * xf)
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(src), "-i", C["footage"], "-t", f"{end - vt:.3f}", "-an",
-                        "-vf", f"fps=30,scale={bw}:{BAND_H},crop=1080:{BAND_H}:{x}:0,"
-                               f"eq=gamma={g}:contrast=1.05:saturation={1.1 + (g - 1) * 0.3:.2f}",
-                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", seg], check=True)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{src + OFF:.3f}", "-i", C["footage"], "-t", f"{end - vt:.3f}", "-an",
+                        "-vf", f"fps=30,scale={bw}:{BAND_H}:flags=lanczos,crop=1080:{BAND_H}:{x}:0,"
+                               f"eq=gamma={g}:contrast=1.05:saturation={1.1 + (g - 1) * 0.3:.2f},"
+                               f"unsharp=5:5:{SHARP}:5:5:0",
+                        "-c:v", "libx264", "-preset", "fast", "-crf", "10", seg], check=True)
         if i in dissolve:      # crossfade from the previous segment's last frame (no timing change)
             prev = os.path.join(tmp, f"s{i - 1:02d}.mp4"); last = os.path.join(tmp, f"last{i:02d}.png")
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-sseof", "-0.1", "-i", prev, "-frames:v", "1", last], check=True)
             seg2 = os.path.join(tmp, f"s{i:02d}x.mp4")
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", seg, "-loop", "1", "-i", last, "-filter_complex",
                             "[1:v]format=rgba,fade=t=out:st=0:d=0.3:alpha=1[o];[0:v][o]overlay=shortest=1",
-                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", "30", seg2], check=True)
+                            "-c:v", "libx264", "-preset", "fast", "-crf", "10", "-r", "30", seg2], check=True)
             seg = seg2
         L.write(f"file '{seg}'\n")
 joined = os.path.join(tmp, "joined.mp4")
@@ -117,14 +125,15 @@ TEAL, NAVY = (94, 230, 200), (18, 15, 24)
 TT8 = "brand/fonts/TikTokSans-800.ttf"
 H = C.get("hook")
 if H:
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(H["img_t"]), "-i", C["footage"], "-frames:v", "1",
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{H['img_t'] + OFF:.3f}", "-i", C["footage"], "-frames:v", "1",
                     os.path.join(tmp, "hook.png")], check=True)
     im = Image.open(os.path.join(tmp, "hook.png")).convert("RGB")
     im = ImageEnhance.Brightness(im).enhance(H.get("img_gamma", 1.0))
     cw = H.get("w", 900); ch = int(cw * 9 / 16)
-    if H.get("crop"):           # [x0,y0,x1,y1] in source pixels
-        im = im.crop(tuple(H["crop"]))
-    s = max(cw / im.width, ch / im.height); im = im.resize((int(im.width * s) + 1, int(im.height * s) + 1))
+    if H.get("crop"):           # [x0,y0,x1,y1] in 1920x1080 pixels (scaled to the real source width)
+        k = im.width / H.get("crop_ref_w", 1920)
+        im = im.crop(tuple(int(v * k) for v in H["crop"]))
+    s = max(cw / im.width, ch / im.height); im = im.resize((int(im.width * s) + 1, int(im.height * s) + 1), Image.LANCZOS)
     im = im.crop(((im.width - cw) // 2, (im.height - ch) // 2, (im.width - cw) // 2 + cw, (im.height - ch) // 2 + ch))
     bd = 8; lab = H.get("label", ""); fl = ImageFont.truetype(PF, 44)
     lab_h = 92 if lab else 0
@@ -153,7 +162,7 @@ if H:
 
 # 3) filter graph
 f = ["[0:v]setpts=PTS-STARTPTS,split[a][b]",
-     "[a]scale=1382:1920,crop=1080:1920,boxblur=24:2,eq=brightness=-0.1[bg]",
+     "[a]scale=1382:1920:flags=lanczos,crop=1080:1920,boxblur=24:2,eq=brightness=-0.1[bg]",
      f"[bg][b]overlay=0:{BAND_Y}[v0]"]
 dr = []
 # captions: chunks of 2-3 words, one key word yellow
@@ -246,7 +255,7 @@ if H:
         mix.append(f"[sw{k}]")
 f.append("".join(mix) + f"amix=inputs={len(mix)}:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7[aout]")
 cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(f), "-map", f"[{cur}]",
-       "-map", "[aout]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21",
-       "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", C["out"]]
+       "-map", "[aout]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "slow", "-crf", str(C.get("crf", 16)),
+       "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", C["out"]]
 subprocess.run(cmd, check=True)
 print("ok", C["out"], f"{dur:.2f}s")

@@ -63,6 +63,6 @@ fc = (f"[0:v]trim={s0}:{s1},setpts=PTS-STARTPTS,fps=30,split[a][b];"
       f"[top][bot]vstack,format=rgba[st];[st][1:v]overlay=0:0,format=yuv420p[v];"
       f"[0:a]atrim={s0}:{s1},asetpts=PTS-STARTPTS,aresample=48000,loudnorm=I=-14:TP=-1.5[a]")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", C["footage"], "-i", ov, "-filter_complex", fc,
-                "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "20", "-preset", "medium",
+                "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M",
                 "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", C["out"]], check=True)
 print("ok", C["out"], f"{s1 - s0:.2f}s")

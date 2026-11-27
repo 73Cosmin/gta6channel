@@ -168,7 +168,7 @@ def main(cfg_path):
     fc.append(f"{''.join(amix)}amix=inputs={len(amix)}:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,"
               f"aresample=44100[a]")
     cmd += ["-filter_complex", ";".join(fc), "-map", f"[{last}]", "-map", "[a]", "-t", str(dur),
-            "-c:v", "libx264", "-crf", "19", "-preset", "medium", "-pix_fmt", "yuv420p",
+            "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-profile:v", "high", "-maxrate", "16M", "-bufsize", "32M", "-pix_fmt", "yuv420p",
             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", C["out"]]
     subprocess.run(cmd, check=True)
     print("built", C["out"], f"{dur:.1f}s")
