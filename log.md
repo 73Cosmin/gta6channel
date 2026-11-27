@@ -445,3 +445,4 @@
   Pipeline rebuilt from 4K/1440p sources (same cut + audio): Rolls Royce v8_hq -> swapped into TT 6b083c38… + YT 6b0956b5… 20:00;
   Urus v3_hq (also without the old 'Fan page / not affiliated' line that was still in urus_v2) -> TT draft 6b08a50d….
   SWAT short (draft 6b082464…) NOT rebuilt: the owner's original capture is gone (needs the raw file again).
+- 18:35 run (Nov 27): Buffer metrics refreshed (TT 14:57-15:43 UTC, IG 14:39, X 14:52) -> scoreboard filled (10 rows + new row for the published supercars slideshow 6b09a531…: 1,321 / 102 likes @2.2 h = best TT of the day). Lesson: slideshow drives TT reach, guides stall at ~30% avg watch on TT but win YT views + IG saves (serial killer IG 36 saves). Next slot 20:00 already filled (Rolls Royce v8_hq TT 6b083c38… + YT 6b0956b5…); today TT = 4 (07/10/14:30/20:00) -> built nothing (CONTENT PLAN v4 cap). 0 error posts.
