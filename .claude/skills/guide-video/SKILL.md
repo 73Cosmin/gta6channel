@@ -164,6 +164,6 @@ Old builder tools/guide_build.py (blurred band + black/white title box) = legacy
 
 ## 5. Publish
 Commit config + mp4 to `main`, confirm the raw URL returns 200, then Buffer per playbook slots/caps
-(TikTok max 4/day: 07:00/10:00/14:30/20:00, CONTENT PLAN v4, day-by-day rule; YT/IG only the 1-2 strongest guides/day). Caption (ALGORITHM CHECK #6): search phrase + save prompt + question + `🎥 Footage: @creator` +
+(TikTok max 4/day: 07:00/10:00/14:30/20:00, CONTENT PLAN v4, day-by-day rule; EVERY guide also on YT Shorts at the same time; IG only the 1-2 strongest guides/day). Caption (ALGORITHM CHECK #6): search phrase + save prompt + question + `🎥 Footage: @creator` +
 max 5 hashtags (NO "fan page / not affiliated" line). Story/side-quest twist → caption starts
 with "SPOILER". Log in `log.md` + `scoreboard.csv`.

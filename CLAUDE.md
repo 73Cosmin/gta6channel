@@ -98,14 +98,17 @@ videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS an
 **CONTENT PLAN v4 (owner 2026-11-27 ~10:20: "zu viel gerade") - TikTok MAX 4 POSTS PER DAY**, default slots **07:00, 10:00, 14:30, 20:00**
 Vienna (~2-3 guides + 1 slideshow/banger clip). Count sent + scheduled before building; at 4, build nothing new for TikTok that day -
 extra finished videos wait as Buffer DRAFTS. Owner may move a slideshow reminder to the time they can post (e.g. 14-15:00).
-v4 replaces the slot COUNT/TIMES of v3 below; everything else in v3 (guide mix, reuse of source points, YT/IG 1-2/day) still applies.
+v4 replaces the slot COUNT/TIMES of v3 below; everything else in v3 (guide mix, reuse of source points, IG 1-2/day) still applies.
+**YOUTUBE SHORTS = EVERY OWN-MADE VIDEO (owner 2026-11-27 ~12:15):** every guide and own capture also goes to YT Shorts at the same
+time as on TikTok (up to 4/day). NEVER stream re-cuts/creator clips/compilations on YT (they got 0-5 views; own videos 0.6-9.1K).
+Slideshows: TikTok only. IG Reels stay at the 1-2 strongest guides/day.
 **CONTENT PLAN v3 (owner 2026-11-26 ~14:20, REPLACES the 3/day cap + the Platinum-slot rule below; slot count/times superseded by v4):** TikTok gets ONE upload
 every 3 hours from 07:00 to 22:00 Vienna = **07:00, 10:00, 13:00, 16:00, 19:00, 22:00 (6/day)**. Mix: MAINLY GUIDES
 (/guide-video: cars, weapons, money spots, easter eggs, secret quests, stat boosts - ~4/day) + real BANGER clips (proven-creator
 moments with a clear payoff, no filler) or SLIDESHOWS (skill /slideshow, .claude/skills/slideshow) for the other slots. One YouTube guide video has
 ~10 points -> reuse it: one point = one guide, pick the points with the most viral potential first
 (`python3 tools/guide_scout.py --chapters <id>` ranks chapters by YouTube click demand; generic titles -> judge from transcript/frames).
-YT Shorts + IG Reels: only the 1-2 strongest guides of the day (they punish spam). Each scheduled run builds the video(s) for the
+(superseded for YT by the YOUTUBE SHORTS rule above) YT Shorts + IG Reels: only the 1-2 strongest guides of the day. Each scheduled run builds the video(s) for the
 NEXT open slot(s) (max 2 per run; the 01:14/04:14 night runs prepare 07:00/10:00).
 **(old, superseded by v3 for slots/count) TIKTOK WHILE PLATINUM RUNS (owner 2026-11-24 ~18:45, loosens the 17:31 hold):** post TikTok videos again at the NORMAL
 slots (07:00/12:00/17:00), but ONLY strong videos (own gameplay with a story, proven-creator moments with a clear payoff - no filler).
