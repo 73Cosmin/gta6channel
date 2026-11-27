@@ -1,0 +1,246 @@
+{
+ "src": "media/raw/yt/dkcars/src.mp4",
+ "out_dir": "media/edits/2026-11-27_slides_supercars_v3",
+ "credit": "Source: @eliplaysgta (X)",
+ "brand": {
+  "tag": "GTA VI  /  SUPERCARS"
+ },
+ "cover": {
+  "img": [
+   "media/raw/yt/eli/x4/02.png",
+   0,
+   362
+  ],
+  "title": [
+   "x"
+  ],
+  "sub": "x"
+ },
+ "items": [
+  {
+   "name": "FERRARI SF90 STRADALE",
+   "where": "VESPUCCI ISLAND - NORTH END",
+   "car_img": [
+    "media/raw/yt/eli/x4/01.png",
+    0,
+    334
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/01.png",
+    391,
+    772
+   ]
+  },
+  {
+   "name": "McLAREN SENNA",
+   "where": "MIDDLE OF VESPUCCI ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/02.png",
+    0,
+    362
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/02.png",
+    421,
+    771
+   ]
+  },
+  {
+   "name": "BUGATTI CHIRON",
+   "where": "STARFISH ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/03.png",
+    0,
+    312
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/03.png",
+    379,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI URUS",
+   "where": "LA PERLE",
+   "car_img": [
+    "media/raw/yt/eli/x4/04.png",
+    0,
+    384
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/04.png",
+    430,
+    772
+   ]
+  },
+  {
+   "name": "McLAREN NITROUS",
+   "where": "WAXMAN ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/05.png",
+    0,
+    337
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/05.png",
+    397,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI GALLARDO",
+   "where": "SOUTH OF OLDBY ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/06.png",
+    0,
+    375
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/06.png",
+    433,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI AVENTADOR SVJ",
+   "where": "VICE DALE - EAST SHORE",
+   "car_img": [
+    "media/raw/yt/eli/x4/07.png",
+    0,
+    376
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/07.png",
+    425,
+    772
+   ]
+  },
+  {
+   "name": "NEW BENEFACTOR CAR",
+   "where": "VESPUCCI ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/08.png",
+    0,
+    361
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/08.png",
+    439,
+    772
+   ]
+  },
+  {
+   "name": "NISSAN SKYLINE ('90 ELEGY)",
+   "where": "STARFISH ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/09.png",
+    0,
+    353
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/09.png",
+    411,
+    772
+   ]
+  },
+  {
+   "name": "LAMBORGHINI AVENTADOR",
+   "where": "PORT GELLHORN",
+   "car_img": [
+    "media/raw/yt/eli/x4/10.png",
+    0,
+    366
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/10.png",
+    415,
+    772
+   ]
+  },
+  {
+   "name": "MITSUBISHI ECLIPSE (1995)",
+   "where": "VESPUCCI ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/11.png",
+    0,
+    363
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/11.png",
+    417,
+    772
+   ]
+  },
+  {
+   "name": "NISSAN GTR R34",
+   "where": "PORT GELLHORN",
+   "car_img": [
+    "media/raw/yt/eli/x4/12.png",
+    0,
+    374
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/12.png",
+    425,
+    772
+   ]
+  },
+  {
+   "name": "LEOPARD SUPERCAR",
+   "where": "STARFISH ISLAND",
+   "car_img": [
+    "media/raw/yt/eli/x4/13.png",
+    0,
+    364
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/13.png",
+    429,
+    772
+   ]
+  },
+  {
+   "name": "DODGE CHALLENGER",
+   "where": "AMBROSIA",
+   "car_img": [
+    "media/raw/yt/eli/x4/14.png",
+    0,
+    435
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/14.png",
+    484,
+    772
+   ]
+  },
+  {
+   "name": "PROGEN ROYAL RUBY EMERUS",
+   "where": "VESPUCCI MANSION",
+   "car_img": [
+    "media/raw/yt/eli/x4/15.png",
+    0,
+    324
+   ],
+   "map_img": [
+    "media/raw/yt/eli/x4/15.png",
+    436,
+    772
+   ]
+  }
+ ],
+ "end": {
+  "img": [
+   "media/raw/yt/eli/x4/13.png",
+   0,
+   364
+  ],
+  "lines": [
+   "WHICH ONE ARE",
+   "YOU TAKING FIRST?"
+  ],
+  "sub": "COMMENT YOUR GARAGE PICK"
+ },
+ "img_scale": 4,
+ "sharpen": false,
+ "_note": "Real-ESRGAN x4 upscaled reference images (tools/upscale.py), owner: v2 too pixelated"
+}

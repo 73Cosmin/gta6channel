@@ -17,10 +17,11 @@ def from_img(spec):
     # spec = [path, top, bottom] (rows of the source image) - e.g. a car or map half of a reference post image
     path, top, bottom = spec
     im = Image.open(path).convert("RGB")
-    return im.crop((0, top, im.width, bottom))
+    k = cfg.get("img_scale", 1)   # e.g. 4 when the crops were measured on the original and path is the x4 upscale
+    return im.crop((0, top * k, im.width, bottom * k))
 
-def sharp(im):
-    return im.filter(ImageFilter.UnsharpMask(radius=2, percent=90, threshold=2))
+def sharp(im):   # off for AI-upscaled sources ("sharpen": false) - they are already sharp
+    return im.filter(ImageFilter.UnsharpMask(radius=2, percent=90, threshold=2)) if cfg.get("sharpen", True) else im
 
 def fill(im, w, h, cx=0.5):
     s = max(w / im.width, h / im.height); im = im.resize((int(im.width * s) + 1, int(im.height * s) + 1))
@@ -62,7 +63,7 @@ def brand(d, i):
 
 n = 0
 def save(im):
-    global n; n += 1; p = f"{out}/{n:02d}.jpg"; im.save(p, quality=92); print(p)
+    global n; n += 1; p = f"{out}/{n:02d}.jpg"; im.save(p, quality=97, subsampling=0); print(p)
 
 c = cfg["cover"]; im = Image.new("RGB", (W, H)); im.paste(fill(from_img(c["img"]) if c.get("img") else grab(c["t"], c.get("gamma", 1.0)), W, 900, c.get("cx", 0.5)), (0, 0))
 d = ImageDraw.Draw(im); d.rectangle((0, 900, W, H), fill=(0, 0, 0))
