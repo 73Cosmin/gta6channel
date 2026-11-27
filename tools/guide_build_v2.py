@@ -107,7 +107,8 @@ lw = C.get("logo_w", 250); logo = logo.resize((lw, int(logo.height * lw / logo.w
 sh = Image.new("RGBA", (logo.width + 40, logo.height + 40), (0, 0, 0, 0))
 sh.paste((0, 0, 0, 150), (20, 26), logo.split()[3]); sh = sh.filter(ImageFilter.GaussianBlur(8))
 sh.alpha_composite(logo, (20, 20)); logo_png = os.path.join(tmp, "logo.png"); sh.save(logo_png)
-logo_xy = ((1080 - sh.width) // 2, C.get("logo_y", 232))
+MC = C.get("mascot")          # raccoon facecam (tools/mascot_cam.py) -> logo moves right of the cam
+logo_xy = (C.get("logo_x", 540 if MC else (1080 - sh.width) // 2), C.get("logo_y", 232))
 
 # BRAND STYLE (owner 2026-11-27: guides need our channel look, like the pinned card slideshows):
 # teal accent (94,230,200), dark navy pills with a teal bar, TikTok Sans 800. "brand": false switches it off.
@@ -219,6 +220,15 @@ if H:
         ye = f"if(lt(t,{t0}+{D}),{hy}+{sgn}*1500*{ease_in},if(gt(t,{t1}),{hy}-{sgn}*1500*{ease_out},{hy}))"; xe = str(hx)
     f.append(f"[{cur}][{hi_}:v]overlay=x='{xe}':y='{ye}':eval=frame:shortest=1:"
              f"enable='between(t,{t0},{t1}+{D})'[v3]"); cur = "v3"
+if MC:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import mascot_cam
+    cam = os.path.join(tmp, "cam.mov")
+    plan_, (cx, cy_) = mascot_cam.build(W, vo, dur, MC, cam)
+    for st_, p_, t_ in plan_:
+        print(f"mascot {st_:6.2f}s {p_:12s} {t_}")
+    inputs += ["-i", cam]; ci = idx; idx += 1
+    f.append(f"[{cur}][{ci}:v]overlay={cx}:{cy_}:eof_action=repeat[vm]"); cur = "vm"
 f.append(f"[1:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur={dur:.2f},asplit[vo1][vo2]")
 mix = ["[vo2]"]
 if C.get("music"):

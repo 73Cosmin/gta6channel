@@ -1,0 +1,77 @@
+{
+ "footage": "media/raw/yt/urus/section.mp4",
+ "vo": "media/raw/yt/urus/vo_mixed.mp3",
+ "words": "media/raw/yt/urus/vo_words.json",
+ "cuts": [
+  [
+   0.0,
+   16.0,
+   1.05,
+   0.5
+  ],
+  [
+   4.4,
+   4.0,
+   1.0,
+   0.5
+  ],
+  [
+   8.0,
+   13.5,
+   1.05,
+   0.45
+  ],
+  [
+   13.6,
+   23.0,
+   1.05,
+   0.5
+  ],
+  [
+   21.4,
+   0.5,
+   1.05,
+   1.0
+  ]
+ ],
+ "hook": {
+  "img_t": 16.5,
+  "crop": [
+   330,
+   300,
+   1530,
+   975
+  ],
+  "img_gamma": 1.0,
+  "label": "BLACK & YELLOW URUS",
+  "in": 0.0,
+  "out": 4.1,
+  "from": "right"
+ },
+ "hook_y": 870,
+ "caption_y": 1330,
+ "yellow_words": [
+  "FREE",
+  "LAMBORGHINI",
+  "URUS",
+  "PERLE",
+  "14",
+  "SAVE",
+  "ROLLS-ROYCE?"
+ ],
+ "music": null,
+ "music_vol": 0.05,
+ "credit": "Footage: @dkdynamite (YouTube)",
+ "tail": 0.8,
+ "out": "media/edits/2026-11-27_guide_urus_raccoon_test.mp4",
+ "_source": "https://www.youtube.com/watch?v=Tpafa9P2XyE chapter 'Black and Yellow Lamborghini Urus' 7:18-8:34",
+ "swoosh_vol": 0.0,
+ "mascot": {
+  "dir": "brand/mascot/raccoon_poses",
+  "x": 120,
+  "y": 250,
+  "w": 380,
+  "hook_pose": "shocked"
+ },
+ "_note": "MASCOT TEST: vo = audio track of the published urus_v2 (VO+music+swoosh already mixed) -> music null, swoosh 0"
+}
