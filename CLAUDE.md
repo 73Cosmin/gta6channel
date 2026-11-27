@@ -95,7 +95,11 @@ line is said right BEFORE something stupid happens (setup -> instant karma). Aim
 **DAY-BY-DAY ONLY (owner 2026-11-21 13:40):** clips go stale fast ("den kennt jeder bis Sonntag"). Each run makes MAX 2 videos,
 and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
 videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
-**CONTENT PLAN v3 (owner 2026-11-26 ~14:20, REPLACES the 3/day cap + the Platinum-slot rule below):** TikTok gets ONE upload
+**CONTENT PLAN v4 (owner 2026-11-27 ~10:20: "zu viel gerade") - TikTok MAX 4 POSTS PER DAY**, default slots **07:00, 10:00, 14:30, 20:00**
+Vienna (~2-3 guides + 1 slideshow/banger clip). Count sent + scheduled before building; at 4, build nothing new for TikTok that day -
+extra finished videos wait as Buffer DRAFTS. Owner may move a slideshow reminder to the time they can post (e.g. 14-15:00).
+v4 replaces the slot COUNT/TIMES of v3 below; everything else in v3 (guide mix, reuse of source points, YT/IG 1-2/day) still applies.
+**CONTENT PLAN v3 (owner 2026-11-26 ~14:20, REPLACES the 3/day cap + the Platinum-slot rule below; slot count/times superseded by v4):** TikTok gets ONE upload
 every 3 hours from 07:00 to 22:00 Vienna = **07:00, 10:00, 13:00, 16:00, 19:00, 22:00 (6/day)**. Mix: MAINLY GUIDES
 (/guide-video: cars, weapons, money spots, easter eggs, secret quests, stat boosts - ~4/day) + real BANGER clips (proven-creator
 moments with a clear payoff, no filler) or SLIDESHOWS (skill /slideshow, .claude/skills/slideshow) for the other slots. One YouTube guide video has

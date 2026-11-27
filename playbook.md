@@ -73,7 +73,7 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 ## Posts per day + daily slots (weekly review 2026-11-22 — replaces the 2026-11-19 table; owner rules Nov 20-21 included)
 | Platform | Per day | Slots (Vienna) |
 |---|---|---|
-| TikTok | 6 videos | **07:00, 10:00, 13:00, 16:00, 19:00, 22:00** (OWNER 2026-11-26 CONTENT PLAN v3: every 3 h, mainly guides + banger clips/slideshows) |
+| TikTok | **4 posts max** | **07:00, 10:00, 14:30, 20:00** (OWNER 2026-11-27 CONTENT PLAN v4: max 4/day, mainly guides + 1 slideshow/banger) |
 | YouTube Shorts | 1-2 | the day's strongest guide(s), same time as on TikTok ( YT median 0 views all week = channel-level, don't invest more) |
 | Instagram Reels | 1-2 | the day's strongest guide(s), same time as on TikTok; own creative formats only (Top-3/5, Versus) - single re-cuts got 0 + originality warning |
 | X | 3 | 10:00, 16:45, 22:45 (1 story tweet per run; median 5 impressions all week) |
