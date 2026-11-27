@@ -41,6 +41,14 @@ Builder: `python3 tools/guide_build_v2.py media/configs/<file>.json` (example co
   shadow, y ~1330. NO black/white title boxes (owner: unprofessional) - replaces checklist #7 for guides.
 - Credit TINY in the bottom-left corner (builder default), NO "fan page / not affiliated" line (owner hard rule 2026-11-26). Music bed quiet (0.05) under the VO.
 
+## QUALITY (owner 2026-11-27 ~15:40: "immer so verpixelt" -> every guide)
+- `guide.py prep` downloads the FULL video in max resolution (up to 4K, tools/yt.sh) to media/raw/yt/<name>/src.mkv and
+  prints the config lines: `"footage": "<src.mkv>", "footage_offset": <start>`. section.mp4 is only a 1080p working copy
+  for sheets/frames/transcript - NEVER build from it. Cuts/hook times stay in section seconds; hook `crop` stays in
+  1920x1080 pixels (scaled automatically).
+- Builder: 4K/1440p is DOWN-scaled into the 1500 px band (sharp), lanczos, light unsharp (`sharpen`), CRF 16 slow.
+  Example: media/configs/2026-11-27_guide_rolls_royce_v8_hq.json.
+
 ## BRAND STYLE (owner 2026-11-27: "die Guides auch ein bisschen in dem Stil von meinem Kanal" - recognition)
 Same look as our pinned card slideshows (/slideshow skill), built into tools/guide_build_v2.py (default ON, `"brand": false` = off):
 - teal accent **#5EE6C8** instead of yellow: caption key word teal, hook picture card has a TEAL border;

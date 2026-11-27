@@ -55,6 +55,11 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    top, 2-3-word Poppins captions (white + yellow key word), sliding item picture card + swoosh as hook over MOVING gameplay,
    no black/white title boxes (see .claude/skills/guide-video/SKILL.md 'LAYOUT v2').
 8. Look at 3+ frames before publishing (hook frame, middle, end) and check nothing is black or cut off.
+9. **QUALITY - NO PIXELATED VIDEOS (owner 2026-11-27 ~15:40: "immer so verpixelt", ALL videos + everything in the pipeline)**:
+   download sources in MAX resolution (tools/yt.sh = up to 4K; Twitch: best quality) and build from the FULL source -
+   never from a re-encoded --download-sections cut (guide_build_v2: `"footage": "media/raw/yt/full/<id>.mkv"`,
+   `"footage_offset": <section start s>`). All builders export CRF 16 / preset slow / maxrate 16M, lanczos scaling,
+   light unsharp. Before publishing compare a 1:1 crop of the new video with the source - text/edges must be sharp.
 
 ## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
 TikTok posts use schedulingType **automatic**, like X/IG/YouTube. This overrides any scheduled prompt

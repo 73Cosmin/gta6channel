@@ -438,3 +438,10 @@
 - ~13:30 (Nov 27) OWNER posts the supercars slideshow v3 TODAY instead of the free-cars one: reminder 6b096f46… -> Nov 27 14:30, free-cars reminder 6b08acbc… -> Nov 28 14:30.
 | 2026-11-27 14:30 | TikTok (reminder) | Utility slideshow v3 (17 slides, Eli images AI-upscaled, card cover + brand) | Every SUPERCAR in GTA 6 and where to find it | 📋 @eliplaysgta (X) | 6b096f46e94385a8fd9f0a9a |
 - 13:35 run (Nov 27): Buffer metrics: no refresh since last run (YT 06:44 UTC, IG 23:37 Nov 26, TT 15:55 Nov 26, X send-time zeros) -> nothing new to score, no new lesson; 0 error posts. Next slot 14:30 already filled (supercars slideshow REMINDER 6b096f46…, owner posts with sound); today TT = 4 (07 serial killer, 10 pink Porsche sent; 14:30 slideshow, 20:00 Rolls Royce + YT scheduled) -> built nothing (CONTENT PLAN v4 cap).
+- ~15:40-16:05 (Nov 27) OWNER: (1) mascot idea discarded (raccoon facecam test rejected; archive in brand/mascot/, not used).
+  (2) "Videos immer so verpixelt" -> quality fix for ALL videos: cause = 1080p sources zoomed 1.4x into the 1500 px band +
+  re-encoded section cuts + CRF 21. Now: tools/yt.sh downloads up to 4K, guide_build_v2 builds from the FULL source
+  (`footage_offset`), lanczos + light unsharp, CRF 16 slow maxrate 16M in all builders (CLAUDE.md checklist #9, guide skill).
+  Pipeline rebuilt from 4K/1440p sources (same cut + audio): Rolls Royce v8_hq -> swapped into TT 6b083c38… + YT 6b0956b5… 20:00;
+  Urus v3_hq (also without the old 'Fan page / not affiliated' line that was still in urus_v2) -> TT draft 6b08a50d….
+  SWAT short (draft 6b082464…) NOT rebuilt: the owner's original capture is gone (needs the raw file again).
