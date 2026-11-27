@@ -1,4 +1,7 @@
-# Mascot proposals v1 (2026-11-27)
+# Mascot proposals v1 (2026-11-27) - DISCARDED
+
+**OWNER 2026-11-27: "Ich mag das nicht. Verwirf die Idee erstmal."** Raccoon facecam test rejected. Do NOT use the
+`mascot` option in guide configs and do not propose a mascot again unless the owner brings it up. Files kept as archive only.
 
 Idea from the Danny Why video ("bend, don't copy"): an own recurring character that presents every guide
 (hook + end), so our videos look different from the 1deflay-style clones. AI-made -> set isAiGenerated.
@@ -21,4 +24,4 @@ Used by `tools/mascot_cam.py` via guide_build_v2 config `"mascot": {...}`: facec
 LIVE pill), GTA VI logo moves right of it, one pose per sentence (keyword rules, never the same pose twice in a row,
 override with `"poses": {"<idx>": "<pose>"}`), punch-in + flash on every pose change, breathes with the voice.
 Test: media/configs/2026-11-27_guide_urus_raccoon_test.json -> media/edits/2026-11-27_guide_urus_raccoon_test.mp4
-(NOT published, waiting for owner feedback).
+(NOT published, owner rejected it).
