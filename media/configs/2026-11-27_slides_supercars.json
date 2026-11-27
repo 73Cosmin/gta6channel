@@ -1,0 +1,99 @@
+{
+ "src": "media/raw/yt/dkcars/src.mp4",
+ "out_dir": "media/edits/2026-11-27_slides_supercars",
+ "credit": "Source: @dkdynamite (YouTube)",
+ "brand": {
+  "tag": "GTA VI  /  SUPERCARS"
+ },
+ "cover": {
+  "t": 1197,
+  "title": [
+   "GTA 6",
+   "*9 SECRET SUPERCARS"
+  ],
+  "sub": "x"
+ },
+ "items": [
+  {
+   "name": "PURPLE NITROUS McLAREN",
+   "car": 534.5,
+   "map": 530,
+   "info": "FREE RIGHT FROM THE START",
+   "where": "CHATFIELD STORAGE - WAXMAN ISLAND (EAST)",
+   "gamma": 1.1
+  },
+  {
+   "name": "SOLID GOLD LAMBORGHINI",
+   "car": 1150.5,
+   "map": 1159,
+   "info": "PARKING GARAGE - RIGHT SIDE OF THE BUILDING",
+   "where": "CRIMSON PALMS CONDOS BY THE BEACH",
+   "gamma": 1.1
+  },
+  {
+   "name": "GROTTI ITALI RSX",
+   "car": 1197,
+   "map": 1182,
+   "info": "KEY CLONER + TRACKER - REGISTER $40,650",
+   "where": "GARAGE ON RIALTO ISLAND",
+   "gamma": 1.1
+  },
+  {
+   "name": "LEOPARD SUPERCAR",
+   "car": 1203,
+   "map": 1208,
+   "info": "PARKED OUTSIDE - REGISTER ~$66K",
+   "where": "MANSION - TOP RIGHT OF STARFISH ISLAND",
+   "gamma": 1.3
+  },
+  {
+   "name": "NEED FOR SPEED M3 GTR",
+   "car": 1104,
+   "map": 1122,
+   "info": "BREAK THE GARAGE DOOR - REGISTER $87K",
+   "where": "MANSION GARAGE IN PEACOCK ESTATES",
+   "gamma": 1.0
+  },
+  {
+   "name": "BUGATTI",
+   "car": 741,
+   "map": 729,
+   "info": "ALARM - DRIVE FAST TO LOSE THE COPS",
+   "where": "ON A TRAILER AT BOONE SPEEDWAY",
+   "gamma": 1.0
+  },
+  {
+   "name": "BLACK & YELLOW LAMBORGHINI URUS",
+   "car": 454,
+   "map": 443,
+   "info": "NO GUARDS - REGISTER $14K",
+   "where": "HOUSE DRIVEWAY IN LA PERLE (NORTH)",
+   "gamma": 1.0
+  },
+  {
+   "name": "WRAPPED DODGE CHALLENGER",
+   "car": 296,
+   "map": 302,
+   "info": "CLEAR THE NPCS - IT'S INSIDE",
+   "where": "HOG STARS BUILDING IN AMBROSIA",
+   "gamma": 1.0
+  },
+  {
+   "name": "PAUL WALKER'S '95 ECLIPSE",
+   "car": 183,
+   "map": 175,
+   "info": "NO TRACKER - BREAK INTO THE GARAGE",
+   "where": "GARAGE ON VESPUCCI ISLAND",
+   "gamma": 1.6
+  }
+ ],
+ "end": {
+  "t": 1220,
+  "gamma": 1.2,
+  "lines": [
+   "WHICH ONE ARE",
+   "YOU TAKING FIRST?"
+  ],
+  "sub": "THE McLAREN IS FREE FROM DAY ONE"
+ }
+}
