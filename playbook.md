@@ -74,8 +74,8 @@ went very viral. Make posts like it, mainly on X (IG/TikTok only if it can't get
 ## Posts per day + daily slots (weekly review 2026-11-22 — replaces the 2026-11-19 table; owner rules Nov 20-21 included)
 | Platform | Per day | Slots (Vienna) |
 |---|---|---|
-| TikTok | **4 posts max** | **07:00, 10:00, 14:30, 20:00** (OWNER 2026-11-27 CONTENT PLAN v4: max 4/day, mainly guides + 1 slideshow/banger) |
-| YouTube Shorts | up to 4 | EVERY guide / own-made video, same time as on TikTok (owner 2026-11-27: own videos 0.6-9.1K views, stream re-cuts 0-5 -> never post stream clips on YT) |
+| TikTok | 1-2 | **14:30 slideshow (owner reminder)** + strong own captures/bangers; NO guide videos (owner 2026-11-28, CONTENT PLAN v5) |
+| YouTube Shorts | up to 3 | guide videos at 07:00 / 10:00 / 20:00 + own-made videos; never stream clips (CONTENT PLAN v5) |
 | Instagram Reels | 1-2 | the day's strongest guide(s), same time as on TikTok; own creative formats only (Top-3/5, Versus) - single re-cuts got 0 + originality warning |
 | X | 3 | 10:00, 16:45, 22:45 (1 story tweet per run; median 5 impressions all week) |
 - Week 1 medians (best read per post): TikTok 726 views (n=23), X 5 impressions (n=28), IG 1 (n=13), YouTube 0 (n=13).

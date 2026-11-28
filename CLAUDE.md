@@ -105,7 +105,13 @@ red arrow, punch-in zooms with cinematic bars, 30-120 s. Exempt from checklist #
 **DAY-BY-DAY ONLY (owner 2026-11-21 13:40):** clips go stale fast ("den kennt jeder bis Sonntag"). Each run makes MAX 2 videos,
 and they go out the SAME day (next open/weaker slot today; only if today is over -> tomorrow's first slot). Never schedule
 videos or X stories 2+ days ahead. Older finished posts wait as Buffer DRAFTS and are only used if nothing fresher exists.
-**CONTENT PLAN v4 (owner 2026-11-27 ~10:20: "zu viel gerade") - TikTok MAX 4 POSTS PER DAY**, default slots **07:00, 10:00, 14:30, 20:00**
+**CONTENT PLAN v5 (owner 2026-11-28 ~09:05: "die Guides sind auf TikTok richtig tot, auf YouTube geht's noch halbwegs"):**
+- **TikTok: NO guide VIDEOS any more.** TikTok gets the utility content as SLIDESHOWS (/slideshow: lists like 'every supercar +
+  location', step-by-step how-tos like Hurricane) = owner REMINDER at 14:30 (1/day; a 2nd only if the owner asks), plus strong
+  own captures / banger clips when available. Data: TT guides 181-1.4K vs slideshows 9.8K-38K (supercars 9,765 overnight).
+- **Guide videos (/guide-video) = YouTube Shorts** (Porsche guide: 6.2K on YT vs 425 on TT), slots 07:00/10:00/20:00,
+  IG Reel for the day's strongest one. A finished guide never goes to TikTok.
+**(slots/count superseded by v5 for TikTok) CONTENT PLAN v4 (owner 2026-11-27 ~10:20: "zu viel gerade") - TikTok MAX 4 POSTS PER DAY**, default slots **07:00, 10:00, 14:30, 20:00**
 Vienna (~2-3 guides + 1 slideshow/banger clip). Count sent + scheduled before building; at 4, build nothing new for TikTok that day -
 extra finished videos wait as Buffer DRAFTS. Owner may move a slideshow reminder to the time they can post (e.g. 14-15:00).
 v4 replaces the slot COUNT/TIMES of v3 below; everything else in v3 (guide mix, reuse of source points, IG 1-2/day) still applies.

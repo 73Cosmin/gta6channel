@@ -458,3 +458,4 @@
 | 2026-11-28 10:00 | TikTok | Secret guide (layout v2 + brand, 44.2 s, Nicholas VO) | SPOILER secret machine gun + $10,000 (crab lab) | 🎥 @gameranxTV | 6b0a898fcf6d9177300de416 |
 | 2026-11-28 10:00 | YouTube | Short (same file) | How to get the secret machine gun + $10K in GTA 6 (crab lab) #gta6 | 🎥 @gameranxTV | 6b0a8990d718580fbd6c0a73 |
 | 2026-11-28 10:00 | Instagram | Reel (same file) | SPOILER secret machine gun + $10,000 | 🎥 @gameranxTV | 6b0a8997db8a1c14ef14f159 |
+- ~09:10 (Nov 28) OWNER: 'Guides auf TikTok richtig tot, auf YouTube halbwegs' (TT: health 181, RR 326, Porsche 425, SK 1,178, Emerus 1,362 vs supercars slideshow 9,765; YT: Porsche 6.2K, RR 1.5K, 874). CONTENT PLAN v5: no guide videos on TikTok (TikTok = 14:30 slideshow reminder + strong own clips), guide videos -> YT Shorts 07/10/20 + IG. Crab guide TT post 6b0a898f… -> draft (YT + IG 10:00 stay).

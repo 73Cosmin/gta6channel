@@ -9,6 +9,10 @@ description: >-
 
 # slideshow
 
+> **CONTENT PLAN v5 (owner 2026-11-28): slideshows are THE TikTok utility format** - guide topics (cars, weapons, money,
+> secret quests) go to TikTok as list or step slideshows (Hurricane = step slideshow 38K; supercars list 9.8K overnight),
+> the video version only to YouTube. Default: 1 per day as owner reminder at 14:30.
+
 Our biggest posts are slideshows: Platinum checklist 412K, Hurricane how-to 30K (re-upload, 498 saves @8.5 h),
 Collectibles 5.7K, "10 hidden controls" 3.6K. Reference account @gta6clips114 ('CARS AND THEIR LOCATIONS' 4.9M /
 406K saves). They travel via **saves + shares**, not comments, and grow in waves for days.
