@@ -138,19 +138,43 @@ def circles_row(im, y0, r=98, dy=270):
         shadow_text(im, (cx, cy + c.height / 2 + 6), f"{k + 1:02d}", fx(46), CREAM, off=4)
 
 
-# 1) cover
-cv = C["cover"]; im = BG.convert("RGBA"); brand(im, 1)
-y = 120
-for ln in cv["h1"]:
-    f = fx(150)
-    while ImageDraw.Draw(im).textlength(ln, font=f) > W - 120: f = fx(f.size - 4)
-    shadow_text(im, (W / 2, y), ln, f, CREAM, off=8); y += int(f.size * 0.92)
-stripe(im, y + 18, (255, 95, 175)); y += 70
-shadow_text(im, (W / 2, y), cv["sub"], fb(46), (255, 210, 90), off=3)
-circles_row(im, y + 200)
-shadow_text(im, (W / 2 - 40, 1225), cv["swipe"], fx(64), CREAM, off=5)
+# 1) cover. OWNER 2026-11-28: covers with OFFICIAL GTA VI ARTWORK perform best (Platinum 278K with Lucia artwork,
+#    Hurricane 37K with Jason) -> "art": "brand/artwork/<name>.jpg" (+ "art_y" 0..1 vertical crop) = full-bleed artwork,
+#    title on a dark top fade, one row of item circles on a dark bottom fade.
+cv = C["cover"]
+if cv.get("art"):
+    a = Image.open(cv["art"]).convert("RGB"); s_ = W / a.width; a = a.resize((W, int(a.height * s_)), Image.LANCZOS)
+    y0 = int((a.height - H) * cv.get("art_y", 0.35)); im = a.crop((0, y0, W, y0 + H)).convert("RGBA")
+    fade = Image.new("RGBA", (W, H), (0, 0, 0, 0)); fd = ImageDraw.Draw(fade)
+    for yy in range(H):
+        al = max(0, 1 - yy / 470) * 215 if yy < 470 else max(0, (yy - 960) / 390) * 235
+        fd.line((0, yy, W, yy), fill=(20, 12, 44, int(al)))
+    im.alpha_composite(fade); brand(im, 1)
+    y = 112
+    for ln in cv["h1"]:
+        f = fx(140)
+        while ImageDraw.Draw(im).textlength(ln, font=f) > W - 110: f = fx(f.size - 4)
+        shadow_text(im, (W / 2, y), ln, f, CREAM, off=8); y += int(f.size * 0.92)
+    stripe(im, y + 14, (255, 95, 175)); y += 62
+    shadow_text(im, (W / 2, y), cv["sub"], fb(46), (255, 210, 90), off=3)
+    n_ = len(items); r_ = 58; sp = (W - 120) / n_
+    for k, it in enumerate(items):
+        c = circle(crop_img(it["img"]), r_, hexc(it["color"]) + (255,), ring=6); cx = 60 + sp * (k + 0.5)
+        im.alpha_composite(c, (int(cx - c.width / 2), 1068)); shadow_text(im, (cx, 1068 + c.width + 2), f"{k + 1:02d}", fx(36), CREAM, off=3)
+    sy = 1250
+else:
+    im = BG.convert("RGBA"); brand(im, 1)
+    y = 120
+    for ln in cv["h1"]:
+        f = fx(150)
+        while ImageDraw.Draw(im).textlength(ln, font=f) > W - 120: f = fx(f.size - 4)
+        shadow_text(im, (W / 2, y), ln, f, CREAM, off=8); y += int(f.size * 0.92)
+    stripe(im, y + 18, (255, 95, 175)); y += 70
+    shadow_text(im, (W / 2, y), cv["sub"], fb(46), (255, 210, 90), off=3)
+    circles_row(im, y + 200); sy = 1225
+shadow_text(im, (W / 2 - 40, sy), cv["swipe"], fx(64), CREAM, off=5)
 d = ImageDraw.Draw(im); ax = W / 2 - 40 + ImageDraw.Draw(im).textlength(cv["swipe"], font=fx(64)) / 2 + 24
-d.line((ax, 1262, ax + 70, 1262), fill=CREAM, width=9); d.polygon([(ax + 92, 1262), (ax + 64, 1242), (ax + 64, 1282)], fill=CREAM)
+d.line((ax, sy + 37, ax + 70, sy + 37), fill=CREAM, width=9); d.polygon([(ax + 92, sy + 37), (ax + 64, sy + 17), (ax + 64, sy + 57)], fill=CREAM)
 save(im, 1)
 
 # 2) items

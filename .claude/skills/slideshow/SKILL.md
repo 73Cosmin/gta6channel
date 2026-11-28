@@ -30,6 +30,11 @@ Collectibles 5.7K, "10 hidden controls" 3.6K. Reference account @gta6clips114 ('
    (18 px grey, builders do this). Caption keeps `📋 Source: @creator`.
 5. **TikTok = Buffer REMINDER (schedulingType notification), NEVER automatic**: photo posts via Buffer go out with
    NO sound (2026-11-26 cars slideshow, owner took it down). The owner posts in-app and adds the sound.
+6b. **COVER = OFFICIAL GTA VI ARTWORK (owner 2026-11-28: 'haben immer besser performt wenn auf dem 1. Slide ein GTA Artwork war')**:
+   Platinum (Lucia artwork) 278K, Hurricane (Jason key-art look) 37K vs gameplay/map covers 3.6-10K. Use one of the 22 official
+   Rockstar artworks in `brand/artwork/` (portrait 1215x2160, from rockstargames.com/VI/downloads): card builder cover `"img"`,
+   neon builder cover `"art"` + `"art_y"`. Pick a mood that fits (Robbery = masked/dark topics, Lock_And_Load/Rooftop = weapons,
+   Beach/01 = cars/lifestyle, Official_Cover_Art = big lists, postcards = locations). Gameplay frames stay on the BODY slides.
 6. Bright, clean images only: real in-game frames, no dark/blurry stream shots, no facecam/HUD junk where avoidable.
    Cover = real frame (an AI-looking cover did 543 views vs 10.1K for the same slides with a real frame = 18x).
 

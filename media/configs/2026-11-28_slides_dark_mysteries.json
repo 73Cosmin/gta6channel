@@ -2,33 +2,203 @@
  "out_dir": "media/edits/2026-11-28_slides_dark_mysteries",
  "tag": "GTA VI  /  DARK MYSTERIES",
  "credit": "SOURCE: @KIMININO72 (X)",
- "bg": ["media/official/trailer2_landscape_clean.mp4", 152],
- "cover": {"h1": ["GTA 6'S 6 DARKEST", "MYSTERIES"], "sub": "NOBODY HAS SOLVED THESE YET", "swipe": "SWIPE"},
- "items": [
-  {"img": ["media/raw/yt/myst2/01.jpg", 0, 0, 1179, 690], "color": "#6EC6F0", "kicker": "LUMMOX COUNTY", "title": "THE GLIDING MAN",
-   "cards": [["Where:", "Every firewatch tower in Lummox County keeps a ranger's logbook.", "pin"],
-             ["What:", "Read them and the notes turn strange: 'See the gliding man', then a drawing of him.", "eye"],
-             ["Status:", "Nobody knows who he is yet.", "warn"]]},
-  {"img": ["media/raw/yt/myst2/02.jpg", 0, 0, 1179, 690], "color": "#F7C948", "kicker": "NORTH-EAST OF GRAYSON", "title": "DINOSAUR FOOTPRINTS",
-   "cards": [["Where:", "Under the railway bridge north-east of Grayson, on the rock by the river.", "pin"],
-             ["When:", "At night. Shine a torch on the slab.", "dot"],
-             ["Then:", "Follow the footprints across the stone.", "check"]]},
-  {"img": ["media/raw/yt/myst2/03.jpg", 0, 0, 1179, 690], "color": "#5EE6C8", "kicker": "MARIANA COUNTY", "title": "THE LEVIATHAN",
-   "cards": [["Where:", "On the seabed off Mariana County. Grab a diving suit.", "pin"],
-             ["What:", "A giant sea monster skeleton: rows of teeth and a ribcage you can swim through.", "eye"],
-             ["Status:", "Nothing in the game says what it was.", "warn"]]},
-  {"img": ["media/raw/yt/myst2/04.jpg", 0, 110, 1179, 700], "color": "#F0566A", "kicker": "PLAY AS LUCIA", "title": "THE CAPRI CAGE",
-   "cards": [["Where:", "Capri. Mouth off to two cops as Lucia.", "pin"],
-             ["What:", "They don't take her to jail. They lock her in a cage at their compound, next to a man painted gold.", "eye"],
-             ["They say:", "'You're not allowed to speak. You're a statue.'", "warn"]]},
-  {"img": ["media/raw/yt/myst2/05.jpg", 0, 0, 1179, 690], "color": "#A6E36B", "kicker": "NORTH OF BELVILLE", "title": "IN THE TALL GRASS",
-   "cards": [["Where:", "The cane fields north of Belville.", "pin"],
-             ["When:", "At night. A kid's voice calls you into the tall grass.", "dot"],
-             ["Then:", "It says you're going the wrong way, then begs you not to look and not to move.", "warn"]]},
-  {"img": ["media/raw/yt/myst2/06.jpg", 0, 110, 1179, 690], "color": "#B48CF5", "kicker": "PRESIDENT'S BUNKER", "title": "MOUNT CHILIAD IS BACK",
-   "cards": [["Where:", "A photo in the President's secret bunker.", "pin"],
-             ["What:", "President Russo on Mount Chiliad in 1962, shaking hands with an alien.", "eye"],
-             ["Why:", "Mount Chiliad was GTA 5's UFO mountain.", "check"]]}
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
  ],
- "end": {"h1": ["WHICH ONE ARE YOU", "BRAVE ENOUGH", "TO UNCOVER?"], "sub": "Drop the number in the comments", "cta": "SAVE THIS FOR LATER"}
+ "cover": {
+  "h1": [
+   "GTA 6'S 6 DARKEST",
+   "MYSTERIES"
+  ],
+  "sub": "NOBODY HAS SOLVED THESE YET",
+  "swipe": "SWIPE",
+  "art": "brand/artwork/Jason_and_Lucia_Robbery.jpg",
+  "art_y": 0.3
+ },
+ "items": [
+  {
+   "img": [
+    "media/raw/yt/myst2/01.jpg",
+    0,
+    0,
+    1179,
+    690
+   ],
+   "color": "#6EC6F0",
+   "kicker": "LUMMOX COUNTY",
+   "title": "THE GLIDING MAN",
+   "cards": [
+    [
+     "Where:",
+     "Every firewatch tower in Lummox County keeps a ranger's logbook.",
+     "pin"
+    ],
+    [
+     "What:",
+     "Read them and the notes turn strange: 'See the gliding man', then a drawing of him.",
+     "eye"
+    ],
+    [
+     "Status:",
+     "Nobody knows who he is yet.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/myst2/02.jpg",
+    0,
+    0,
+    1179,
+    690
+   ],
+   "color": "#F7C948",
+   "kicker": "NORTH-EAST OF GRAYSON",
+   "title": "DINOSAUR FOOTPRINTS",
+   "cards": [
+    [
+     "Where:",
+     "Under the railway bridge north-east of Grayson, on the rock by the river.",
+     "pin"
+    ],
+    [
+     "When:",
+     "At night. Shine a torch on the slab.",
+     "dot"
+    ],
+    [
+     "Then:",
+     "Follow the footprints across the stone.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/myst2/03.jpg",
+    0,
+    0,
+    1179,
+    690
+   ],
+   "color": "#5EE6C8",
+   "kicker": "MARIANA COUNTY",
+   "title": "THE LEVIATHAN",
+   "cards": [
+    [
+     "Where:",
+     "On the seabed off Mariana County. Grab a diving suit.",
+     "pin"
+    ],
+    [
+     "What:",
+     "A giant sea monster skeleton: rows of teeth and a ribcage you can swim through.",
+     "eye"
+    ],
+    [
+     "Status:",
+     "Nothing in the game says what it was.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/myst2/04.jpg",
+    0,
+    110,
+    1179,
+    700
+   ],
+   "color": "#F0566A",
+   "kicker": "PLAY AS LUCIA",
+   "title": "THE CAPRI CAGE",
+   "cards": [
+    [
+     "Where:",
+     "Capri. Mouth off to two cops as Lucia.",
+     "pin"
+    ],
+    [
+     "What:",
+     "They don't take her to jail. They lock her in a cage at their compound, next to a man painted gold.",
+     "eye"
+    ],
+    [
+     "They say:",
+     "'You're not allowed to speak. You're a statue.'",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/myst2/05.jpg",
+    0,
+    0,
+    1179,
+    690
+   ],
+   "color": "#A6E36B",
+   "kicker": "NORTH OF BELVILLE",
+   "title": "IN THE TALL GRASS",
+   "cards": [
+    [
+     "Where:",
+     "The cane fields north of Belville.",
+     "pin"
+    ],
+    [
+     "When:",
+     "At night. A kid's voice calls you into the tall grass.",
+     "dot"
+    ],
+    [
+     "Then:",
+     "It says you're going the wrong way, then begs you not to look and not to move.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/myst2/06.jpg",
+    0,
+    110,
+    1179,
+    690
+   ],
+   "color": "#B48CF5",
+   "kicker": "PRESIDENT'S BUNKER",
+   "title": "MOUNT CHILIAD IS BACK",
+   "cards": [
+    [
+     "Where:",
+     "A photo in the President's secret bunker.",
+     "pin"
+    ],
+    [
+     "What:",
+     "President Russo on Mount Chiliad in 1962, shaking hands with an alien.",
+     "eye"
+    ],
+    [
+     "Why:",
+     "Mount Chiliad was GTA 5's UFO mountain.",
+     "check"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "WHICH ONE ARE YOU",
+   "BRAVE ENOUGH",
+   "TO UNCOVER?"
+  ],
+  "sub": "Drop the number in the comments",
+  "cta": "SAVE THIS FOR LATER"
+ }
 }
