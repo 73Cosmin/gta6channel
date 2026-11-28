@@ -125,9 +125,12 @@ TEAL, NAVY = (94, 230, 200), (18, 15, 24)
 TT8 = "brand/fonts/TikTokSans-800.ttf"
 H = C.get("hook")
 if H:
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{H['img_t'] + OFF:.3f}", "-i", C["footage"], "-frames:v", "1",
-                    os.path.join(tmp, "hook.png")], check=True)
-    im = Image.open(os.path.join(tmp, "hook.png")).convert("RGB")
+    if H.get("img_file"):       # card picture from another source (e.g. a frame of a different video / a screenshot)
+        im = Image.open(H["img_file"]).convert("RGB")
+    else:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{H['img_t'] + OFF:.3f}", "-i", C["footage"], "-frames:v", "1",
+                        os.path.join(tmp, "hook.png")], check=True)
+        im = Image.open(os.path.join(tmp, "hook.png")).convert("RGB")
     im = ImageEnhance.Brightness(im).enhance(H.get("img_gamma", 1.0))
     cw = H.get("w", 900); ch = int(cw * 9 / 16)
     if H.get("crop"):           # [x0,y0,x1,y1] in 1920x1080 pixels (scaled to the real source width)

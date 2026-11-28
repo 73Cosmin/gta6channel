@@ -102,9 +102,13 @@ but 8 saves (36% of likes) and **47.5% of views from TikTok SEARCH**. Completion
    Example: media/configs/2026-11-27_guide_rolls_royce_v7.json (5 cuts, 42 s).
 
 11. **LIST GUIDES = TEASE THE LAST ONE (owner 2026-11-28: 'bau in solchen Videos immer sowas wie "the last tip is the best" ein').**
-   Every guide with several tips/mechanics/items: the hook sentence ends with a tease ("...and the last one is the best!" /
-   "...wait for number 3"), order the points weakest -> strongest, and introduce the last one with "And the best one, number N:".
-   Example: media/configs/2026-11-28_guide_3_mechanics_v2.json.
+   Every guide with several tips/mechanics/items: the hook sentence ends with a SPECIFIC tease that names who the last point
+   helps / what problem it solves (owner 2026-11-28: "the last one is the best" is too standard -> e.g. "...and the last one is
+   for everyone who has problems delivering cars to Randy!"). Order weakest -> strongest; introduce the last one with the
+   same promise ("Number three, for everyone struggling with Randy's cars: ..."). Never the generic "the last one is the best".
+   Hook card picture = the PAYOFF the viewer wants (e.g. a bank balance in the millions for money tips - builder
+   `hook.img_file` takes a frame from another video/screenshot), not a random action shot.
+   Example: media/configs/2026-11-28_guide_3_mechanics_v3.json.
 
 ## 1. Prep (one command)
 ```bash
