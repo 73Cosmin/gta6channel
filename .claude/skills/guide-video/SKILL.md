@@ -176,6 +176,8 @@ and swap the asset with Buffer edit_post (same post IDs).
 Old builder tools/guide_build.py (blurred band + black/white title box) = legacy, don't use for new guides.
 
 ## 5. Publish
+GitHub rejects files >100 MB: long guides (60 s+) at maxrate 16M get too big -> re-encode before committing:
+`ffmpeg -i in.mp4 -c:v libx264 -preset slow -crf 18 -maxrate 8M -bufsize 16M -pix_fmt yuv420p -c:a copy -movflags +faststart out.mp4` (83 s -> 74 MB).
 Commit config + mp4 to `main`, confirm the raw URL returns 200, then Buffer per playbook slots/caps
 (CONTENT PLAN v5, owner 2026-11-28: guide videos go to YOUTUBE SHORTS only - slots 07:00/10:00/20:00 - + IG Reel for the day's strongest; NEVER TikTok - TT guides were dead (181-1.4K) while slideshows did 9.8K-38K; on TikTok the same topic goes out as a /slideshow). Caption (ALGORITHM CHECK #6): search phrase + save prompt + question + `🎥 Footage: @creator` +
 max 5 hashtags (NO "fan page / not affiliated" line). Story/side-quest twist → caption starts

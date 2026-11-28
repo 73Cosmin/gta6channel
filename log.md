@@ -462,3 +462,5 @@
 - ~10:20 (Nov 28) OWNER: build a guide from IceManIsaac '30+ game changing mechanics' (4WutklK2SS4, 1.4M views): '3 money mechanics' (rob your taxi driver $760->$864, sticky bomb on the ATM before winching, RideMe-teleport stolen cars to Randy), 45 s, 4K source, brand style. Sync shots dropped (not visible in footage). YT Short 20:00 (CONTENT PLAN v5).
 - ~11:55 (Nov 28) OWNER: list guides always tease the last point ('the last one is the best') -> skill rule #11; rebuilt 3 mechanics v2 (new VO, 48 s) and moved the YT Short 6b0aae10… to 13:00.
 - ~12:25 (Nov 28) OWNER: Hard rule 4 loosened - single-player glitches allowed. Built money glitch guide (MrDalekJD pozUFVUCahs Method 1, 83 s, step by step with PS/Xbox buttons, 'last step is where it gets crazy' tease) -> YT Short 13:00; 3 mechanics guide moved to 18:00.
+| 2026-11-28 13:00 | YouTube | Guide (83 s, glitch) | GTA 6 Unlimited Money Glitch - $1,000,000 In Minutes (Step By Step) | 🎥 @MrDalekJD | 6b0abac3e897dadb1d7827ba |
+| 2026-11-28 18:00 | YouTube | Guide (48 s, list) | 3 Hidden GTA 6 Money Mechanics Nobody Told You | 🎥 @IceManIsaac | 6b0aae10669c22f85de52a6a |
