@@ -101,6 +101,11 @@ but 8 saves (36% of likes) and **47.5% of views from TikTok SEARCH**. Completion
    start a new cut only at a scene change of the source or a new location. Typical guide = 4-6 cuts, not one per sentence.
    Example: media/configs/2026-11-27_guide_rolls_royce_v7.json (5 cuts, 42 s).
 
+11. **LIST GUIDES = TEASE THE LAST ONE (owner 2026-11-28: 'bau in solchen Videos immer sowas wie "the last tip is the best" ein').**
+   Every guide with several tips/mechanics/items: the hook sentence ends with a tease ("...and the last one is the best!" /
+   "...wait for number 3"), order the points weakest -> strongest, and introduce the last one with "And the best one, number N:".
+   Example: media/configs/2026-11-28_guide_3_mechanics_v2.json.
+
 ## 1. Prep (one command)
 ```bash
 python3 .claude/skills/guide-video/scripts/guide.py prep <name> "<youtube-url>" <start> <end>
