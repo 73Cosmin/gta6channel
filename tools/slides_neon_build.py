@@ -130,6 +130,12 @@ def save(im, i):
 
 
 def circles_row(im, y0, r=98, dy=270):
+    if len(items) != 6:   # 2x3 grid only fits 6 -> single row for any other count
+        n_ = len(items); r_ = min(58, int((W - 120) / n_ / 2) - 8); sp = (W - 120) / n_
+        for k, it in enumerate(items):
+            c = circle(crop_img(it["img"]), r_, hexc(it["color"]) + (255,), ring=6); cx = 60 + sp * (k + 0.5)
+            im.alpha_composite(c, (int(cx - c.width / 2), int(y0))); shadow_text(im, (cx, y0 + c.width + 2), f"{k + 1:02d}", fx(36), CREAM, off=3)
+        return
     pos = [(W * 0.22, y0), (W * 0.5, y0), (W * 0.78, y0), (W * 0.22, y0 + dy), (W * 0.5, y0 + dy), (W * 0.78, y0 + dy)]
     d = ImageDraw.Draw(im)
     for k, (it, (cx, cy)) in enumerate(zip(items, pos)):
@@ -181,7 +187,8 @@ save(im, 1)
 for k, it in enumerate(items):
     col = hexc(it["color"]); im = BG.convert("RGBA"); brand(im, k + 2); d = ImageDraw.Draw(im)
     pic = fit(crop_img(it["img"]), 940, 410); x0, y0 = (W - 940) // 2, 100
-    d.rounded_rectangle((x0 - 7, y0 - 7, x0 + 947, y0 + 417), 32, fill=col)
+    if C.get("img_border", False):   # owner 2026-11-28: no coloured frame around pictures (looks less AI)
+        d.rounded_rectangle((x0 - 7, y0 - 7, x0 + 947, y0 + 417), 32, fill=col)
     m = Image.new("L", pic.size, 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, 939, 409), 26, fill=255); im.paste(pic, (x0, y0), m)
     y = 532
     shadow_text(im, (W / 2, y), f"{k + 1:02d} · {it['kicker']}", fb(40), col, off=3); y += 50

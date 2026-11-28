@@ -1,0 +1,32 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_cards",
+ "tag": "GTA VI  /  COLLECTIBLE CARDS",
+ "credit": "SOURCE: @HALT_ADDICTED (X)",
+ "bg": ["media/official/trailer2_landscape_clean.mp4", 152],
+ "cover": {"art": "brand/artwork/Boobie_Ike.jpg", "art_y": 0.22, "h1": ["480 HIDDEN CARDS", "IN GTA 6"], "sub": "SOME ARE WORTH $1,000+ EACH", "swipe": "SWIPE"},
+ "items": [
+  {"img": ["media/raw/yt/cards/up_map.png", 0, 900, 3188, 2500], "color": "#F7C948", "kicker": "480 CARDS · 18 SETS", "title": "WHY COLLECT THEM",
+   "cards": [["Cash:", "Sell rare cards at pawn shops. Some are worth over $1,000 each.", "dot"],
+             ["Trophy:", "Complete 3 full sets.", "check"],
+             ["100%:", "Complete 15 of the 18 sets.", "check"]]},
+  {"img": ["media/raw/yt/cards/up_vc.png", 0, 0, 924, 504], "color": "#F06EB4", "kicker": "27 CARDS MAPPED", "title": "VICE CITY",
+   "cards": [["Deep Red - Christel:", "La Perle. On the roof railing of the Imperial Plaza apartments, NW 9th Ave.", "pin"],
+             ["Gold - Louise:", "Balsero. On the parapet of the north tower above Merlin's Palace Casino, NW 15th Ave.", "pin"]]},
+  {"img": ["media/raw/yt/cards/up_vb.png", 0, 0, 828, 452], "color": "#6EC6F0", "kicker": "6 CARDS MAPPED", "title": "VICE BEACH",
+   "cards": [["Gold - Jesenia:", "Vespucci Island. TV stand, 2nd floor of the modern mansion on the north-west coast.", "pin"],
+             ["Gold - Julia:", "Ocean Beach. Between two magazines next to a bed, rooftop courtyard of the Ocean Beach Apartments, Huevo St.", "pin"]]},
+  {"img": ["media/raw/yt/cards/up_ma.png", 0, 0, 828, 452], "color": "#5EE6C8", "kicker": "17 CARDS MAPPED", "title": "MARIANA COUNTY",
+   "cards": [["Gold - Pricilla Pace:", "Capri. Top of the tower behind the Leonida Brewing Company warehouse, Sweetbay Rd.", "pin"],
+             ["Deep Red - Kadisha:", "Breakwater Quarry. Next to a backpack in an abandoned train car by the tracks.", "pin"]]},
+  {"img": ["media/raw/yt/cards/up_ke.png", 0, 0, 828, 448], "color": "#F7924A", "kicker": "19 CARDS MAPPED", "title": "KELLY COUNTY",
+   "cards": [["Gold - Lexi Campbell:", "Port Gellhorn. In a safe in the storage room of the abandoned Gellhorn Drive-In theater.", "pin"],
+             ["Deep Red - Amie:", "Buckskin Swamp. On a bench in the small picnic area in the middle of the swamp.", "pin"]]},
+  {"img": ["media/raw/yt/cards/up_le.png", 0, 0, 724, 396], "color": "#F0566A", "kicker": "7 CARDS MAPPED", "title": "LEONARD COUNTY",
+   "cards": [["Deep Red - Malena:", "Belville. Under a mannequin's hand, yellow house at Prosperity St and Grace Ave.", "pin"],
+             ["Gold - Zaria:", "Little Hardin Island. Half-buried in the sand next to a lone chair at the southern tip.", "pin"]]},
+  {"img": ["media/raw/yt/cards/up_lu.png", 0, 0, 576, 396], "color": "#A6E36B", "kicker": "16 CARDS MAPPED", "title": "LUMMOX COUNTY",
+   "cards": [["Deep Red - Chrissie:", "MacAlister Gold Mine. On a red blanket in the cave through the mountain.", "pin"],
+             ["Deep Red - Georgia:", "Millport. Under a lawn chair by a white mobile home on Forest Mill Rd.", "pin"]]}
+ ],
+ "end": {"h1": ["HOW MANY CARDS", "HAVE YOU FOUND?"], "sub": "Drop your number in the comments", "cta": "SAVE THIS FOR LATER"}
+}
