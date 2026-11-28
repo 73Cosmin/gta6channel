@@ -465,3 +465,4 @@
 | 2026-11-28 13:00 | YouTube | Guide (83 s, glitch) | GTA 6 Unlimited Money Glitch - $1,000,000 In Minutes (Step By Step) | 🎥 @MrDalekJD | 6b0abac3e897dadb1d7827ba |
 | 2026-11-28 18:00 | YouTube | Guide (48 s, list) | 3 Hidden GTA 6 Money Mechanics Nobody Told You | 🎥 @IceManIsaac | 6b0aae10669c22f85de52a6a |
 - ~12:50 (Nov 28) OWNER: 3 mechanics v3 - hook card = bank app $1,674,912 (frame from MrDalekJD video, new builder option hook.img_file), specific tease 'the last one is for everyone who has problems delivering cars to Randy' instead of 'the last one is the best' -> skill rule #11 updated; swapped into YT 18:00.
+- ~13:05 (Nov 28) OWNER: money glitch card = Tyrone 'SELL STASH (+$1,273,200)' (v2); both guides ALSO on TikTok at the same times (owner exception to CONTENT PLAN v5): money glitch YT+TT 13:30 (moved from 13:00 for the rebuild), 3 mechanics YT+TT 18:00.
