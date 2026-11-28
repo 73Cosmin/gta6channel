@@ -11,6 +11,7 @@ config: {"out_dir", "tag", "credit", "bg": [video, t] | image path,
          "end": {"h1": [..], "sub"}}
 icon = pin | dot | check | eye | warn
 """
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 
@@ -67,6 +68,7 @@ def brand(im, i):
     d.rectangle((58, 42, 63, 66), fill=(255, 110, 190)); d.text((76, 54), tag, font=ft, fill=CREAM, anchor="lm")
     ct = f"{i:02d} / {N:02d}"; cw = d.textlength(ct, font=fb(30))
     d.rounded_rectangle((W - 40 - cw - 40, 30, W - 40, 78), 24, fill=(18, 12, 38, 230)); d.text((W - 60, 54), ct, font=fb(30), fill=(255, 210, 90), anchor="rm")
+    slide_mark(im, W // 2, 54, size=26)   # @ne0nleonida watermark (owner 2026-11-28)
     d.text((22, H - 12), C["credit"], font=fs(19), fill=(220, 210, 235, 150), anchor="ls")
 
 

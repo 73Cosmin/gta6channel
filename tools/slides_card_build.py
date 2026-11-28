@@ -2,6 +2,7 @@
 """Card-style 4:5 TikTok slideshow (owner ref: the 3.5K '10 hidden controls' slideshow). Bright image on top that
 fades into dark navy, pill tag, giant headline, teal-accent cards / checklist rows, credit + 'save' footer.
 Usage: python3 tools/slides_card_build.py media/configs/<name>.json"""
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys
 from PIL import Image, ImageDraw, ImageFont
 C = json.load(open(sys.argv[1])); out = C["out_dir"]; os.makedirs(out, exist_ok=True)
@@ -49,14 +50,14 @@ for i, sl in enumerate(C["slides"], C.get("start", 1)):
         d.text((L, y), sl["h2"], font=fh, fill=TEAL, anchor="lt"); y += fh.size + 40
         for ln in wrap(d, sl["sub"], f7(40), R - L): d.text((L, y), ln, font=f7(40), fill=WHITE, anchor="lt"); y += 52
         if sl.get("swipe"): d.text((L, y + 30), sl["swipe"], font=f8(32), fill=TEAL, anchor="lt")
-        footer(d); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i); continue
+        footer(d); slide_mark(im, W // 2, 1288); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i); continue
     if sl.get("full"):  # whole screenshot/map on a card (owner 2026-11-23: map slideshow), fit into y 132-1240
         im = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(im); pill(d, i)
         bh = 1240 - 132; s = min((R - L) / src.width, bh / src.height); w, h = int(src.width * s), int(src.height * s)
         x, y = (W - w) // 2, 132 + (bh - h) // 2
         m = Image.new("L", (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), 22, fill=255)
         d.rounded_rectangle((x - 4, y - 4, x + w + 3, y + h + 3), 26, fill=TEAL); im.paste(src.resize((w, h)), (x, y), m)
-        footer(ImageDraw.Draw(im)); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i); continue
+        footer(ImageDraw.Draw(im)); slide_mark(im, W // 2, 1288); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i); continue
     if sl.get("step"):  # owner 2026-11-25: image = top half, big instruction text = bottom half (no empty space)
         ih = 640; im = Image.new("RGB", (W, H), BG); im.paste(top_image(src, ih), (0, 0)); im = fade(im, ih - 160, ih + 10)
         d = ImageDraw.Draw(im); pill(d, i)
@@ -70,7 +71,7 @@ for i, sl in enumerate(C["slides"], C.get("start", 1)):
         d.text((L, y), sl["head"], font=hf, fill=WHITE, anchor="lt"); y += hf.size + 30
         d.rectangle((L, y, L + 120, y + 6), fill=TEAL); y += 34
         for ln in wrap(d, sl["body"], f7(bs), R - L): d.text((L, y), ln, font=f7(bs), fill=WHITE, anchor="lt"); y += int(bs * 1.32)
-        footer(d); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i); continue
+        footer(d); slide_mark(im, W // 2, 1288); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i); continue
     lst = sl.get("list"); n = len(lst) if lst else 0
     ih = 660 if not lst else (600 if n <= 4 else 380 if n <= 8 else 250)
     im = Image.new("RGB", (W, H), BG); im.paste(top_image(src, ih), (0, 0)); im = fade(im, ih - 220, ih); d = ImageDraw.Draw(im); pill(d, i)
@@ -101,4 +102,4 @@ for i, sl in enumerate(C["slides"], C.get("start", 1)):
             yy = y + 92
             for ln in lines: d.text((L + 34 + kw, yy), ln, font=bfnt, fill=GREY, anchor="lt"); yy += 48
             y += hh + 26
-    footer(d); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i)
+    footer(d); slide_mark(im, W // 2, 1288); im.save(f"{out}/{i:02d}.jpg", quality=97, subsampling=0); print(i)

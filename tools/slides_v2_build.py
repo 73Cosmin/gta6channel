@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """SLIDESHOW RECIPE v2 builder: cover (real frame + black band title) + item slides (item frame top, map below) + end slide.
 Usage: python3 tools/slides_v2_build.py media/configs/<cfg>.json   (frames are grabbed from cfg["src"] with ffmpeg)"""
+from brandmark import slide_mark   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 cfg = json.load(open(sys.argv[1])); out = cfg["out_dir"]; os.makedirs(out, exist_ok=True)
@@ -63,6 +64,7 @@ def brand(d, i):
 
 n = 0
 def save(im):
+    slide_mark(im, W // 2, H - 52)   # @ne0nleonida watermark (owner 2026-11-28)
     global n; n += 1; p = f"{out}/{n:02d}.jpg"; im.save(p, quality=97, subsampling=0); print(p)
 
 c = cfg["cover"]; im = Image.new("RGB", (W, H)); im.paste(fill(from_img(c["img"]) if c.get("img") else grab(c["t"], c.get("gamma", 1.0)), W, 900, c.get("cx", 0.5)), (0, 0))

@@ -12,6 +12,7 @@ Config: {"card": "Monte GTA 6 Mentality", "hook": ["LINE 1", "LINE 2"], "music":
  "beats": [{"footage": "...cut.mp4", "start": 0, "end": 6, "facecam": [x,y,w,h], "game_crop": [x,y,w,h],
             "words": [[w,s,e],...] (cut time), "red_words": [...], "card_before": false}, ...]}
 """
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys, tempfile
 
 W, H, SEAM = 1080, 1920, 800
@@ -62,6 +63,7 @@ for i, b in enumerate(C["beats"]):
                       f"boxcolor=white:boxborderw=14:x=(w-tw)/2:y={y}")
     dr.append(f"drawtext=fontfile={FB}:text='{esc(C['credit'])}':fontsize=20:fontcolor=white@0.6:borderw=1:"
               f"bordercolor=black@0.6:x=24:y=h-44")   # tiny bottom-left, no disclaimer (owner 2026-11-26)
+    dr.append(video_mark())   # @ne0nleonida watermark (owner 2026-11-28)
     fc = (f"[0:v]trim={s0}:{s1},setpts=PTS-STARTPTS,fps=30,split[a][b];"
           f"[a]crop={fw}:{fh}:{fx}:{fy},scale={W}:{SEAM}:force_original_aspect_ratio=increase,crop={W}:{SEAM}[top];"
           f"[b]{gcf}scale={W}:{H - SEAM}:force_original_aspect_ratio=increase,crop={W}:{H - SEAM}[bot];"

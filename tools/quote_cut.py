@@ -9,6 +9,7 @@ Config: {"footage": "...mp4", "start": 0, "end": 6.6, "facecam": [x,y,w,h], "gam
          "quote": "Guck, wie krass das aussieht", "emoji": "😍", "credit": "Clip: @x on Twitch",
          "out": "media/edits/x.mp4"}
 """
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
@@ -50,6 +51,7 @@ def overlay():
     if C.get("credit"):   # tiny bottom-left (owner 2026-11-26: no disclaimer line)
         d.text((24, H - 44), C["credit"], font=ImageFont.truetype(FONT, 20), fill=(255, 255, 255, 150),
                stroke_width=1, stroke_fill=(0, 0, 0, 150))
+    img.alpha_composite(mark_png(30), (130, 250))   # @ne0nleonida watermark (owner 2026-11-28)
     p = f"{tmp}/ov.png"; img.save(p); return p
 
 

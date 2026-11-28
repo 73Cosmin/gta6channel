@@ -25,6 +25,7 @@ config.json:
   "out": "media/edits/x.mp4"
 }
 """
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys
 from PIL import Image, ImageDraw
 
@@ -151,6 +152,7 @@ if C.get("end_text"):
 if C.get("credit") and not C.get("no_credit"):   # tiny bottom-left (owner 2026-11-26: no disclaimer line)
     dr.append(f"drawtext=fontfile={F}:text='{esc(C['credit'])}':fontsize=20:fontcolor=white@0.6:borderw=1:"
               f"bordercolor=black@0.6:x=24:y=h-44")
+dr.append(video_mark())   # @ne0nleonida watermark (owner 2026-11-28)
 f.append("[v0]" + ",".join(dr) + "[v1]")
 cur = "v1"
 if steps:

@@ -61,6 +61,10 @@ Build with `python3 tools/info_build.py media/configs/<name>.json` (keep the con
    `"footage_offset": <section start s>`). All builders export CRF 16 / preset slow / maxrate 16M, lanczos scaling,
    light unsharp. Before publishing compare a 1:1 crop of the new video with the source - text/edges must be sharp.
 
+10. **WATERMARK @ne0nleonida on EVERY video + slideshow (owner 2026-11-28 ~19:10: 'nicht stoerend aber gut sichtbar')**:
+   tools/brandmark.py - videos: translucent dark box top-left of the safe zone (x 130, y 258, whole video); slides: pill with
+   teal dot (card/v2 = footer centre, neon = top centre). All builders add it automatically - never remove it.
+
 ## TikTok publishing (owner, 2026-11-18 12:25 UTC, confirmed live)
 TikTok posts use schedulingType **automatic**, like X/IG/YouTube. This overrides any scheduled prompt
 that says "notification"/reminder. Our own music stays baked in.

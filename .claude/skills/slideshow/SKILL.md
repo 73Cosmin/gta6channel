@@ -118,3 +118,6 @@ Which one are you grabbing first? 👇 / 📋 Source: @subscribefortacos (YouTub
 - A flopped slideshow gets ONE re-upload with a new real-frame cover (Hurricane: 543 -> 13.5K with only the cover changed).
 - A same-theme "part 2" next to a viral post does not inherit its reach - give it its own strong promise.
 - Note wins/losses in `learning.md`; update this skill when the owner changes the look.
+
+## Watermark (owner 2026-11-28)
+Every slide/video carries the `@ne0nleonida` watermark from `tools/brandmark.py` (builders add it automatically). Check it is visible in the frame/slide check.

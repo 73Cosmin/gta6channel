@@ -13,6 +13,7 @@ Config: {"title": [[["RANKING THE ","white"],["FUNNIEST","green"]], [["GTA 6 ","
               "red_words":[...], "credit":"Clip: @x on Twitch"}, ... ]}   # items in play order (5 first)
 Usage: python3 tools/top5_build.py media/configs/<name>.json   (run with /tmp/venv/bin/python if PIL is broken)
 """
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFont
 
@@ -106,6 +107,7 @@ for i, it in enumerate(items):
             cs -= 4
         dr.append(f"drawtext=fontfile={FB}:text='{esc(txt)}':fontsize={cs}:fontcolor={c}:borderw=8:bordercolor=black:"
                   f"x=(w-tw)/2:y=1420-th/2:enable='between(t,{max(0,a-s0):.2f},{b-s0:.2f})'")
+    dr.append(video_mark())   # @ne0nleonida watermark (owner 2026-11-28)
     cap = ("," + ",".join(dr)) if dr else ""
     fc = (f"[0:v]trim={s0}:{s1},setpts=PTS-STARTPTS,fps=30,split[a][b];"
           f"[a]crop={fw}:{fh}:{fx}:{fy},scale={W}:{SEAM}:force_original_aspect_ratio=increase,crop={W}:{SEAM}[top];"

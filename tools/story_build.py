@@ -25,6 +25,7 @@ config:
  "fps": 60, "out": "media/edits/<date>_story_<slug>.mp4"
 }
 """
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys, tempfile, math
 from PIL import Image, ImageDraw, ImageFont
 
@@ -137,9 +138,8 @@ for i, (w, s, e) in enumerate(words):
     t = w.strip()
     dr.append(f"drawtext=fontfile={FB}:text='{esc(t)}':fontsize={ws}:fontcolor=white:borderw=5:bordercolor=black@0.55:"
               f"shadowx=0:shadowy=6:shadowcolor=black@0.6:x=(w-tw)/2:y={wy}-ascent:enable='between(t,{s:.3f},{e2:.3f})'")
-if C.get("watermark"):
-    dr.append(f"drawtext=fontfile={FM}:text='{esc(C['watermark'])}':fontsize=34:fontcolor=white@0.28:"
-              f"x=(w-tw)/2+120:y={C.get('watermark_y', 1020)}")
+if C.get("watermark", True):   # @ne0nleonida pill top-left safe zone (owner 2026-11-28, all videos)
+    dr.append(video_mark())
 if C.get("credit"):
     dr.append(f"drawtext=fontfile={FM}:text='{esc(C['credit'])}':fontsize=20:fontcolor=white@0.6:borderw=1:"
               f"bordercolor=black@0.6:x=24:y=h-44")

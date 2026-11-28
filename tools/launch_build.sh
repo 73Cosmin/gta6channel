@@ -19,6 +19,7 @@ $(B 'New Zealand got it FIRST' 56 white 1060 3.5 7.9),
 $(B 'Midnight local time everywhere' 52 $CYAN 1160 4.8 7.9),
 $(B 'WELCOME TO LEONIDA' 72 white 1100 7.9 $D),
 drawtext=fontfile=$F:text='Footage\: Rockstar Games (Trailer 2)':fontsize=20:fontcolor=white@0.6:x=24:y=h-44,
+drawtext=fontfile=brand/fonts/TikTokSans-800.ttf:text='@ne0nleonida':fontsize=34:fontcolor=white@0.88:box=1:boxcolor=0x0E0C18@0.45:boxborderw=14:x=130:y=258,
 null[v];
 [2:a]aformat=sample_rates=44100:channel_layouts=stereo,apad=whole_dur=$D,asplit[vo1][vo2];
 [3:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.09,afade=t=out:st=$(echo "$D-0.8"|bc):d=0.8[mu];

@@ -186,3 +186,6 @@ Commit config + mp4 to `main`, confirm the raw URL returns 200, then Buffer per 
 (CONTENT PLAN v5, owner 2026-11-28: guide videos go to YOUTUBE SHORTS only - slots 07:00/10:00/20:00 - + IG Reel for the day's strongest; NEVER TikTok - TT guides were dead (181-1.4K) while slideshows did 9.8K-38K; on TikTok the same topic goes out as a /slideshow). Caption (ALGORITHM CHECK #6): search phrase + save prompt + question + `🎥 Footage: @creator` +
 max 5 hashtags (NO "fan page / not affiliated" line). Story/side-quest twist → caption starts
 with "SPOILER". Log in `log.md` + `scoreboard.csv`.
+
+## Watermark (owner 2026-11-28)
+Every slide/video carries the `@ne0nleonida` watermark from `tools/brandmark.py` (builders add it automatically). Check it is visible in the frame/slide check.

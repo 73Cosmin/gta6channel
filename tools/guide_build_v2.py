@@ -19,6 +19,7 @@ config:
  "credit": "Footage: @x (YouTube)", "tail": 0.8, "out": "media/edits/....mp4"
 }
 """
+from brandmark import video_mark, slide_mark, mark_png   # channel watermark (owner 2026-11-28)
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter
 
@@ -204,6 +205,7 @@ for i, ch_ in enumerate(chunks):
 if C.get("credit"):
     dr.append(f"drawtext=fontfile={DJ}:text='{esc(C['credit'])}':fontsize=20:fontcolor=white@0.6:borderw=1:"
               f"bordercolor=black@0.6:x=24:y=h-44")
+dr.append(video_mark())   # @ne0nleonida watermark, every video (owner 2026-11-28)
 f.append("[v0]" + ",".join(dr) + "[v1]")
 
 inputs = ["-i", joined, "-i", vo, "-loop", "1", "-i", logo_png]
