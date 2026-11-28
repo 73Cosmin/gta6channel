@@ -1,0 +1,115 @@
+{
+ "footage": "media/raw/yt/glitch/src.mkv",
+ "vo": "media/raw/yt/glitch/vo.mp3",
+ "words": "media/raw/yt/glitch/vo_words.json",
+ "cuts": [
+  [
+   0.0,
+   57.0,
+   1.0,
+   0.5
+  ],
+  [
+   7.98,
+   30.0,
+   1.0,
+   0.5
+  ],
+  [
+   10.08,
+   36.5,
+   1.0,
+   0.5
+  ],
+  [
+   14.02,
+   47.5,
+   1.0,
+   0.45
+  ],
+  [
+   29.88,
+   69.0,
+   1.3,
+   0.45
+  ],
+  [
+   33.28,
+   79.0,
+   1.0,
+   0.5
+  ],
+  [
+   37.58,
+   85.5,
+   1.0,
+   0.5
+  ],
+  [
+   65.14,
+   124.0,
+   1.0,
+   0.6
+  ],
+  [
+   74.24,
+   171.0,
+   1.0,
+   0.5
+  ],
+  [
+   78.42,
+   159.0,
+   1.0,
+   0.5
+  ]
+ ],
+ "hook": {
+  "img_t": 126.0,
+  "crop": [
+   330,
+   400,
+   1250,
+   918
+  ],
+  "label": "UNLIMITED MONEY GLITCH",
+  "in": 0.0,
+  "out": 4.8,
+  "from": "right"
+ },
+ "hook_y": 840,
+ "caption_y": 1330,
+ "yellow_words": [
+  "MILLION",
+  "GLITCH",
+  "CRAZY",
+  "APOLLO",
+  "HAMLET",
+  "THREE",
+  "BRICKS",
+  "WAREHOUSE",
+  "RESPAWNS",
+  "14,000",
+  "L1",
+  "LB",
+  "R1",
+  "RB",
+  "CIRCLE",
+  "B",
+  "LEFT",
+  "RIGHT",
+  "54,000",
+  "91",
+  "182",
+  "237,000",
+  "FENCE",
+  "PATCHES"
+ ],
+ "music": "media/music/synthwave_trap_01.mp3",
+ "music_vol": 0.05,
+ "credit": "Footage: @MrDalekJD (YouTube)",
+ "tail": 0.8,
+ "out": "media/edits/2026-11-28_guide_money_glitch.mp4",
+ "swoosh_vol": 0.7,
+ "footage_offset": 28.0
+}

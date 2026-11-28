@@ -18,7 +18,7 @@ Every sentence of the voiceover gets its own gameplay cut that SHOWS exactly tha
 python3 tools/guide_scout.py --hours 72 --top 12
 ```
 Ranks fresh GTA 6 guide videos by views/hour and prints their chapters. Skip anything in
-`media/guides_used.csv` (same video+chapter or same TOPIC), glitches/exploits (rule 4) and topics we already posted.
+`media/guides_used.csv` (same video+chapter or same TOPIC) and topics we already posted. Single-player money/item GLITCHES are allowed (owner 2026-11-28) - mention they may get patched; piracy/play-early stays forbidden.
 A source video usually has ~10 points (chapters) -> REUSE it: rank its chapters with
 `python3 tools/guide_scout.py --chapters <video_id>` (YouTube click demand per topic; `(USED)` = done) and take the
 highest-demand unused point. Record the EXACT chapter title in guides_used.csv. Topics: cars, weapons, money, easter eggs,

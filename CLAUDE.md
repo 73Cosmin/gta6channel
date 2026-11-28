@@ -89,7 +89,7 @@ red arrow, punch-in zooms with cinematic bars, 30-120 s. Exempt from checklist #
 2. No fabricated news: never invent dates/numbers/quotes/announcements and present them as real (owner asked for
    occasional fake news 2026-11-25 - declined; instead use clearly-joking satire, "what if" or hot takes).
 3. Clickbait and ragebait hooks are allowed (owner 2026-11-25), incl. hooks that overpromise.
-4. No piracy, exploits, "play early" tricks. Leaks/datamines allowed as topics AND material (owner 2026-11-25);
+4. No piracy or "play early" tricks. **Single-player glitches/exploits (e.g. money duplication glitches) ARE allowed (owner 2026-11-28 ~11:55: "Regel lockern: Glitches immer erlaubt")** - say in the video that it may get patched. Leaks/datamines allowed as topics AND material (owner 2026-11-25);
    risk note: stolen leak footage = Take-Two copyright strikes -> prefer screenshots/descriptions over full leaked videos.
 5. AI-generated images/videos are allowed, also as "gameplay"/thumbnails (owner 2026-11-25). Still set the platform's
    AI label (isAiGenerated true on TikTok/YouTube/IG/X when content is AI-made) - unlabeled realistic AI gets removed.
