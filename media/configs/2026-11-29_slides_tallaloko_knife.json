@@ -1,0 +1,125 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_tallaloko_knife",
+ "tag": "GTA VI  /  SECRET ROOM",
+ "credit": "SOURCE: @GTA6NEWSHUB (X)",
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
+ ],
+ "cover": {
+  "art": "brand/artwork/Jason_and_Lucia_Motel.jpg",
+  "art_y": 0.25,
+  "h1": [
+   "$67,200 SECRET ROOM",
+   "+ A HIDDEN KNIFE"
+  ],
+  "sub": "TWO EMAILS AND ONE DOOR CODE",
+  "swipe": "SWIPE"
+ },
+ "items": [
+  {
+   "img": [
+    "media/raw/yt/ss_knife/dive_x4.png",
+    0,
+    300,
+    1712,
+    1500
+   ],
+   "color": "#6EC6F0",
+   "kicker": "FIRST STOP",
+   "title": "DIVE TO THE FACILITY",
+   "cards": [
+    [
+     "Where:",
+     "Use scuba gear south-west of the military base. Enter the underwater facility from below.",
+     "pin"
+    ],
+    [
+     "Do:",
+     "Read Zanda Burg's email and take the prompted photo.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_knife/poppers_x4.png",
+    0,
+    300,
+    1712,
+    1500
+   ],
+   "color": "#F7C948",
+   "kicker": "SECOND STOP",
+   "title": "POPPERS, WATSON BAY",
+   "cards": [
+    [
+     "Where:",
+     "Enter Poppers in Watson Bay through the back.",
+     "pin"
+    ],
+    [
+     "Do:",
+     "Read Marcus Fielding's email on the computer and take the second photo.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_knife/03.jpg",
+    60,
+    242,
+    1011,
+    782
+   ],
+   "color": "#5EE6C8",
+   "kicker": "LAKE TALLALOKO",
+   "title": "ENTER CODE 7304",
+   "cards": [
+    [
+     "Where:",
+     "The cabin west of Lake Tallaloko.",
+     "pin"
+    ],
+    [
+     "Code:",
+     "7304.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_knife/01.jpg",
+    0,
+    0,
+    1080,
+    720
+   ],
+   "color": "#F0566A",
+   "kicker": "THE SECRET ROOM",
+   "title": "UP TO $67,200",
+   "cards": [
+    [
+     "Loot:",
+     "Open the lockbox and grab the Tallaloko Knife.",
+     "check"
+    ],
+    [
+     "Tip:",
+     "Take the lockbox loot to Yasmani for the highest payout.",
+     "dot"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "WHAT WILL YOU",
+   "BUY WITH $67K?"
+  ],
+  "sub": "Tell us in the comments",
+  "cta": "SAVE THIS FOR LATER"
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_lucia_gun",
+ "tag": "GTA VI  /  EASTER EGG",
+ "credit": "SOURCE: @KIMININO72 (X)",
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
+ ],
+ "cover": {
+  "art": "brand/artwork/Jason_Lucia_Lock_And_Load.jpg",
+  "art_y": 0.25,
+  "h1": [
+   "LUCIA'S GUN IS",
+   "STILL ON THE ROOF"
+  ],
+  "sub": "FROM THE OPENING OF THE GAME",
+  "swipe": "SWIPE"
+ },
+ "items": [
+  {
+   "img": [
+    "media/raw/yt/ss_lucgun/02.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#6EC6F0",
+   "kicker": "VICE CITY",
+   "title": "GO TO THIS SPOT",
+   "cards": [
+    [
+     "Where:",
+     "Open your map: Rosita's Cuban Cafe in Vice City.",
+     "pin"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_lucgun/03.jpg",
+    0,
+    0,
+    1080,
+    600
+   ],
+   "color": "#F7C948",
+   "kicker": "THE CAFE",
+   "title": "ROSITA'S CUBAN CAFE",
+   "cards": [
+    [
+     "Why:",
+     "It's the same cafe Lucia sat in at the very beginning of the game.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_lucgun/04.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#5EE6C8",
+   "kicker": "ACROSS THE STREET",
+   "title": "PAYDAY LOAN STORE",
+   "cards": [
+    [
+     "What:",
+     "Checks cashed, get cash now. The store Lucia robbed before she left Tomas there. It didn't end well.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_lucgun/07.jpg",
+    0,
+    40,
+    1080,
+    700
+   ],
+   "color": "#F0566A",
+   "kicker": "THE ESCAPE",
+   "title": "SHE THREW HER GUN",
+   "cards": [
+    [
+     "What:",
+     "During her escape, Lucia throws her gun onto a rooftop.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_lucgun/09.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#A6E36B",
+   "kicker": "THE ROOFTOP",
+   "title": "CLIMB ACROSS",
+   "cards": [
+    [
+     "How:",
+     "From Rosita's Cuban Cafe, climb across to the payday loan store rooftop.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_lucgun/10.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#B48CF5",
+   "kicker": "LUCIA'S GUN",
+   "title": "IT'S STILL THERE",
+   "cards": [
+    [
+     "Grab it:",
+     "The gun has been lying there since the opening of the game.",
+     "check"
+    ],
+    [
+     "Bonus:",
+     "Rob the store again for an achievement.",
+     "dot"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "DID YOU",
+   "FIND IT?"
+  ],
+  "sub": "Tell us in the comments",
+  "cta": "SAVE THIS FOR LATER"
+ }
+}

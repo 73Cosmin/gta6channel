@@ -74,7 +74,8 @@ def brand(im, i):
 
 def crop_img(spec):
     p, x0, y0, x1, y1 = spec
-    return Image.open(p).convert("RGB").crop((x0, y0, x1, y1))
+    im = Image.open(p).convert("RGB")
+    return im.crop((max(0, x0), max(0, y0), min(im.width, x1), min(im.height, y1)))
 
 
 def fit(img, w, h):

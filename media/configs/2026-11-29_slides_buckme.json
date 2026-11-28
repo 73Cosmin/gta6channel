@@ -1,0 +1,145 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_buckme",
+ "tag": "GTA VI  /  BUCKME",
+ "credit": "SOURCE: @KIMININO72 (X)",
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
+ ],
+ "cover": {
+  "art": "brand/artwork/Jason_and_Lucia_Beach.jpg",
+  "art_y": 0.25,
+  "h1": [
+   "GTA 6 BUCKME",
+   "EXPLAINED"
+  ],
+  "sub": "READ THIS BEFORE YOU LOSE MONEY",
+  "swipe": "SWIPE"
+ },
+ "items": [
+  {
+   "img": [
+    "brand/artwork/Jason_and_Lucia_01.jpg",
+    0,
+    500,
+    1215,
+    1030
+   ],
+   "color": "#6EC6F0",
+   "kicker": "BEFORE YOU BUCK",
+   "title": "TWO CATCHES",
+   "cards": [
+    [
+     "Confirmed:",
+     "Money you move into Family Savings can never be taken back out.",
+     "warn"
+    ],
+    [
+     "Reported:",
+     "Guides say your savings are one of the things that affect how the story ends.",
+     "eye"
+    ],
+    [
+     "Still:",
+     "Cash in your pocket is lost when you die.",
+     "dot"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "brand/artwork/Boobie_Ike.jpg",
+    0,
+    350,
+    1215,
+    880
+   ],
+   "color": "#F7C948",
+   "kicker": "FAMILY SAVINGS",
+   "title": "5 GOALS. NO REFUNDS.",
+   "cards": [
+    [
+     "Goals:",
+     "$5K, $100K, $500K, $1M, $2M.",
+     "check"
+    ],
+    [
+     "Limit:",
+     "Starts at $15K. Each goal lets your Checking hold more.",
+     "dot"
+    ],
+    [
+     "Interest:",
+     "+$2K when you hit the first $5K goal. New goals open as the story goes on.",
+     "pin"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "brand/artwork/Real_Dimez.jpg",
+    0,
+    300,
+    1215,
+    830
+   ],
+   "color": "#5EE6C8",
+   "kicker": "THE PERKS",
+   "title": "WHAT YOU UNLOCK",
+   "cards": [
+    [
+     "20% off:",
+     "RydeMe rides.",
+     "check"
+    ],
+    [
+     "20% off:",
+     "Garages.",
+     "check"
+    ],
+    [
+     "10% off:",
+     "Liveries (reported by PowerPyx).",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "brand/artwork/Brian_Heder.jpg",
+    0,
+    350,
+    1215,
+    880
+   ],
+   "color": "#F0566A",
+   "kicker": "WHAT TO DO",
+   "title": "BANK IT SMART",
+   "cards": [
+    [
+     "1-2:",
+     "Bank your cash (dying costs you) and hit the early goals for bigger limits + the RydeMe discount.",
+     "check"
+    ],
+    [
+     "3:",
+     "Hit $100K before buying garages: 20% off adds up fast across 8 garages.",
+     "check"
+    ],
+    [
+     "4:",
+     "Only save spare cash. You never get it back.",
+     "warn"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "HOW MUCH",
+   "HAVE YOU SAVED?"
+  ],
+  "sub": "Under $5K / $5K-$100K / $100K-$500K / $500K+",
+  "cta": "SAVE THIS FOR LATER"
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_easter_eggs",
+ "tag": "GTA VI  /  EASTER EGGS",
+ "credit": "SOURCE: @ADNAANJNR (X)",
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
+ ],
+ "cover": {
+  "art": "brand/artwork/Official_Cover_Art.jpg",
+  "art_y": 0.45,
+  "h1": [
+   "8 INSANE",
+   "EASTER EGGS"
+  ],
+  "sub": "AND WHERE TO FIND THEM",
+  "swipe": "SWIPE"
+ },
+ "items": [
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/01_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#6EC6F0",
+   "kicker": "NEAR HAMLET",
+   "title": "SPONGEBOB'S PINEAPPLE",
+   "cards": [
+    [
+     "Where:",
+     "Drive down the highway between Southside and Hamlet.",
+     "pin"
+    ],
+    [
+     "What:",
+     "A giant pineapple bus stop straight out of Bikini Bottom.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/02_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#F7C948",
+   "kicker": "CAPRI",
+   "title": "HUMAN SACRIFICE RITUAL",
+   "cards": [
+    [
+     "Where:",
+     "Capri, by Tortoise Lake (South Kelly County side).",
+     "pin"
+    ],
+    [
+     "What:",
+     "A candle-lit ritual room.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/03_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#5EE6C8",
+   "kicker": "OPEN SEA",
+   "title": "MASSIVE SPERM WHALE",
+   "cards": [
+    [
+     "Where:",
+     "The bay between Lummox County and Leonard County.",
+     "pin"
+    ],
+    [
+     "How:",
+     "Dive down with scuba gear.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/04_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#F0566A",
+   "kicker": "LEONIDA STRAITS",
+   "title": "DEXTER'S ROOM",
+   "cards": [
+    [
+     "Where:",
+     "On the island chain above the Leonida Straits.",
+     "pin"
+    ],
+    [
+     "What:",
+     "A room straight out of Dexter.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/05_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#A6E36B",
+   "kicker": "FROGSWATER",
+   "title": "THE TALKING COW",
+   "cards": [
+    [
+     "Where:",
+     "Near Frogswater, where 'Investigate the Pilot' starts.",
+     "pin"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/06_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#B48CF5",
+   "kicker": "SOUTH VICE-DALE",
+   "title": "TELE TOWER BIRD NEST",
+   "cards": [
+    [
+     "Where:",
+     "The tall tower north of Hamlet, South Vice-Dale County.",
+     "pin"
+    ],
+    [
+     "What:",
+     "Climb to the top: an egg in a bird nest.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/07_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#F06EB4",
+   "kicker": "VICE-DALE COUNTY",
+   "title": "SILENT HILL HOTEL",
+   "cards": [
+    [
+     "Where:",
+     "A haunted hotel in Vice-Dale County.",
+     "pin"
+    ],
+    [
+     "What:",
+     "Glowing red graffiti all over the walls.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_eggs/08_scene_x4.png",
+    0,
+    0,
+    99999,
+    99999
+   ],
+   "color": "#F7924A",
+   "kicker": "EAST LUMMOX",
+   "title": "GHOST WOMAN HIGHWAY",
+   "cards": [
+    [
+     "Where:",
+     "The highway north of Lake Tallaloko, East Lummox County.",
+     "pin"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "WHICH ONE HAVE",
+   "YOU FOUND?"
+  ],
+  "sub": "Drop the number in the comments",
+  "cta": "SAVE THIS FOR LATER"
+ }
+}

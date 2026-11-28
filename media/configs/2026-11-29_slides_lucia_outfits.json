@@ -1,0 +1,149 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_lucia_outfits",
+ "tag": "GTA VI  /  LUCIA OUTFITS",
+ "credit": "SOURCE: @HXA_RSHA31 (X)",
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
+ ],
+ "cover": {
+  "art": "brand/artwork/Real_Dimez.jpg",
+  "art_y": 0.25,
+  "h1": [
+   "LUCIA'S BOLDEST",
+   "OUTFITS"
+  ],
+  "sub": "AND THE STORES THAT SELL THEM",
+  "swipe": "SWIPE"
+ },
+ "items": [
+  {
+   "img": [
+    "media/raw/yt/ss_outfits/01.jpg",
+    0,
+    60,
+    1022,
+    560
+   ],
+   "color": "#6EC6F0",
+   "kicker": "SOUTH VICE-DALE",
+   "title": "HAMLET",
+   "cards": [
+    [
+     "Where:",
+     "Clothing store in Hamlet, South Vice-Dale County.",
+     "pin"
+    ],
+    [
+     "Look:",
+     "Pink tie-front tops, mini skirts, tinted shades.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_outfits/02.jpg",
+    0,
+    60,
+    1022,
+    560
+   ],
+   "color": "#F7C948",
+   "kicker": "VICE CITY",
+   "title": "DECOR DISTRICT",
+   "cards": [
+    [
+     "Where:",
+     "Clothing store in the Decor District.",
+     "pin"
+    ],
+    [
+     "Look:",
+     "Bodysuits, lace bikini tops, sheer shirts.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_outfits/08.jpg",
+    0,
+    60,
+    1022,
+    560
+   ],
+   "color": "#5EE6C8",
+   "kicker": "VICE CITY",
+   "title": "STOCKYARD",
+   "cards": [
+    [
+     "Where:",
+     "Clothing store in the Stockyard.",
+     "pin"
+    ],
+    [
+     "Look:",
+     "Cut-out mini dresses, leopard fur, strappy tops.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_outfits/05.jpg",
+    0,
+    60,
+    1022,
+    560
+   ],
+   "color": "#F0566A",
+   "kicker": "VICE BEACH",
+   "title": "VICE BEACH",
+   "cards": [
+    [
+     "Where:",
+     "Beachwear store in Vice Beach.",
+     "pin"
+    ],
+    [
+     "Look:",
+     "Swimsuits, wraps, bandanas, sun hats.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_outfits/07.jpg",
+    0,
+    60,
+    1022,
+    560
+   ],
+   "color": "#A6E36B",
+   "kicker": "VICE BEACH",
+   "title": "OCEAN BEACH",
+   "cards": [
+    [
+     "Where:",
+     "Clothing store in Ocean Beach.",
+     "pin"
+    ],
+    [
+     "Look:",
+     "Wrap tops, cropped jackets, flared pants.",
+     "eye"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "WHICH STORE",
+   "IS YOUR FAVOURITE?"
+  ],
+  "sub": "Drop the number in the comments",
+  "cta": "SAVE THIS FOR LATER"
+ }
+}

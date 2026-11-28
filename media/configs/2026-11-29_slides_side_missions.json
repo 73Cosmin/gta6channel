@@ -1,0 +1,197 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_side_missions",
+ "tag": "GTA VI  /  SIDE MISSIONS",
+ "credit": "SOURCE: @KIMININO72 (X)",
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
+ ],
+ "cover": {
+  "art": "brand/artwork/Jason_and_Lucia_02.jpg",
+  "art_y": 0.25,
+  "h1": [
+   "7 SIDE MISSIONS",
+   "YOU SHOULDN'T SKIP"
+  ],
+  "sub": "THE BEST STORIES ARE OFF THE MAIN PATH",
+  "swipe": "SWIPE"
+ },
+ "items": [
+  {
+   "img": [
+    "media/raw/yt/ss_side/01.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#6EC6F0",
+   "kicker": "THE SWAMP",
+   "title": "SKUNK APE",
+   "cards": [
+    [
+     "Start:",
+     "Read the Skunk Ape flyers around Key Lento and call Kirk.",
+     "pin"
+    ],
+    [
+     "What:",
+     "A howl in the Grassrivers, a deer carcass, a strange totem.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_side/02.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#F7C948",
+   "kicker": "CHAPTER 2",
+   "title": "KYLE, THE FARMER",
+   "cards": [
+    [
+     "Who:",
+     "Kyle McKittrick, a Frogswater farmer with a broken arm, needs a crop-dusting pilot.",
+     "pin"
+    ],
+    [
+     "Then:",
+     "Keep helping him. It gets weird.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_side/03.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#5EE6C8",
+   "kicker": "PORT GELLHORN",
+   "title": "THE NO FLUSHERS",
+   "cards": [
+    [
+     "Start:",
+     "Heard them on the radio? Check the notice board in Port Gellhorn.",
+     "pin"
+    ],
+    [
+     "Then:",
+     "It leads to Dr. Merle in a waffle restaurant in Vice City.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_side/04.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#F0566A",
+   "kicker": "SNAPMATIC",
+   "title": "DODO RISING",
+   "cards": [
+    [
+     "Start:",
+     "Found through Snapmatic.",
+     "pin"
+    ],
+    [
+     "What:",
+     "An animal rights group protesting a chimp sanctuary near Vice City International Airport.",
+     "eye"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_side/05.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#A6E36B",
+   "kicker": "CHAPTER 3",
+   "title": "YAGO, THE STREET RACER",
+   "cards": [
+    [
+     "When:",
+     "You meet him in chapter 3.",
+     "dot"
+    ],
+    [
+     "Why:",
+     "The races look simple, but his story has real depth and a memorable ending (IGN).",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_side/06.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#B48CF5",
+   "kicker": "OCEAN BEACH",
+   "title": "PAPA AUDACITY",
+   "cards": [
+    [
+     "Who:",
+     "A stuntman near Ocean Beach launching his own crypto: Audacity Coin.",
+     "pin"
+    ],
+    [
+     "Why:",
+     "It's funny and it opens up the stunt challenges.",
+     "check"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_side/07.jpg",
+    0,
+    0,
+    1080,
+    740
+   ],
+   "color": "#F06EB4",
+   "kicker": "BELVILLE",
+   "title": "ANDY AND CELLERICA",
+   "cards": [
+    [
+     "Who:",
+     "Lucia's friend Andy comes back later, now living in Belville.",
+     "pin"
+    ],
+    [
+     "What:",
+     "Deliveries for a very odd business called Cellerica.",
+     "eye"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "WHICH ONE DID",
+   "YOU SKIP?"
+  ],
+  "sub": "Drop the number in the comments",
+  "cta": "SAVE THIS FOR LATER"
+ }
+}

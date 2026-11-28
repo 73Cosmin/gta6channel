@@ -1,0 +1,135 @@
+{
+ "out_dir": "media/edits/2026-11-29_slides_cheetah",
+ "tag": "GTA VI  /  FREE SUPERCAR",
+ "credit": "SOURCE: @GAMERANT (X)",
+ "bg": [
+  "media/official/trailer2_landscape_clean.mp4",
+  152
+ ],
+ "cover": {
+  "art": "brand/artwork/Jason_and_Lucia_01.jpg",
+  "art_y": 0.3,
+  "h1": [
+   "FREE GROTTI CHEETAH",
+   "+ A FREE GARAGE"
+  ],
+  "sub": "MISSABLE AFTER CHAPTER 3",
+  "swipe": "SWIPE"
+ },
+ "items": [
+  {
+   "img": [
+    "media/raw/yt/ss_cheetah/02.jpg",
+    0,
+    0,
+    1080,
+    540
+   ],
+   "color": "#6EC6F0",
+   "kicker": "CHAPTER 3",
+   "title": "START THE COLLAB",
+   "cards": [
+    [
+     "Open:",
+     "The 'New 1010 X Grotti Collab' post on Snapmatic.",
+     "pin"
+    ],
+    [
+     "Missable:",
+     "Many players say it can't be triggered after Chapter 4 starts.",
+     "warn"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_cheetah/01.jpg",
+    0,
+    0,
+    1080,
+    640
+   ],
+   "color": "#F7C948",
+   "kicker": "MURALS 1-3",
+   "title": "PHOTO THE MURALS",
+   "cards": [
+    [
+     "1:",
+     "Privatized Gains, north of Vice Beach.",
+     "pin"
+    ],
+    [
+     "2:",
+     "Crosstown train station (wait for the painted train).",
+     "pin"
+    ],
+    [
+     "3:",
+     "Parlor Apartments rooftop, Rockridge.",
+     "pin"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_cheetah/01.jpg",
+    0,
+    120,
+    1080,
+    760
+   ],
+   "color": "#5EE6C8",
+   "kicker": "MURALS 4-5",
+   "title": "TWO MORE MURALS",
+   "cards": [
+    [
+     "4:",
+     "Piker Financial Center (top of the tower).",
+     "pin"
+    ],
+    [
+     "5:",
+     "New Quay Plaza.",
+     "pin"
+    ]
+   ]
+  },
+  {
+   "img": [
+    "media/raw/yt/ss_cheetah/02.jpg",
+    60,
+    40,
+    1020,
+    520
+   ],
+   "color": "#F0566A",
+   "kicker": "CODE 1010",
+   "title": "THE SECRET GARAGE",
+   "cards": [
+    [
+     "Where:",
+     "The secret garage behind Saltor Towing INC.",
+     "pin"
+    ],
+    [
+     "Code:",
+     "Enter 1010.",
+     "check"
+    ],
+    [
+     "Reward:",
+     "Keep the '95 Grotti Cheetah and the new garage.",
+     "dot"
+    ]
+   ]
+  }
+ ],
+ "end": {
+  "h1": [
+   "DID YOU",
+   "MISS IT?"
+  ],
+  "sub": "What's your favourite GTA 6 car?",
+  "cta": "SAVE THIS FOR LATER"
+ }
+}
