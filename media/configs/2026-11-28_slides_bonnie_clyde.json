@@ -1,0 +1,31 @@
+{
+ "out_dir": "media/edits/2026-11-28_slides_bonnie_clyde",
+ "tag": "GTA VI  /  SECRET WEAPONS",
+ "credit": "GUIDE: @KIMININO72 (X) · FOOTAGE: POSTMODE, XGARBETT, ZONEX (YT)",
+ "save": "SAVE THIS GUIDE",
+ "slides": [
+  {"cover": true, "img": "media/raw/yt/bonnie/fr/z_garage.png",
+   "h1": "BONNIE & CLYDE", "h2": "SECRET GUNS + GETAWAY CAR",
+   "sub": "GTA 6 has its own outlaw couple. Here's how to get BOTH legendary weapons and their car.",
+   "swipe": "SWIPE FOR ALL STEPS →", "crop_x": 0.45},
+  {"img": "media/raw/yt/bonnie/fr/p_map1.png", "step": "STEP 1", "head": "GO TO LUMMOX COUNTY",
+   "body": "The first hideout is the Outlaw's Cabin in Lummox County. Set your waypoint on it."},
+  {"img": "media/raw/yt/bonnie/fr/p_cab1.png", "step": "STEP 2", "head": "FIND THE OUTLAW'S CABIN",
+   "body": "Old wooden cabin with a plaque on the wall for two officers: Daniel Corman & Chris Deponte. That's how you know you're right."},
+  {"img": "media/raw/yt/bonnie/fr/b1_br.png", "step": "STEP 3", "head": "TAKE THE BASEMENT DOOR",
+   "body": "Don't use the front. Go down through the basement door, then climb the ladder up into the cabin."},
+  {"img": "media/raw/yt/bonnie/fr/f2_br.png", "step": "STEP 4", "head": "SEARCH THE FIREPLACE",
+   "body": "Martha is the Bonnie of Leonida. Her MARTHA'S 1922 PISTOL is hidden in the fireplace. Grab it."},
+  {"img": "media/raw/yt/bonnie/fr/x_mapA.png", "step": "STEP 5", "head": "HEAD JUST WEST",
+   "body": "The second hideout is a short drive west of the first cabin. Look for another old cabin with a garage."},
+  {"img": "media/raw/yt/bonnie/fr/x_door_br.png", "step": "STEP 6", "head": "GARAGE SIDE DOOR",
+   "body": "You can't get into this cabin. Enter the garage through the small side door instead."},
+  {"img": "media/raw/yt/bonnie/fr/t1_br.png", "step": "STEP 7", "head": "OPEN THE TRUNK",
+   "body": "Here lie the remains of Lyle, the Clyde of Leonida. In the trunk of his old car: LYLE'S H&L .38 REVOLVER."},
+  {"img": "media/raw/yt/bonnie/fr/z_road2.png", "step": "FINAL", "head": "TAKE THE GETAWAY CAR",
+   "body": "The old car is drivable. It takes a moment to start. Bonus: read the old scrapbook in the garage."},
+  {"end": true, "img": "media/raw/yt/bonnie/fr/x_car2.png",
+   "h1": "PICK ONE", "h2": "MARTHA'S 1922 OR LYLE'S .38?",
+   "sub": "Save this before you head to Lummox County and tell us which gun you're keeping."}
+ ]
+}
