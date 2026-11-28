@@ -73,6 +73,11 @@ tiny source bottom-left. Example: `media/configs/2026-11-26_slides_free_cars_v3_
 - **How-to steps / checklists** -> `tools/slides_card_build.py` all the way (cover + `"step"` slides: image top half,
   teal 'STEP 1', white head, teal bar, body text; `"list"` slides: teal key/value card rows; `"full"` = whole map
   screenshot on a card). Example: `media/configs/2026-11-26_slides_hurricane_reupload.json`.
+- **NEON style (owner 2026-11-28: 'in den Farben und Stil hiervon', ref x.com/mtshojib420 528K / 14.7K bookmarks)** ->
+  `tools/slides_neon_build.py`: synthwave blurred trailer background (purple/pink), big cream Barlow Condensed titles with
+  shadow, slanted colour stripe, ONE accent colour per item, dark info cards (WHERE / WHAT / WHEN + icon), bottom nav row of
+  all items with the current one highlighted; our pill + counter on every slide; cover = 6 item circles. Best for 4-8 item
+  lists of secrets/mysteries/upgrades. Example: `media/configs/2026-11-28_slides_dark_mysteries.json`.
 - Legacy (don't use for new posts): slides_build.py, slides45_build.py.
 
 **End slide**: question the viewer can answer/correct ('WHICH ONE ARE YOU GRABBING FIRST?') + one twist/info line,
